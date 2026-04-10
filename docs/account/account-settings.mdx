@@ -80,13 +80,26 @@ See [Teams](/docs/account/teams) for full organization management documentation.
 
 The Notifications tab controls when and how ACT3 AI contacts you:
 
-- **Billing alerts** — Email notifications when credits reach 20% and 5% of your monthly allowance
+- **Credit threshold alerts** — Set the percentage or absolute credit balance that triggers an email or in-app notification. You can configure multiple thresholds (for example, alert at 50%, alert again at 10%)
 - **Render completion** — Email and in-app notification when a render job finishes
 - **Collaboration** — In-app notification when a teammate leaves a comment or mentions you
 - **Organization activity** — Email summary of organization member changes and billing events
 - **Product announcements** — Optional emails about new features and updates
 
 Each notification type can be toggled independently for email and in-app delivery.
+
+## SSO (Single Sign-On) — Enterprise
+
+Enterprise plan organizations can configure SAML-based single sign-on from **Organization Settings → Security → SSO**:
+
+1. Choose your identity provider (Okta, Azure AD, Google Workspace, or custom SAML)
+2. Download the ACT3 AI service provider metadata
+3. Configure the SP metadata in your identity provider
+4. Enter your identity provider's SSO URL and certificate in ACT3 AI
+5. Test the connection with a test user login
+6. Enable SSO for your organization — team members will now log in through your company's identity provider
+
+Once SSO is enabled, team members no longer need separate ACT3 AI passwords. Account provisioning follows your identity provider's user management.
 
 ## Best Practices
 

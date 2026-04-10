@@ -9,6 +9,14 @@ description: How to create and manage an ACT3 AI organization, invite team membe
 
 ACT3 AI supports team-based production through Organizations. An Organization groups multiple users under a shared workspace with a shared credit pool, shared asset library, and centralized billing. Organizations are available on Creator plans and above, and are ideal for production teams, studios, agencies, and educational groups.
 
+## What Is an Organization?
+
+An Organization is your billing and collaboration workspace — similar to a GitHub organization or a Figma team. It owns your projects, credit pool, subscription plan, and payment method.
+
+Every new ACT3 AI account gets a personal Organization created automatically (for example, "Jane Doe's Personal Projects"). You can create or join additional organizations at any time — for example, one personal organization for your own projects and another for a studio or agency client. Switch between organizations using the Organization dropdown in the top navigation. All views update to show that organization's projects, credits, and settings.
+
+The Organization legally owns all projects and generated content created within it. ACT3 AI does not claim ownership over your creative output.
+
 ## Creating an Organization
 
 1. Log in to [app.act3ai.com](https://app.act3ai.com)
@@ -21,19 +29,29 @@ ACT3 AI supports team-based production through Organizations. An Organization gr
 
 You automatically become the Owner of the new organization.
 
-## Member Roles
+## Member Roles and Permissions
 
-Each member of an organization is assigned a role that controls what they can see and do.
+ACT3 AI uses six granular permission levels. Assign the minimum permissions each person needs.
 
-| Role | Project Access | Credit Usage | Billing Access | Member Management |
-|---|---|---|---|---|
-| **Owner** | Full control | Yes | Yes | Yes |
-| **Admin** | Full control | Yes | No | Yes |
-| **Editor** | Create and edit assigned projects | Yes | No | No |
-| **Reviewer** | View projects, leave comments | No | No | No |
-| **Viewer** | Read-only access | No | No | No |
+| Permission | Description |
+|---|---|
+| **Read** | View projects, scripts, and renders. No changes allowed. |
+| **Modify / Edit** | Edit scripts, characters, and scenes. Cannot trigger AI generation. |
+| **Run AI** | Initiate AI generation tasks. Automatically includes Modify / Edit. |
+| **Use Credits** | Initiate any credit-consuming task. Primary resource control. |
+| **Billing** | Manage subscription, payment methods, and invoices. Cannot manage members or permissions. |
+| **Owner** | Full control: all permissions plus member management and ownership transfer. |
 
-The Owner role is assigned to whoever creates the organization. Ownership can be transferred to another Admin from **Organization → Settings**.
+In practice, members are assigned a named role that bundles these permissions:
+
+| Role | Permissions Included |
+|---|---|
+| **Owner** | All permissions |
+| **Admin** | All except Billing and Ownership transfer |
+| **Editor** | Modify / Edit, Run AI, Use Credits |
+| **Viewer** | Read only |
+
+The Owner role is assigned to whoever creates the organization. Ownership can be transferred to another member from **Organization → Settings → Transfer Ownership** — both parties must confirm the transfer.
 
 ## Inviting Members
 
@@ -57,13 +75,17 @@ Removed members immediately lose access to all organization projects and assets.
 
 ## Shared Credit Pool
 
-On Pro and Enterprise plans, all organization members draw from a single shared credit pool. This means:
+All organization members draw from a single shared credit pool. This means:
 
 - Credits purchased for the organization are available to all members with credit-usage access
 - Owners and Admins can monitor per-user and per-project credit usage
-- Owners can set per-member credit limits to control consumption
+- Owners can set per-member monthly credit limits to prevent any individual from consuming the entire pool — when a member hits their limit, they are prompted to request more from the org owner
 
 View credit usage reports at **Organization → Credits**.
+
+## Belonging to Multiple Organizations
+
+You can create or join as many Organizations as you need. A common setup: one personal organization for your own projects and one for each studio or agency client you work with. Each organization has its own subscription plan, credit pool, and member list. Switch between them using the Organization dropdown in the top navigation.
 
 ## Shared Asset Library
 

@@ -68,6 +68,32 @@ Short Film: "The Last Signal"
 
 You can work top-down (write the full script, then break it into beats and shots) or bottom-up (create shots first and group them into scenes). Most narrative projects benefit from top-down planning. Commercial content and short social videos often work better bottom-up.
 
+## TV Series and Episodic Projects
+
+For longer-form work, ACT3 AI extends the hierarchy to include series-level structure:
+
+```
+Series
+  └── Season
+        └── Episode
+              └── Act
+                    └── Scene
+                          └── Beat
+                                └── Shot
+```
+
+When creating a project, select **Series** as the project type. Add seasons and episodes within that structure. Each episode functions like an independent film with its own script and shot list, but shares actors, sets, and style presets across the full series.
+
+To keep actors and sets consistent across episodes: actors and sets are defined at the series level and are available in every episode. Apply the same Style Preset to the entire series to lock in a consistent visual look across all episodes.
+
+## Story Factors and the Dependency Graph
+
+A **Story Factor** is a user-defined abstraction that connects across your script — a character's backstory, a recurring visual motif, a location's history, or a physical object with story significance. When you edit a Story Factor, ACT3 AI cascades the change through all scenes and shots that reference it, keeping the narrative consistent automatically.
+
+The **Dependency Graph** tracks how story elements relate to each other. When you change a scene or shot that other elements reference, the platform flags downstream elements that may need regeneration. You review the flagged items and decide which ones to update. Edits are non-destructive — nothing regenerates automatically without your approval.
+
+This system is especially useful on large projects where a change to Act 1 (such as a character name change or location rename) would otherwise require finding and updating every reference manually.
+
 ## Related Pages
 
 - [Beats](/docs/concepts/beats)

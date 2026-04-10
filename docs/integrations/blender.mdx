@@ -18,6 +18,31 @@ The Blender integration connects ACT3 AI with Blender, the open-source 3D creati
 - **Animation Data Exchange** — Transfer keyframes, character rigs, and Digital Actor performances between platforms
 - **Batch Rendering** — Queue Blender renders directly through ACT3 AI's Render Queue for high-quality output
 
+## Installing the Blender Add-On
+
+ACT3 AI connects to Blender through a dedicated add-on. Install it once and it persists across Blender sessions.
+
+1. In ACT3 AI, go to **Account → Integrations → Blender**
+2. Click **Download Add-On** and save the .zip file
+3. Open Blender and go to **Edit → Preferences → Add-ons**
+4. Click **Install** and select the .zip file
+5. Enable the "ACT3 AI Sync" add-on by checking the checkbox
+6. In the add-on preferences, enter your ACT3 AI API key (found in **Account → API Keys**)
+7. A new **ACT3 AI** panel appears in the Blender sidebar (press N to toggle the sidebar)
+
+The add-on requires an active internet connection and an open ACT3 AI session in your browser.
+
+**Troubleshooting the add-on:** If the Blender sync is not connecting, check that the add-on is enabled in Blender Preferences and that your API key is entered correctly. Ensure ACT3 AI is open in your browser and you are signed in. If the issue persists, try regenerating your API key in **Account → API Keys**.
+
+## Pushing a Blender Scene to ACT3 AI
+
+After installing and connecting the add-on:
+
+1. Set up your scene in Blender (geometry, materials, lights, cameras)
+2. Open the **ACT3 AI panel** in the Blender sidebar
+3. Click **Push Scene**
+4. Your scene geometry, materials, lights, and camera positions sync to ACT3 AI as a set reference
+
 ## How to Use
 
 ### Exporting from ACT3 AI to Blender

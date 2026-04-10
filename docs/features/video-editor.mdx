@@ -107,6 +107,60 @@ From the editor, send your finished sequence to render:
 4. Monitor progress in the [Render Queue](/docs/features/render-queue)
 5. Download completed output from the render dashboard
 
+## Persona Layout Views
+
+Switch the editor layout to match your current role. Click the **View** menu and select a persona:
+
+- **Writer** — Script panel is large and prominent; timeline is minimized
+- **Director** — Timeline and video preview are dominant; script is in a side panel
+- **Actor** — Character, cast, and motion capture panels are front and center
+
+You can also switch any column to a different panel manually using the View As filter.
+
+## Keyframes
+
+Add keyframes to the timeline to animate camera movement and character position over time:
+
+1. Click the keyframe button on a property (camera position, character location) at the current playhead position
+2. Set the value for that property at that point in time
+3. Move the playhead to a later time
+4. Add a second keyframe with a different value
+5. ACT3 AI interpolates between the two values smoothly
+
+## Tags and Batch Operations
+
+Right-click any scene or shot and click **Add Tag**. Create tags like "Needs Review", "VFX Heavy", or "Beach Scenes". Use the Tag Filter in the sidebar to view only tagged items. You can run batch operations on all tagged items — for example, render all shots tagged "Approved for Final" in a single queue submission.
+
+## Locking Scenes and Shots
+
+Right-click the scene or shot in the outline or timeline and select **Lock**. Locked elements are read-only for all team members except the project Owner and Admins. A lock icon appears on the item. Use locking after a scene is approved to prevent accidental edits during later production phases.
+
+## Captions and Subtitles
+
+ACT3 AI generates captions automatically from TTS audio or uploaded dialogue tracks. Captions appear as a subtitle layer in the video editor timeline. You can:
+
+- Edit the caption text and adjust timing
+- Choose burned-in captions (embedded in video) or export as a separate SRT file
+- Enable Auto-Caption in the Export dialog for captions on final export
+
+Enable captions for all social media exports for accessibility and to comply with platform recommendations.
+
+## Selection Playback
+
+Select a range of shots or scenes in the timeline by clicking and dragging, then press **Play**. ACT3 AI plays only the selected range and pauses when it reaches the end. This is useful for reviewing transitions and specific sequences without watching the entire film.
+
+## Keyboard Shortcuts
+
+| Shortcut | Action |
+|---|---|
+| Space | Play / Pause |
+| Shift + ← / → | Jump between scenes |
+| Alt + ← / → | Jump between shots |
+| Keypad 1 / 3 | Frame-by-frame navigation |
+| Ctrl/Cmd + E then P | Switch column panel |
+
+The full shortcut list is available in **Settings → Keyboard Shortcuts**.
+
 ## Best Practices
 
 - Use draft renders frequently during editing to check timing without spending credits on full quality

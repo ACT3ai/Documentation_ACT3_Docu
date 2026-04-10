@@ -9,6 +9,18 @@ description: How to use ComfyUI in ACT3 AI for advanced node-based AI generation
 
 The ComfyUI integration gives power users access to advanced, node-based AI video and image generation workflows directly within ACT3 AI. ComfyUI is designed for technical users who need fine-grained control over generative parameters and want to chain multiple AI models in a single render pipeline.
 
+## Connecting to a Local ComfyUI Instance
+
+ACT3 AI can connect to a ComfyUI server running on your local machine. This lets you run custom node workflows for image generation, character design, or set concept art without sending data to the cloud.
+
+1. Install and run ComfyUI locally (see the [ComfyUI GitHub project](https://github.com/comfyanonymous/ComfyUI) for setup instructions)
+2. In ACT3 AI, go to **Account → Integrations → ComfyUI**
+3. Enter your ComfyUI endpoint URL (typically `http://127.0.0.1:8188`)
+4. Click **Test Connection** to verify the link
+5. Once connected, you can trigger workflows directly from the Shot or Actor editor in ACT3 AI
+
+The local connection allows you to use your own GPU and models without consuming ACT3 AI cloud credits for those generations.
+
 ## What ComfyUI Does
 
 ComfyUI provides a visual node editor where you build generative workflows by connecting processing nodes. Each node performs a specific operation — loading a model, applying a prompt, adjusting resolution, adding effects, or routing output. You chain nodes together to create complex multi-step generation pipelines that no single model can produce on its own.

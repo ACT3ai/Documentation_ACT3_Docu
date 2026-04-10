@@ -9,6 +9,10 @@ description: Text-to-speech and audio track management in ACT3 AI.
 
 ACT3 AI includes full audio management for dialogue, music, voice-over, and sound effects. You can generate dialogue using AI text-to-speech, import recorded audio, and sync everything to your timeline.
 
+## TTS Engine: Azure Neural TTS
+
+ACT3 AI uses **Azure Neural TTS** for voice generation. Azure Neural TTS provides natural-sounding voices across dozens of languages and accents. The generated audio is used for character dialogue and drives both the lip sync duration and NVIDIA Audio2Face facial animation.
+
 ## Text-to-Speech (TTS)
 
 TTS generates spoken dialogue from your script text without recording anything. Select a voice, paste the dialogue, and ACT3 AI produces a professional audio track ready for lip sync and video assembly.
@@ -90,6 +94,23 @@ For sound effects:
 - Browse the built-in SFX library by category (door sounds, footsteps, weather, impacts, etc.)
 - Upload custom sounds from your own library
 - Drag SFX directly onto the timeline aligned with the action
+
+## Multi-Language TTS and Dubbing
+
+ACT3 AI supports multi-lingual TTS through Azure Neural TTS. When generating a voice line, select the target language and accent. Supported languages include English (multiple accents), Spanish, French, German, Portuguese, Japanese, Korean, Chinese, and dozens more.
+
+For dubbing existing video into another language:
+
+1. Generate translated dialogue using TTS in the target language
+2. Place the translated audio track in the timeline
+3. Re-run lip sync on the same digital actor — the mouth animation updates to match the new language's phoneme patterns
+4. Export the dubbed version as a separate file without re-rendering the video
+
+This allows you to produce multi-language versions of the same production efficiently.
+
+## Voice Cloning
+
+Upload a short audio sample (30–60 seconds of clear speech) to create a custom voice that matches your recording. Generated lines in the cloned voice are indistinguishable from the original for most use cases. Voice cloning requires explicit consent from the person whose voice is being cloned.
 
 ## Credit Usage
 

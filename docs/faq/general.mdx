@@ -159,6 +159,56 @@ Use the password reset form at [app.act3ai.com/password-reset](https://app.act3a
 
 ---
 
+## Content Moderation
+
+### How does ACT3 AI check for inappropriate content?
+
+ACT3 AI runs a three-stage content scanner:
+
+1. **Before generation** — Shot prompts are checked against the usage policy before the generation job is submitted
+2. **Before production** — Scripts are scanned before production begins
+3. **After generation** — Finished outputs are reviewed before download
+
+Content that violates the policy is auto-redacted or flagged for admin review. This applies to all tiers.
+
+### My shot prompt was blocked by the content filter. What do I do?
+
+The content scanner flagged language in your prompt that violates the usage policy. Review the flagged terms, remove or rephrase the problematic section, and resubmit. If you believe the block was in error, use the appeal link in the error dialog to request a manual review.
+
+---
+
+## Project Recovery
+
+### How do I recover a project I accidentally deleted?
+
+Deleted projects go to the Trash folder (**Account → Projects → Trash**) and are retained for 30 days before permanent deletion. Open the Trash, find your project, and click **Restore**. After 30 days, the project is permanently deleted and cannot be recovered.
+
+---
+
+## Additional Troubleshooting
+
+### My render queue shows a shot stuck at 0% for a long time. What do I do?
+
+First wait 5 minutes — the model API may be experiencing load. If the shot is still stuck, click Cancel on the shot and regenerate. If cancellation fails, go to **Account → Support** and submit a stuck-job report with the shot ID. Credits are refunded for verifiably stuck generations.
+
+### Why does my generated video not match my shot prompt?
+
+The most common causes are an ambiguous or short prompt, conflicting instructions (such as "bright daylight" with a night lighting preset), or a model that struggles with a specific scene type. Improve your shot prompt with more specific action and visual details, ensure your lighting preset matches the prompt, and try regenerating.
+
+### Why can't I see some features in my account?
+
+Some features — Veo 3, 4K export, team seats, priority render — require a paid plan. If a feature appears locked, check your current plan under **Account → Billing**. Upgrade to unlock features.
+
+### Can I use ACT3 AI on Windows and Mac?
+
+ACT3 AI is a web application and runs in any modern browser on Mac, Windows, and Linux. No local installation is required. The optional Hero Blender Sync desktop app runs on Mac and Windows for Blender integration.
+
+### Does ACT3 AI work with Adobe Premiere Pro or DaVinci Resolve?
+
+ACT3 AI exports ProRes and MP4 files that are fully compatible with Premiere Pro, DaVinci Resolve, Final Cut Pro, and other NLEs. Export an EDL from the timeline to import your edit directly into an external editor with cut points and clip references intact.
+
+---
+
 ## Contact and Support
 
 For issues not covered here, contact [ACT3 AI Support](https://act3ai.com/contact). Enterprise customers with SLA plans have access to priority support.

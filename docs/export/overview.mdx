@@ -52,16 +52,42 @@ Export your screenplay in these formats:
 | PDF | Client review and distribution |
 | Plain Text (TXT) | Simple sharing |
 
+## Platform Presets
+
+Use presets in the Export dialog to get format and resolution settings right automatically:
+
+| Preset | Output | Use |
+|---|---|---|
+| YouTube | MP4 H.264, 16:9, 1920×1080 or 3840×2160 | YouTube, standard web |
+| TikTok / Reels | MP4, 9:16, 1080×1920 | TikTok, Instagram Reels, YouTube Shorts |
+| Instagram Square | MP4, 1:1, 1080×1080 | Instagram posts |
+| Festival / DCP | ProRes 4444 master + optional DCP package | Film festivals, cinema delivery |
+| Post-Production | ProRes 422, 16:9, project frame rate | Handoff to Premiere, Avid, DaVinci |
+
+For TikTok and Reels exports, you can adjust the reframe position per shot before exporting to control which part of the 16:9 frame is kept in the 9:16 crop.
+
+## Festival and DCP Export
+
+Select the **Festival / DCP** preset. ACT3 AI renders a ProRes 4444 master and optionally packages a DCP (Digital Cinema Package) with the correct color space (P3-DCI), audio format (48kHz/24-bit), and subtitle track. Check your specific festival's technical requirements before submitting — requirements vary by festival.
+
+## Multi-Platform Export
+
+To produce versions for multiple platforms from the same project:
+
+1. Set your primary aspect ratio to 16:9 for YouTube
+2. Add additional export targets for TikTok (9:16) and Instagram (1:1)
+3. ACT3 AI generates optimized exports for each format from the same project, adjusting reframe positions per shot for each target
+4. All versions are rendered in a single queue batch
+
 ## How to Export
 
 1. Complete your timeline assembly in Build Video mode
 2. Click **Export** in the top toolbar
-3. Choose output format (MP4, ProRes, WebM, etc.)
-4. Set resolution and frame rate
-5. Configure subtitles, language options, and delivery platform
-6. Click **Export** — the job enters the Render Queue
-7. Monitor progress in the Render Queue dashboard
-8. Download the completed file when ready
+3. Choose a preset or configure format, resolution, and frame rate manually
+4. Configure subtitles, language options, and delivery platform
+5. Click **Export** — the job enters the Render Queue
+6. Monitor progress in the Render Queue dashboard
+7. Download the completed file when ready
 
 ## Distribution Options
 

@@ -11,68 +11,87 @@ ACT3 AI uses a credit-based billing model with tiered subscription plans. Credit
 
 ## Subscription Plans
 
-| Plan | Price / Month | Credits / Month | Rollover Bank | Storage | Watermark |
+| Plan | Price / Month | Credits / Month | Rollover Cap | Concurrent Jobs | Watermark |
 |---|---|---|---|---|---|
-| **Free** | $0 | 800 | None | 50 MB | Yes |
-| **Starter** | $19 | 9,500 | 23,750 | 2 GB | Yes |
-| **Creator** | $49 | 24,500 | 61,250 | 50 GB | No |
-| **Pro** | $175 | 87,500 | 218,750 | 740 GB | No |
-| **Enterprise** | Contact Us | High volume | Unlimited | Custom | No |
+| **Free** | $0 | 800 | 0 | 1 | Yes |
+| **Community** | $8 | 8,000 | 1,000 | 1 | No |
+| **Standard** | $35 | 33,000 | 100,000 | 3 | No |
+| **Business** | $175 | 180,000 | 500,000 | 6 | No |
+| **Enterprise** | Contact Us | High volume | Unlimited | 10+ | No |
 
 ## Plan Details
 
 ### Free ($0/month)
 
 - 800 credits per month, no rollover
-- 50 MB cloud storage
-- Personal use only; all videos include a watermark
-- Available for the first 6 months only
-- All content is always visible to the ACT3 AI community
-- Includes: AI generation, camera controls, character casting and animation
+- Personal use only; all generated videos include a watermark
+- Available for the first 6 months of active use — after that, an upgrade to Standard or higher is required
+- Assets are deleted after 4 months of inactivity
+- Requires LinkedIn authentication
 
-### Starter ($19/month)
+### Community ($8/month)
 
-- 9,500 credits per month; 23,750 credit rollover bank
-- 2 GB cloud storage
-- Personal use; videos include watermark
-- Available for the first 6 months only
-- Includes: AI generation, camera controls, character casting and animation
+- 8,000 credits per month; 1,000 credit rollover cap
+- No watermark on generated videos
+- 1 concurrent render job
+- Available for the first 6 months of active use
+- Assets are deleted after 4 months of inactivity
+- Requires LinkedIn authentication
 
-### Creator ($49/month)
+### Standard ($35/month)
 
-- 24,500 credits per month; 61,250 credit rollover bank
-- 50 GB cloud storage
-- Personal use; videos exported **without watermark**
-- Generate 3 concurrent render jobs
-- Includes: AI generation, camera controls, character casting and animation
+- 33,000 credits per month; 100,000 credit rollover cap
+- No watermark; 3 concurrent render jobs
+- Assets retained indefinitely while subscription is active
+- No LinkedIn requirement
 
-### Pro ($175/month)
+### Business ($175/month)
 
-- 87,500 credits per month; 218,750 credit rollover bank
-- 740 GB cloud storage
-- Commercial use for audiences up to 100,000
-- Generate 6 concurrent render jobs
-- No watermark on videos
-- Blender AI Story Controls and VFX Controls
-- Create private 2D and 3D sets
-- Includes: AI generation, camera controls, character casting and animation
+- 180,000 credits per month; 500,000 credit rollover cap
+- No watermark; 6 concurrent render jobs
+- **Commercial use rights** — required for distributing video commercially
+- Watermarked dailies for IP provenance
+- Private 2D and 3D sets
+- Assets retained indefinitely while subscription is active
 
 ### Enterprise (Contact Us)
 
-- High monthly credit volume; custom rollover bank
-- Custom cloud storage (4K video supported)
+- 10M+ monthly credits; unlimited rollover
+- 10+ concurrent render jobs; 4K video output
 - Unlimited commercial use
-- Generate 10+ concurrent render jobs
-- No watermark on videos
-- 4K video creation
+- SAML SSO support
+- Private 3D sets
 - Priority support with SLA
-- Blender AI Story, VFX, and Animation Controls
-- Create private 2D and 3D sets
-- Custom terms and negotiated pricing
+- Dedicated account manager
+- Custom pricing and contract terms
+
+## The 6-Month Upgrade Requirement
+
+Free and Community plans are trial and hobbyist tiers. After 6 months of active use, the platform requires an upgrade to Standard ($35/month) or higher. This ensures continued access to the platform for engaged users. You will receive notice before this requirement takes effect.
+
+## Watermarks
+
+All videos generated on the Free plan include an ACT3 AI watermark in the corner. Upgrading to Community ($8/month) or any higher plan removes the watermark from all generated content.
+
+## Commercial Use
+
+Commercial use rights — required when distributing generated video for revenue or business purposes — are included starting with the Business plan ($175/month). Free, Community, and Standard plans are for personal use. Check the Terms of Service for full licensing details.
+
+## Intellectual Property and Watermarked Dailies
+
+Your Organization owns all projects and generated content created within it. ACT3 AI maintains a rights ledger that timestamps every asset creation event. Watermarked dailies (timestamped intermediate renders that serve as proof of creation date) are available on Business and Enterprise plans and are useful for IP disputes, investor pitches, and festival submissions.
+
+## Dormant Asset Deletion
+
+Free and Community plan organizations have assets automatically deleted after 4 months of inactivity. Standard and higher plans retain assets indefinitely while the subscription is active. You receive an email warning before any deletion occurs.
+
+## Monthly Spending Cap
+
+In Organization Settings → Billing, you can enable a monthly spend cap and set a maximum dollar amount. When the cap is reached, all generation stops until the next billing cycle or you raise the cap. Individual member credit limits provide an additional layer of control.
 
 ## Credit Rollover
 
-Unused credits roll over into a rollover bank at the end of each billing period. Your rollover bank has a capacity equal to 2.5x your monthly credit allowance. Credits in the rollover bank expire when you cancel or downgrade your subscription.
+Unused credits roll over into a Rollover Bank at the end of each billing period. Each plan has a maximum bank capacity as shown in the plan table above. Credits in the rollover bank are drawn from automatically after your monthly credits are exhausted. Credits in the rollover bank expire if you cancel or downgrade your subscription.
 
 ## Changing Your Plan
 

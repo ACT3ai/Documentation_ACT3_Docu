@@ -95,6 +95,28 @@ You can adjust the smoothing intensity from subtle (preserves more raw performan
 
 **Performance looks stiff after smoothing** — Reduce the AI smoothing intensity to preserve more of the original raw motion.
 
+## NVIDIA Audio2Face Integration
+
+ACT3 AI uses **NVIDIA Audio2Face** to drive facial performance from audio. When you attach TTS or recorded dialogue to a character, Audio2Face analyzes the audio waveform and generates realistic facial expressions and mouth movement synchronized to the speech.
+
+Audio2Face produces results that go beyond simple lip sync — it generates natural blinking, brow movement, and emotional expression changes that follow the emotional quality of the speech, not just the phonemes. This results in characters that look genuinely engaged rather than mechanically mouthing words.
+
+## Marker-Less Motion Capture
+
+ACT3 AI supports marker-less full-body motion capture from standard video footage. You do not need a motion capture suit or specialized hardware:
+
+1. Record your performer with a phone camera or webcam
+2. Upload the video to the Motion Capture Panel
+3. ACT3 AI extracts pose and facial data from the video using computer vision
+4. The extracted data is applied to your digital actors in Blender
+5. Sync the Blender scene back to ACT3 AI via the Hero Blender Sync integration
+
+This workflow makes professional-level motion capture accessible without expensive equipment.
+
+## iPhone Motion Capture
+
+iPhones with Face ID (TrueDepth sensor) or LiDAR provide higher-accuracy facial capture than standard cameras. Use the ACT3 AI mobile companion app to record directly and export the animation data to Blender, then sync it back to your ACT3 AI project.
+
 ## Related
 
 - [Actors](/docs/features/actors)

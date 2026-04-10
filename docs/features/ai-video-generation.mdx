@@ -120,6 +120,55 @@ Always check the credit estimate shown before confirming a render.
 - Apply consistent cinematographic style across all shots for a cohesive look
 - Batch similar jobs in the Render Queue to avoid bottlenecks
 
+## AI Role System
+
+ACT3 AI breaks the filmmaking process into specialized AI roles that work together:
+
+**AI Writer** — Expands high-level ideas into full scripts. Give it a logline or a paragraph and it generates a complete beat sheet, scene outline, and dialogue draft. You can also use it to rewrite individual scenes or fill in missing dialogue.
+
+**AI Director** — Orchestrates your overall creative vision. It manages scene pacing, story flow, and the sequencing of shots to ensure the narrative reads correctly. It works alongside the AI Writer and AI Cinematographer to propose a cohesive interpretation of your script.
+
+**AI Cinematographer** — Translates your story beats into camera decisions: shot type, lens focal length, camera movement, and framing. It draws from 22 standard shot types and key-framed camera curves to propose cinematography for each beat automatically.
+
+**AI Set Designer** — Creates virtual environments for your scenes. Based on your script context and story location, it suggests or generates appropriate sets — from procedural city blocks to interior rooms. You can accept suggestions, modify them, or build from scratch.
+
+Each AI role makes suggestions that you can accept, override, or regenerate. The human creator remains in control at every step.
+
+## The Mega Prompt
+
+The Mega Prompt is the full assembled instruction packet ACT3 AI sends to the generative video engine for each shot. It bundles your narrative description, style preset, camera settings, lighting setup, audio cues, and motion data into one multi-modal prompt.
+
+You can view and edit the Mega Prompt directly in the **AI Prompt Editing panel** for expert-level control. Click **Copy Prompt** to copy the full assembled prompt to your clipboard for debugging, reference, or use in other tools.
+
+## Shot Rendering Modes
+
+Each shot can use a different rendering pipeline:
+
+| Mode | Description | Best For |
+|---|---|---|
+| Generative AI Only | Pure AI video generation | Most shots, all styles |
+| 3D Characters on 2D Background | Blender character over flat plate | Character accuracy on simple backgrounds |
+| Full 3D Environment | Complete Blender render | High-fidelity 3D scenes |
+| Hybrid | 3D characters composited over AI background | Action sequences, existing 3D assets |
+
+Set the rendering mode per shot in the master dropdown. Hybrid mode is useful when you need precise character placement (from Blender) composited over an AI-generated background.
+
+## Slow Motion and Frame Rate
+
+To generate slow motion, set the frame rate override on a shot to high-frame-rate and include slow motion language in your shot prompt (for example: "slow-motion close-up"). The video editor can also apply time remapping to any generated clip to create slow motion in post.
+
+## Repeatable Results with Seed Values
+
+Use a fixed seed value in the advanced shot settings to make generation results more predictable. A seed locks the randomness in the model, producing very similar results when you regenerate with the same prompt and seed. This is useful for making minor prompt adjustments while preserving the core look of a shot.
+
+## Regenerating and Version History
+
+Click the regenerate icon on any shot to generate a new version. You can adjust the shot prompt, camera settings, or model before regenerating. Previous versions are kept in the shot's version history so you can compare and revert at any time.
+
+## Multi-Character Shots
+
+To generate a scene with two or more characters interacting, assign all relevant digital actors to the shot in the Cast panel. In your shot prompt, describe the interaction between them by name (for example: "Sarah and David argue across the kitchen table, Sarah pointing at him"). ACT3 AI passes all actor references to the model to maintain both appearances.
+
 ## Related
 
 - [Google Veo 3](/docs/integrations/veo3)

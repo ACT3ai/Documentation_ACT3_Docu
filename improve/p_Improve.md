@@ -163,6 +163,131 @@ to answers as efficiently as possible.
 
 
 ====================================================================
+  PHASE 6: LOOP THROUGH QUESTIONS AND GROW THE DOCUMENTATION
+====================================================================
+
+Goal: For every question in {QUESTIONS_FILE}, ensure a real documentation page
+exists that fully answers it, with correct navigation to reach it.
+
+Read {QUESTIONS_FILE} fresh from disk before starting this phase.
+
+For each question entry in the questions array, carry out every sub-step
+below before moving on to the next question. Complete all sub-steps for
+one question, then advance the loop.
+
+
+---- Sub-Step A: Understand the audience ----
+
+* Read the question text and the customer_type / category fields.
+* Articulate in one sentence who this person is and what they are trying to
+  accomplish. Example: "A first-time filmmaker who just signed up and is
+  confused about how to start a project."
+* Keep this audience mental model in mind for every writing decision below.
+* If the question is from a marketing professional, write more efficiently and
+  assume business context. If it is from a social-media creator, write in
+  plain English with quick steps. Match the voice to the audience.
+
+
+---- Sub-Step B: Identify the right doc file ----
+
+* Read the doc_file value from the question entry.
+* Check whether that file exists under {DOCS_DIR}.
+* If the file exists: read it now so you know its current content.
+* If the file does NOT exist: determine whether to
+  * Create a new file at that path, OR
+  * Map the question to an existing file that covers the same topic and
+    update the doc_file value in {QUESTIONS_FILE} to match.
+* When deciding to create vs. reuse, ask: does an existing page already
+  cover 80% of this topic? If yes, improve that page. If no, create a new one.
+* Record the final resolved file path. Everything below targets that file.
+
+
+---- Sub-Step C: Write or improve the content ----
+
+* Open the resolved doc file.
+* Locate where the answer to this specific question should live.
+  * If the page already has a section covering this topic, find it and
+    check whether the answer from {QUESTIONS_FILE} is already there.
+  * If the section is missing or weak, add or improve it now.
+* Writing rules:
+  * Plain English. Active voice. Short paragraphs.
+  * Use numbered steps for procedures (how to do something).
+  * Use bullet lists for option sets (list of models, list of formats).
+  * Use a table when comparing options with 3+ attributes.
+  * Every page must keep its frontmatter: id, title, sidebar_label, description.
+  * Do not restate content already on the page — extend it.
+  * Do not duplicate content from another page — link to it instead.
+* After writing, save the file to disk. Flush to disk.
+* Update the question entry in {QUESTIONS_FILE}:
+  * Set needs_doc_update: false
+  * Set doc_updated: true
+* Save {QUESTIONS_FILE} to disk. Flush to disk.
+
+
+---- Sub-Step D: Verify and fix cross-links ----
+
+* Read the click_path from the question entry. It contains the navigation
+  sequence the customer follows from the home page to the answer page.
+* For each step in the click_path, verify that the corresponding link exists:
+  * Step 1 is always Home — no action needed.
+  * Intermediate steps are sidebar section labels or overview pages.
+    Open the relevant sidebar section page or _category_.json and confirm
+    the label matches.
+  * Final step is the destination page — confirm the file exists and the
+    sidebar_label in its frontmatter matches the click_path label.
+* If any link in the path is broken or misnamed, fix it:
+  * Update the sidebar_label in the doc frontmatter, OR
+  * Update the _category_.json label in that section, OR
+  * Add the missing link to the relevant page.
+* Save any changed files to disk. Flush to disk.
+
+
+---- Sub-Step E: Check navigation from home to destination ----
+
+* Trace the full path: home page → sidebar section → destination page.
+* Ask: would a customer naturally find this page by following the nav labels?
+* If the destination page is very commonly needed (e.g., Getting Started,
+  Credits, Billing), check whether a direct link from the home page
+  introduction section exists. If not, and the page is in the top 20% most
+  visited topics, add a prominent link.
+* For intermediate section overview pages (e.g., docs/concepts/overview.mdx,
+  docs/features/ai-video-generation.mdx), verify they have links to all
+  sub-pages within that section. Add any missing internal links.
+* Save any changed files to disk. Flush to disk.
+
+
+---- Sub-Step F: Improve home page or section pages if needed ----
+
+* Re-read the customer audience identified in Sub-Step A.
+* Ask: if this customer lands on the home page or the section overview,
+  do they see a clear path to the answer?
+* If the section overview page is generic or incomplete, improve it:
+  * Add a brief description of what the section covers.
+  * Add a card or link list pointing to all pages in that section.
+  * Make sure the most common questions for that section are surfaced.
+* If the home page introduction section is missing a link to a high-traffic
+  section, add it.
+* Save any changed files to disk. Flush to disk.
+
+
+---- Sub-Step G: Final review of the question entry ----
+
+* Re-read the question from {QUESTIONS_FILE}.
+* Ask: if a customer reads the destination doc page right now, do they get
+  a clear, complete, accurate answer to this exact question?
+* If yes: move on to the next question.
+* If not: return to Sub-Step C and improve until the answer is clear.
+* Verify the YAML entry fields are all populated:
+  * answer.description is filled
+  * doc_file is correct
+  * click_path is accurate
+  * needs_doc_update is false
+  * doc_updated is true
+* Save {QUESTIONS_FILE} to disk. Flush to disk.
+* Advance the loop to the next question entry.
+
+
+====================================================================
   APPENDIX A: QUESTIONS_FILE YAML STRUCTURE
 ====================================================================
 
