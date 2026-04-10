@@ -20,6 +20,11 @@ function HomepageHeader() {
             to="/docs/getting-started/introduction">
             Get Started
           </Link>
+          <Link
+            className="button button--outline button--lg margin-left--md"
+            to="/docs/legacy-wiki">
+            Legacy Wiki Library
+          </Link>
         </div>
       </div>
     </header>

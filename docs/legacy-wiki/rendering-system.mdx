@@ -1,0 +1,83 @@
+---
+id: legacy-wiki-rendering-system
+title: "Rendering System"
+sidebar_label: "Rendering System"
+description: "Migrated from the legacy ACT3AI MediaWiki page Rendering System."
+slug: /legacy-wiki/rendering-system
+---
+
+> This page was migrated from the legacy ACT3AI MediaWiki site.
+## Overview
+
+The **Rendering System** in [ACT 3 AI](/docs/legacy-wiki/act3ai "ACT3AI") powers the transformation of [scripts](/docs/legacy-wiki/scripts "Scripts"), [scenes](/docs/legacy-wiki/scenes "Scenes"), and [digital actors](/docs/legacy-wiki/digital-actors "Digital Actors") into AI-generated video.
+It connects creative inputs (scripts, storyboards, timelines) with compute-intensive AI models like [Google\_Veo\_3](/docs/legacy-wiki/google-veo-3 "Google Veo 3"), [Runway](/docs/legacy-wiki/runway "Runway"), and [WAN AI](/docs/legacy-wiki/wan "Wan"), delivering both quick previews and production-quality outputs.
+
+## Key Components
+
+- **Rendering Engines:** Specialized AI models for different visual styles.
+- **Resolution & Quality Settings:** Draft, Medium, High, Ultra/4K.
+- **Credit Usage:** Each render consumes [credits](/docs/legacy-wiki/credit-system "Credit System") depending on resolution, duration, and model used.
+- **[Render Queue](/docs/legacy-wiki/render-queue "Render Queue"):** Manages all rendering jobs.
+- **Preview vs Final Renders:** Quick low-res iterations before committing to final exports.
+
+## Supported Engines
+
+- [Google Veo 3 Integration](/docs/legacy-wiki/google-veo-3 "Google Veo 3") – photorealistic cinematic output.
+- [Runway Integration](/docs/legacy-wiki/runway "Runway") – stylized and experimental visuals.
+- [WAN AI Integration](/docs/legacy-wiki/wan "Wan") – low-latency collaborative previews.
+- [Stable Diffusion XL / Flux](/docs/legacy-wiki/stable-diffusion-xl "Stable Diffusion XL") – creative generation (experimental).
+- [Comfy UI Integration](/docs/legacy-wiki/comfy-ui "Comfy UI") – advanced node-based rendering for technical users.
+
+## Render Workflow
+
+1. Prepare [scenes](/docs/legacy-wiki/scenes "Scenes") and [shots](/docs/legacy-wiki/shots "Shots") in the [Editor](/docs/legacy-wiki/editor "Editor").
+2. Select **Render → Add to [Queue](/docs/legacy-wiki/render-queue "Render Queue")**.
+3. Choose settings:
+   1. Resolution (Draft, 720p, 1080p, 4K).
+   2. Quality (low-cost draft → cinematic).
+   3. Engine (Google Veo 3, Runway, WAN AI, etc.).
+4. Confirm estimated [credit cost](/docs/legacy-wiki/credit-system "Credit System").
+5. Render job runs in the [Render Queue](/docs/legacy-wiki/render-queue "Render Queue") until complete.
+6. Download output or send to [Build Video](/docs/legacy-wiki/build-video "Build Video") / [Export Distribution](/docs/legacy-wiki/export-distribution "Export Distribution").
+
+## Resolution & Credits
+
+| Resolution | Preview (per 10s) | Final Render (per 10s) |
+| --- | --- | --- |
+| Draft (low-res) | 1 credit | N/A |
+| 720p | 2 credits | 4 credits |
+| 1080p | 2 credits | 5 credits |
+| 4K | 4 credits | 10 credits |
+
+## Preview vs Final Rendering
+
+- **Previews:** Fast, low-cost, lower resolution, used for timing and rough visualization.
+- **Final Renders:** High resolution, polished visuals, suitable for distribution.
+- Strategy: Use draft previews frequently; only commit to final renders once locked.
+
+## Best Practices
+
+- Always generate draft previews before 4K outputs to save credits.
+- Use [WAN AI](/docs/legacy-wiki/wan "Wan") sessions for brainstorming and collaborative testing.
+- Group jobs into the [Render Queue](/docs/legacy-wiki/render-queue "Render Queue") overnight to avoid bottlenecks.
+- Keep track of [credit usage](/docs/legacy-wiki/credit-system "Credit System") in the dashboard.
+
+## Troubleshooting
+
+- **Job not rendering** → Check [queue status](/docs/legacy-wiki/render-queue "Render Queue") and [credit balance](/docs/legacy-wiki/credit-system "Credit System").
+- **Output looks inconsistent** → Verify prompts and locked [character profiles](/docs/legacy-wiki/characters "Characters").
+- **Slow rendering** → Reduce resolution or batch at off-peak times.
+- **Missing assets** → Ensure [B-Roll](/docs/legacy-wiki/import-broll "Import BRoll") or [audio files](/docs/legacy-wiki/audio-tracks "Audio Tracks") are attached.
+
+## See Also
+
+- [Render Queue](/docs/legacy-wiki/render-queue "Render Queue")
+- [Google Veo 3 Integration](/docs/legacy-wiki/google-veo-3 "Google Veo 3")
+- [Runway Integration](/docs/legacy-wiki/runway "Runway")
+- [WAN AI Integration](/docs/legacy-wiki/wan "Wan")
+- [Credit System](/docs/legacy-wiki/credit-system "Credit System")
+- [Billing Model](/docs/legacy-wiki/billing-model "Billing Model")
+- [Build Video](/docs/legacy-wiki/build-video "Build Video")
+- [Export Distribution](/docs/legacy-wiki/export-distribution "Export Distribution")
+
+[Contact Us](https://act3ai.com/contact) if you have questions about rendering or engine performance.
