@@ -1,10 +1,100 @@
 ---
 id: wan
-title: Wan
-sidebar_label: Wan
-description: Wan integration with ACT3 AI.
+title: Wan 2.1
+sidebar_label: Wan 2.1
+description: How to use Wan 2.1 in ACT3 AI for real-time collaborative video previews.
 ---
 
-# Wan
+# Wan 2.1
 
-*Content migrating from https://wiki.act3ai.com/index.php?title=Wan*
+The Wan 2.1 integration provides fast, low-latency video generation optimized for collaborative workflows. It is the best choice for quick creative iteration, team sessions, and previewing ideas before committing credits to higher-quality renders.
+
+## What Wan 2.1 Does
+
+Wan 2.1 generates video clips at lower resolution with significantly faster turnaround than other engines. It supports real-time collaborative sessions where multiple team members can watch generation happen live and provide feedback to steer further iterations.
+
+## Key Capabilities
+
+- **Real-Time Previews** — Near-instant low-resolution clips during creative development
+- **Adaptive Bitrate** — Dynamically adjusts quality based on current network conditions
+- **Collaborative Sessions** — Multiple users co-generate and share live previews in a shared session
+- **Secure Streaming** — All data transfers use end-to-end TLS encryption
+- **Credit Efficiency** — The lowest cost-per-preview of all generation engines
+
+## How to Use
+
+1. In the Editor, click **AI → Wan 2.1** from the AI tools panel
+2. Enter your shot prompt or select a storyboard panel
+3. Start a generation session — results appear in seconds
+4. Share the session link with teammates so they can view and provide feedback in real time
+5. Iterate by adjusting the prompt and regenerating — multiple variations appear quickly
+6. When you find a direction that works, use that prompt with Google Veo 3 or Runway for final quality
+
+## Collaborative Generation Sessions
+
+Wan 2.1 sessions are designed for team use:
+
+1. Start a session from any shot or scene
+2. Copy the session link and share with teammates
+3. All participants see the same generation results as they appear
+4. Anyone in the session can type new prompt variations
+5. End the session when iteration is complete
+
+Sessions consume credits while active. End the session when idle to avoid unnecessary usage.
+
+## Credit Usage
+
+- Wan 2.1 is billed by session length (flat rate per minute of generated video)
+- Network-optimized previews are approximately 2 credits per minute at preview quality
+- Much lower than Google Veo 3 or Hunyuan at equivalent duration
+
+## Technical Requirements
+
+Wan 2.1 works best with a stable internet connection:
+
+- Minimum recommended: 5 Mbps download
+- The adaptive bitrate system will reduce quality automatically on slower connections
+- Works on most modern browsers without additional setup
+
+## Best Use Cases
+
+- **Creative exploration** — Test many different directions before committing to a final look
+- **Director and editor collaboration** — Preview story structure and pacing with the team
+- **Client presentations** — Show rough previsualization quickly without credit-intensive final renders
+- **Pre-production planning** — Validate scene structure and shot selection before production
+- **Remote collaboration** — Teams in different locations working together on creative decisions
+
+## Wan 2.1 in the Production Workflow
+
+Use Wan 2.1 as the first step in the rendering pipeline:
+
+1. **Wan 2.1 iteration** — Generate many low-cost previews to find the right creative direction
+2. **Approval** — Team reviews and approves specific prompt directions
+3. **Final render** — Submit approved prompts to Google Veo 3, Runway, Flux, or Hunyuan for high-quality output
+
+This approach minimizes expensive render time on content that may be revised.
+
+## Best Practices
+
+- Use Wan 2.1 for all early-stage creative decisions — save other engines for final quality
+- End sessions when not actively generating to avoid credit waste
+- Keep a stable internet connection for the smoothest collaborative experience
+- Use session links to include stakeholders who do not have ACT3 AI accounts in creative reviews
+
+## Troubleshooting
+
+**Generation is slow** — Check your internet connection speed. Wan 2.1 requires at least 5 Mbps for smooth operation.
+
+**Session sharing not working** — Verify the session link is still active. Sessions expire after a period of inactivity.
+
+**Quality lower than expected** — Wan 2.1 is intentionally lower quality for speed. Use Google Veo 3 or Hunyuan for final-quality output.
+
+**Credits draining faster than expected** — Check that you are ending sessions when not actively using them.
+
+## Related
+
+- [AI Video Generation](/docs/features/ai-video-generation)
+- [Google Veo 3](/docs/integrations/veo3)
+- [Runway](/docs/integrations/runway)
+- [Collaboration](/docs/features/collaboration)
+- [Credits](/docs/account/credits)

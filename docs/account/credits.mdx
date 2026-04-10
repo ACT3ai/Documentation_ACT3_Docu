@@ -2,9 +2,120 @@
 id: credits
 title: Credits
 sidebar_label: Credits
-description: Credits in ACT3 AI.
+description: How the ACT3 AI credit system works, what consumes credits, and how to manage your balance.
 ---
 
 # Credits
 
-*Content migrating from https://wiki.act3ai.com/index.php?title=Credits*
+ACT3 AI uses a credit-based system to measure AI generation and rendering usage. Credits are consumed whenever you generate video, run renders, use AI tools, or export content. Every subscription plan includes a monthly credit allowance, and additional credits can be purchased at any time.
+
+## How Credits Work
+
+Credits are deducted in real time as you use the platform. The credit cost for any task depends on three factors:
+
+- **Resolution** — Higher resolution costs more credits per second of output
+- **Engine** — Premium AI engines (Google Veo 3, Hunyuan) cost more than preview engines (Wan 2.1)
+- **Duration** — Credits scale with the length of the generated clip or render
+
+Before any generation or render job starts, ACT3 AI shows you a credit estimate. You must confirm before credits are deducted.
+
+## Credit Usage by Task
+
+### Video Generation and Rendering
+
+| Task | Draft / Preview | 1080p Final | 4K Final |
+|---|---|---|---|
+| Preview render (per 10s) | 1 credit | 2 credits | 4 credits |
+| Full render (per 10s) | 3 credits | 5 credits | 10 credits |
+| Google Veo 3 (per 10s) | — | 6 credits | 12 credits |
+| Runway (per 10s) | — | 5 credits | 10 credits |
+| Hunyuan (per 10s) | — | 4 credits | 10 credits |
+| Flux (per 10s) | — | 4 credits | 8 credits |
+| Wan 2.1 session (per min) | 2 credits | 3 credits | — |
+
+### Image Generation
+
+| Task | Credit Cost |
+|---|---|
+| Stable Diffusion XL (1024×1024) | ~0.5 credits |
+| Stable Diffusion XL (2048×2048) | ~1 credit |
+| Flux image generation | ~0.5–1 credit |
+
+### Audio and Export
+
+| Task | Credit Cost |
+|---|---|
+| TTS voice generation (per scene) | 1–2 credits |
+| Subtitle generation | 1 credit per export |
+| Multi-language audio dub | 3–5 credits per language |
+| 4K export | Included in render cost |
+
+## Monthly Credit Allowance by Plan
+
+| Plan | Monthly Credits | Rollover Bank |
+|---|---|---|
+| Free | 800 | None |
+| Starter | 9,500 | 23,750 |
+| Creator | 24,500 | 61,250 |
+| Pro | 87,500 | 218,750 |
+| Enterprise | Custom | Unlimited |
+
+## Credit Rollover
+
+Unused credits at the end of each billing period automatically roll into your rollover bank. The rollover bank can hold up to 2.5× your monthly credit allowance. Credits in the rollover bank are used after your monthly credits are exhausted, and they expire if you cancel or downgrade your subscription.
+
+## Buying Additional Credits
+
+You can purchase credit top-ups at any time without changing your subscription:
+
+1. Go to **Settings → Plans and Billing → Credit Store**
+2. Choose a credit pack size
+3. Credits are added to your balance immediately after purchase
+
+Enterprise customers can negotiate custom credit rates and annual bundles through the sales team.
+
+## Checking Your Credit Balance
+
+Your current credit balance appears:
+
+- In the top navigation bar on every page
+- On the Dashboard overview panel
+- In the Credits section of **Settings → Plans and Billing**
+
+The Credits section also shows a breakdown of recent usage by project and by AI engine.
+
+## Team Credit Pools
+
+Organizations on Pro or Enterprise plans share a single credit pool across all team members. Owners and Admins can:
+
+- View per-user and per-project credit usage reports
+- Set credit limits for individual team members
+- Purchase additional credits for the shared pool
+
+Individual contributors draw from the shared pool automatically. Their usage is tracked per user for accountability.
+
+## Managing Credits Efficiently
+
+**Use Wan 2.1 for early-stage iteration** — Wan 2.1 costs 2 credits per minute at preview quality, which is significantly less than final-quality engines. Use it to test creative directions before committing to expensive renders.
+
+**Use draft previews throughout production** — Draft renders cost 1–2 credits per 10 seconds compared to 5–10 for final quality. Validate your scene layout and timing in draft mode first.
+
+**Lock completed shots** — Once a shot is approved, lock it in the Editor to prevent accidental regeneration that would consume credits unnecessarily.
+
+**Batch-schedule renders overnight** — Queue all final renders in the Render Queue to run during off-hours. This ensures efficient use of credits without interrupting your editing workflow.
+
+**Set billing alerts** — Configure alerts at 20% and 5% remaining credit balance from **Settings → Notifications** to avoid running out mid-production.
+
+## Best Practices
+
+- Test complex scenes at 720p or 1080p before committing to 4K renders
+- Generate 3–5 Wan 2.1 preview variations to find the right creative direction before using Google Veo 3 or Hunyuan
+- Plan your credit usage across a production before starting final renders
+- Purchase extra credits before starting large production runs rather than waiting until your balance runs low
+
+## Related
+
+- [Billing](/docs/account/billing)
+- [Teams](/docs/account/teams)
+- [Render Queue](/docs/features/render-queue)
+- [AI Video Generation](/docs/features/ai-video-generation)

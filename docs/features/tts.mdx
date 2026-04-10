@@ -1,10 +1,124 @@
 ---
 id: tts
-title: Tts
-sidebar_label: Tts
-description: Tts in ACT3 AI.
+title: TTS and Audio
+sidebar_label: TTS and Audio
+description: Text-to-speech and audio track management in ACT3 AI.
 ---
 
-# Tts
+# TTS and Audio
 
-*Content migrating from https://wiki.act3ai.com/index.php?title=Tts*
+ACT3 AI includes full audio management for dialogue, music, voice-over, and sound effects. You can generate dialogue using AI text-to-speech, import recorded audio, and sync everything to your timeline.
+
+## Text-to-Speech (TTS)
+
+TTS generates spoken dialogue from your script text without recording anything. Select a voice, paste the dialogue, and ACT3 AI produces a professional audio track ready for lip sync and video assembly.
+
+### Generating TTS Audio
+
+1. Open a scene or shot in the editor
+2. Navigate to the **Audio → Dialogue** track
+3. Select **Generate TTS**
+4. Paste or type the dialogue text
+5. Choose a voice from the library
+6. Set speed and expressiveness
+7. Click **Generate** — the audio appears on your timeline
+
+TTS generation consumes credits at a rate based on length. Short lines cost very few credits.
+
+### Voice Selection
+
+The TTS voice library includes voices across:
+
+- Gender expression (male, female, neutral)
+- Age range (young adult, middle-aged, elderly)
+- Accent and regional variation
+- Tone (authoritative, warm, casual, dramatic)
+- Specializations (narration, dialogue, commercial)
+
+Each voice can be previewed before committing. Save preferred voices to your project for consistent character voice identity.
+
+## Importing Audio
+
+Import pre-recorded audio for any track type:
+
+1. Open the Audio panel in the Editor
+2. Click **Add Track → Import**
+3. Select your audio file (WAV, MP3, AAC supported)
+4. The file is added to your Asset Library and placed on the timeline
+
+Use WAV files for highest quality during editing. Export and distribute as MP3 or AAC for smaller file sizes.
+
+## Audio Track Types
+
+| Track Type | Description |
+|---|---|
+| Dialogue | Character speech, synchronized with lip sync |
+| Voice-Over | Narration overlaid on video |
+| Music | Background score, licensed tracks, or AI-generated music |
+| Sound Effects (SFX) | Environmental sounds, impacts, ambient |
+| Ambient | Background audio setting the location atmosphere |
+
+## Multi-Track Mixing
+
+The Audio Mixing Panel lets you control:
+
+- **Volume** — Per-track level control
+- **Fade In / Out** — Smooth audio transitions
+- **Panning** — Left-right stereo placement
+- **Ducking** — Automatically lower music when dialogue plays
+- **Timeline Alignment** — Drag tracks to sync with video events
+
+## Audio in the Timeline
+
+Audio tracks appear as colored bands below the video tracks in the Timeline view. You can:
+
+- Trim the start and end of each audio clip
+- Move clips to different timecodes
+- Layer multiple tracks simultaneously
+- Preview audio playback synchronized with the video preview
+
+## Music and Sound Effects
+
+For background music:
+
+- Import licensed music files you own the rights to
+- Use ACT3 AI's built-in sound library for common ambient sounds and SFX
+- Generate adaptive background scores using the AI music tool (select mood, tempo, and duration)
+
+For sound effects:
+
+- Browse the built-in SFX library by category (door sounds, footsteps, weather, impacts, etc.)
+- Upload custom sounds from your own library
+- Drag SFX directly onto the timeline aligned with the action
+
+## Credit Usage
+
+- Audio imports are free
+- TTS generation consumes credits based on text length
+- AI-generated music consumes credits based on duration
+- Audio mixing and export are included in the video render cost
+
+## Best Practices
+
+- Use WAV format for all source audio during the editing phase
+- Normalize dialogue tracks to a consistent level to avoid volume inconsistencies
+- Keep music tracks lower in the mix during dialogue scenes — the industry standard is -12 to -18 dB below dialogue
+- For longer projects, name tracks clearly (e.g., "Carter Dialogue Act 2," "Office Ambience")
+- Lock audio tracks once approved to prevent accidental edits during final production
+
+## Troubleshooting
+
+**Audio is out of sync with video** — Check that frame rates match between your audio export settings and your project settings.
+
+**TTS voice sounds robotic** — Try a different voice preset, reduce speaking speed, or break long lines into shorter phrases.
+
+**Music bleeds into dialogue scenes** — Use ducking in the Mixing Panel to automatically lower music when speech is detected.
+
+**Import failed** — Verify the file format is WAV, MP3, or AAC and that the file is not corrupted.
+
+## Related
+
+- [Lip Sync](/docs/features/lipsync)
+- [Actors](/docs/features/actors)
+- [Video Editor](/docs/features/video-editor)
+- [Export](/docs/export/overview)

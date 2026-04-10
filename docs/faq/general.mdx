@@ -1,10 +1,172 @@
 ---
-id: faq-general
+id: general
 title: Frequently Asked Questions
 sidebar_label: General FAQ
-description: Common questions about ACT3 AI.
+description: Common questions about ACT3 AI, features, billing, credits, and troubleshooting.
 ---
 
 # Frequently Asked Questions
 
-*Content migrating from https://wiki.act3ai.com/index.php?title=FAQ*
+## General
+
+### What is ACT3 AI?
+
+ACT3 AI is an AI-powered filmmaking platform that takes you from script to production-ready video. The platform integrates AI story development, digital actors, cinematography controls, and multiple AI rendering engines in a single workspace. It handles the full production pipeline: Script → Beats → Acts → Scenes → Shots → AI Video → Edit → Export.
+
+### Who is ACT3 AI for?
+
+ACT3 AI is used by independent filmmakers, social media creators, marketing agencies, animation studios, production companies, and enterprise marketing teams. You do not need technical or filmmaking experience to get started, but knowledge of scriptwriting and basic cinematography concepts will help you get the most out of the platform.
+
+### Do I need filmmaking experience to use ACT3 AI?
+
+No. The AI Wizard guides you through every step — from script structure to shot generation. However, understanding basic concepts like beats, scenes, and shots will help you direct the AI more effectively. See [Concepts](/docs/concepts/overview) for a quick introduction.
+
+### What AI models does ACT3 AI use?
+
+ACT3 AI integrates with multiple AI engines, each optimized for different use cases:
+
+- **Google Veo 3** — Primary video generation engine for cinematic, high-quality shots
+- **Runway** — Strong at motion control, masking, and camera movement
+- **Flux** — Text-to-video and image-to-video with physics-aware motion
+- **Hunyuan** — High-fidelity output, especially strong for culturally specific aesthetics
+- **Wan 2.1** — Fast, low-cost previews for creative iteration
+- **Stable Diffusion XL** — Still image generation for storyboards and concept art
+- **ComfyUI** — Node-based pipeline for custom multi-pass generation workflows
+- **Blender** — 3D set design, character rigging, and motion capture integration
+
+### Is there a free plan?
+
+Yes. New accounts start on the Free plan with 800 credits per month, 50 MB storage, and full access to core generation features. The Free plan is available for the first 6 months. All Free-plan videos include a watermark. See [Billing](/docs/account/billing) for a full plan comparison.
+
+### Can I try ACT3 AI without a credit card?
+
+Yes. Creating an account and using the Free plan requires no credit card. You only need payment information when upgrading to a paid plan or purchasing additional credits.
+
+---
+
+## Features and Workflow
+
+### What is the production workflow in ACT3 AI?
+
+The standard workflow is:
+
+1. **Script** — Write or import your screenplay
+2. **Beats** — AI breaks the script into dramatic beats
+3. **Acts** — Organize beats into acts (three-act, five-act, or custom)
+4. **Scenes** — Group shots by location and time
+5. **Shots** — Define individual camera angles with AI prompts
+6. **Generate** — Run AI video generation for each shot
+7. **Edit** — Assemble and refine in the video editor
+8. **Export** — Render and distribute in your chosen format
+
+See [First Project](/docs/getting-started/first-project) for a step-by-step walkthrough.
+
+### Can I import my own script?
+
+Yes. ACT3 AI accepts scripts in Final Draft (FDX), Fountain/Markdown, plain text (TXT), and PDF. Use **Script → Import** to bring in an existing screenplay. You can also write directly in the built-in Script Editor. See [Script Editing](/docs/features/script-editing).
+
+### Can I use my own digital actors?
+
+Yes. You can create custom Digital Actors in the Character Editor, upload reference imagery, and apply motion capture data. You can also use actors from the built-in Actor Library. See [Actors](/docs/features/actors).
+
+### Does ACT3 AI support 4K video output?
+
+Yes. 4K export is available on Pro and Enterprise plans. It is supported with Google Veo 3, Runway, Flux, and Hunyuan engines. See [Export](/docs/export/overview) and [Billing](/docs/account/billing).
+
+### Can I use Blender with ACT3 AI?
+
+Yes. ACT3 AI has a native Blender sync integration that supports bidirectional import/export of cameras, lights, characters, and scenes. You can design 3D sets in Blender and bring them into ACT3 AI, or export ACT3 AI scenes into Blender for advanced compositing and VFX. See [Blender](/docs/integrations/blender).
+
+### What video formats can I export?
+
+ACT3 AI exports to MP4 (H.264), MOV (ProRes), WebM, and AVI. Professional post-production formats (EDL, AAF, USD, FBX) are also supported for handoffs to external editors. Scripts export as FDX, Fountain/Markdown, PDF, or plain text. See [Export](/docs/export/overview).
+
+---
+
+## Credits and Billing
+
+### How do credits work?
+
+Credits are the currency used to pay for AI generation and rendering. Each task costs a different number of credits based on resolution, duration, and which AI engine is used. Your subscription plan includes a monthly credit allowance. See [Credits](/docs/account/credits) for the full cost table.
+
+### What happens to unused credits at the end of the month?
+
+Unused credits roll over into a rollover bank with a capacity of 2.5× your monthly allowance. Credits in the rollover bank are used after your monthly credits are exhausted. Rollover credits expire if you cancel or downgrade your subscription.
+
+### Can I buy extra credits?
+
+Yes. Credit top-ups are available at any time from **Settings → Plans and Billing → Credit Store** without changing your subscription plan.
+
+### How do I check my credit balance?
+
+Your credit balance appears in the top navigation bar on every page and in detail at **Settings → Plans and Billing → Credits**.
+
+### I got a "Not Enough Credits" error. What do I do?
+
+Your monthly credit balance and rollover bank are exhausted. You can purchase additional credits from **Settings → Plans and Billing → Credit Store**, or upgrade to a plan with a higher monthly allowance.
+
+### Can I get a refund?
+
+Subscription fees and purchased credits are generally non-refundable. If you believe you were charged in error, contact support within 30 days of the charge. Enterprise customers should refer to their contract terms.
+
+---
+
+## Teams and Collaboration
+
+### Can multiple people work on the same project?
+
+Yes. ACT3 AI supports real-time co-editing. Multiple team members can work on scripts, scenes, and shots simultaneously. See [Collaboration](/docs/features/collaboration) and [Teams](/docs/account/teams).
+
+### How do I invite team members?
+
+Create or join an organization, then go to **Organization → Members** and click **Invite Member**. Assign a role and send the invite by email. See [Teams](/docs/account/teams).
+
+### What is the difference between Editor and Viewer roles?
+
+Editors can create and modify projects, scenes, shots, and scripts, and they consume credits. Viewers have read-only access and do not consume credits. See [Teams](/docs/account/teams) for the full roles table.
+
+### Can I share a project with someone who doesn't have an ACT3 AI account?
+
+Yes, using Secure Review Links. Go to **Share → Create Review Link** to generate a time-limited link that allows viewing without requiring an account. See [Export](/docs/export/overview).
+
+---
+
+## Troubleshooting
+
+### My renders are taking too long. What should I do?
+
+Use Wan 2.1 for quick creative iteration — it generates previews in seconds. For final renders, check the Render Queue status. High-resolution (4K) Hunyuan and Veo 3 renders are computationally intensive and may take several minutes. Batch overnight renders using the Render Queue for efficient use of time. See [Render Queue](/docs/features/render-queue).
+
+### My AI-generated actors look wrong.
+
+Refine character appearance in the Character Editor or add more detail to the character description in your shot prompt. For digital actors, check casting assignments in **Cast Management**. See [Actors](/docs/features/actors).
+
+### My export is missing audio.
+
+Confirm that audio tracks are enabled in the Build Video panel before queuing the export. See [Export](/docs/export/overview).
+
+### Subtitles are not syncing correctly.
+
+Re-export with subtitle generation enabled and verify that your audio track starts at timecode zero. See [Export](/docs/export/overview).
+
+### I cannot access my organization settings.
+
+Only Owners and Admins can access organization settings. Confirm your role with the organization Owner.
+
+### I forgot my password.
+
+Use the password reset form at [app.act3ai.com/password-reset](https://app.act3ai.com/password-reset). If the reset email doesn't arrive, check your spam folder or contact support.
+
+---
+
+## Contact and Support
+
+For issues not covered here, contact [ACT3 AI Support](https://act3ai.com/contact). Enterprise customers with SLA plans have access to priority support.
+
+## Related
+
+- [Getting Started](/docs/getting-started/introduction)
+- [Billing](/docs/account/billing)
+- [Credits](/docs/account/credits)
+- [Teams](/docs/account/teams)
+- [Export](/docs/export/overview)

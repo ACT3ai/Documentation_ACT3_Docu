@@ -2,9 +2,105 @@
 id: blender
 title: Blender
 sidebar_label: Blender
-description: Blender integration with ACT3 AI.
+description: How to use the Blender integration in ACT3 AI for 3D sets, characters, and rendering.
 ---
 
-# Blender
+# Blender Integration
 
-*Content migrating from https://wiki.act3ai.com/index.php?title=Blender*
+The Blender integration connects ACT3 AI with Blender, the open-source 3D creation suite. This lets you import complex 3D assets, environments, and animations into ACT3 AI while keeping them synchronized with your Timeline and AI-driven workflows.
+
+## What the Blender Integration Does
+
+- **3D Asset Import** — Bring in characters, props, and sets created in Blender into the ACT3 AI Media Library
+- **Scene Linking** — Maintain live references between ACT3 AI scenes and Blender projects for round-trip editing
+- **Camera and Lighting Sync** — Export camera movements and lighting setups from ACT3 AI into Blender for realistic final renders
+- **Material and Shader Support** — Preserve Blender's PBR materials, procedural textures, and shading nodes on import
+- **Animation Data Exchange** — Transfer keyframes, character rigs, and Digital Actor performances between platforms
+- **Batch Rendering** — Queue Blender renders directly through ACT3 AI's Render Queue for high-quality output
+
+## How to Use
+
+### Exporting from ACT3 AI to Blender
+
+1. In the Editor, select a scene or shot
+2. Click **Export → Blender Project**
+3. A .blend file is generated with your scene structure, camera positions, and lighting setup
+4. Open the .blend file in Blender and refine models, materials, or animations
+
+### Importing from Blender to ACT3 AI
+
+1. In Blender, complete your scene modifications
+2. Save the .blend file with packed textures
+3. In ACT3 AI, go to **Import → Blender Scene**
+4. Select your .blend file
+5. ACT3 AI syncs the updated assets with your existing scene structure
+
+### Full Round-Trip Workflow
+
+| Step | Tool | Action |
+|---|---|---|
+| Previsualization | ACT3 AI | Create storyboard and scene layout with AI Wizard |
+| Asset Creation | Blender | Model environment, props, and characters |
+| Import | ACT3 AI | Import Blender assets into Media Library |
+| Animation | ACT3 AI + Blender | Animate Digital Actors in ACT3 AI, refine with Blender keyframes |
+| Final Render | Blender via Render Queue | High-fidelity lighting, textures, and physics render |
+| Assembly | ACT3 AI | Combine Blender renders with AI-generated clips in the timeline |
+
+## Supported Formats
+
+| Format | Use Case |
+|---|---|
+| .blend | Full Blender project with materials and rigs |
+| FBX | Characters, props, and environments |
+| OBJ | Simple 3D objects without animation |
+| GLTF / GLB | Lightweight scene exchange |
+| USD / USDZ | Complex scene hierarchies, AR assets |
+
+## Camera and Lighting Sync
+
+When you export to Blender, ACT3 AI exports:
+
+- Camera positions, orientation, and focal length settings
+- Camera movement keyframes (dolly, pan, tracking paths)
+- Light type, position, intensity, and color temperature settings
+- Time-of-day simulation parameters
+
+This means the camera work you planned in ACT3 AI's Top-Down View translates directly into Blender's camera animation — no manual recreation required.
+
+## Use Cases
+
+- **Feature film previsualization** — Rapid 3D blocking in ACT3 AI, detailed rendering in Blender
+- **Complex physical simulations** — Smoke, fluid, cloth, and particle effects that require full Blender rendering
+- **Architectural and environment design** — Precision 3D modeling for realistic backgrounds
+- **Character rigging** — Advanced bone rigs and blend shapes that go beyond ACT3 AI's built-in actor controls
+- **VFX compositing** — Combine AI-generated video with Blender CG elements
+
+## Credit Usage
+
+- Importing and exporting between ACT3 AI and Blender is free
+- Blender renders queued through the ACT3 AI Render Queue consume credits based on frame count, resolution, and complexity
+- AI previsualization in ACT3 AI before the Blender pass consumes standard credits
+
+## Best Practices
+
+- Save Blender projects with packed textures to ensure correct import — missing textures are the most common import issue
+- Use GLTF for lightweight scene exchanges during the creative phase; reserve .blend for final high-quality work
+- Heavy simulations (smoke, fire, physics) require full Blender renders rather than AI previews
+- Keep naming conventions consistent between ACT3 AI and Blender — mismatched names prevent correct asset linking
+- Test the round-trip with a simple scene before committing to a complex production pipeline
+
+## Troubleshooting
+
+**Textures missing after import** — Reopen the .blend file in Blender and pack all textures (File → External Data → Pack All Into .blend), then re-export.
+
+**Camera positions don't match** — Check that you exported from the correct scene version in ACT3 AI before opening in Blender.
+
+**Animation not transferred** — Verify that the Digital Actor profile used animation data compatible with Blender rigging standards. Some motion capture data may need format conversion.
+
+## Related
+
+- [Sets](/docs/features/sets)
+- [Actors](/docs/features/actors)
+- [Motion Capture](/docs/features/motion-capture)
+- [AI Video Generation](/docs/features/ai-video-generation)
+- [Render Queue](/docs/features/render-queue)

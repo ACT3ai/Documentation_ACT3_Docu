@@ -2,9 +2,96 @@
 id: runway
 title: Runway
 sidebar_label: Runway
-description: Runway integration with ACT3 AI.
+description: How to use Runway ML in ACT3 AI for stylized and experimental video generation.
 ---
 
 # Runway
 
-*Content migrating from https://wiki.act3ai.com/index.php?title=Runway*
+The Runway integration connects ACT3 AI to Runway ML's generative video models. Runway is the best choice for stylized, experimental, and artistic video output — content that needs to look different from realistic footage.
+
+## What Runway Does
+
+Runway converts your shot prompts into video clips using models optimized for stylized output, creative effects, and motion quality. It supports text-to-video generation, multiple model variants, frame interpolation, and masking for targeted edits.
+
+## Key Capabilities
+
+- **Text-to-Video** — Generate clips from shot prompts or scene descriptions
+- **Multiple Model Variants** — Access models optimized for cinematic realism, animation, stylized effects, and abstract visuals
+- **Frame Interpolation** — Smooth motion between generated frames for more natural movement
+- **Masking and Inpainting** — Replace or enhance specific regions in a shot while keeping the rest unchanged
+- **Style and Texture Control** — Fine-grained control over visual style, texture, and color treatment
+
+## How to Use
+
+1. In the Editor, select a scene or shot and click **AI → Runway**
+2. Review and edit the shot prompt — add style descriptors, action tags, and camera instructions
+3. Select your Runway model variant
+4. Set resolution and frame rate
+5. Click **Generate** — the clip appears in the Preview pane
+6. Accept, refine, or regenerate — approved clips go to the Timeline or Render Queue
+
+## Choosing a Runway Model
+
+Runway offers multiple generation models with different strengths:
+
+- **Cinematic Realism** — Closer to photorealistic output, suitable for drama and narrative
+- **Animation** — Stylized movement with a cleaner, less-realistic feel
+- **Abstract and Effects** — Experimental visuals, particle effects, surreal aesthetics
+- **Motion Brush** — Apply specific directional movement to elements in a scene
+
+Select the model that matches your project's visual language.
+
+## Masking and Inpainting
+
+If a generated clip is nearly right but has one problem area:
+
+1. Open the clip in the Runway masking tool
+2. Paint a mask over the region you want to replace
+3. Write a prompt describing what should replace that region
+4. Runway regenerates only the masked area while keeping everything else intact
+
+This is far more efficient than regenerating a full clip for a small issue.
+
+## Prompt Tips for Runway
+
+- Keep prompts under 120 words for faster generation and better coherence
+- For complex visual effects, break requests into multiple short prompts
+- Runway responds well to artistic and stylistic language (e.g., "oil painting style," "cyberpunk aesthetic," "dreamlike and surreal")
+- Combine with Google Veo 3 for hybrid projects — Veo 3 for realism, Runway for artistic overlay effects
+
+## Credit Usage
+
+Runway generations are billed based on clip length, resolution, and the model variant used:
+
+- Advanced features like masking and frame interpolation may incur additional credit cost
+- Actual rates are shown in the credit estimate before confirming generation
+
+## Best Use Cases
+
+- Stylized title sequences and cinematic intros
+- Artistic short films and experimental narrative
+- Music videos with visual effects
+- Social media content requiring distinct visual styles
+- Any project where "cinematic but not photorealistic" is the goal
+
+## When to Use Other Engines
+
+- Use **Google Veo 3** for photorealistic, grounded narrative content
+- Use **Wan 2.1** for fast collaborative previews
+- Use **Flux** for smooth motion-focused animation sequences
+- Use **ComfyUI** for advanced multi-model compositing pipelines
+
+## Troubleshooting
+
+**Output style is not matching** — Add explicit style descriptors to your prompt (e.g., "painted, stylized, cinematic animation") and reduce conflicting realism descriptors.
+
+**Motion looks choppy** — Enable frame interpolation in the Runway settings panel.
+
+**Specific area of clip looks wrong** — Use the masking tool to regenerate only that region.
+
+## Related
+
+- [AI Video Generation](/docs/features/ai-video-generation)
+- [Google Veo 3](/docs/integrations/veo3)
+- [Flux](/docs/integrations/flux)
+- [Render Queue](/docs/features/render-queue)

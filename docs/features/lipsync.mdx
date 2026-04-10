@@ -1,10 +1,80 @@
 ---
 id: lipsync
-title: Lipsync
-sidebar_label: Lipsync
-description: Lipsync in ACT3 AI.
+title: Lip Sync
+sidebar_label: Lip Sync
+description: How lip sync works in ACT3 AI to synchronize digital actor mouth movements with dialogue audio.
 ---
 
-# Lipsync
+# Lip Sync
 
-*Content migrating from https://wiki.act3ai.com/index.php?title=Lipsync*
+Lip Sync in ACT3 AI automatically synchronizes digital actor mouth movements with dialogue audio. When you assign a voice track or TTS-generated audio to a character, the platform analyzes the audio and drives the actor's facial animation to match, producing naturalistic speech in your rendered video.
+
+## How Lip Sync Works
+
+ACT3 AI processes your dialogue audio track and extracts phoneme timing data — the precise sequence of mouth shapes corresponding to each sound. This data drives the digital actor's facial rig, animating lip movements that match the spoken words frame by frame.
+
+The system works with both AI-generated TTS voices and imported recorded audio.
+
+## Setting Up Lip Sync
+
+1. Open a scene or shot in the editor
+2. Assign a digital actor to the speaking character
+3. Provide the dialogue audio:
+   - Use TTS to generate a voice from your script text
+   - Import a pre-recorded audio file (WAV, MP3, AAC)
+4. Go to the **Lip Sync panel** and click **Sync**
+5. ACT3 AI analyzes the audio and applies mouth animation to the actor
+6. Preview the result and adjust sensitivity if needed
+
+## Lip Sync Controls
+
+| Setting | Description |
+|---|---|
+| **Sync Sensitivity** | How closely mouth movement tracks the audio — higher is tighter sync |
+| **Expression Blend** | How much facial expression changes during speech |
+| **Blend Smoothing** | Reduces jerky transitions between phoneme poses |
+| **Jaw Range** | Controls how wide the mouth opens on vowels and open sounds |
+| **Idle State** | The resting mouth position between lines |
+
+## Combining Lip Sync with Motion Capture
+
+For the most realistic dialogue performance:
+
+1. Use facial motion capture to record authentic expressions and head movement
+2. Apply lip sync to drive the mouth animation
+3. The system blends mocap expression data with the audio-driven lip movement
+4. The result combines naturalistic facial performance with accurate lip synchronization
+
+## Multi-Language Lip Sync
+
+ACT3 AI supports lip sync across multiple languages. If you dub dialogue into another language:
+
+1. Generate or import the translated audio track
+2. Apply lip sync to the new audio on the same digital actor
+3. The mouth animation updates to match the phoneme patterns of the new language
+4. Export multiple dubbed versions of the same scene without re-rendering the whole video
+
+## Best Practices
+
+- Use clear, high-quality audio recordings for the most accurate sync results
+- For TTS-generated dialogue, choose voices with natural pacing — avoid very fast or very slow delivery
+- Preview lip sync at draft quality before committing to a full render
+- For close-up dialogue shots, increase sync sensitivity for tighter mouth precision
+- For wide or medium shots, lower sensitivity to avoid over-precise mouth animation that looks artificial at small scale
+
+## Troubleshooting
+
+**Lips are out of sync** — Ensure your audio track starts at the correct timecode in the timeline. Re-run the sync after trimming the audio.
+
+**Mouth movement looks unnatural** — Reduce jaw range and increase blend smoothing for more subtle movement.
+
+**No sync occurring** — Verify the audio track is properly assigned to the correct digital actor in the Cast panel.
+
+**Foreign language sync looks wrong** — Check that the correct language is selected in the lip sync settings, as phoneme models vary by language.
+
+## Related
+
+- [Actors](/docs/features/actors)
+- [TTS and Audio](/docs/features/tts)
+- [Motion Capture](/docs/features/motion-capture)
+- [Video Editor](/docs/features/video-editor)

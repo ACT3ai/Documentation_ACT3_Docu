@@ -2,9 +2,79 @@
 id: hunyuan
 title: Hunyuan
 sidebar_label: Hunyuan
-description: Hunyuan integration with ACT3 AI.
+description: How to use Hunyuan in ACT3 AI for high-fidelity and culturally specific video generation.
 ---
 
 # Hunyuan
 
-*Content migrating from https://wiki.act3ai.com/index.php?title=Hunyuan*
+The Hunyuan integration in ACT3 AI provides access to Tencent's advanced multimodal AI model for video, image, and creative asset generation. Hunyuan excels at high-fidelity scene rendering, realistic character performance, and culturally specific visual styles that other models may not handle as effectively.
+
+## What Hunyuan Does
+
+Hunyuan generates cinematic video sequences from text descriptions with particular strength in realistic character motion, facial expressions, and culturally authentic visual aesthetics. It supports up to 4K output, making it suitable for premium production use cases.
+
+## Key Capabilities
+
+- **Text-to-Video Rendering** — Cinematic sequences from written descriptions
+- **Cultural Style Adaptation** — Authentic localized aesthetics, traditional art styles, and region-specific cinematography
+- **High-Resolution Output** — Supports up to 4K for final production use
+- **Advanced Face and Motion** — Natural character motion and realistic facial expressions, especially effective when paired with Digital Actors
+- **Asset Generation** — Creates props, backdrops, and textures for set design workflows
+- **Natural Language Sensitivity** — Responds accurately to nuanced scene and mood descriptions
+
+## How to Use
+
+1. In the Editor, select a scene or shot and click **AI → Hunyuan**
+2. Enter your prompt, including camera details, scene mood, and any cultural or stylistic notes
+3. Choose desired resolution, frame rate, and aspect ratio
+4. Click **Generate** and preview results in the Preview panel
+5. Accept or regenerate, then add to the Timeline or Render Queue
+
+## Credit Usage
+
+Hunyuan tasks consume credits based on resolution and render length:
+
+- 4K render at 10 seconds: approximately 10 credits
+- 1080p preview at 10 seconds: approximately 4 credits
+
+Actual rates are shown in the credit estimate before confirming generation.
+
+## Best Use Cases
+
+- **Culturally specific content** — Historical periods, regional aesthetics, traditional settings that require authentic visual representation
+- **Premium narrative film** — High-fidelity character performance for close-up dialogue and emotional scenes
+- **Realistic animated performances** — Complex character movement with natural expressions
+- **High-quality set renders** — Detailed environments for pitch decks or executive presentations
+- **Regional advertising campaigns** — Visually accurate content for specific markets
+- **4K production output** — Final renders for large screens, theatrical presentation, or premium distribution
+
+## Combining Hunyuan with Other Tools
+
+For the best results in large productions:
+
+- Use **Wan 2.1** for fast previews and creative iteration before committing Hunyuan credits
+- Combine **Hunyuan** outputs with **ComfyUI** pipelines for advanced compositing
+- Use **Blender** for 3D set elements that Hunyuan can then populate with characters and lighting
+
+## Best Practices
+
+- Use Hunyuan for final-quality renders of culturally specific or high-fidelity scenes
+- Use Wan 2.1 for all previews before committing to Hunyuan renders
+- Include cultural context explicitly in prompts (e.g., "traditional Japanese interior, paper screens, natural light through shoji") for best results
+- Test at 1080p before committing to 4K renders
+
+## Troubleshooting
+
+**Cultural style not rendering correctly** — Be more specific about the visual reference in your prompt. Include historical period, region, lighting style, and specific architectural or clothing details.
+
+**4K option not available** — 4K output requires a Pro or Enterprise subscription plan.
+
+**Generation takes longer than expected** — High-resolution Hunyuan renders are computationally intensive. Use the Render Queue for overnight batch processing.
+
+## Related
+
+- [AI Video Generation](/docs/features/ai-video-generation)
+- [Google Veo 3](/docs/integrations/veo3)
+- [Wan 2.1](/docs/integrations/wan)
+- [ComfyUI](/docs/integrations/comfyui)
+- [Credits](/docs/account/credits)

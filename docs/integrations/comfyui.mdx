@@ -1,10 +1,106 @@
 ---
 id: comfyui
-title: Comfyui
-sidebar_label: Comfyui
-description: Comfyui integration with ACT3 AI.
+title: ComfyUI
+sidebar_label: ComfyUI
+description: How to use ComfyUI in ACT3 AI for advanced node-based AI generation pipelines.
 ---
 
-# Comfyui
+# ComfyUI
 
-*Content migrating from https://wiki.act3ai.com/index.php?title=Comfyui*
+The ComfyUI integration gives power users access to advanced, node-based AI video and image generation workflows directly within ACT3 AI. ComfyUI is designed for technical users who need fine-grained control over generative parameters and want to chain multiple AI models in a single render pipeline.
+
+## What ComfyUI Does
+
+ComfyUI provides a visual node editor where you build generative workflows by connecting processing nodes. Each node performs a specific operation — loading a model, applying a prompt, adjusting resolution, adding effects, or routing output. You chain nodes together to create complex multi-step generation pipelines that no single model can produce on its own.
+
+## Key Capabilities
+
+- **Node-Based Workflow** — Build and edit generative pipelines visually using drag-and-drop
+- **Multi-Model Integration** — Chain outputs from Stable Diffusion XL, Flux, Google Veo 3, and other supported models
+- **Custom Parameters** — Set detailed control over resolution, frame rate, motion settings, lighting, and style weights
+- **Template System** — Save reusable workflow templates for different production types
+- **Batch Processing** — Render multiple shots or variations in parallel
+
+## How to Use
+
+1. In the Editor, select a shot or scene and click **AI → ComfyUI**
+2. The ComfyUI node editor opens
+3. Add nodes from the node library: prompt input, model selection, resolution, style filters, output
+4. Connect nodes in sequence to define the generation pipeline
+5. Set parameters for each node
+6. Click **Generate** to produce output and review in the Preview panel
+7. Save the node setup as a workflow template for reuse
+
+## Building a Basic Pipeline
+
+A simple text-to-video ComfyUI pipeline looks like:
+
+```
+[Text Prompt] → [Model: Stable Diffusion XL] → [Upscale] → [Style Filter] → [Output: Video Clip]
+```
+
+A more advanced pipeline might be:
+
+```
+[Text Prompt] → [Model: SDXL] → [Image Output]
+                                        ↓
+[Motion Prompt] → [Model: Flux] → [Animate Image] → [Color Grade] → [Output: Video Clip]
+```
+
+## Template Workflows
+
+ACT3 AI includes built-in ComfyUI templates for common production needs:
+
+- **Storyboard from Script** — SDXL image generation from shot descriptions
+- **Animate Still Image** — Flux-based motion applied to a static image
+- **Style Transfer** — Apply a visual style from one image to a generated scene
+- **Multi-Pass Render** — High-quality render using multiple models in sequence
+- **Fast Concept Preview** — Low-cost quick generation for creative ideation
+
+Start with a template and modify nodes as needed.
+
+## Credit Usage
+
+ComfyUI renders are billed based on the models and resolution used:
+
+- Multi-model workflows consume credits for each model in the chain
+- Example: SDXL → Flux pipeline at 1080p uses approximately 5 credits per 5 seconds
+- Complex workflows with many nodes cost proportionally more
+
+Monitor credit usage in the Credits Panel before committing to large batch runs.
+
+## Best Use Cases
+
+- Advanced VFX shots requiring multiple AI passes
+- Complex motion sequences needing layered rendering
+- Experimental or highly stylized sequences
+- Automated generation of multiple visual variations for client review
+- Technical users who want maximum control over every generation parameter
+
+## Who Should Use ComfyUI
+
+ComfyUI is recommended for users with experience in AI generation workflows who need more control than a single prompt allows. For most production needs, Google Veo 3, Runway, or Flux provide excellent results with simpler setup.
+
+## Tips and Best Practices
+
+- Start with a prebuilt template to speed up workflow creation
+- Use Set Design outputs as a base layer and enhance with ComfyUI pipelines
+- Keep track of credit usage when chaining multiple models in one render
+- Save custom workflows as named templates for future use
+- Test with low-resolution outputs before committing to final quality
+
+## Troubleshooting
+
+**Node connections not working** — Check that output types match between connected nodes (e.g., image output connects to image input, not text input).
+
+**Pipeline fails mid-run** — Check each node's parameters individually. A single invalid setting stops the whole pipeline.
+
+**Credit usage higher than expected** — Review the number of models in your pipeline. Each model charges separately.
+
+## Related
+
+- [AI Video Generation](/docs/features/ai-video-generation)
+- [Stable Diffusion XL](/docs/integrations/stable-diffusion-xl)
+- [Flux](/docs/integrations/flux)
+- [Google Veo 3](/docs/integrations/veo3)
+- [Render Queue](/docs/features/render-queue)

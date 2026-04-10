@@ -2,9 +2,114 @@
 id: lighting
 title: Lighting
 sidebar_label: Lighting
-description: Lighting in ACT3 AI.
+description: How to control lighting and mood in ACT3 AI scenes and shots.
 ---
 
 # Lighting
 
-*Content migrating from https://wiki.act3ai.com/index.php?title=Lighting*
+Lighting in ACT3 AI defines how scenes, shots, and characters are illuminated to achieve mood, realism, or stylization. Alongside camera angles and cinematography choices, lighting conveys emotion, highlights characters, and directs audience focus.
+
+## Why Lighting Matters
+
+The lighting in a shot does more than illuminate — it tells the audience how to feel. The same scene filmed in golden hour warmth feels hopeful. The same scene under cold fluorescent lighting feels clinical or threatening. Getting lighting right is as important as getting the camera angle right.
+
+## Lighting Types
+
+| Type | Description |
+|---|---|
+| Key Light | Main source that defines subject shape and shadow direction |
+| Fill Light | Softens shadows, balances exposure, reduces contrast |
+| Back Light / Rim | Separates subject from background, creates edge definition |
+| Practical Lights | Light sources visible in the shot — lamps, candles, neon signs |
+| Environmental / Ambient | Sky, moonlight, bounce light from walls and floors |
+
+## Lighting Presets
+
+ACT3 AI includes built-in lighting presets you can apply per shot, per scene, or across your entire project:
+
+- **Cinematic** — Balanced, professional film look with slight warm grade
+- **Natural** — Mimics available light, clean and grounded
+- **Dramatic** — High contrast, strong shadows, expressive
+- **Stylized** — Colored lighting, non-realistic, mood-forward
+- **Noir** — Deep shadows, venetian blind patterns, high contrast black and white or near-monochrome
+- **Golden Hour** — Warm, directional, horizontal sunlight
+- **Blue Hour** — Cool tones, soft ambient light, twilight
+- **Night Exterior** — Dark ambient, artificial light sources, deep shadows
+- **Studio** — Clean, controlled, commercial, shadowless
+
+## Lighting Controls
+
+In the lighting panel, you can adjust:
+
+- **Intensity** — Brightness of each light source in lumens or exposure value
+- **Color Temperature** — Kelvin scale from warm (3200K tungsten) to cool (5600K daylight)
+- **Direction** — Front, side, top, or back
+- **Shadow hardness** — Soft shadows from large diffused sources vs hard shadows from direct light
+- **Flicker and movement** — For practical lights like fire, neon, or torchlight
+
+## Setting Lighting in Shot Prompts
+
+The fastest way to specify lighting is to include descriptors in your shot prompt:
+
+- *"Dramatic low-angle shot, film noir lighting, single hard key light, deep shadows."*
+- *"Wide shot of desert at golden hour, warm directional light, long shadows."*
+- *"Interior office scene, cold fluorescent overheads, corporate sterile feeling."*
+- *"Character in doorway, backlit, silhouetted against bright street exterior."*
+
+These descriptors are interpreted by the AI rendering engine and applied to the generated clip.
+
+## Time-of-Day Simulation
+
+ACT3 AI can simulate realistic time-of-day lighting conditions tied to your story beats:
+
+- Morning — cool to warm transition, low angle
+- Midday — flat overhead, high intensity
+- Late afternoon — warm, directional
+- Sunset / golden hour — deep orange, horizontal
+- Dusk / blue hour — cool blue, soft ambient
+- Night — dark ambient, artificial sources
+- Storm — flat grey, diffused, no shadow definition
+
+Link time-of-day settings to specific scenes for automatic consistency.
+
+## AI-Assisted Lighting
+
+The AI can suggest lighting setups per scene based on your story context:
+
+1. Open a scene and go to the Lighting Setup panel
+2. Click **AI Suggest Lighting** — the AI analyzes your scene description and beat tone
+3. Review the suggested preset and manual adjustments
+4. Apply or modify as needed
+
+## Integration with Other Tools
+
+- **Top-Down View** — Light rig placement is visualized in the 2D layout
+- **Storyboard Panels** — Lighting tone is previewed per panel
+- **Digital Actors** — Lighting auto-adjusts for digital actor skin tones and costume materials
+- **Style Presets** — Lighting is included as part of the global visual preset
+- **Color Grading** — Fine-tune lighting tonality after rendering with LUTs and manual controls
+
+## Best Practices
+
+- Match lighting to the emotional tone of the beat — warmth for connection, cool for distance, high contrast for conflict
+- Apply lighting globally for a unified look, then adjust locally for key shots
+- Use practical lights visible in frame for naturalistic night scenes — they look more authentic than invisible key lights
+- Preview at draft resolution before committing to 4K renders
+- Save custom lighting setups to the Asset Library for reuse across projects
+
+## Troubleshooting
+
+**Scene looks too dark** — Increase the fill light intensity or switch to a warmer preset.
+
+**Flat, even lighting with no mood** — Add a key light with a defined direction and reduce fill to create contrast.
+
+**Inconsistent look between scenes** — Apply a global lighting preset and only override per shot when needed.
+
+**Digital actors look incorrectly lit** — Check that the lighting panel has the correct skin tone calibration setting.
+
+## Related
+
+- [Cinematography](/docs/features/cinematography)
+- [Sets](/docs/features/sets)
+- [Style Presets](/docs/features/style-presets)
+- [Shots](/docs/concepts/shots)

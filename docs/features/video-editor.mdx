@@ -2,9 +2,136 @@
 id: video-editor
 title: Video Editor
 sidebar_label: Video Editor
-description: Video Editor in ACT3 AI.
+description: How to use the ACT3 AI video editor to assemble, edit, and export your final production.
 ---
 
 # Video Editor
 
-*Content migrating from https://wiki.act3ai.com/index.php?title=Video Editor*
+The Video Editor is the central workspace in ACT3 AI where you assemble your production into a finished video. It combines a multi-track timeline, storyboard visualization, script view, preview playback, and render management in a single unified environment.
+
+## Editor Layout
+
+The Video Editor workspace is divided into panels you can arrange and resize:
+
+**Script Pane** — Write or import dialogue and action. Script lines are linked to timeline positions.
+
+**Timeline Pane** — Arrange scenes, shots, B-roll, and audio tracks. Drag and drop to reorder. Trim clip handles to adjust duration.
+
+**Storyboard Pane** — Visualize storyboard panels for each shot. Use alongside the timeline for visual continuity checking.
+
+**Preview Pane** — Watch draft previews and rendered clips in real time. Scrub to any point in your sequence.
+
+**Top-Down View** — Place actors, cameras, and props in a bird's-eye layout for scene blocking.
+
+## The Timeline
+
+The Timeline is the core editing surface. Key features:
+
+- **Multi-track support** — Video, audio, music, effects, and overlay elements on separate synchronized tracks
+- **Drag-and-drop** — Move shots, scenes, and assets directly into position
+- **Zoom and scrub** — Zoom in for frame-level accuracy or out for a full project overview
+- **Block sequencing** — Each shot appears as a labeled block you can trim, extend, or reorder
+- **AI-assisted sequencing** — Generate a suggested shot order based on your script or story arc
+- **Real-time preview** — Play any section of the timeline without leaving the editor
+
+## Building Your Video
+
+1. Open Build Video mode from the editor toolbar
+2. Drag scenes and shots from the project panel into the timeline
+3. Add B-roll and supplemental footage from the Asset Library
+4. Arrange the sequence in your intended story order
+5. Add transitions between shots (cut, crossfade, wipe, match cut)
+6. Layer in background music and sound effects on audio tracks
+7. Apply color grading for visual consistency
+8. Preview the full sequence
+9. Send to the Render Queue for final output
+
+## Transitions and Effects
+
+Available transitions between shots:
+
+- **Cut** — Immediate edit, most common
+- **Crossfade / Dissolve** — Gradual blend between shots
+- **Wipe** — One shot replaces another with a directional movement
+- **Match Cut** — Visual continuity between two different shots
+- **Fade to Black / White** — Scene endings and beginnings
+- **Overlay** — One clip plays over another at reduced opacity
+
+## B-Roll and Supplemental Footage
+
+Import B-roll (secondary footage) to support your main story:
+
+1. Go to Asset Library → Import B-Roll
+2. Upload video files (MP4, MOV, ProRes)
+3. Files are cataloged in the Asset Library
+4. Drag B-roll clips into the timeline on a secondary video track
+5. Layer them over or between your main shots
+
+B-roll sources include your own recordings, stock footage, and AI-generated cutaway clips.
+
+## Color Grading
+
+Apply color grading to ensure visual consistency across all clips:
+
+- Choose from built-in LUT presets (cinematic, warm, cool, noir, high contrast)
+- Import custom .cube LUT files for brand-specific looks
+- Fine-tune exposure, contrast, saturation, highlights, and shadows
+- Apply grading globally across the whole project or per shot
+- Preview grading changes before committing to a render
+
+## Storyboard Integration
+
+The Storyboard Pane shows visual panels for each shot linked to timeline positions. Use it to:
+
+- Check visual flow and continuity before rendering
+- Verify that action matches between consecutive shots
+- Add, remove, or reorder shots while seeing the visual context
+- Export storyboards as PDFs for client review
+
+## Collaboration in the Editor
+
+Multiple team members can work in the editor simultaneously:
+
+- See who is active in each panel with presence indicators
+- Leave inline comments on timeline sections, shots, or script lines
+- Lock completed sequences to prevent accidental edits
+- Version History tracks all changes with timestamps and contributor names
+
+## Rendering and Export
+
+From the editor, send your finished sequence to render:
+
+1. Confirm your timeline sequence is complete
+2. Go to **Render → Add to Queue** or click **Export**
+3. Choose output settings (see [Export](/docs/export/overview) for full details)
+4. Monitor progress in the [Render Queue](/docs/features/render-queue)
+5. Download completed output from the render dashboard
+
+## Best Practices
+
+- Use draft renders frequently during editing to check timing without spending credits on full quality
+- Organize your timeline into act-labeled sections for easier navigation in long projects
+- Save manual version checkpoints before major restructuring
+- Lock completed sequences once approved to protect them during final production
+- Apply color grading and audio normalization before your final render to avoid needing to re-render
+
+## Troubleshooting
+
+**Editor not loading** — Refresh the page or clear browser cache.
+
+**Preview not rendering** — Check the Render Queue for queue status and verify your credit balance.
+
+**Timeline lagging with many tracks** — Reduce the number of simultaneous active layers or lower preview resolution.
+
+**Assets missing from timeline** — Re-import via the Asset Library or check that linked files are still in cloud storage.
+
+**Audio out of sync after export** — Verify that project and export frame rates match (24fps, 30fps, 60fps).
+
+## Related
+
+- [AI Video Generation](/docs/features/ai-video-generation)
+- [Render Queue](/docs/features/render-queue)
+- [Storyboard](/docs/features/storyboard)
+- [Export](/docs/export/overview)
+- [Collaboration](/docs/features/collaboration)
+- [Version Control](/docs/features/version-control)

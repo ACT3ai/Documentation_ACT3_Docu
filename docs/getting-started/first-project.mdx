@@ -2,23 +2,126 @@
 id: first-project
 title: Your First Project
 sidebar_label: First Project
-description: Create your first ACT3 AI project and generate your first video shot.
+description: Step-by-step guide to creating a project and generating your first video in ACT3 AI.
 ---
 
 # Your First Project
 
-This guide walks you through creating a project and generating your first video clip.
+This guide walks you through creating a new project and generating your first AI video clip, from a blank slate to rendered output.
 
-## Steps
+## Step 1: Create a New Project
 
-1. Log in and click **New Project**
-2. Paste or type your script
-3. Use the Beat editor to mark story beats
-4. Expand a beat into scenes and shots
-5. Click **Generate** on a shot to produce video
-6. Review and export
+From your [Dashboard](/docs/getting-started/dashboard), click **New Project**.
 
-## Next steps
+Fill in:
 
-- [Understanding Beats](/docs/concepts/beats)
-- [Shot settings](/docs/concepts/shots)
+- **Project name** — give it a clear, descriptive title
+- **Description** (optional) — a one-sentence summary of your concept
+- **Format** — choose from short film, series episode, marketing ad, TikTok/social, or concept test
+- **Aspect ratio** — 16:9 for cinema/YouTube, 9:16 for TikTok/Instagram, 1:1 for square
+
+Click **Create Project** to enter the editor workspace.
+
+## Step 2: Write or Import Your Script
+
+You have three options for getting a script into ACT3 AI:
+
+**Option A — Write in the script editor**
+
+Type directly in the built-in script editor. It auto-formats scene headings (INT./EXT.), character names, and dialogue blocks as you type.
+
+**Option B — Import an existing script**
+
+Go to File → Import → Script. Supported formats are Final Draft (FDX), plain text (TXT), and Markdown. The importer maps scene headings to scenes and character names to dialogue tracks automatically.
+
+**Option C — Generate with AI Wizard**
+
+Click **AI Wizard** in the sidebar. Enter a short concept (one or two sentences), choose a genre and tone, and the wizard generates a structured outline with acts, scenes, and beats. You can then expand each beat into full dialogue.
+
+## Step 3: Define Your Story Structure
+
+With your script in place, set up the story hierarchy:
+
+1. **Acts** — The AI Wizard creates these automatically, or add them manually. Most projects use a 3-act structure: Setup, Confrontation, Resolution.
+2. **Scenes** — Each scene heading in your script becomes a scene card. Scenes group related shots together.
+3. **Beats** — The key dramatic moments within each scene. Mark them in the script editor or let the AI suggest them.
+
+## Step 4: Set Up Your Digital Actors
+
+Before generating video, assign digital actors to your characters:
+
+1. Navigate to the **Actor Library** tab
+2. Browse available actor presets or click **New Actor** to create one
+3. Customize appearance, age, wardrobe, and voice
+4. Assign each actor to a character name in your script
+
+Digital actors carry their visual identity consistently across every scene and shot.
+
+## Step 5: Design Your Sets
+
+ACT3 AI can generate sets from text descriptions or let you choose from templates:
+
+1. Open the **Top-Down View** from the editor toolbar
+2. Select or create a set for each scene (for example: "Modern office with city view, daytime")
+3. Place your actors and cameras in the 2D layout
+4. Switch to 3D view to preview depth and lighting
+
+For simple projects, you can skip manual set design and rely on the AI to interpret set descriptions from your script.
+
+## Step 6: Create Your First Shot
+
+Shots are the atomic unit of video generation. To add a shot:
+
+1. Open a scene card and click **+ Add Shot**
+2. Set the shot type (close-up, wide shot, over-the-shoulder, etc.)
+3. Add camera movement if needed (dolly in, tracking, handheld, etc.)
+4. Write a short prompt describing the action and visual mood
+5. Choose your AI rendering engine (Veo 3 for realism, Runway for stylized)
+6. Set duration (2–8 seconds works best for AI generation)
+
+Example shot prompt: *"Low-angle medium shot of detective approaching the door, handheld camera, dramatic shadow lighting, tense atmosphere."*
+
+## Step 7: Generate Video
+
+Click **Generate** on the shot card. ACT3 AI sends your prompt to the rendering engine and returns a video clip in the preview pane. Generation takes 15–60 seconds depending on the engine and quality setting.
+
+To save credits during the creative phase:
+
+- Use **Draft** quality for initial previews (lowest credit cost)
+- Switch to **1080p** or **4K** only for final-quality output
+- Use **Wan 2.1** for fast collaborative iteration before committing to a full render
+
+Review the clip. If it doesn't match your vision, refine the prompt and regenerate. Your changes are tracked in version history.
+
+## Step 8: Assemble and Export
+
+Once you have all your shots:
+
+1. Open the **Timeline** view
+2. Drag scenes and shots into order
+3. Add background music from the audio panel
+4. Apply a color grading preset for visual consistency
+5. Preview the full sequence
+6. Click **Export** to render the final video
+
+Export formats include MP4 (web-ready), MOV/ProRes (professional editing), and platform-specific presets for YouTube, TikTok, and Instagram.
+
+## Example Workflow at a Glance
+
+| Step | Action | Output |
+|---|---|---|
+| 1 | Create project | Empty project with format settings |
+| 2 | Import or write script | Formatted script with scene structure |
+| 3 | Generate story structure with AI Wizard | Acts, scenes, beats |
+| 4 | Assign digital actors | Consistent characters across all scenes |
+| 5 | Set up 2D/3D sets | Environments for each scene |
+| 6 | Add shots with camera instructions | Shot prompts ready to render |
+| 7 | Generate video | AI-rendered clips in preview |
+| 8 | Assemble on timeline and export | Final video ready to publish |
+
+## Next Steps
+
+- [Understand Beats](/docs/concepts/beats) — the building blocks of your story
+- [Learn about Shots](/docs/concepts/shots) — camera angles, movement, and framing
+- [AI Video Generation](/docs/features/ai-video-generation) — deep dive into rendering engines
+- [Video Editor](/docs/features/video-editor) — timeline editing and assembly

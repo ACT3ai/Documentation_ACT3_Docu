@@ -1,0 +1,129 @@
+---
+id: style-presets
+title: Style Presets
+sidebar_label: Style Presets
+description: How to use and create visual style presets in ACT3 AI for consistent cinematic looks.
+---
+
+# Style Presets
+
+Style Presets let you apply predefined or custom visual styles across scenes, shots, and entire projects. Presets ensure consistency in tone, color, and atmosphere — whether you are creating cinematic films, marketing ads, or social media videos.
+
+## What Style Presets Control
+
+A style preset bundles together:
+
+- **LUT (Look-Up Table)** — Color science that defines the overall palette and tone
+- **Exposure and contrast** — Brightness, shadow depth, highlight rolloff
+- **Saturation and color balance** — Warm vs cool, vivid vs muted
+- **Grain and film texture** — Digital grain simulation for cinematic quality
+- **Vignette** — Subtle darkening at frame edges for focus
+- **Sharpening and clarity** — Edge definition and micro-contrast
+
+## Built-In Presets
+
+**Film and Cinema**
+- Cinematic color science with a slight warm grade
+- Subtle grain and vignette
+- Natural shadow rolloff
+
+**Noir**
+- High contrast with deep shadows
+- Desaturated palette leaning toward black and white
+- Hard lighting feel
+
+**Documentary**
+- Natural, true-to-life color
+- Clean and grounded, no stylization
+- Slight handheld feel with ambient light emphasis
+
+**Sci-Fi Epic**
+- Cool desaturated blues and teals
+- Lens flares and light leaks
+- High contrast, expansive feel
+
+**Warm Drama**
+- Warm orange and amber tones
+- Shallow focus feel, soft shadows
+- Naturalistic, intimate
+
+**Marketing High-Impact**
+- High saturation, punchy colors
+- Bold contrast, commercial brightness
+- Clean and optimistic
+
+**Artistic Styles**
+- Watercolor — Painterly edges, soft color bleeding
+- Comic Book — Strong outlines, flat color fills
+- Anime — Vivid saturation, stylized light
+- Vaporwave — Pink and cyan with retro glow
+- Glitch — Digital artifact effects, scan lines
+
+**Realism Variations**
+- Hyper-Real — Ultra-sharp with enhanced detail
+- Natural Light — Available-light simulation
+- Vintage — Faded, lifted shadows, film-era color
+
+## Applying a Preset
+
+1. In the Editor, open the **Style Presets panel**
+2. Choose from the built-in list or browse saved custom presets
+3. Apply to:
+   - **Active shot only** — Overrides the project default for this shot
+   - **Active scene** — Applies to all shots in the current scene
+   - **Entire project** — Sets the default for all shots
+4. Preview changes instantly in the preview pane
+5. Adjust intensity using the preset strength slider
+
+## Creating a Custom Preset
+
+1. Open the Style Presets panel and click **New Preset**
+2. Import a .cube LUT file or start with a built-in preset as a base
+3. Use the manual controls to adjust exposure, saturation, contrast, and color balance
+4. Add grain, vignette, and sharpening as needed
+5. Name and save the preset to your Asset Library
+6. Optionally share to your organization for team-wide consistency
+
+## Custom Presets for Brand Work
+
+For branded projects, create a custom preset that encodes your client's visual identity:
+
+- Import a brand LUT if one exists in your brand guidelines
+- Match the brand's color palette in the color balance settings
+- Save as a named preset (e.g., "Acme Corp Brand Style")
+- Apply across all projects for that client without recreating from scratch each time
+
+## Integration with Color Grading
+
+Style Presets work together with the Color Grading panel:
+
+- Use a preset as the starting baseline
+- Fine-tune with manual Color Grading controls for per-shot adjustments
+- Save the combined look as a new preset for future use
+
+The Style Presets panel provides broad strokes; Color Grading provides fine control.
+
+## Best Practices
+
+- Apply a project-wide preset early and adjust per-shot only for dramatic effect
+- Test presets with draft renders before applying to full-quality output
+- For branded campaigns, create and save a client-specific preset before starting work
+- Combine a style preset with consistent lighting settings for a fully unified look
+- Always enable "Include Style Presets" in export settings before rendering final output
+
+## Troubleshooting
+
+**Preset looks different across shots** — Check that lighting settings are consistent. Presets respond to the underlying lighting — inconsistent light sources produce inconsistent results.
+
+**Preset effect too strong** — Reduce the preset intensity slider in the Style Presets panel.
+
+**Preset not included in export** — Verify that "Include Style Presets" is enabled in the Export Options panel.
+
+**Custom LUT not loading** — Verify the file is in .cube format. Other formats are not currently supported.
+
+## Related
+
+- [Lighting](/docs/features/lighting)
+- [Video Editor](/docs/features/video-editor)
+- [Asset Library](/docs/features/asset-library)
+- [Export](/docs/export/overview)

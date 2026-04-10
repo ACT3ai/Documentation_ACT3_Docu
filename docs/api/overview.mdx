@@ -1,10 +1,192 @@
 ---
-id: api-overview
+id: overview
 title: API Overview
 sidebar_label: Overview
-description: Developer API reference for ACT3 AI.
+description: Developer API reference for ACT3 AI — authentication, endpoints, and integration patterns.
 ---
 
 # API Reference
 
-*Content migrating from https://wiki.act3ai.com/index.php?title=API*
+The ACT3 AI API allows developers to integrate ACT3 AI's generation and project management capabilities into their own applications, automation pipelines, and studio tools. All API endpoints use HTTPS and return JSON responses.
+
+## Base URL
+
+```
+https://api.act3ai.com/v1
+```
+
+## Authentication
+
+All API requests require a bearer token in the `Authorization` header:
+
+```
+Authorization: Bearer <your_api_key>
+```
+
+Generate an API key from **Settings → Account → API Keys**. Keys are scoped to your account and inherit your credit balance. Keep API keys secret — do not commit them to source control.
+
+## Rate Limits
+
+| Plan | Requests per minute | Concurrent renders |
+|---|---|---|
+| Starter | 30 | 2 |
+| Creator | 60 | 3 |
+| Pro | 120 | 6 |
+| Enterprise | Custom | 10+ |
+
+Rate limit headers are included in every response:
+
+```
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 45
+X-RateLimit-Reset: 1700000000
+```
+
+## Core Resources
+
+### Projects
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/projects` | List all projects |
+| POST | `/projects` | Create a new project |
+| GET | `/projects/{id}` | Get project details |
+| PUT | `/projects/{id}` | Update project settings |
+| DELETE | `/projects/{id}` | Delete a project |
+
+### Scenes and Shots
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/projects/{id}/scenes` | List scenes in a project |
+| POST | `/projects/{id}/scenes` | Create a scene |
+| GET | `/scenes/{id}/shots` | List shots in a scene |
+| POST | `/scenes/{id}/shots` | Create a shot |
+| PUT | `/shots/{id}` | Update a shot prompt or settings |
+
+### Generation
+
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/shots/{id}/generate` | Queue a generation job for a shot |
+| GET | `/jobs/{id}` | Get generation job status |
+| GET | `/jobs/{id}/result` | Download generation result |
+
+### Render Queue
+
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/renders` | Submit a render job |
+| GET | `/renders/{id}` | Get render job status |
+| GET | `/renders/{id}/download` | Get download URL for completed render |
+
+### Assets
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/assets` | List assets in your library |
+| POST | `/assets` | Upload a new asset |
+| GET | `/assets/{id}` | Get asset details |
+| DELETE | `/assets/{id}` | Delete an asset |
+
+### Credits
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/account/credits` | Get current credit balance |
+| GET | `/account/credits/history` | Get credit usage history |
+
+## Example: Create a Project and Generate a Shot
+
+```bash
+# 1. Create a project
+curl -X POST https://api.act3ai.com/v1/projects \
+  -H "Authorization: Bearer $API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"title": "My Film", "aspect_ratio": "16:9", "frame_rate": 24}'
+
+# 2. Create a scene
+curl -X POST https://api.act3ai.com/v1/projects/{project_id}/scenes \
+  -H "Authorization: Bearer $API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"title": "Opening Scene", "location": "EXT - City Street - Day"}'
+
+# 3. Create a shot with a prompt
+curl -X POST https://api.act3ai.com/v1/scenes/{scene_id}/shots \
+  -H "Authorization: Bearer $API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "title": "Hero walks into frame",
+    "prompt": "Wide shot, hero character walking toward camera on a busy city street, golden hour lighting, shallow depth of field, cinematic",
+    "engine": "veo3",
+    "resolution": "1080p",
+    "duration_seconds": 5
+  }'
+
+# 4. Queue generation
+curl -X POST https://api.act3ai.com/v1/shots/{shot_id}/generate \
+  -H "Authorization: Bearer $API_KEY"
+
+# 5. Poll for completion
+curl https://api.act3ai.com/v1/jobs/{job_id} \
+  -H "Authorization: Bearer $API_KEY"
+```
+
+## Response Formats
+
+All responses use standard HTTP status codes. Successful responses return a JSON object with the resource data. Error responses return a JSON object with `error` and `message` fields:
+
+```json
+{
+  "error": "insufficient_credits",
+  "message": "Your credit balance (12) is below the required amount (25) for this operation.",
+  "required_credits": 25,
+  "current_balance": 12
+}
+```
+
+## Webhooks
+
+Configure webhooks to receive real-time notifications when generation or render jobs complete. Set your webhook URL at **Settings → Account → API Keys → Webhooks**.
+
+Webhook payloads are sent as HTTP POST requests with a JSON body:
+
+```json
+{
+  "event": "job.completed",
+  "job_id": "job_abc123",
+  "shot_id": "shot_xyz789",
+  "status": "success",
+  "result_url": "https://cdn.act3ai.com/renders/abc123.mp4",
+  "credits_used": 8,
+  "timestamp": "2025-01-15T14:32:00Z"
+}
+```
+
+Webhook requests include a `X-ACT3-Signature` header for verification. See the [Webhooks Guide](#) for signature verification instructions.
+
+## SDKs
+
+Official client libraries are available for:
+
+- **JavaScript / TypeScript** — `npm install @act3ai/sdk`
+- **Python** — `pip install act3ai`
+
+Community SDKs for other languages are available in the [ACT3 AI GitHub organization](https://github.com/act3ai).
+
+## Credit Usage via API
+
+All generation operations consume credits the same way as the web app. The API response for any generation request includes an `estimated_credits` field before the job is submitted. Use the Credits endpoint to monitor your balance in automated pipelines.
+
+## Support
+
+For API issues, submit a request at [act3ai.com/contact](https://act3ai.com/contact) with the subject line "API Support." Include your request ID (from the `X-Request-ID` response header) for faster diagnosis.
+
+Enterprise customers can access dedicated API support through their account manager.
+
+## Related
+
+- [Credits](/docs/account/credits)
+- [Render Queue](/docs/features/render-queue)
+- [Export](/docs/export/overview)
+- [Billing](/docs/account/billing)

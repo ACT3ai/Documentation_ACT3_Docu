@@ -2,21 +2,19 @@
 id: shots
 title: Shots
 sidebar_label: Shots
-description: What Shots are, shot types, and how to configure them in ACT3 AI.
+description: What Shots are, shot types, and how to configure and generate video from them in ACT3 AI.
 ---
 
 # Shots
 
-A **Shot** is a single continuous camera angle within a [Beat](/docs/concepts/beats).
-Shots are the atomic unit of video generation in ACT3 AI — each shot produces one
-video clip rendered by the AI model of your choice.
+A **Shot** is a single continuous camera angle within a [Beat](/docs/concepts/beats) or [Scene](/docs/concepts/scenes). Shots are the atomic unit of video generation in ACT3 AI — each shot produces one rendered video clip using the AI model of your choice.
 
 ## Shot Types
 
 ACT3 AI supports all standard cinematic shot types:
 
 | Shot Type | Abbreviation | Description |
-|-----------|-------------|-------------|
+|---|---|---|
 | Extreme Wide Shot | EWS | Establishes location; subject tiny in frame |
 | Wide Shot | WS | Full subject visible; environment prominent |
 | Medium Shot | MS | Subject from waist up |
@@ -25,49 +23,103 @@ ACT3 AI supports all standard cinematic shot types:
 | Over the Shoulder | OTS | Camera behind one character, facing another |
 | Point of View | POV | Camera sees what the character sees |
 | Two Shot | 2S | Two characters in frame together |
+| Bird's Eye View | BEV | Directly overhead, showing space and geometry |
+| Dutch Angle | DA | Camera tilted to suggest tension or unease |
+
+## Camera Angles
+
+Beyond shot type, you can specify the camera angle:
+
+- **Eye Level** — Neutral, balanced perspective
+- **High Angle** — Camera looks down, making subjects appear smaller or weaker
+- **Low Angle** — Camera looks up, emphasizing power or dominance
+- **Over-the-Shoulder** — Builds spatial awareness in dialogue scenes
+- **Worm's Eye** — Extreme low angle for intensity or surrealism
 
 ## Camera Movement
 
 Each shot can include one camera movement:
 
 | Movement | Effect |
-|----------|--------|
-| **Static** | Camera holds still |
-| **Pan** | Camera rotates left or right on its axis |
-| **Tilt** | Camera rotates up or down on its axis |
-| **Dolly** | Camera physically moves forward or backward |
-| **Tracking** | Camera moves parallel to a moving subject |
-| **Crane / Jib** | Camera rises or descends vertically |
-| **Handheld** | Slight natural movement for documentary feel |
-| **Drone** | Aerial perspective with forward drift |
+|---|---|
+| Static | Camera holds still — drama comes from subject |
+| Pan | Rotates left or right on a fixed axis |
+| Tilt | Rotates up or down on a fixed axis |
+| Dolly | Physically moves forward or backward |
+| Tracking | Moves parallel to a moving subject |
+| Crane / Jib | Rises or descends smoothly |
+| Handheld | Slight natural movement for documentary or chaos |
+| Steadicam | Smooth movement following a subject |
+| Drone | Aerial perspective with sweeping drift |
+| Zoom | Changes focal length for emphasis |
+
+## Shot Prompting
+
+Each shot has a text prompt field where you describe what the AI should generate. Good prompts combine the shot type, camera movement, subject description, and mood.
+
+Example prompts:
+
+- *"Low-angle medium shot of detective approaching the door, handheld camera, dramatic shadow lighting, tense atmosphere."*
+- *"Wide establishing aerial shot of futuristic city, drone movement, golden hour, cinematic."*
+- *"Extreme close-up on protagonist's eyes, static camera, shallow depth of field, cool blue lighting."*
+- *"Tracking shot following character down neon-lit alley, Steadicam smoothness, rain reflections."*
+
+Keep prompts under 100 words. Use standard cinematography terms for best AI interpretation.
 
 ## Shot Settings in ACT3 AI
 
 When you create or edit a shot, you configure:
 
-- **Shot type** — from the list above
-- **Camera movement** — from the list above
+- **Shot type** — from the standard types above
+- **Camera movement** — from the movement list above
 - **Lens / focal length** — wide (24mm), normal (50mm), telephoto (85mm+)
-- **Lighting preset** — golden hour, overcast, studio, night, etc.
-- **Subject description** — what (or who) is in frame and what they're doing
-- **Background / set** — location or Blender scene to use
-- **Duration** — target clip length in seconds (2–10 sec recommended for AI gen)
-- **AI model** — Veo 3, Runway, ComfyUI, Hunyuan, or Wan 2.1
+- **Lighting preset** — golden hour, overcast, studio, night, noir, etc.
+- **Subject description** — what or who is in frame and what they are doing
+- **Background / set** — linked location or 2D/3D set
+- **Duration** — target clip length in seconds (2–8 seconds recommended for AI generation)
+- **AI model** — Veo 3, Runway, Flux, ComfyUI, Hunyuan, or Wan 2.1
 
 ## Generating Video from a Shot
 
-1. Open a Beat in the editor
+1. Open a scene card in the editor
 2. Click **+ Add Shot**
-3. Fill in shot type, movement, subject, and duration
+3. Fill in shot type, movement, subject description, and duration
 4. Click **Generate**
 5. ACT3 AI sends the prompt to the selected AI model
 6. The rendered clip appears in the shot card for review
 
-You can regenerate any shot with different settings or swap to a different AI model
-without losing your other shots.
+You can regenerate any shot with different settings or swap to a different AI model without losing your other shots.
+
+## Credit Usage
+
+Each generated shot consumes credits based on duration, resolution, and the rendering engine used. Example rates:
+
+- 5-second shot at 1080p using standard engine = approximately 5 credits
+- Higher resolution or 4K output increases credit usage
+- Draft renders at lower quality consume fewer credits
+
+Use draft renders for creative iteration and reserve high-quality output for approved shots.
+
+## Shot Sequencing and the Storyboard
+
+Shots are displayed in sequence within their parent scene. You can:
+
+- Reorder shots using drag and drop
+- Preview shots in the Storyboard panel to check visual flow
+- View all shots in Top-Down View to verify camera placement and blocking
+- Lock approved shots to prevent accidental changes
+
+## Best Practices
+
+- Keep shot duration under 8 seconds for AI generation — longer shots tend to lose coherence
+- Use simple, industry-standard film terms in your prompts
+- Vary angles across shots to maintain visual rhythm
+- Break complex camera moves into two simpler shots rather than one overloaded prompt
+- Preview at draft quality before committing to final resolution
 
 ## Related
 
 - [Beats — Structuring your script](/docs/concepts/beats)
-- [The ACT3 AI Workflow](/docs/getting-started/introduction)
+- [Cinematography](/docs/features/cinematography)
 - [AI Video Generation](/docs/features/ai-video-generation)
+- [Storyboard](/docs/features/storyboard)

@@ -2,9 +2,88 @@
 id: scenes
 title: Scenes
 sidebar_label: Scenes
-description: How Scenes work in ACT3 AI.
+description: How Scenes work in ACT3 AI and how to create and manage them.
 ---
 
 # Scenes
 
-*Content migrating from https://wiki.act3ai.com/index.php?title=Scenes*
+A **Scene** is the primary storytelling unit within a project. It represents a continuous sequence of action at a specific location and time. When the location changes or significant time passes, a new scene begins. Scenes contain beats and shots, and they link to a physical set or environment.
+
+## What a Scene Contains
+
+Each scene in ACT3 AI holds:
+
+- **Location** — The set or environment where the action takes place
+- **Time of day** — Morning, afternoon, night, etc., which affects lighting
+- **Characters** — The actors present in this scene
+- **Beats** — The key dramatic moments that make up the scene
+- **Shots** — The individual camera angles that will be rendered
+- **Storyboard panels** — Visual representations of each shot
+
+## Scene Types
+
+| Scene Type | Description |
+|---|---|
+| Standard | Full narrative sequence with dialogue and action |
+| Montage | Multiple short moments combined into a sequence |
+| Cutaway | Brief visual insert that adds context or detail |
+| Establishing | Location-setting scene without main character action |
+| Transition | A short scene used to move between acts or time periods |
+
+## Creating a Scene
+
+1. Open your project in the Editor
+2. Navigate to the Script or Timeline column
+3. Click **Add Scene** or let scene headings (INT./EXT.) in your imported script create scenes automatically
+4. Name the scene and define the location, time of day, and key characters
+5. Write or import dialogue and action lines
+6. The scene appears in both the Script view and the Timeline
+
+## Editing a Scene
+
+Double-click any scene card in the Timeline or Script panel to open the full scene editor. From there you can:
+
+- Modify dialogue, action lines, and descriptions
+- Attach storyboard panels
+- Reorder shots using drag and drop
+- Adjust pacing and target duration
+- Lock the scene when it is approved to prevent accidental changes
+
+## AI Tools for Scenes
+
+**AI Scene Expansion** — Provides detailed action and dialogue suggestions based on your scene outline. Useful for expanding a rough beat into a full scene.
+
+**AI Tone Matching** — Adjusts the scene's style and language to match the overall tone set in the AI Wizard.
+
+**Automated Shot List** — Analyzes your scene description and recommends a set of shots with camera angles, movements, and durations.
+
+## Scene Locking and Collaboration
+
+In team projects, scenes can be locked once approved to prevent changes:
+
+- Only owners and admins can unlock a locked scene
+- Locked scenes are highlighted in the timeline with a lock icon
+- Collaborators can still leave comments on locked scenes
+- Version history tracks who locked and unlocked each scene
+
+## Scene-Level Rendering
+
+You can generate video previews for an entire scene at once, or render individual shots within a scene. Scene-level rendering sends all shots in sequence to the render queue, producing a continuous clip for review.
+
+Use draft-quality renders for quick creative reviews and reserve high-quality or 4K output for final delivery.
+
+## Best Practices
+
+- Keep scene descriptions concise but visually specific — give the AI enough to work with
+- Align scenes with act structure so dramatic pacing flows naturally
+- Use scene locking early in collaborative projects to avoid conflicts
+- Break very long scenes into two shorter scenes for better creative control and easier rendering
+
+## Related
+
+- [Story Structure Overview](/docs/concepts/overview)
+- [Beats](/docs/concepts/beats)
+- [Shots](/docs/concepts/shots)
+- [Sets](/docs/features/sets)
+- [Storyboard](/docs/features/storyboard)
+- [Video Editor](/docs/features/video-editor)

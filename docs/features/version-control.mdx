@@ -1,0 +1,116 @@
+---
+id: version-control
+title: Version Control
+sidebar_label: Version Control
+description: How ACT3 AI tracks versions of scripts, scenes, and video assemblies for safe iteration.
+---
+
+# Version Control
+
+ACT3 AI tracks every change to your scripts, scenes, timeline arrangements, and video assemblies. You can save named checkpoints, compare versions side by side, roll back to any previous state, and see exactly who changed what and when.
+
+## What Version Control Covers
+
+- **Scripts** — Every draft, AI revision, and manual edit
+- **Scenes and Shots** — Changes to beat descriptions, camera settings, and render settings
+- **Timeline** — Arrangements and edits to the video assembly
+- **Video Builds** — Different cut versions of the same project
+- **Set Configurations** — Changes to layout, props, and actor placement
+- **Style Presets** — Custom visual style revisions
+
+## Automatic Snapshots
+
+ACT3 AI takes automatic snapshots at regular intervals and whenever a significant action occurs:
+
+- After each major script edit
+- Before and after AI Wizard generation
+- Before and after any AI expansion or rewrite
+- When a scene is locked or unlocked
+- When a render job completes
+
+Automatic snapshots use timestamps and action descriptions as their names.
+
+## Manual Checkpoints
+
+Create named checkpoints before important milestones:
+
+1. Go to **File → Version History**
+2. Click **Save Checkpoint**
+3. Give it a descriptive name (e.g., "Script v1 — First Draft," "Director Cut — Pre-Client Review")
+4. The checkpoint is saved alongside auto-snapshots in the version history
+
+Use meaningful names. You will want to find these again quickly after 20 drafts.
+
+## Comparing Versions
+
+Select any two versions in the history to compare them:
+
+- **Script comparison** — Highlighted line-by-line differences, additions in green, deletions in red
+- **Timeline comparison** — Visual diff of shot order and duration changes
+- **Side-by-side view** — Open two versions simultaneously in split-screen
+
+This is particularly useful for reviewing what changed between "Director Cut" and "Final Approved."
+
+## Rollback
+
+Roll back to any previous version at any point:
+
+1. Open Version History
+2. Select the version you want to restore
+3. Click **Rollback to This Version**
+4. The current state is automatically saved as a new checkpoint first, so you can roll forward again if needed
+
+Rollback never permanently deletes anything. All previous states are retained in history.
+
+## Branching Projects
+
+Create alternate versions of a project for parallel development:
+
+- Branch a project to explore an alternate story arc or ending
+- Run two different ad campaign versions in parallel
+- Let different team members work on separate edits simultaneously
+- Merge the best elements from two branches manually
+
+Branches appear as separate projects in your dashboard, linked to the original.
+
+## Collaboration and Version Tracking
+
+All changes are attributed to the team member who made them:
+
+- Owner and admin accounts can see full attribution logs
+- Comments on specific versions show context for decisions
+- Locked versions prevent changes, clearly signaling approved content
+- Version history is visible to all team members with edit access
+
+## Example Workflow
+
+| Version | Description |
+|---|---|
+| Auto-snapshot 1 | AI Wizard generated first draft |
+| **v1.0 — First Draft** | Manual checkpoint after initial script pass |
+| Auto-snapshot 2 | After AI expansion of Act 2 |
+| **v1.1 — Alternate Ending** | Branch exploring different resolution |
+| **v2.0 — Director Approved** | Locked final version ready for render |
+
+## Best Practices
+
+- Save a manual checkpoint before every major AI generation or rewrite
+- Use descriptive names that include version number and context
+- Lock approved versions to signal their status to the team
+- Clean up old auto-snapshots periodically to keep the history manageable
+- Branch for major structural experiments rather than making destructive edits to the main project
+
+## Troubleshooting
+
+**Version missing from history** — Check the auto-snapshot list — it may be there without a custom name. All states are retained unless you explicitly delete them.
+
+**Rollback applied incorrectly** — Remember that the current state is saved before rollback. Roll forward again from the new auto-snapshot entry.
+
+**Merge conflicts in team projects** — Use content locking to prevent overlapping edits on the same sections. Version control shows conflicts but cannot auto-merge narrative content.
+
+## Related
+
+- [Collaboration](/docs/features/collaboration)
+- [Script Editing](/docs/features/script-editing)
+- [Video Editor](/docs/features/video-editor)
+- [Teams](/docs/account/teams)

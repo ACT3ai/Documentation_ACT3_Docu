@@ -1,10 +1,135 @@
 ---
-id: export-overview
-title: Export Overview
-sidebar_label: Overview
-description: Export your finished video to any platform or format.
+id: overview
+title: Export
+sidebar_label: Export
+description: How to export your finished video in ACT3 AI, including formats, resolutions, and distribution options.
 ---
 
 # Export
 
-*Content migrating from https://wiki.act3ai.com/index.php?title=Export*
+ACT3 AI supports exporting finished videos in professional formats for any destination — social media, streaming platforms, video editors, or archive storage. Export settings are configured in the Build Video panel after your timeline is complete.
+
+## Export Formats
+
+### Video Formats
+
+| Format | Best For |
+|---|---|
+| MP4 (H.264) | Web delivery, social media, general distribution |
+| MOV (ProRes) | Professional editing workflows, post-production |
+| WebM | Browser-optimized web delivery |
+| AVI | Legacy format (use MP4 or MOV instead) |
+
+**Recommendation:** Use MP4 for most distribution. Use ProRes when handing off to a video editor for further post-production work.
+
+### Resolutions
+
+- **720p** — Good for client previews and draft sharing
+- **1080p** — Standard final delivery for most platforms
+- **4K** — Premium output (requires Pro or Enterprise plan)
+
+### Aspect Ratios
+
+- **16:9** — Cinema, YouTube, TV
+- **9:16** — TikTok, Instagram Stories, YouTube Shorts
+- **1:1** — Instagram square posts
+- **4:3** — Classic TV format
+
+### Frame Rates
+
+- **24fps** — Cinematic, film look
+- **30fps** — Standard video, TV, web
+- **60fps** — Smooth motion, gaming, sports content
+
+### Script Export
+
+Export your screenplay in these formats:
+
+| Format | Use |
+|---|---|
+| Final Draft (FDX) | Professional writing workflow |
+| Fountain / Markdown | Version control and sharing |
+| PDF | Client review and distribution |
+| Plain Text (TXT) | Simple sharing |
+
+## How to Export
+
+1. Complete your timeline assembly in Build Video mode
+2. Click **Export** in the top toolbar
+3. Choose output format (MP4, ProRes, WebM, etc.)
+4. Set resolution and frame rate
+5. Configure subtitles, language options, and delivery platform
+6. Click **Export** — the job enters the Render Queue
+7. Monitor progress in the Render Queue dashboard
+8. Download the completed file when ready
+
+## Distribution Options
+
+**Direct Platform Upload** — Export directly to YouTube, TikTok, or private cloud storage with one click. Enter your platform credentials in Settings → Integrations.
+
+**Secure Review Links** — Generate a secure preview link to share with clients or stakeholders. Links expire after a configurable time period.
+
+**Investor and Pitch Deliverables** — Export annotated cuts, scene breakdowns, and storyboard PDFs alongside the video for presentations.
+
+**Archive Masters** — Save ProRes master files for long-term storage and future re-editing.
+
+## Subtitles and Localization
+
+ACT3 AI can generate subtitles and multi-language dubs as part of the export process:
+
+- **Auto-generated subtitles** — Based on your script and audio tracks
+- **Accessibility compliance** — SRT and VTT subtitle file formats supported
+- **Multi-language dubs** — Apply dubbed audio tracks to the same video for different markets
+- **Lip sync adjustment** — Remap lip sync for dubbed dialogue automatically
+
+Enable these options in the Export Settings panel before queuing your render.
+
+## Credit Usage
+
+Export consumes credits based on resolution and duration:
+
+- Lower-resolution exports cost fewer credits
+- ProRes exports at the same resolution cost the same as MP4
+- Subtitle generation and audio dubs add a small additional cost
+- Test exports in 720p or 1080p before committing to 4K to save credits
+
+All credit estimates are shown before you confirm the export.
+
+## Professional Workflow Formats
+
+For post-production handoffs:
+
+| Format | Use |
+|---|---|
+| EDL | Non-linear editor timelines (Premiere, Avid) |
+| AAF | Advanced Authoring Format for professional editing |
+| USD / FBX | 3D/VFX workflows |
+
+These formats export the timeline structure and allow the receiving editor to reconnect to original source clips.
+
+## Best Practices
+
+- Run a 720p or 1080p test export before committing to 4K to verify color grading and audio sync
+- Use platform-specific aspect ratios — 9:16 for TikTok, 16:9 for YouTube
+- Generate subtitles for all videos for accessibility and SEO benefits
+- Keep ProRes master files for any project you may need to revise or repurpose later
+- Batch export multiple resolutions of the same content in a single queue job to save time
+
+## Troubleshooting
+
+**Export failed** — Check your credit balance and available storage space. Verify that all timeline tracks are enabled before exporting.
+
+**Audio missing from export** — Confirm that audio tracks are enabled in the Build Video panel before queuing.
+
+**Wrong aspect ratio** — Verify your project settings and timeline layout before exporting. The project aspect ratio set during creation determines the output ratio.
+
+**Subtitles not syncing** — Re-export with subtitle generation enabled and verify that your audio track starts at timecode zero.
+
+**4K export not available** — 4K requires a Pro or Enterprise subscription plan. Upgrade from Settings → Plans and Billing.
+
+## Related
+
+- [Video Editor](/docs/features/video-editor)
+- [Render Queue](/docs/features/render-queue)
+- [Credits](/docs/account/credits)
+- [Billing](/docs/account/billing)

@@ -1,0 +1,103 @@
+---
+id: motion-capture
+title: Motion Capture
+sidebar_label: Motion Capture
+description: How to use motion capture in ACT3 AI to animate digital actors with real human performance.
+---
+
+# Motion Capture
+
+Motion Capture in ACT3 AI lets you animate digital actors using real human performance. Record movement through a webcam, smartphone, or professional mocap hardware, then transfer natural body motions and facial expressions directly into your scenes and shots.
+
+This feature ensures AI-generated characters retain the realism, nuance, and emotional depth that comes from human performance.
+
+## How Motion Capture Works
+
+ACT3 AI's motion capture system captures movement data from your recording device and maps it to a digital actor's skeleton and facial rig. The platform includes AI smoothing to clean up jitter and inconsistencies automatically.
+
+The result is a digital actor that moves and emotes like a real person — not a hand-animated character or a stiff AI-generated figure.
+
+## Capture Types
+
+**Full-Body Motion Capture** — Records body movements including walking, running, gestures, and physical interactions. Use this for character blocking, action sequences, and expressive physical performance.
+
+**Facial Capture** — Records facial expressions and lip movements, synchronized with dialogue. Use this for close-up dialogue scenes where emotional nuance matters.
+
+**Hybrid Capture** — Combines both body and facial capture in a single session. Requires a setup with good camera placement for both body and face.
+
+## Supported Input Devices
+
+- **Smartphone camera** — Compatible with the ACT3 AI mobile companion app
+- **Webcam** — Built-in or USB, minimum 720p resolution
+- **Professional mocap suits** — Compatible with industry-standard formats
+- **iPhone Face ID** — Supported for high-quality facial capture on Apple devices
+
+Better hardware produces better results, but a modern smartphone captures usable performance data for most projects.
+
+## Recording a Capture Session
+
+1. Open the Editor and select the **Motion Capture Panel**
+2. Choose the capture type: body, face, or hybrid
+3. Connect or select your recording device
+4. Position yourself or your performer in good lighting with a clear background
+5. Start the recording and perform the action or dialogue
+6. Stop the recording when done
+7. Review the captured motion data in the preview
+
+**Tips for good capture:**
+- Use good lighting with clear contrast between the performer and background
+- Keep backgrounds clean and uncluttered
+- Record multiple takes for complex sequences — you can select the best one
+- Ensure the full body is visible for body capture; frame from shoulders up for facial capture
+
+## Applying Motion Data to a Digital Actor
+
+1. After recording, assign the captured motion to a specific digital actor
+2. Preview the result in the Timeline or Top-Down View
+3. Use AI Smoothing to clean up any jitter or artifacts
+4. Adjust timing and intensity if needed
+5. The digital actor now performs the captured movement in all renders
+
+## AI Smoothing
+
+ACT3 AI automatically applies motion refinement to captured data:
+
+- Reduces jitter from minor recording inconsistencies
+- Smooths transitions between keyframes
+- Corrects impossible joint angles
+- Normalizes movement to match the actor's physical proportions
+
+You can adjust the smoothing intensity from subtle (preserves more raw performance data) to strong (more polished but less naturalistic).
+
+## Applications
+
+- Dialogue scenes requiring genuine facial emotion and lip sync
+- Action sequences with specific choreography
+- Group performances for crowd or ensemble shots
+- Prototype action sequences quickly before refining
+- Matching a performer's specific movement style to a recurring character
+
+## Best Practices
+
+- Wear fitted clothing for body capture to ensure accurate tracking
+- Record in a well-lit environment with no flickering lights
+- Record multiple short takes rather than one long continuous session
+- Combine facial capture with TTS voice tracks for fully synchronized performances
+- Test with draft renders before committing to final quality
+
+## Troubleshooting
+
+**Motion tracking is erratic** — Improve lighting, simplify the background, or wear higher-contrast clothing.
+
+**Facial expressions not registering** — Ensure your face is well-lit and fully visible in the camera frame, with no obstructions.
+
+**Capture session won't start** — Check camera permissions in your browser or operating system settings.
+
+**Performance looks stiff after smoothing** — Reduce the AI smoothing intensity to preserve more of the original raw motion.
+
+## Related
+
+- [Actors](/docs/features/actors)
+- [Lip Sync](/docs/features/lipsync)
+- [TTS and Audio](/docs/features/tts)
+- [Blender Integration](/docs/integrations/blender)

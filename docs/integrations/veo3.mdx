@@ -1,10 +1,88 @@
 ---
 id: veo3
-title: Veo3
-sidebar_label: Veo3
-description: Veo3 integration with ACT3 AI.
+title: Google Veo 3
+sidebar_label: Google Veo 3
+description: How to use Google Veo 3 in ACT3 AI for photorealistic AI video generation.
 ---
 
-# Veo3
+# Google Veo 3
 
-*Content migrating from https://wiki.act3ai.com/index.php?title=Veo3*
+Google Veo 3 is ACT3 AI's primary high-quality video generation engine. It produces photorealistic, cinematic output from text prompts and is the best choice for final-quality renders where visual fidelity matters most.
+
+## What Google Veo 3 Does
+
+Veo 3 converts your shot prompts into short AI-generated video clips. Submit a detailed description of action, setting, and style, and Veo 3 returns a rendered clip in your Preview pane. Accepted clips go directly onto your timeline or into the Render Queue for final export.
+
+## Key Capabilities
+
+- **Prompt-to-Video** — Text descriptions become cinematic video clips
+- **Photorealistic Output** — Film-quality visuals with natural lighting and motion
+- **Resolution and Frame Rate** — Up to 1080p at 30fps
+- **Style Presets** — Apply Google's built-in artistic filters or custom style parameters
+- **Batch Requests** — Queue multiple prompts for parallel generation and monitor in the Render Queue
+- **Camera Instructions** — Responds accurately to cinematography language: "dolly in," "tracking shot," "handheld," etc.
+
+## How to Use
+
+1. In the Editor, select a shot or scene and click **AI → Google Veo 3**
+2. Your shot prompt is pre-populated from the shot description — edit as needed
+3. Include action, camera movement, lighting, and mood in the prompt
+4. Choose output settings: resolution and frame rate
+5. Click **Generate** — the request goes to Google Veo 3 and the clip appears in the Preview pane
+6. Accept the clip, refine the prompt and regenerate, or swap to a different engine
+
+## Prompt Tips for Veo 3
+
+Veo 3 performs best with clear, specific, cinematic prompts:
+
+- Keep prompts under 100 words
+- Use standard film terminology (dolly, pan, tracking, close-up, establishing shot)
+- Describe lighting explicitly (golden hour, film noir, studio lighting, overcast day)
+- Include mood and atmosphere words (tense, serene, chaotic, mysterious)
+- For longer takes, split into consecutive prompts and stitch in the Timeline
+
+**Example prompts:**
+
+- *"Medium shot of detective at a rain-streaked window, handheld camera, warm interior light vs cold blue exterior, reflections in glass, tense atmosphere."*
+- *"Wide establishing shot of Mars colony at sunrise, drone aerial, red dust plains, domed habitat, epic and lonely."*
+- *"Slow dolly in on two characters at a dinner table, candlelight, soft bokeh background, intimate and strained."*
+
+## Credit Usage
+
+Google Veo 3 generation is billed per second of output:
+
+- Approximately 1 credit per second at 1080p
+- Draft-quality renders cost less
+- Actual rates are shown in the credit estimate before you confirm generation
+
+Check your credit balance in the Credits Panel before queuing large batches.
+
+## Best Use Cases
+
+- Final-quality video renders for distribution
+- Cinematic film and narrative content
+- Photorealistic environments and character scenes
+- Any content where visual realism is the priority
+
+## When to Use Other Engines
+
+- Use **Wan 2.1** for fast creative iteration and team collaboration previews
+- Use **Runway** for stylized, experimental, or artistic output
+- Use **Flux** for smooth motion sequences with a cinematic animation feel
+- Use **Hunyuan** for culturally specific content or high-fidelity 4K output
+
+## Troubleshooting
+
+**Results don't match the prompt** — Break the prompt into shorter, more specific phrases. Avoid conflicting directions in a single prompt.
+
+**Generation takes too long** — Large batch requests may queue. Use Wan 2.1 for rapid iteration and switch to Veo 3 for final approved shots.
+
+**Credits running out** — Use draft previews during the creative phase. Only commit Veo 3 renders to approved shots.
+
+## Related
+
+- [AI Video Generation](/docs/features/ai-video-generation)
+- [Runway](/docs/integrations/runway)
+- [Wan 2.1](/docs/integrations/wan)
+- [Render Queue](/docs/features/render-queue)
+- [Credits](/docs/account/credits)

@@ -1,10 +1,130 @@
 ---
 id: ai-video-generation
-title: Ai Video Generation
-sidebar_label: Ai Video Generation
-description: Ai Video Generation in ACT3 AI.
+title: AI Video Generation
+sidebar_label: AI Video Generation
+description: How ACT3 AI generates video from scripts, scenes, and shot prompts using multiple AI rendering engines.
 ---
 
-# Ai Video Generation
+# AI Video Generation
 
-*Content migrating from https://wiki.act3ai.com/index.php?title=Ai Video Generation*
+ACT3 AI transforms your scripts, scenes, and shot prompts into video clips using a suite of AI rendering engines. You choose the engine that fits your style and quality requirements, then direct the output using natural language cinematography instructions.
+
+## How It Works
+
+The generative pipeline connects your creative decisions to AI rendering in a continuous loop:
+
+1. **Script → Structure** — Your script is broken into acts, scenes, beats, and shots
+2. **Shot Prompts** — Each shot has a text description with camera angle, movement, mood, and subject
+3. **Engine Selection** — Choose from Google Veo 3, Runway, Flux, ComfyUI, Hunyuan, or Wan 2.1
+4. **Generation** — ACT3 AI sends the prompt to the engine and returns a video clip
+5. **Review** — Preview the clip and accept it, refine the prompt, or regenerate
+6. **Assembly** — Approved clips go to the timeline for final editing
+
+## Rendering Engines
+
+| Engine | Best For | Output Quality |
+|---|---|---|
+| Google Veo 3 | Photorealistic, cinematic output | Up to 1080p at 30fps |
+| Runway | Stylized and experimental visuals | Multiple resolutions |
+| Flux | Smooth motion and cinematic animation | Up to 1080p |
+| Hunyuan | High-fidelity and culturally specific content | Up to 4K |
+| Wan 2.1 | Fast collaborative previews | Low-res preview |
+| ComfyUI | Advanced multi-model pipelines | Configurable |
+
+See the [Integrations](/docs/category/integrations) section for detailed documentation on each engine.
+
+## Writing Shot Prompts
+
+Shot prompts are the creative instructions that tell the AI what to generate. Strong prompts include:
+
+- **Shot type** — wide shot, close-up, over-the-shoulder, aerial
+- **Camera movement** — dolly in, tracking shot, handheld, Steadicam, static
+- **Subject** — who is in the shot and what they are doing
+- **Setting** — location, time of day, weather
+- **Mood and lighting** — noir, golden hour, dramatic shadows, cool blue
+
+Example prompts:
+
+- *"Low-angle medium shot of detective approaching the door, handheld camera, dramatic shadow lighting, tense atmosphere."*
+- *"Wide establishing aerial shot of futuristic city at night, drone movement, neon reflections on wet streets."*
+- *"Extreme close-up of astronaut's eyes, shallow depth of field, helmet reflection shows approaching planet, tense."*
+
+Keep prompts focused and under 100 words. Use standard film terminology for best results.
+
+## AI Directing
+
+The AI Directing feature translates high-level creative decisions into shot-level settings:
+
+- **Narrative Pacing Control** — Set tempo for a scene (slow burn, fast cuts, balanced)
+- **Tone and Mood** — Apply consistent lighting, color, and emotional style across scenes
+- **Cinematic Presets** — Built-in looks like Film Noir, Wes Anderson, Sci-Fi Epic, Documentary
+- **Continuity Matching** — Maintain consistent lens choice, exposure, and framing style across related shots
+- **Preview Variations** — Generate multiple visual takes before committing credits
+
+To use AI Directing: open a scene or shot, click AI → Directing, set your parameters, and preview before approving.
+
+## The Generative Workflow Pipeline
+
+A complete generative project moves through these stages:
+
+1. **Ideation** — Start a new project with a concept, format, and aspect ratio
+2. **Script Development** — Write or import, then expand with AI Wizard
+3. **Characters and Casting** — Define characters and assign digital actors
+4. **Visual Planning** — Storyboards, Top-Down View, and set design
+5. **Generative Rendering** — Generate draft previews for each shot
+6. **Assembly and Editing** — Combine clips, B-roll, and audio in the timeline
+7. **Export** — Deliver final video in the format and resolution you need
+
+## Preview vs Final Rendering
+
+Use draft previews for all creative iteration. Only commit to final quality renders for approved content:
+
+| Quality | Use Case | Credit Rate |
+|---|---|---|
+| Draft | Creative review, timing checks | Lowest |
+| 720p | Client preview, rough cut sharing | Low |
+| 1080p | Final delivery for most platforms | Standard |
+| 4K | Premium output, large screens | Highest |
+
+Draft renders using Wan 2.1 are the most cost-effective way to test ideas before committing to a full-quality render.
+
+## Build Video
+
+Once all your shots are generated and approved, use the **Build Video** feature to assemble the final production:
+
+1. Open Build Video mode from the editor
+2. Drag scenes, shots, and B-roll into the timeline
+3. Add transitions, audio tracks, and music
+4. Apply color grading for visual consistency
+5. Preview the full sequence
+6. Send to the Render Queue for final export
+
+Build Video supports MP4, MOV/ProRes, and WebM. Aspect ratios include 16:9, 9:16, and 1:1 for different platforms.
+
+## Credit Usage Examples
+
+| Output | Engine | Approximate Credits |
+|---|---|---|
+| 30-second clip at 1080p | Google Veo 3 | ~180 credits |
+| 2-minute short film preview | Wan 2.1 draft | ~80 credits |
+| 2-minute short film final | Runway 1080p | ~600 credits |
+| 4K 10-second shot | Hunyuan | ~10 credits |
+
+Always check the credit estimate shown before confirming a render.
+
+## Best Practices
+
+- Use draft previews for creative iteration — save high-quality renders for final output
+- Break complex shots into shorter clips rather than trying to generate long sequences
+- Use Wan 2.1 for team collaboration and real-time idea testing
+- Apply consistent cinematographic style across all shots for a cohesive look
+- Batch similar jobs in the Render Queue to avoid bottlenecks
+
+## Related
+
+- [Google Veo 3](/docs/integrations/veo3)
+- [Runway](/docs/integrations/runway)
+- [ComfyUI](/docs/integrations/comfyui)
+- [Render Queue](/docs/features/render-queue)
+- [Video Editor](/docs/features/video-editor)
+- [Credits](/docs/account/credits)

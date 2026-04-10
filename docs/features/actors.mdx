@@ -2,9 +2,128 @@
 id: actors
 title: Actors
 sidebar_label: Actors
-description: Actors in ACT3 AI.
+description: How to create, customize, and use digital actors and characters in ACT3 AI.
 ---
 
 # Actors
 
-*Content migrating from https://wiki.act3ai.com/index.php?title=Actors*
+ACT3 AI uses Digital Actors — AI-generated characters that perform scripted roles in your productions. They combine realistic visual rendering, customizable appearance, and controllable performance styles, replacing traditional casting while preserving creative control.
+
+## Characters vs Digital Actors
+
+**Characters** are the narrative foundation — a character has a name, role, personality traits, backstory, and relationships. Characters exist in your script and story.
+
+**Digital Actors** are the visual expression of a character — the physical appearance, wardrobe, voice, and movement style that appears on screen. A character is assigned a digital actor to bring it to life visually.
+
+Think of it like traditional filmmaking: the character is the role in the script, the digital actor is the performer.
+
+## The Actor Library
+
+The Actor Library is the central repository where all digital actors are stored. From here you can:
+
+- Browse available actor presets organized by type (hero, villain, narrator, background)
+- Create new actors from scratch with custom attributes
+- Search and filter by appearance, style, or use case
+- Save actors for reuse across multiple projects
+- Share actors within your organization for consistent casting across a series
+
+Access the Actor Library from the sidebar in any project, or from the main navigation.
+
+## Creating a Character
+
+1. Open the Character Editor from the sidebar
+2. Click **New Character**
+3. Fill in the profile: name, role, age, personality traits, motivation, and backstory
+4. Define the character arc (growth arc, fall arc, flat arc)
+5. Assign a voice profile or link an audio track
+6. Optionally assign a digital actor for visual representation
+7. Save to the Actor Library
+
+A well-defined character sheet produces better AI dialogue generation and more consistent performance across scenes.
+
+**Example character sheet:**
+
+| Field | Example |
+|---|---|
+| Name | Detective Carter |
+| Role | Protagonist |
+| Age | 42 |
+| Traits | Rugged, skeptical, morally conflicted |
+| Motivation | Solve the case to protect his daughter |
+| Arc | Doubtful investigator → driven protector |
+
+## Customizing a Digital Actor
+
+Each digital actor can be customized with:
+
+- **Appearance** — Age range, gender expression, ethnicity, body type, facial features
+- **Wardrobe** — Clothing, uniforms, accessories, period-specific costumes
+- **Hair and styling** — Color, length, style
+- **Performance style** — Emotion, body language, gesture range, movement energy
+- **Voice** — Select from AI-generated voice options or import a recorded audio track
+
+Changes are applied consistently across all shots where that actor appears.
+
+## Assigning Actors to Scenes
+
+1. Open a scene or shot in the editor
+2. Go to the Cast panel
+3. Assign a digital actor to each character appearing in the scene
+4. Position actors in the 2D/3D set layout via Top-Down View
+5. Characters carry their assigned digital actor identity into every AI-rendered shot
+
+## Cast Management
+
+The Cast panel in each project shows:
+
+- All characters defined for the project
+- Which digital actor is assigned to each role
+- Scenes and shots where each character appears
+- Voice and performance settings
+
+Use the Cast panel to ensure every scene is correctly populated before rendering.
+
+## Continuity Across Scenes
+
+Once a character is assigned a digital actor, that appearance is maintained consistently across every scene in the project. This includes:
+
+- Wardrobe consistency (unless you specify a costume change)
+- Facial features and body type
+- Voice profile
+- Movement style
+
+For series or episodic content, save your cast as a named ensemble in the Actor Library so the same actors appear across multiple episodes without reassignment.
+
+## Ensemble Scenes
+
+When placing multiple actors in one scene:
+
+- Use Top-Down View to position each actor with spacing and directional markers
+- Stagger body movement settings to avoid robotic uniformity in group shots
+- Check camera angles cover all actors required in the scene
+
+## Best Practices
+
+- Define character motivations and backstories early — they produce better AI-generated dialogue
+- Keep a consistent naming convention for actors (e.g., "Hero — Season 1") to find them quickly
+- Store alternate looks (different costumes, aged versions) within the same actor profile
+- Lock character assignments once a project is in final production to prevent accidental changes
+- Use low-resolution draft previews when testing new actor setups to save credits
+
+## Troubleshooting
+
+**Actor not appearing in a scene** — Check that the actor is assigned in the Cast panel for that specific scene.
+
+**Voice mismatch** — Verify the correct voice profile is selected in the actor's profile settings.
+
+**Performance lag in preview** — Switch to lower-resolution draft previews during the creative phase.
+
+**Actor looks different between shots** — Ensure the same actor profile (not a duplicate) is assigned across all shots.
+
+## Related
+
+- [Motion Capture](/docs/features/motion-capture)
+- [Lip Sync](/docs/features/lipsync)
+- [TTS and Audio](/docs/features/tts)
+- [Sets](/docs/features/sets)
+- [Script Editing](/docs/features/script-editing)

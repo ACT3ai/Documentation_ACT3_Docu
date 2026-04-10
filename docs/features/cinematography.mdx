@@ -2,9 +2,131 @@
 id: cinematography
 title: Cinematography
 sidebar_label: Cinematography
-description: Cinematography in ACT3 AI.
+description: How to control cameras, angles, movement, and cinematic style in ACT3 AI.
 ---
 
 # Cinematography
 
-*Content migrating from https://wiki.act3ai.com/index.php?title=Cinematography*
+ACT3 AI gives you full cinematography control through written instructions that direct AI rendering engines. From camera angles and movement to lenses, depth of field, and visual style, you define the cinematic language of your project shot by shot.
+
+## Camera Angles
+
+The camera angle determines the emotional weight and perspective of a shot:
+
+| Angle | Effect | Best Use |
+|---|---|---|
+| Eye Level | Neutral, balanced | Dialogue, neutral narrative |
+| High Angle | Subject appears smaller, weaker | Vulnerability, surveillance |
+| Low Angle | Subject appears powerful, dominant | Villains, heroes, authority |
+| Over-the-Shoulder | Spatial intimacy, dialogue focus | Conversation scenes |
+| Dutch Tilt | Unease, tension, instability | Psychological thrillers, horror |
+| Bird's Eye View | Isolation, geometry, scale | Overhead reveals, establishing |
+| Worm's Eye | Extreme intensity, surrealism | Unique perspective shots |
+| POV | First-person immersion | Character perspective |
+
+## Camera Movement
+
+Movement guides audience attention and creates emotional rhythm:
+
+| Movement | Description | Emotional Effect |
+|---|---|---|
+| Static | Camera holds completely still | Stability, tension in stillness |
+| Pan | Rotates horizontally from fixed point | Reveals space, follows action |
+| Tilt | Rotates vertically from fixed point | Follows height or movement |
+| Dolly In | Camera physically moves closer | Intimacy, building tension |
+| Dolly Out | Camera moves away | Isolation, revelation |
+| Tracking | Camera moves parallel to subject | Follows character through space |
+| Crane / Jib | Camera rises or descends | Epic reveals, transition to overview |
+| Handheld | Slight natural shake | Documentary feel, chaos, urgency |
+| Steadicam | Smooth but alive movement | Action, following a character |
+| Drone / Aerial | Sweeping overhead movement | Scale, establishing, cinematic openers |
+| Zoom | Focal length change | Emphasis, unease when combined with dolly |
+
+## Lenses and Focus
+
+Lens choice changes how a scene feels:
+
+- **Wide angle (24mm and below)** — Expands space, emphasizes environment, slight edge distortion
+- **Normal (35–50mm)** — Close to human vision, naturalistic and versatile
+- **Portrait / Short telephoto (85mm)** — Flattering compression, shallow depth of field
+- **Telephoto (135mm+)** — Strong compression, isolates subjects, brings distant elements together
+
+**Depth of field settings:**
+
+- **Shallow focus** — Subject is sharp, background blurred (bokeh) — draws attention to subject
+- **Deep focus** — Everything in frame is sharp — used in documentary and drama
+- **Rack focus** — Focus shifts from one subject to another during a shot — reveals relationships
+
+## Lighting Instructions
+
+Lighting is specified in your shot prompt or through the lighting presets panel.
+
+**Lighting types:**
+- **Key Light** — Main source that defines subject shape and shadow direction
+- **Fill Light** — Softens shadows, reduces contrast
+- **Back Light / Rim** — Separates subject from background, creates edge definition
+- **Practical Lights** — Lamps, neon signs, candles visible in frame
+- **Environmental / Ambient** — Sky, moonlight, bounce from walls
+
+**Mood descriptors to use in prompts:**
+- Golden hour — warm, directional, magical
+- Blue hour — cool, quiet, transitional
+- Overcast — soft, even, no hard shadows
+- Night / tungsten — warm yellows, deep shadows
+- Neon / Cyberpunk — colored practicals, urban night
+- Film Noir — high contrast, deep shadows, venetian blind light patterns
+- Studio — clean, controlled, commercial
+
+## Cinematic Style Presets
+
+Apply a global visual style to your project from the Style Presets panel:
+
+- **Film and Cinema** — Cinematic color science, grain, subtle vignette
+- **Noir** — High contrast, desaturated or monochrome palette
+- **Documentary** — Natural color, slight handheld feel, available light
+- **Sci-Fi Epic** — Cool blues, lens flares, expansive wide shots
+- **Warm Drama** — Warm palette, shallow focus, naturalistic lighting
+- **Marketing High-Impact** — High saturation, fast edits, bold color
+
+Presets apply across all shots in the project by default, with per-shot overrides available.
+
+## Writing Camera Instructions in Shot Prompts
+
+Combine angle + movement + lens + lighting into a single concise prompt:
+
+- *"Slow dolly in on protagonist, low angle, noir lighting, 85mm lens, shallow focus."*
+- *"Wide establishing aerial drone shot of futuristic city, golden hour, cinematic."*
+- *"Handheld close-up of astronaut breathing heavily inside helmet, shallow depth of field, tense."*
+- *"Tracking shot down neon alley, Steadicam smoothness, cyan and magenta color grade."*
+
+Keep camera instructions under 20 words. Add subject and mood details separately.
+
+## Top-Down View for Camera Blocking
+
+Use the Top-Down View to plan camera positions before generating video:
+
+1. Open the editor and select Top-Down View from the toolbar
+2. Place camera tokens on the 2D layout map
+3. Set orientation arrows to define shot direction and focal length
+4. Draw movement paths for dolly and tracking shots
+5. Sync adjustments to the Timeline and Storyboard before generating
+
+Planning in Top-Down View saves credits by reducing trial renders.
+
+## Troubleshooting
+
+**Camera moves are being ignored** — Use precise standard terms (dolly, pan, tilt) instead of vague phrases like "move the camera around."
+
+**Lighting looks flat** — Add mood descriptors in your prompt or apply a LUT preset in the Style Presets panel.
+
+**Angles feel unnatural** — Use one angle per shot rather than combining multiple competing angles in a single prompt.
+
+**Too much camera shake** — Specify "light handheld" or switch to Steadicam in your prompt.
+
+## Related
+
+- [Shots](/docs/concepts/shots)
+- [Lighting](/docs/features/lighting)
+- [Sets](/docs/features/sets)
+- [Storyboard](/docs/features/storyboard)
+- [Style Presets](/docs/features/style-presets)

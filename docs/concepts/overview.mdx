@@ -1,20 +1,77 @@
 ---
 id: overview
-title: Core Concepts Overview
-sidebar_label: Overview
-description: The core filmmaking concepts behind ACT3 AI — Acts, Scenes, Beats, and Shots.
+title: Story Structure Overview
+sidebar_label: Story Structure
+description: How ACT3 AI organizes your story from beats and acts to scenes and shots.
 ---
 
-# Core Concepts
+# Story Structure Overview
 
-ACT3 AI is built on standard filmmaking vocabulary. Understanding these four concepts
-unlocks everything else in the platform.
+ACT3 AI organizes every project using the same hierarchy that professional filmmakers and writers use: Beats, Acts, Scenes, and Shots. Understanding this structure helps you move from a rough idea to a fully produced video efficiently.
 
-| Concept | Definition |
-|---------|-----------|
-| **Act** | A major story division — typically 3 acts per feature |
-| **Scene** | A continuous sequence at one location and time |
-| **Beat** | The smallest unit of action or emotional change in a script |
-| **Shot** | A single camera angle or camera move within a scene |
+## The Hierarchy
 
-See the individual pages for deeper detail on each concept.
+```
+Project
+  └── Act (major story division)
+        └── Scene (location + time grouping)
+              └── Beat (key dramatic moment)
+                    └── Shot (single camera angle → one video clip)
+```
+
+Each level informs the one below it. Acts define the dramatic arc. Scenes define where and when. Beats define what happens emotionally. Shots define how the camera captures it.
+
+## What Each Level Does
+
+**Act** — The broadest structural division. Most projects use three acts: Setup, Confrontation, and Resolution. ACT3 AI supports flexible act structures for episodic content, short-form videos, and non-standard narratives.
+
+**Scene** — A continuous unit of action at a specific location and time. When the location changes or significant time passes, a new scene begins. Scenes are linked to a physical set or environment and contain the beats and shots for that moment.
+
+**Beat** — The smallest meaningful unit of dramatic action. When something changes — a character makes a decision, an emotion shifts, a revelation lands — that is a beat. Beats are where you plan what *happens* before deciding *how to shoot* it.
+
+**Shot** — A single uninterrupted camera angle. Each shot produces one rendered video clip. Shots are the atomic unit of AI generation in ACT3 AI.
+
+## How the AI Wizard Uses This Structure
+
+The AI Wizard can generate the full hierarchy from a single concept. Provide a logline and it will:
+
+1. Propose acts with themes and dramatic purposes
+2. Suggest scenes within each act, including location and characters
+3. Generate beats inside each scene describing key actions and emotional turns
+4. Optionally draft shot prompts for each beat
+
+You review and refine everything before any video is generated.
+
+## Example Structure
+
+Here is how a two-minute short film might be organized:
+
+```
+Short Film: "The Last Signal"
+  └── Act 1 — Arrival
+        └── Scene 1 — Spacecraft interior
+              ├── Beat 1 — Astronaut detects unusual readings
+              └── Beat 2 — Computer issues unknown warning
+                    ├── Shot A — Wide shot of control panel with flashing alerts
+                    └── Shot B — Close-up of astronaut's face, tense reaction
+  └── Act 2 — Discovery
+        └── Scene 2 — Planet surface
+              ├── Beat 1 — Astronaut finds alien structure
+              └── Beat 2 — Structure reacts to her presence
+  └── Act 3 — Resolution
+        └── Scene 3 — Return to spacecraft
+              ├── Beat 1 — Astronaut transmits final message to Earth
+              └── Beat 2 — Screen goes dark
+```
+
+## Working Top-Down vs Bottom-Up
+
+You can work top-down (write the full script, then break it into beats and shots) or bottom-up (create shots first and group them into scenes). Most narrative projects benefit from top-down planning. Commercial content and short social videos often work better bottom-up.
+
+## Related Pages
+
+- [Beats](/docs/concepts/beats)
+- [Acts](/docs/concepts/acts)
+- [Scenes](/docs/concepts/scenes)
+- [Shots](/docs/concepts/shots)
+- [Your First Project](/docs/getting-started/first-project)

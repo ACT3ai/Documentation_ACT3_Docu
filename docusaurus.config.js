@@ -88,11 +88,6 @@ const config = {
             label: 'All Docs',
           },
           {
-            to: '/docs/legacy-wiki',
-            position: 'left',
-            label: 'Legacy Wiki',
-          },
-          {
             href: 'https://act3ai.com',
             label: 'ACT3 AI',
             position: 'right',
@@ -115,8 +110,8 @@ const config = {
             title: 'Product',
             items: [
               { label: 'ACT3 AI', href: 'https://act3ai.com' },
-              { label: 'API Reference', to: '/docs/api/api-overview' },
-              { label: 'FAQ', to: '/docs/faq/faq-general' },
+              { label: 'API Reference', to: '/docs/api/overview' },
+              { label: 'FAQ', to: '/docs/faq/general' },
             ],
           },
         ],

@@ -1,0 +1,113 @@
+---
+id: render-queue
+title: Render Queue
+sidebar_label: Render Queue
+description: How to use the ACT3 AI render queue to manage and monitor video rendering jobs.
+---
+
+# Render Queue
+
+The Render Queue manages all rendering tasks — from quick draft previews to final 4K exports. It allows you to schedule, monitor, and prioritize jobs, making rendering efficient for both solo creators and collaborative teams.
+
+## What the Render Queue Does
+
+- **Job Scheduling** — Queue multiple scenes, shots, or full video sequences for processing
+- **Progress Tracking** — Monitor render status, estimated completion time, and credit usage
+- **Batch Processing** — Render multiple jobs overnight or in parallel
+- **Prioritization** — Reorder or pause jobs depending on urgency
+- **Team Visibility** — All team members in an organization can view the shared render queue
+
+## Adding a Job to the Queue
+
+1. From the Editor workspace or Build Video mode, select the content you want to render
+2. Click **Render → Add to Queue**
+3. Choose render settings (resolution, quality level, rendering engine)
+4. Review the estimated credit cost shown in the confirmation dialog
+5. Click **Submit** — the job appears in the Render Queue dashboard
+
+## Render Settings
+
+**Resolution:**
+- Draft — Low resolution, fastest, lowest credit cost
+- 720p — Standard quality, good for sharing and client preview
+- 1080p — Final delivery quality for most platforms
+- 4K — Premium output, requires Pro or Enterprise plan
+
+**Rendering Engines:**
+- Google Veo 3 — Cinematic realism, highest visual fidelity
+- Runway — Stylized and experimental output
+- Wan 2.1 — Fast collaborative previews, lowest cost
+- Flux — Smooth cinematic motion sequences
+- Hunyuan — High-fidelity, culturally specific content
+
+**Quality Levels:**
+- Draft — Fast, low-cost, suitable for timing and rough visualization
+- Medium — Balanced quality and cost
+- High — Full-quality output
+- Ultra (4K) — Maximum resolution and fidelity
+
+**Output Formats:**
+- MP4 — Web-ready, widely supported
+- MOV / ProRes — Professional editing workflows
+- WebM — Browser-optimized
+
+## Credit Costs
+
+| Resolution | Preview per 10s | Final Render per 10s |
+|---|---|---|
+| Draft | 1 credit | N/A |
+| 720p | 2 credits | 4 credits |
+| 1080p | 2 credits | 5 credits |
+| 4K | 4 credits | 10 credits |
+
+Engine selection also affects cost — Google Veo 3 and Hunyuan are higher quality and cost more per second than Wan 2.1.
+
+## Managing the Queue
+
+From the Render Queue dashboard you can:
+
+- **Reorder** — Drag jobs to change priority
+- **Pause / Resume** — Temporarily stop a job and continue later
+- **Cancel** — Remove a job from the queue (credits are not charged for cancelled jobs that have not started)
+- **Monitor** — See per-job status: Queued, Rendering, Completed, or Failed
+- **Download** — Download completed renders directly from the queue
+
+Organization admins can view credit usage per user and per project from the queue dashboard.
+
+## Draft Preview Strategy
+
+Use draft renders to manage your credit spending efficiently:
+
+1. Generate draft-quality renders for all shots during the creative phase
+2. Check timing, composition, and story flow at draft quality
+3. Only submit final-quality renders for shots that are approved and locked
+4. Use Wan 2.1 for team collaboration and creative iteration — it's the lowest cost per preview
+
+This strategy can save 60–80% on total rendering credits for a typical project.
+
+## Best Practices
+
+- Schedule overnight batches for large renders to avoid bottlenecks during active working hours
+- Group similar jobs together (all shots from the same scene) for easier monitoring
+- Use draft previews for all creative decisions before committing to final quality
+- Keep the queue organized by project or client name for easier tracking
+- Check your credit balance before queuing large batches to ensure you have enough
+
+## Troubleshooting
+
+**Job stuck in queue** — Cancel and re-queue the job. If the issue persists, contact support.
+
+**Insufficient credits** — Top up credits from Settings → Billing or upgrade your subscription plan.
+
+**Output missing audio or video elements** — Recheck the project assembly in Build Video to ensure all tracks are enabled.
+
+**Renders slower than expected** — High demand periods may cause queue delays. Schedule overnight or reduce resolution for faster turnaround.
+
+**4K option not available** — 4K export requires the Enterprise plan.
+
+## Related
+
+- [AI Video Generation](/docs/features/ai-video-generation)
+- [Video Editor](/docs/features/video-editor)
+- [Export](/docs/export/overview)
+- [Credits](/docs/account/credits)

@@ -2,9 +2,95 @@
 id: flux
 title: Flux
 sidebar_label: Flux
-description: Flux integration with ACT3 AI.
+description: How to use Flux in ACT3 AI for smooth cinematic motion and animation sequences.
 ---
 
 # Flux
 
-*Content migrating from https://wiki.act3ai.com/index.php?title=Flux*
+The Flux integration in ACT3 AI provides access to the Flux generative video model, known for producing smooth, high-fidelity motion sequences from text or image prompts. Flux is particularly effective for stylized cinematic animations, dynamic scene transitions, and image-to-video workflows.
+
+## What Flux Does
+
+Flux generates video clips with smooth, coherent motion that maintains visual consistency across frames. Its physics-aware motion engine handles camera moves, character movement, and environmental effects in a way that feels natural and intentional rather than random.
+
+## Key Capabilities
+
+- **Text-to-Video** — Generate short, coherent video clips from descriptive prompts
+- **Image-to-Video** — Animate a static image by adding motion instructions while preserving its style
+- **Physics-Aware Motion** — Realistic movement for camera pans, character actions, and environmental effects like wind, water, and fire
+- **Style Specialization** — Custom artistic filters and motion curves for specific visual looks
+- **Extended Clip Mode** — Chain multiple generations for longer sequences without losing visual consistency
+
+## How to Use
+
+1. In the Editor, select a shot or scene and click **AI → Flux**
+2. Enter your text prompt or upload a still image for animation
+3. Adjust duration, style intensity, and motion settings
+4. Click **Generate** and review the result in the Preview panel
+5. Accept, refine, or regenerate until the clip matches your vision
+6. Add approved clips to the Timeline or Render Queue
+
+## Image-to-Video Workflow
+
+Flux's Image-to-Video mode is ideal for animating concept art, storyboard panels, or SDXL-generated still images:
+
+1. Generate or import a still image
+2. Open it in Flux's Image-to-Video panel
+3. Describe the motion to add: camera movement, character actions, environmental effects
+4. Flux animates the image while preserving its visual style
+5. The result combines your image's aesthetic with smooth, generated motion
+
+This is particularly effective for giving SDXL-generated storyboard panels a motion preview.
+
+## Prompt Tips for Flux
+
+- Keep prompts under 60 words for Text-to-Video mode
+- Describe motion explicitly and specifically: "slow pan left," "gentle wind moving through trees," "character walks toward camera"
+- For Image-to-Video, describe what should move rather than what should stay still
+- Use Extended Clip Mode for multi-shot sequences that need visual continuity across clips
+
+## Credit Usage
+
+Flux usage is billed via the credit system based on clip length and resolution:
+
+- Example: 5-second 1080p clip = approximately 3 credits
+- 4K clips cost approximately double
+- Extended Clip Mode charges per segment
+
+## Best Use Cases
+
+- Cinematic title sequences and motion graphics
+- Adding motion to storyboard panels for animatics
+- Stylized flashbacks or dream sequences
+- Looping animations for social media campaigns
+- Image-based previsualization where an existing asset needs to come to life
+- Projects that need smooth, aesthetically intentional motion over photorealism
+
+## When to Use Other Engines
+
+- Use **Google Veo 3** when photorealistic output is the priority
+- Use **Runway** when stylized or experimental effects are needed
+- Use **ComfyUI** when chaining Flux with other models in a complex pipeline
+- Use **Wan 2.1** for fast collaborative iteration
+
+## Best Practices
+
+- Save your style and motion settings as a template for visual consistency across a project
+- Combine Image-to-Video with SDXL outputs for unique animated storyboard previews
+- Use Extended Clip Mode for smooth multi-shot sequences rather than stitching short clips manually
+- Test at low resolution before committing to 1080p or 4K
+
+## Troubleshooting
+
+**Motion is too subtle** — Increase motion intensity in the Flux settings and describe movement more explicitly in the prompt.
+
+**Clip loses visual coherence at the end** — Use shorter durations (5–8 seconds) or use Extended Clip Mode for longer sequences.
+
+**Image-to-Video changes the original style too much** — Reduce style intensity to preserve more of the source image's aesthetic.
+
+## Related
+
+- [AI Video Generation](/docs/features/ai-video-generation)
+- [Stable Diffusion XL](/docs/integrations/stable-diffusion-xl)
+- [ComfyUI](/docs/integrations/comfyui)
+- [Runway](/docs/integrations/runway)

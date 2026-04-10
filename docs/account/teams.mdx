@@ -2,9 +2,136 @@
 id: teams
 title: Teams
 sidebar_label: Teams
-description: Teams in ACT3 AI.
+description: How to create and manage an ACT3 AI organization, invite team members, assign roles, and share credits.
 ---
 
 # Teams
 
-*Content migrating from https://wiki.act3ai.com/index.php?title=Teams*
+ACT3 AI supports team-based production through Organizations. An Organization groups multiple users under a shared workspace with a shared credit pool, shared asset library, and centralized billing. Organizations are available on Creator plans and above, and are ideal for production teams, studios, agencies, and educational groups.
+
+## Creating an Organization
+
+1. Log in to [app.act3ai.com](https://app.act3ai.com)
+2. Click your profile icon in the top-right corner
+3. Select **Create Organization**
+4. Enter an organization name and optional description
+5. Choose a subscription plan and enter payment details
+6. Click **Create** — your organization is immediately active
+7. Invite team members from the **Organization → Members** panel
+
+You automatically become the Owner of the new organization.
+
+## Member Roles
+
+Each member of an organization is assigned a role that controls what they can see and do.
+
+| Role | Project Access | Credit Usage | Billing Access | Member Management |
+|---|---|---|---|---|
+| **Owner** | Full control | Yes | Yes | Yes |
+| **Admin** | Full control | Yes | No | Yes |
+| **Editor** | Create and edit assigned projects | Yes | No | No |
+| **Reviewer** | View projects, leave comments | No | No | No |
+| **Viewer** | Read-only access | No | No | No |
+
+The Owner role is assigned to whoever creates the organization. Ownership can be transferred to another Admin from **Organization → Settings**.
+
+## Inviting Members
+
+1. Go to **Organization → Members** from the Dashboard sidebar
+2. Click **Invite Member**
+3. Enter the member's email address
+4. Assign a role
+5. Click **Send Invite** — the member receives an email with a link to accept
+
+Members must have an ACT3 AI account or create one when accepting the invite. Pending invites appear in the Members panel until accepted or expired.
+
+## Removing Members
+
+Admins and Owners can remove members at any time:
+
+1. Go to **Organization → Members**
+2. Find the member and click **Remove**
+3. Confirm removal
+
+Removed members immediately lose access to all organization projects and assets. Their edits and contributions remain in the project version history.
+
+## Shared Credit Pool
+
+On Pro and Enterprise plans, all organization members draw from a single shared credit pool. This means:
+
+- Credits purchased for the organization are available to all members with credit-usage access
+- Owners and Admins can monitor per-user and per-project credit usage
+- Owners can set per-member credit limits to control consumption
+
+View credit usage reports at **Organization → Credits**.
+
+## Shared Asset Library
+
+All organization members with appropriate roles can access:
+
+- Shared Digital Actors and character library
+- Shared sets and environment templates
+- Shared storyboard panels and reference images
+- Imported scripts and production documents
+
+Assets marked as organization-level are visible to all members. Project-scoped assets are only visible within that project.
+
+## Project Access
+
+By default, all organization members with Editor role or above can access all organization projects. Admins can restrict specific projects to named members only:
+
+1. Open the project
+2. Go to **Project Settings → Access**
+3. Enable **Restricted Access**
+4. Add specific members by name
+
+## Billing
+
+An organization has a single billing account and one subscription plan. All members share the plan's features. The Owner manages payment methods, purchases, and subscription changes. Admins can view billing history but cannot change payment methods or cancel the subscription.
+
+If your team needs additional seats beyond your current plan, upgrade from **Settings → Plans and Billing**.
+
+## Collaboration Features
+
+Team members can work on the same project simultaneously. Key collaboration features include:
+
+- **Real-time co-editing** — Multiple editors see each other's changes in the Editor and Script Editor as they happen
+- **Inline comments** — Reviewers and Editors can leave comments on specific shots, scenes, or script lines
+- **Content locking** — Editors can lock approved scenes or shots to prevent accidental changes
+- **Version history** — All edits are tracked by user ID and visible in the version history panel
+
+See [Collaboration](/docs/features/collaboration) and [Version Control](/docs/features/version-control) for full details.
+
+## Security
+
+- All members require email verification before access is granted
+- Owners and Admins can enable two-factor authentication requirements for the organization
+- Audit logs of member changes (invites, removals, role changes) are available in **Organization → Audit Log**
+- Role-Based Access Control (RBAC) is enforced throughout the platform
+
+## Best Practices
+
+- Assign roles carefully — give Editor access only to people who need to make changes
+- Use Reviewer and Viewer roles for stakeholders, clients, and executives who only need to see progress
+- Set credit limits for individual Editors on large teams to prevent unplanned credit consumption
+- Use separate project folders for different clients, campaigns, or production phases
+- Lock finalized projects to protect master versions from accidental changes
+- Review monthly credit usage reports to understand team-wide consumption patterns
+
+## Troubleshooting
+
+**Member not receiving invite** — Check that the email address is correct and ask the member to check their spam folder. Resend from the Members panel.
+
+**Member cannot access a project** — Verify their role and check whether the project has Restricted Access enabled. Confirm they are part of the correct organization.
+
+**Credits not showing for a member** — Confirm they are part of the shared credit pool. Viewer and Reviewer roles do not have credit usage access.
+
+**Cannot change organization settings** — Only Owners can change billing, transfer ownership, or delete the organization. Admins can manage members but not billing.
+
+## Related
+
+- [Billing](/docs/account/billing)
+- [Credits](/docs/account/credits)
+- [Collaboration](/docs/features/collaboration)
+- [Version Control](/docs/features/version-control)
+- [Account Settings](/docs/account/account-settings)
