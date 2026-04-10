@@ -3,8 +3,8 @@
 #
 # click_path notation:
 #   - Home                  top-level entry point
-#   - "> Section"           intermediate sidebar section or overview page
-#   - "[> Page Name]"       final destination page with the answer
+#   - Section               intermediate sidebar section or overview page
+#   - Final Page Name       destination page with the answer
 
 questions:
 
@@ -24,8 +24,8 @@ questions:
       doc_file: docs/getting-started/first-project.mdx
       click_path:
         - Home
-        - "> Getting Started"
-        - "[> Your First Project]"
+        - Getting Started
+        - Your First Project
 
   - question: How do I create an ACT3 AI account?
     question_info:
@@ -39,8 +39,8 @@ questions:
       doc_file: docs/getting-started/create-account.mdx
       click_path:
         - Home
-        - "> Getting Started"
-        - "[> Create Your Account]"
+        - Getting Started
+        - Create Your Account
 
   - question: What is the ACT3 AI dashboard and what can I do from it?
     question_info:
@@ -54,8 +54,8 @@ questions:
       doc_file: docs/getting-started/dashboard.mdx
       click_path:
         - Home
-        - "> Getting Started"
-        - "[> The Dashboard]"
+        - Getting Started
+        - The Dashboard
 
   - question: What is the core workflow for making a movie in ACT3 AI?
     question_info:
@@ -70,8 +70,8 @@ questions:
       doc_file: docs/getting-started/introduction.mdx
       click_path:
         - Home
-        - "> Getting Started"
-        - "[> Introduction]"
+        - Getting Started
+        - Introduction
 
   # -----------------------------------------------------------------------
   # CORE CONCEPTS
@@ -90,8 +90,8 @@ questions:
       doc_file: docs/concepts/beats.mdx
       click_path:
         - Home
-        - "> Core Concepts"
-        - "[> Beats]"
+        - Core Concepts
+        - Beats
 
   - question: What is a Scene and how is it different from a Shot?
     question_info:
@@ -106,8 +106,8 @@ questions:
       doc_file: docs/concepts/scenes.mdx
       click_path:
         - Home
-        - "> Core Concepts"
-        - "[> Scenes]"
+        - Core Concepts
+        - Scenes
 
   - question: What is a Shot in ACT3 AI?
     question_info:
@@ -122,8 +122,8 @@ questions:
       doc_file: docs/concepts/shots.mdx
       click_path:
         - Home
-        - "> Core Concepts"
-        - "[> Shots]"
+        - Core Concepts
+        - Shots
 
   - question: What is an Act and how does it organize my movie?
     question_info:
@@ -138,8 +138,8 @@ questions:
       doc_file: docs/concepts/acts.mdx
       click_path:
         - Home
-        - "> Core Concepts"
-        - "[> Acts]"
+        - Core Concepts
+        - Acts
 
   - question: How are Acts, Scenes, Shots, and Beats related to each other?
     question_info:
@@ -154,8 +154,8 @@ questions:
       doc_file: docs/concepts/overview.mdx
       click_path:
         - Home
-        - "> Core Concepts"
-        - "[> Story Structure Overview]"
+        - Core Concepts
+        - Story Structure Overview
 
   - question: What is story structure and how does ACT3 AI support it?
     question_info:
@@ -170,8 +170,8 @@ questions:
       doc_file: docs/concepts/overview.mdx
       click_path:
         - Home
-        - "> Core Concepts"
-        - "[> Story Structure Overview]"
+        - Core Concepts
+        - Story Structure Overview
 
   # -----------------------------------------------------------------------
   # SCRIPT & WRITING
@@ -189,8 +189,8 @@ questions:
       doc_file: docs/features/script-editing.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Script Editing]"
+        - Features
+        - Script Editing
 
   - question: Can I write my script directly inside ACT3 AI?
     question_info:
@@ -204,8 +204,8 @@ questions:
       doc_file: docs/features/script-editing.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Script Editing]"
+        - Features
+        - Script Editing
 
   - question: Can the AI help me write or expand my script?
     question_info:
@@ -220,8 +220,8 @@ questions:
       doc_file: docs/features/script-editing.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Script Editing]"
+        - Features
+        - Script Editing
 
   - question: How do I break my script into beats?
     question_info:
@@ -236,8 +236,8 @@ questions:
       doc_file: docs/features/script-editing.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Script Editing]"
+        - Features
+        - Script Editing
 
   - question: Can I export my screenplay as a PDF?
     question_info:
@@ -251,8 +251,8 @@ questions:
       doc_file: docs/features/script-editing.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Script Editing]"
+        - Features
+        - Script Editing
 
   - question: Does ACT3 AI support Final Draft format?
     question_info:
@@ -266,8 +266,8 @@ questions:
       doc_file: docs/features/script-editing.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Script Editing]"
+        - Features
+        - Script Editing
 
   # -----------------------------------------------------------------------
   # AI VIDEO GENERATION
@@ -286,8 +286,8 @@ questions:
       doc_file: docs/features/ai-video-generation.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> AI Video Generation]"
+        - Features
+        - AI Video Generation
 
   - question: Which AI video model should I use for my film?
     question_info:
@@ -303,8 +303,8 @@ questions:
       doc_file: docs/features/ai-video-generation.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> AI Video Generation]"
+        - Features
+        - AI Video Generation
 
   - question: Why did my video generation fail?
     question_info:
@@ -319,8 +319,8 @@ questions:
       doc_file: docs/features/ai-video-generation.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> AI Video Generation]"
+        - Features
+        - AI Video Generation
 
   - question: Can I regenerate a shot I don't like?
     question_info:
@@ -335,8 +335,8 @@ questions:
       doc_file: docs/features/ai-video-generation.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> AI Video Generation]"
+        - Features
+        - AI Video Generation
 
   - question: How do I keep characters consistent across multiple generated shots?
     question_info:
@@ -351,8 +351,8 @@ questions:
       doc_file: docs/features/actors.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Actors]"
+        - Features
+        - Actors
 
   - question: How long does video generation take?
     question_info:
@@ -367,8 +367,8 @@ questions:
       doc_file: docs/features/render-queue.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Render Queue]"
+        - Features
+        - Render Queue
 
   - question: What resolution can I generate at?
     question_info:
@@ -383,8 +383,8 @@ questions:
       doc_file: docs/features/ai-video-generation.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> AI Video Generation]"
+        - Features
+        - AI Video Generation
 
   - question: How do I write a good shot prompt?
     question_info:
@@ -400,8 +400,8 @@ questions:
       doc_file: docs/concepts/shots.mdx
       click_path:
         - Home
-        - "> Core Concepts"
-        - "[> Shots]"
+        - Core Concepts
+        - Shots
 
   - question: Can I generate slow motion?
     question_info:
@@ -416,8 +416,8 @@ questions:
       doc_file: docs/features/ai-video-generation.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> AI Video Generation]"
+        - Features
+        - AI Video Generation
 
   - question: How do I generate a scene with two characters interacting?
     question_info:
@@ -432,8 +432,8 @@ questions:
       doc_file: docs/features/actors.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Actors]"
+        - Features
+        - Actors
 
   # -----------------------------------------------------------------------
   # CINEMATOGRAPHY
@@ -452,8 +452,8 @@ questions:
       doc_file: docs/features/cinematography.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Cinematography]"
+        - Features
+        - Cinematography
 
   - question: What camera movements are available?
     question_info:
@@ -468,8 +468,8 @@ questions:
       doc_file: docs/features/cinematography.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Cinematography]"
+        - Features
+        - Cinematography
 
   - question: How do I set the focal length or lens for a shot?
     question_info:
@@ -483,8 +483,8 @@ questions:
       doc_file: docs/features/cinematography.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Cinematography]"
+        - Features
+        - Cinematography
 
   - question: How do I create a tracking shot that follows a character?
     question_info:
@@ -499,8 +499,8 @@ questions:
       doc_file: docs/features/cinematography.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Cinematography]"
+        - Features
+        - Cinematography
 
   - question: What is the difference between a dolly and a zoom?
     question_info:
@@ -516,8 +516,8 @@ questions:
       doc_file: docs/features/cinematography.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Cinematography]"
+        - Features
+        - Cinematography
 
   # -----------------------------------------------------------------------
   # LIGHTING
@@ -536,8 +536,8 @@ questions:
       doc_file: docs/features/lighting.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Lighting]"
+        - Features
+        - Lighting
 
   - question: How do I create a night scene with street lamps?
     question_info:
@@ -553,8 +553,8 @@ questions:
       doc_file: docs/features/lighting.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Lighting]"
+        - Features
+        - Lighting
 
   - question: How do I get a golden hour look for my shot?
     question_info:
@@ -569,8 +569,8 @@ questions:
       doc_file: docs/features/lighting.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Lighting]"
+        - Features
+        - Lighting
 
   # -----------------------------------------------------------------------
   # SETS & ENVIRONMENTS
@@ -589,8 +589,8 @@ questions:
       doc_file: docs/features/sets.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Sets]"
+        - Features
+        - Sets
 
   - question: Can I build a custom 3D set and use it in AI video generation?
     question_info:
@@ -605,8 +605,8 @@ questions:
       doc_file: docs/features/sets.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Sets]"
+        - Features
+        - Sets
 
   - question: What is the top-down view and when do I use it?
     question_info:
@@ -621,8 +621,8 @@ questions:
       doc_file: docs/features/sets.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Sets]"
+        - Features
+        - Sets
 
   # -----------------------------------------------------------------------
   # ACTORS & CHARACTERS
@@ -641,8 +641,8 @@ questions:
       doc_file: docs/features/actors.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Actors]"
+        - Features
+        - Actors
 
   - question: Can I use my own face or a real person as a character?
     question_info:
@@ -657,8 +657,8 @@ questions:
       doc_file: docs/features/actors.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Actors]"
+        - Features
+        - Actors
 
   - question: How do I add an actor to a specific shot?
     question_info:
@@ -673,8 +673,8 @@ questions:
       doc_file: docs/features/actors.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Actors]"
+        - Features
+        - Actors
 
   - question: Can I edit a digital actor's appearance after creating them?
     question_info:
@@ -689,8 +689,8 @@ questions:
       doc_file: docs/features/actors.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Actors]"
+        - Features
+        - Actors
 
   # -----------------------------------------------------------------------
   # MOTION CAPTURE
@@ -709,8 +709,8 @@ questions:
       doc_file: docs/features/motion-capture.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Motion Capture]"
+        - Features
+        - Motion Capture
 
   # -----------------------------------------------------------------------
   # LIP SYNC & TTS
@@ -729,8 +729,8 @@ questions:
       doc_file: docs/features/lipsync.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Lip Sync]"
+        - Features
+        - Lip Sync
 
   - question: How do I add character voices using text-to-speech?
     question_info:
@@ -745,8 +745,8 @@ questions:
       doc_file: docs/features/tts.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Text-to-Speech]"
+        - Features
+        - Text-to-Speech
 
   - question: Can I use my own voice recording for a character?
     question_info:
@@ -761,8 +761,8 @@ questions:
       doc_file: docs/features/tts.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Text-to-Speech]"
+        - Features
+        - Text-to-Speech
 
   # -----------------------------------------------------------------------
   # VIDEO EDITOR
@@ -781,8 +781,8 @@ questions:
       doc_file: docs/features/video-editor.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Video Editor]"
+        - Features
+        - Video Editor
 
   - question: How do I add background music to my movie?
     question_info:
@@ -797,8 +797,8 @@ questions:
       doc_file: docs/features/video-editor.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Video Editor]"
+        - Features
+        - Video Editor
 
   - question: Can I do color grading inside ACT3 AI?
     question_info:
@@ -813,8 +813,8 @@ questions:
       doc_file: docs/features/video-editor.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Video Editor]"
+        - Features
+        - Video Editor
 
   - question: How do I import B-roll footage into my project?
     question_info:
@@ -828,8 +828,8 @@ questions:
       doc_file: docs/features/video-editor.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Video Editor]"
+        - Features
+        - Video Editor
 
   - question: Can I preview my movie before exporting?
     question_info:
@@ -844,8 +844,8 @@ questions:
       doc_file: docs/features/video-editor.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Video Editor]"
+        - Features
+        - Video Editor
 
   - question: How do I trim a generated video clip?
     question_info:
@@ -860,8 +860,8 @@ questions:
       doc_file: docs/features/video-editor.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Video Editor]"
+        - Features
+        - Video Editor
 
   # -----------------------------------------------------------------------
   # STORYBOARD
@@ -880,8 +880,8 @@ questions:
       doc_file: docs/features/storyboard.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Storyboard]"
+        - Features
+        - Storyboard
 
   # -----------------------------------------------------------------------
   # RENDER QUEUE
@@ -900,8 +900,8 @@ questions:
       doc_file: docs/features/render-queue.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Render Queue]"
+        - Features
+        - Render Queue
 
   - question: Can I render multiple shots at the same time?
     question_info:
@@ -915,8 +915,8 @@ questions:
       doc_file: docs/features/render-queue.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Render Queue]"
+        - Features
+        - Render Queue
 
   - question: How do I cancel a render in progress?
     question_info:
@@ -931,8 +931,8 @@ questions:
       doc_file: docs/features/render-queue.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Render Queue]"
+        - Features
+        - Render Queue
 
   # -----------------------------------------------------------------------
   # ASSET LIBRARY
@@ -951,8 +951,8 @@ questions:
       doc_file: docs/features/asset-library.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Asset Library]"
+        - Features
+        - Asset Library
 
   # -----------------------------------------------------------------------
   # STYLE PRESETS
@@ -971,8 +971,8 @@ questions:
       doc_file: docs/features/style-presets.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Style Presets]"
+        - Features
+        - Style Presets
 
   - question: Can I create a custom style preset for my film?
     question_info:
@@ -987,8 +987,8 @@ questions:
       doc_file: docs/features/style-presets.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Style Presets]"
+        - Features
+        - Style Presets
 
   # -----------------------------------------------------------------------
   # VERSION CONTROL
@@ -1006,8 +1006,8 @@ questions:
       doc_file: docs/features/version-control.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Version Control]"
+        - Features
+        - Version Control
 
   # -----------------------------------------------------------------------
   # COLLABORATION
@@ -1026,8 +1026,8 @@ questions:
       doc_file: docs/features/collaboration.mdx
       click_path:
         - Home
-        - "> Features"
-        - "[> Collaboration]"
+        - Features
+        - Collaboration
 
   # -----------------------------------------------------------------------
   # INTEGRATIONS — VEO 3
@@ -1046,8 +1046,8 @@ questions:
       doc_file: docs/integrations/veo3.mdx
       click_path:
         - Home
-        - "> Integrations"
-        - "[> Google Veo 3]"
+        - Integrations
+        - Google Veo 3
 
   - question: What makes Veo 3 different from other video models?
     question_info:
@@ -1062,8 +1062,8 @@ questions:
       doc_file: docs/integrations/veo3.mdx
       click_path:
         - Home
-        - "> Integrations"
-        - "[> Google Veo 3]"
+        - Integrations
+        - Google Veo 3
 
   # -----------------------------------------------------------------------
   # INTEGRATIONS — RUNWAY
@@ -1082,8 +1082,8 @@ questions:
       doc_file: docs/integrations/runway.mdx
       click_path:
         - Home
-        - "> Integrations"
-        - "[> Runway]"
+        - Integrations
+        - Runway
 
   # -----------------------------------------------------------------------
   # INTEGRATIONS — BLENDER
@@ -1102,8 +1102,8 @@ questions:
       doc_file: docs/integrations/blender.mdx
       click_path:
         - Home
-        - "> Integrations"
-        - "[> Blender]"
+        - Integrations
+        - Blender
 
   - question: Can I import a Blender scene as a set in ACT3 AI?
     question_info:
@@ -1118,8 +1118,8 @@ questions:
       doc_file: docs/integrations/blender.mdx
       click_path:
         - Home
-        - "> Integrations"
-        - "[> Blender]"
+        - Integrations
+        - Blender
 
   # -----------------------------------------------------------------------
   # INTEGRATIONS — COMFYUI / FLUX / SDXL
@@ -1138,8 +1138,8 @@ questions:
       doc_file: docs/integrations/comfyui.mdx
       click_path:
         - Home
-        - "> Integrations"
-        - "[> ComfyUI]"
+        - Integrations
+        - ComfyUI
 
   - question: What is FLUX and how do I use it for images?
     question_info:
@@ -1154,8 +1154,8 @@ questions:
       doc_file: docs/integrations/flux.mdx
       click_path:
         - Home
-        - "> Integrations"
-        - "[> FLUX]"
+        - Integrations
+        - FLUX
 
   # -----------------------------------------------------------------------
   # EXPORT
@@ -1174,8 +1174,8 @@ questions:
       doc_file: docs/export/overview.mdx
       click_path:
         - Home
-        - "> Export"
-        - "[> Export Overview]"
+        - Export
+        - Export Overview
 
   - question: What video formats can I export to?
     question_info:
@@ -1189,8 +1189,8 @@ questions:
       doc_file: docs/export/overview.mdx
       click_path:
         - Home
-        - "> Export"
-        - "[> Export Overview]"
+        - Export
+        - Export Overview
 
   - question: How do I export for YouTube?
     question_info:
@@ -1205,8 +1205,8 @@ questions:
       doc_file: docs/export/overview.mdx
       click_path:
         - Home
-        - "> Export"
-        - "[> Export Overview]"
+        - Export
+        - Export Overview
 
   - question: How do I export for TikTok or vertical video (9:16)?
     question_info:
@@ -1221,8 +1221,8 @@ questions:
       doc_file: docs/export/overview.mdx
       click_path:
         - Home
-        - "> Export"
-        - "[> Export Overview]"
+        - Export
+        - Export Overview
 
   - question: How do I export for film festivals?
     question_info:
@@ -1237,8 +1237,8 @@ questions:
       doc_file: docs/export/overview.mdx
       click_path:
         - Home
-        - "> Export"
-        - "[> Export Overview]"
+        - Export
+        - Export Overview
 
   - question: What file formats are supported for export?
     question_info:
@@ -1253,8 +1253,8 @@ questions:
       doc_file: docs/export/overview.mdx
       click_path:
         - Home
-        - "> Export"
-        - "[> Export Overview]"
+        - Export
+        - Export Overview
 
   # -----------------------------------------------------------------------
   # ACCOUNT & BILLING
@@ -1274,8 +1274,8 @@ questions:
       doc_file: docs/account/credits.mdx
       click_path:
         - Home
-        - "> Account & Billing"
-        - "[> Credits]"
+        - Account & Billing
+        - Credits
 
   - question: Do credits expire?
     question_info:
@@ -1291,8 +1291,8 @@ questions:
       doc_file: docs/account/credits.mdx
       click_path:
         - Home
-        - "> Account & Billing"
-        - "[> Credits]"
+        - Account & Billing
+        - Credits
 
   - question: What is included in the free tier vs. paid plans?
     question_info:
@@ -1308,8 +1308,8 @@ questions:
       doc_file: docs/account/billing.mdx
       click_path:
         - Home
-        - "> Account & Billing"
-        - "[> Billing & Plans]"
+        - Account & Billing
+        - Billing & Plans
 
   - question: How do I buy more credits?
     question_info:
@@ -1323,8 +1323,8 @@ questions:
       doc_file: docs/account/credits.mdx
       click_path:
         - Home
-        - "> Account & Billing"
-        - "[> Credits]"
+        - Account & Billing
+        - Credits
 
   - question: Can I share credits with my team?
     question_info:
@@ -1338,8 +1338,8 @@ questions:
       doc_file: docs/account/credits.mdx
       click_path:
         - Home
-        - "> Account & Billing"
-        - "[> Credits]"
+        - Account & Billing
+        - Credits
 
   - question: How do I invite a team member to my organization?
     question_info:
@@ -1353,8 +1353,8 @@ questions:
       doc_file: docs/account/teams.mdx
       click_path:
         - Home
-        - "> Account & Billing"
-        - "[> Teams & Organization]"
+        - Account & Billing
+        - Teams & Organization
 
   - question: How do I cancel my ACT3 AI subscription?
     question_info:
@@ -1369,8 +1369,8 @@ questions:
       doc_file: docs/account/account-cancellation.mdx
       click_path:
         - Home
-        - "> Account & Billing"
-        - "[> Account Cancellation]"
+        - Account & Billing
+        - Account Cancellation
 
   - question: How do I enable two-factor authentication?
     question_info:
@@ -1385,8 +1385,8 @@ questions:
       doc_file: docs/account/account-settings.mdx
       click_path:
         - Home
-        - "> Account & Billing"
-        - "[> Account Settings]"
+        - Account & Billing
+        - Account Settings
 
   # -----------------------------------------------------------------------
   # INTEGRATIONS — HUNYUAN & WAN
@@ -1405,8 +1405,8 @@ questions:
       doc_file: docs/integrations/hunyuan.mdx
       click_path:
         - Home
-        - "> Integrations"
-        - "[> Hunyuan]"
+        - Integrations
+        - Hunyuan
 
   - question: What is Wan 2.1 and how does it differ from other models?
     question_info:
@@ -1422,8 +1422,8 @@ questions:
       doc_file: docs/integrations/wan.mdx
       click_path:
         - Home
-        - "> Integrations"
-        - "[> Wan 2.1]"
+        - Integrations
+        - Wan 2.1
 
   # -----------------------------------------------------------------------
   # STABLE DIFFUSION / FLUX / IMAGES
@@ -1443,8 +1443,8 @@ questions:
       doc_file: docs/integrations/stable-diffusion-xl.mdx
       click_path:
         - Home
-        - "> Integrations"
-        - "[> Stable Diffusion XL]"
+        - Integrations
+        - Stable Diffusion XL
 
   # -----------------------------------------------------------------------
   # API
@@ -1463,8 +1463,8 @@ questions:
       doc_file: docs/api/overview.mdx
       click_path:
         - Home
-        - "> API Reference"
-        - "[> API Overview]"
+        - API Reference
+        - API Overview
 
   # -----------------------------------------------------------------------
   # TROUBLESHOOTING & FAQ
@@ -1484,8 +1484,8 @@ questions:
       doc_file: docs/faq/general.mdx
       click_path:
         - Home
-        - "> FAQ"
-        - "[> General FAQ]"
+        - FAQ
+        - General FAQ
 
   - question: Why can't I see some features in my account?
     question_info:
@@ -1500,8 +1500,8 @@ questions:
       doc_file: docs/faq/general.mdx
       click_path:
         - Home
-        - "> FAQ"
-        - "[> General FAQ]"
+        - FAQ
+        - General FAQ
 
   - question: Can I use ACT3 AI on Windows and Mac?
     question_info:
@@ -1516,8 +1516,8 @@ questions:
       doc_file: docs/getting-started/introduction.mdx
       click_path:
         - Home
-        - "> Getting Started"
-        - "[> Introduction]"
+        - Getting Started
+        - Introduction
 
   - question: Does ACT3 AI work with Adobe Premiere Pro or DaVinci Resolve?
     question_info:
@@ -1532,5 +1532,3397 @@ questions:
       doc_file: docs/export/overview.mdx
       click_path:
         - Home
-        - "> Export"
-        - "[> Export Overview]"
+        - Export
+        - Export Overview
+
+  # -----------------------------------------------------------------------
+  # BILLING — PRICING TIERS (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: What are the pricing plans and how much do they cost?
+    question_info:
+      category: Account & Billing
+      tags: [pricing, plans, tiers, cost]
+    answer:
+      description: >
+        ACT3 AI has five tiers. Free ($0/month, 800 credits). Community
+        ($8/month, 8,000 credits, no watermark). Standard ($35/month, 33,000
+        credits, 3 concurrent jobs). Business ($175/month, 180,000 credits,
+        commercial use, 6 jobs). Enterprise (custom pricing, high volume,
+        4K video, priority support). All plans bill monthly.
+      doc_file: docs/account/billing.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Billing & Plans
+
+  - question: What is the difference between the Community and Standard plans?
+    question_info:
+      category: Account & Billing
+      tags: [community plan, standard plan, comparison]
+    answer:
+      description: >
+        Community ($8/month) gives 8,000 credits and removes watermarks but
+        limits you to 1 concurrent job. Standard ($35/month) gives 33,000
+        credits and allows 3 concurrent jobs with a much higher credit rollover
+        cap (100,000). Standard is best if you generate more than a handful
+        of shots per month.
+      doc_file: docs/account/billing.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Billing & Plans
+
+  - question: Do videos I make on the free plan have watermarks?
+    question_info:
+      category: Account & Billing
+      tags: [watermark, free plan, branding]
+    answer:
+      description: >
+        Yes. All videos generated on the Free tier include an ACT3 AI watermark
+        in the corner. Upgrading to Community ($8/month) or any higher plan
+        removes the watermark from all generated content.
+      doc_file: docs/account/billing.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Billing & Plans
+
+  - question: Which plan allows commercial use of generated videos?
+    question_info:
+      category: Account & Billing
+      tags: [commercial use, licensing, rights, business plan]
+    answer:
+      description: >
+        Commercial use rights are included starting with the Business plan
+        ($175/month). The Free and Community plans are for personal use only.
+        The Standard plan allows personal and limited commercial use. Check
+        the Terms of Service for full licensing details.
+      doc_file: docs/account/billing.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Billing & Plans
+
+  - question: What is the credit rollover bank?
+    question_info:
+      category: Account & Billing
+      tags: [rollover, credits, bank, unused]
+    answer:
+      description: >
+        At the end of each billing period, unused credits transfer to a
+        Rollover Bank instead of expiring immediately. Each plan has a maximum
+        bank capacity — Free (0 rollover), Community (1,000), Standard
+        (100,000), Business (500,000), Enterprise (unlimited). When your
+        monthly credits run out, ACT3 AI draws from the bank automatically.
+      doc_file: docs/account/credits.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Credits
+
+  - question: Why am I being asked to upgrade after using the free plan for several months?
+    question_info:
+      category: Account & Billing
+      tags: [six month limit, upgrade required, free plan, community plan]
+    answer:
+      description: >
+        Free and Community plans are trial and hobbyist tiers. After 6 months
+        of active use, the platform requires you to upgrade to Standard
+        ($35/month) or higher. This ensures the platform remains sustainable
+        while keeping entry-level access affordable.
+      doc_file: docs/account/billing.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Billing & Plans
+
+  - question: Why does the free plan require LinkedIn sign-in?
+    question_info:
+      category: Account & Billing
+      tags: [LinkedIn, authentication, sign in, free plan]
+    answer:
+      description: >
+        Free and Community tiers require LinkedIn authentication to reduce
+        abuse and ensure account authenticity. Standard and higher plans
+        use email/password or SSO and do not require LinkedIn.
+      doc_file: docs/account/create-account.mdx
+      click_path:
+        - Home
+        - Getting Started
+        - Create Your Account
+
+  - question: Can I see how many credits a task will use before I start it?
+    question_info:
+      category: Account & Billing
+      tags: [cost estimate, credits, before generate, transparency]
+    answer:
+      description: >
+        Yes. Every generation button shows the exact credit cost before you
+        click it. For example, Generate [80 Credits] or Generate High Quality
+        [400 Credits]. If you don't have enough credits, a dialog tells you
+        how many you need and offers an upgrade path.
+      doc_file: docs/account/credits.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Credits
+
+  # -----------------------------------------------------------------------
+  # ORGANIZATION MODEL (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: What is an Organization in ACT3 AI?
+    question_info:
+      category: Teams
+      tags: [organization, workspace, billing, team]
+    answer:
+      description: >
+        An Organization is your billing and collaboration workspace — similar
+        to a GitHub organization or Figma team. It owns your projects, credit
+        pool, subscription plan, and payment method. Every new account gets a
+        personal Organization automatically. You can create or join multiple
+        Organizations.
+      doc_file: docs/account/teams.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Teams & Organization
+
+  - question: Can I belong to multiple organizations?
+    question_info:
+      category: Teams
+      tags: [multiple organizations, personal, professional, workspace]
+    answer:
+      description: >
+        Yes. You can create or join as many Organizations as you need — for
+        example, one personal organization for your own projects and another
+        for a studio or agency client. Switch between them using the
+        Organization dropdown in the top navigation.
+      doc_file: docs/account/teams.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Teams & Organization
+
+  - question: Who owns the content I create — me or ACT3 AI?
+    question_info:
+      category: Teams
+      tags: [ownership, IP, content rights, organization]
+    answer:
+      description: >
+        Your Organization legally owns all projects and generated content
+        created within it. ACT3 AI does not claim ownership over your creative
+        output. IP terms are stated in the Terms of Service. Ensure your
+        Organization has the appropriate commercial-use plan for work you
+        intend to distribute.
+      doc_file: docs/account/teams.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Teams & Organization
+
+  - question: How do I transfer ownership of my organization to someone else?
+    question_info:
+      category: Teams
+      tags: [ownership transfer, organization, admin]
+    answer:
+      description: >
+        Go to Account → Organization → Settings and click Transfer Ownership.
+        Enter the email of the new owner (they must already be a member).
+        Both parties must confirm before the transfer completes. This is a
+        security measure to prevent unauthorized transfers.
+      doc_file: docs/account/teams.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Teams & Organization
+
+  - question: What roles can I assign to team members?
+    question_info:
+      category: Teams
+      tags: [roles, permissions, team, access control]
+    answer:
+      description: >
+        ACT3 AI has six permission levels: Read (view only), Modify/Edit (edit
+        scripts and scenes), Run AI (trigger AI generation), Use Credits
+        (consume credits), Billing (manage subscription), and Owner (full
+        control plus member management). Assign the minimum permissions each
+        person needs.
+      doc_file: docs/account/teams.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Teams & Organization
+
+  - question: Can I limit how many credits a team member can use?
+    question_info:
+      category: Teams
+      tags: [credit limits, team, permissions, budget]
+    answer:
+      description: >
+        Yes. In the Organization member settings, set a monthly credit limit
+        per member. This prevents any individual from consuming the entire
+        organization credit pool. When a member hits their limit, they are
+        prompted to request more from the org owner.
+      doc_file: docs/account/teams.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Teams & Organization
+
+  - question: Does my organization get dormant assets deleted?
+    question_info:
+      category: Account & Billing
+      tags: [dormant assets, deletion, storage, free plan]
+    answer:
+      description: >
+        Free and Community plan organizations have assets automatically deleted
+        after 4 months of inactivity. Standard and higher plans retain assets
+        indefinitely as long as the subscription is active. You receive an
+        email warning before any deletion occurs.
+      doc_file: docs/account/billing.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Billing & Plans
+
+  # -----------------------------------------------------------------------
+  # TV SERIES & EPISODIC (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: Can I make a TV series or multi-episode project in ACT3 AI?
+    question_info:
+      category: Core Concepts
+      tags: [TV series, episodic, season, episode]
+    answer:
+      description: >
+        Yes. ACT3 AI supports a full Show → Season → Episode → Scene → Shot
+        hierarchy. Create a project as a Series, then add seasons and episodes.
+        Each episode has its own script, scenes, and shots. The platform handles
+        full 22-minute episodes and multi-season arcs.
+      doc_file: docs/concepts/overview.mdx
+      click_path:
+        - Home
+        - Core Concepts
+        - Story Structure Overview
+
+  - question: How do I organize a multi-episode TV show in ACT3 AI?
+    question_info:
+      category: Core Concepts
+      tags: [TV show, episodes, seasons, organization]
+    answer:
+      description: >
+        When creating a project, select Series as the project type. Add a
+        Season, then add Episodes within that season. Each episode functions
+        like an independent film project with its own script and shot list,
+        but shares actors, sets, and style presets with the whole series.
+      doc_file: docs/concepts/overview.mdx
+      click_path:
+        - Home
+        - Core Concepts
+        - Story Structure Overview
+
+  - question: How do I keep actors and sets consistent across episodes?
+    question_info:
+      category: Core Concepts
+      tags: [consistency, series, actors, sets, multi-episode]
+    answer:
+      description: >
+        Actors and sets are shared at the project (series) level. Any digital
+        actor or set you create is available across all episodes. Apply the
+        same Style Preset to the whole series to lock in consistent lighting,
+        color, and visual mood for every episode.
+      doc_file: docs/features/actors.mdx
+      click_path:
+        - Home
+        - Features
+        - Actors
+
+  # -----------------------------------------------------------------------
+  # AI ROLE SYSTEM (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: What does the AI Director do?
+    question_info:
+      category: Features
+      tags: [AI Director, AI roles, orchestration, vision]
+    answer:
+      description: >
+        The AI Director orchestrates your overall creative vision. It manages
+        scene pacing, story flow, and the sequencing of shots to ensure the
+        narrative reads correctly. It works alongside the AI Writer and AI
+        Cinematographer to propose a cohesive interpretation of your script.
+      doc_file: docs/features/ai-video-generation.mdx
+      click_path:
+        - Home
+        - Features
+        - AI Video Generation
+
+  - question: What does the AI Cinematographer do?
+    question_info:
+      category: Features
+      tags: [AI Cinematographer, camera, composition, AI roles]
+    answer:
+      description: >
+        The AI Cinematographer translates your story beats into camera decisions:
+        shot type, lens focal length, camera movement, and framing. It draws
+        from 22 standard shot types and key-framed camera curves to propose
+        cinematography for each beat automatically.
+      doc_file: docs/features/cinematography.mdx
+      click_path:
+        - Home
+        - Features
+        - Cinematography
+
+  - question: What does the AI Writer do?
+    question_info:
+      category: Features
+      tags: [AI Writer, script expansion, dialogue, story]
+    answer:
+      description: >
+        The AI Writer expands high-level ideas into full scripts. Give it a
+        logline or a paragraph description and it generates a complete beat
+        sheet, scene outline, and dialogue draft. You can also use it to
+        rewrite individual scenes or fill in missing dialogue.
+      doc_file: docs/features/script-editing.mdx
+      click_path:
+        - Home
+        - Features
+        - Script Editing
+
+  - question: What does the AI Set Designer do?
+    question_info:
+      category: Features
+      tags: [AI Set Designer, virtual sets, environment, AI roles]
+    answer:
+      description: >
+        The AI Set Designer creates virtual environments for your scenes. Based
+        on your script context and story location, it suggests or generates
+        appropriate sets — from procedural city blocks to interior rooms. You
+        can accept suggestions, modify them, or build from scratch.
+      doc_file: docs/features/sets.mdx
+      click_path:
+        - Home
+        - Features
+        - Sets
+
+  # -----------------------------------------------------------------------
+  # STORY FACTORS & DEPENDENCY GRAPH (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: What is a Story Factor?
+    question_info:
+      category: Core Concepts
+      tags: [story factors, dependency graph, consistency, data]
+    answer:
+      description: >
+        A Story Factor is a user-defined abstraction — like a character's
+        backstory, a location's history, or a recurring visual motif — that
+        connects across your script. When you edit a Story Factor, ACT3 AI
+        cascades the change through all scenes and shots that reference it,
+        keeping the narrative consistent automatically.
+      doc_file: docs/concepts/overview.mdx
+      click_path:
+        - Home
+        - Core Concepts
+        - Story Structure Overview
+
+  - question: What happens when I edit a scene that other scenes depend on?
+    question_info:
+      category: Core Concepts
+      tags: [dependency graph, cascading edits, consistency, story factors]
+    answer:
+      description: >
+        ACT3 AI uses a dependency graph to track how story elements relate.
+        When you change a scene or shot that other elements reference, the
+        platform flags downstream elements that may need regeneration. You
+        review the flagged items and decide which to update, keeping edits
+        non-destructive.
+      doc_file: docs/concepts/overview.mdx
+      click_path:
+        - Home
+        - Core Concepts
+        - Story Structure Overview
+
+  # -----------------------------------------------------------------------
+  # MEGA PROMPT COMPOSER (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: What is the Mega Prompt and how does it work?
+    question_info:
+      category: Features
+      tags: [mega prompt, prompt composer, generation, shot data]
+    answer:
+      description: >
+        The Mega Prompt is the full, assembled instruction packet ACT3 AI sends
+        to the generative video engine for each shot. It bundles your narrative
+        description, style preset, camera settings, lighting setup, audio cues,
+        and motion data into one multi-modal prompt. You can view and edit it
+        directly in the AI Prompt Editing panel for expert-level control.
+      doc_file: docs/features/ai-video-generation.mdx
+      click_path:
+        - Home
+        - Features
+        - AI Video Generation
+
+  - question: Can I see and edit the raw AI prompt for a shot?
+    question_info:
+      category: Features
+      tags: [prompt editing, raw prompt, advanced, AI control]
+    answer:
+      description: >
+        Yes. Open the AI Prompt Editing panel for any shot to see the full
+        assembled prompt that will be sent to the generation engine. You can
+        edit the text directly to fine-tune what the model receives. This is
+        useful for advanced users who want precise control over the output.
+      doc_file: docs/features/ai-video-generation.mdx
+      click_path:
+        - Home
+        - Features
+        - AI Video Generation
+
+  # -----------------------------------------------------------------------
+  # SHOT TYPES (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: What shot types does ACT3 AI support?
+    question_info:
+      category: Cinematography
+      tags: [shot types, framing, camera, grammar]
+    answer:
+      description: >
+        ACT3 AI includes 22 standard shot types in the Cinematography panel:
+        extreme wide, wide, medium wide, medium, medium close-up, close-up,
+        extreme close-up, over-the-shoulder, POV, two-shot, insert, cutaway,
+        bird's-eye, worm's-eye, dutch angle, aerial, tracking, crane, dolly,
+        steadicam, handheld, and rack focus. Each maps to a camera curve
+        template.
+      doc_file: docs/features/cinematography.mdx
+      click_path:
+        - Home
+        - Features
+        - Cinematography
+
+  - question: How do I create a POV shot in ACT3 AI?
+    question_info:
+      category: Cinematography
+      tags: [POV shot, point of view, first person, camera]
+    answer:
+      description: >
+        Select POV as the shot type in the Cinematography panel and assign the
+        character whose perspective you want. In the shot prompt, describe what
+        they see and how they're moving. The camera will be positioned at eye
+        level representing that character's viewpoint.
+      doc_file: docs/features/cinematography.mdx
+      click_path:
+        - Home
+        - Features
+        - Cinematography
+
+  - question: What is a Dutch angle and when should I use it?
+    question_info:
+      category: Cinematography
+      tags: [Dutch angle, tilt, disorientation, tension]
+    answer:
+      description: >
+        A Dutch angle tilts the camera on its roll axis so the horizon is
+        diagonal rather than level. Use it to create unease, psychological
+        tension, or disorientation in thriller or horror scenes. Select Dutch
+        Angle in the Cinematography panel and adjust the roll degree.
+      doc_file: docs/features/cinematography.mdx
+      click_path:
+        - Home
+        - Features
+        - Cinematography
+
+  - question: How do I do a rack focus between two subjects?
+    question_info:
+      category: Cinematography
+      tags: [rack focus, depth of field, focus pull, cinematic]
+    answer:
+      description: >
+        Select Rack Focus as the shot type and set the near and far focus
+        subjects in the Cinematography panel. Specify in the shot prompt when
+        the focus shift happens (e.g., "focus pulls from foreground glass to
+        character in background as she begins speaking").
+      doc_file: docs/features/cinematography.mdx
+      click_path:
+        - Home
+        - Features
+        - Cinematography
+
+  # -----------------------------------------------------------------------
+  # STYLE PRESETS — BUILT-IN (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: What built-in visual styles does ACT3 AI offer?
+    question_info:
+      category: Style Presets
+      tags: [visual styles, cinematic, anime, cartoon, 3D]
+    answer:
+      description: >
+        ACT3 AI includes four built-in style presets: Cinematic Realism
+        (photorealistic film look), 3D Animated (CG animation aesthetic),
+        Cartoon 2D (flat illustrated style), and Anime (Japanese animation
+        aesthetic). Each maps to a set of prompt templates you can override
+        per shot.
+      doc_file: docs/features/style-presets.mdx
+      click_path:
+        - Home
+        - Features
+        - Style Presets
+
+  - question: Can I switch styles mid-movie for a dream sequence or flashback?
+    question_info:
+      category: Style Presets
+      tags: [style switch, dream sequence, flashback, visual style]
+    answer:
+      description: >
+        Yes. Apply a different Style Preset to individual scenes or shots by
+        overriding the project-level preset at the scene level. This lets you
+        shift from Cinematic Realism to Anime for a dream sequence and back
+        again, all within the same project.
+      doc_file: docs/features/style-presets.mdx
+      click_path:
+        - Home
+        - Features
+        - Style Presets
+
+  # -----------------------------------------------------------------------
+  # CONTENT MODERATION (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How does ACT3 AI check for inappropriate content?
+    question_info:
+      category: Features
+      tags: [content moderation, safety, inappropriate, compliance]
+    answer:
+      description: >
+        ACT3 AI runs a three-stage content scanner: it checks your shot prompt
+        before generation, scans the script before production begins, and
+        reviews finished outputs before download. Content that violates the
+        policy is auto-redacted or flagged for admin review. This applies
+        to all tiers.
+      doc_file: docs/faq/general.mdx
+      click_path:
+        - Home
+        - FAQ
+        - General FAQ
+
+  - question: My shot prompt was blocked by the content filter. What do I do?
+    question_info:
+      category: Troubleshooting
+      tags: [content filter, blocked, prompt, policy]
+    answer:
+      description: >
+        The content scanner flagged language in your prompt that violates the
+        usage policy. Review the flagged terms, remove or rephrase the
+        problematic section, and resubmit. If you believe the block was in
+        error, use the appeal link in the error dialog to request a review.
+      doc_file: docs/faq/general.mdx
+      click_path:
+        - Home
+        - FAQ
+        - General FAQ
+
+  # -----------------------------------------------------------------------
+  # COMMUNITY & DISCOVERY (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: Can other users see my projects?
+    question_info:
+      category: Features
+      tags: [community, privacy, discovery feed, sharing]
+    answer:
+      description: >
+        Projects are private by default. You can opt in to share a project to
+        the Community Discovery Feed, where it may appear to other users after
+        admin approval. Sharing is voluntary and you can withdraw at any time.
+      doc_file: docs/features/collaboration.mdx
+      click_path:
+        - Home
+        - Features
+        - Collaboration
+
+  - question: What is the Community Discovery Feed?
+    question_info:
+      category: Features
+      tags: [community feed, discovery, showcase, networking]
+    answer:
+      description: >
+        The Community Discovery Feed is a global showcase where ACT3 AI users
+        can share their projects for feedback and inspiration. To appear in
+        the feed, enable Community Sharing in your project settings. Projects
+        go through admin approval before becoming visible.
+      doc_file: docs/features/collaboration.mdx
+      click_path:
+        - Home
+        - Features
+        - Collaboration
+
+  # -----------------------------------------------------------------------
+  # SHOT RENDERING MODES (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: What is a Shot Rendering Mode?
+    question_info:
+      category: Features
+      tags: [rendering mode, hybrid, 3D, generative, pipeline]
+    answer:
+      description: >
+        The Shot Rendering Mode defines the technical pipeline used to generate
+        each shot. Options include: Generative AI Only (pure AI video), 3D
+        Characters on 2D Background (Blender character over a flat plate), Full
+        3D Environment (complete Blender render), and Hybrid approaches mixing
+        modes. Set it per shot in the master dropdown.
+      doc_file: docs/features/ai-video-generation.mdx
+      click_path:
+        - Home
+        - Features
+        - AI Video Generation
+
+  - question: When should I use the hybrid rendering mode?
+    question_info:
+      category: Features
+      tags: [hybrid render, 3D character, 2D background, rendering]
+    answer:
+      description: >
+        Use hybrid mode when you want precise character placement (from Blender)
+        composited over an AI-generated background. This is useful for complex
+        action sequences where character accuracy matters more than environment
+        fidelity, or when you have existing 3D character assets you want to
+        incorporate.
+      doc_file: docs/features/ai-video-generation.mdx
+      click_path:
+        - Home
+        - Features
+        - AI Video Generation
+
+  # -----------------------------------------------------------------------
+  # SAML SSO & ENTERPRISE (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: Does ACT3 AI support single sign-on (SSO)?
+    question_info:
+      category: Teams
+      tags: [SSO, SAML, enterprise, authentication, security]
+    answer:
+      description: >
+        Yes. Enterprise plans support SAML-based single sign-on. Configure your
+        identity provider (Okta, Azure AD, Google Workspace) in Organization
+        Settings → Security → SSO. Once enabled, team members log in through
+        your company's identity provider rather than creating separate passwords.
+      doc_file: docs/account/account-settings.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Account Settings
+
+  - question: What is the Enterprise plan and what does it include?
+    question_info:
+      category: Account & Billing
+      tags: [enterprise, plan, large team, 4K, priority]
+    answer:
+      description: >
+        The Enterprise plan is custom-priced for studios, agencies, and large
+        teams. It includes 10M+ monthly credits, unlimited credit rollover,
+        10+ concurrent jobs, 4K video output, private 3D sets, SAML SSO,
+        priority support, and a dedicated account manager. Contact sales for
+        pricing.
+      doc_file: docs/account/billing.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Billing & Plans
+
+  # -----------------------------------------------------------------------
+  # NVIDIA AUDIO2FACE / FACIAL PERFORMANCE (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How does facial animation work for characters in ACT3 AI?
+    question_info:
+      category: Motion Capture
+      tags: [facial animation, Audio2Face, NVIDIA, lip sync]
+    answer:
+      description: >
+        ACT3 AI uses NVIDIA Audio2Face to drive facial performance from audio.
+        When you attach TTS or recorded dialogue to a character, Audio2Face
+        analyzes the audio waveform and generates realistic facial expressions
+        and mouth movement synchronized to the speech, going beyond simple lip
+        sync.
+      doc_file: docs/features/motion-capture.mdx
+      click_path:
+        - Home
+        - Features
+        - Motion Capture
+
+  - question: Can I capture facial expressions without markers or special cameras?
+    question_info:
+      category: Motion Capture
+      tags: [marker-less, mocap, facial capture, phone, webcam]
+    answer:
+      description: >
+        Yes. ACT3 AI supports marker-less full-body motion capture from standard
+        video footage — shot on a phone or webcam. The system extracts pose
+        and facial data from the video and applies it to your digital actors
+        in Blender, which then syncs back to the platform.
+      doc_file: docs/features/motion-capture.mdx
+      click_path:
+        - Home
+        - Features
+        - Motion Capture
+
+  # -----------------------------------------------------------------------
+  # AZURE NEURAL TTS (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: What TTS engine does ACT3 AI use?
+    question_info:
+      category: TTS
+      tags: [TTS engine, Azure, Neural TTS, voice quality]
+    answer:
+      description: >
+        ACT3 AI uses Azure Neural TTS for voice generation. Azure Neural TTS
+        provides natural-sounding voices across dozens of languages and accents.
+        The generated audio is used for character dialogue and drives both the
+        lip sync duration and NVIDIA Audio2Face facial animation.
+      doc_file: docs/features/tts.mdx
+      click_path:
+        - Home
+        - Features
+        - Text-to-Speech
+
+  - question: Can I generate dialogue in multiple languages?
+    question_info:
+      category: TTS
+      tags: [multi-lingual, language, dubbing, localization]
+    answer:
+      description: >
+        Yes. ACT3 AI supports multi-lingual TTS through Azure Neural TTS.
+        Select the target language and accent when generating a voice line.
+        For dubbing existing video, the platform can replace the audio track
+        with the translated TTS and re-sync the lip animation to match.
+      doc_file: docs/features/tts.mdx
+      click_path:
+        - Home
+        - Features
+        - Text-to-Speech
+
+  - question: Does ACT3 AI support auto-captioning?
+    question_info:
+      category: Features
+      tags: [captions, subtitles, auto-caption, accessibility]
+    answer:
+      description: >
+        Yes. ACT3 AI generates captions automatically from TTS audio or
+        uploaded dialogue tracks. Captions appear as a subtitle layer in the
+        video editor timeline. You can edit the text, adjust timing, and
+        choose whether to burn them into the export or include them as a
+        separate SRT file.
+      doc_file: docs/features/video-editor.mdx
+      click_path:
+        - Home
+        - Features
+        - Video Editor
+
+  # -----------------------------------------------------------------------
+  # RIGHTS & IP (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How does ACT3 AI protect my intellectual property?
+    question_info:
+      category: Account & Billing
+      tags: [IP, intellectual property, rights, ownership, ledger]
+    answer:
+      description: >
+        Your Organization owns all projects and generated content. ACT3 AI
+        maintains a rights ledger that timestamps every asset creation event.
+        Watermarked dailies are available for Business and Enterprise plans
+        as proof of provenance. The Terms of Service spell out IP ownership
+        clearly.
+      doc_file: docs/account/billing.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Billing & Plans
+
+  - question: What are watermarked dailies and why would I need them?
+    question_info:
+      category: Account & Billing
+      tags: [watermarked dailies, provenance, IP, rights, business plan]
+    answer:
+      description: >
+        Watermarked dailies are timestamped, lightly watermarked intermediate
+        renders that serve as proof you created the content at a specific date
+        and time. They are useful for IP disputes, investor pitches, and
+        festival submissions that require proof of authorship. Available on
+        Business and Enterprise plans.
+      doc_file: docs/account/billing.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Billing & Plans
+
+  # -----------------------------------------------------------------------
+  # ASSET MARKETPLACE (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: Is there a marketplace where I can get additional 3D sets or assets?
+    question_info:
+      category: Features
+      tags: [marketplace, assets, 3D sets, community, download]
+    answer:
+      description: >
+        ACT3 AI has a community marketplace where users can share and sell
+        3D sets, look-packs, and Blender-compatible assets. Browse the
+        marketplace from the Asset Library to find environment packs, character
+        templates, and style presets created by other filmmakers.
+      doc_file: docs/features/asset-library.mdx
+      click_path:
+        - Home
+        - Features
+        - Asset Library
+
+  - question: Can I sell my own 3D sets or assets to other ACT3 AI users?
+    question_info:
+      category: Features
+      tags: [marketplace, sell assets, monetize, 3D sets]
+    answer:
+      description: >
+        Yes. You can publish assets to the ACT3 AI marketplace from the Asset
+        Library. Set a price or make them free. ACT3 AI takes a platform fee
+        on paid asset sales. Your assets must meet quality guidelines before
+        appearing in the marketplace.
+      doc_file: docs/features/asset-library.mdx
+      click_path:
+        - Home
+        - Features
+        - Asset Library
+
+  # -----------------------------------------------------------------------
+  # BRAND-LOCK & MARKETING TEAMS (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I lock brand colors and logos so team members can't change them?
+    question_info:
+      category: Features
+      tags: [brand-lock, marketing, brand safety, logo, colors]
+    answer:
+      description: >
+        Use the Brand-Lock Controls in your project or organization settings.
+        Upload your logo and define your color palette, typography style, and
+        approved visual references. Locked brand elements cannot be overridden
+        by Editors or Viewers — only Owners and Admins can modify them.
+      doc_file: docs/features/collaboration.mdx
+      click_path:
+        - Home
+        - Features
+        - Collaboration
+
+  - question: How does ACT3 AI help marketing teams maintain visual consistency?
+    question_info:
+      category: Features
+      tags: [marketing, brand consistency, style preset, team]
+    answer:
+      description: >
+        Marketing teams can create an organization-level Style Preset with
+        brand colors, approved lighting styles, and on-brand cinematography
+        settings. Combined with Brand-Lock Controls, this ensures every video
+        produced by the team matches brand guidelines without manual review
+        of each shot.
+      doc_file: docs/features/style-presets.mdx
+      click_path:
+        - Home
+        - Features
+        - Style Presets
+
+  # -----------------------------------------------------------------------
+  # EDL EXPORT (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: Can I export an EDL for use in Premiere Pro or Avid?
+    question_info:
+      category: Export
+      tags: [EDL, edit decision list, Premiere, Avid, post-production]
+    answer:
+      description: >
+        Yes. In the Export dialog, select EDL as the format. ACT3 AI generates
+        an Edit Decision List with timecodes, clip references, and cut points
+        matching your timeline. Import the EDL into Premiere Pro, Avid, or
+        DaVinci Resolve to continue editing with your original media files.
+      doc_file: docs/export/overview.mdx
+      click_path:
+        - Home
+        - Export
+        - Export Overview
+
+  # -----------------------------------------------------------------------
+  # BUDGET ALERTS (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: Can I get alerts when I'm running low on credits?
+    question_info:
+      category: Account & Billing
+      tags: [budget alert, low credits, notification, billing]
+    answer:
+      description: >
+        Yes. Go to Account → Settings → Notifications and enable credit
+        threshold alerts. Set the percentage or absolute number of credits
+        remaining that triggers an email or in-app notification. You can
+        set multiple thresholds (e.g., alert at 50%, alert at 10%).
+      doc_file: docs/account/account-settings.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Account Settings
+
+  - question: How do I set a monthly spending cap for my organization?
+    question_info:
+      category: Account & Billing
+      tags: [spending cap, budget, organization, billing]
+    answer:
+      description: >
+        In Organization Settings → Billing, enable the monthly spend cap and
+        enter the maximum dollar amount. When the cap is reached, all generation
+        stops until the next billing cycle or you raise the cap. Individual
+        member credit limits provide an additional layer of control.
+      doc_file: docs/account/billing.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Billing & Plans
+
+  # -----------------------------------------------------------------------
+  # EDITOR FEATURES (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I switch between Writer, Director, and Actor views in the editor?
+    question_info:
+      category: Features
+      tags: [editor, persona layouts, writer view, director view, actor view]
+    answer:
+      description: >
+        Click the View menu in the editor and select a persona layout: Writer
+        (script-focused, larger script panel), Director (timeline and video
+        preview prominent), or Actor (character and motion capture panels
+        front and center). You can also use the View As filter to switch any
+        column to a different panel manually.
+      doc_file: docs/features/video-editor.mdx
+      click_path:
+        - Home
+        - Features
+        - Video Editor
+
+  - question: How do keyframes work in the ACT3 AI editor?
+    question_info:
+      category: Features
+      tags: [keyframes, animation, timeline, camera movement]
+    answer:
+      description: >
+        Add keyframes to the timeline to animate camera movement and character
+        position over time. Click the keyframe button on a property (camera
+        position, character location) at the playhead position and set the
+        value. Add a second keyframe at a later time with a different value
+        and ACT3 AI interpolates between them smoothly.
+      doc_file: docs/features/video-editor.mdx
+      click_path:
+        - Home
+        - Features
+        - Video Editor
+
+  - question: Can I play back only selected shots instead of the whole movie?
+    question_info:
+      category: Features
+      tags: [selection playback, preview, scenes, shots, review]
+    answer:
+      description: >
+        Yes. In the timeline, select a range of shots or scenes by clicking
+        and dragging, then press Play. ACT3 AI plays only the selected range
+        and automatically pauses when it reaches the end of the selection.
+        This is useful for reviewing transitions and specific sequences.
+      doc_file: docs/features/video-editor.mdx
+      click_path:
+        - Home
+        - Features
+        - Video Editor
+
+  - question: How does structural script highlighting work?
+    question_info:
+      category: Features
+      tags: [script highlighting, scene boundaries, shot boundaries, color coding]
+    answer:
+      description: >
+        The script editor automatically color-codes the background of your
+        script text: purple highlights mark scene boundaries, yellow marks
+        shot boundaries. This gives you immediate visual feedback on the
+        structure without having to read every line to find where scenes
+        and shots begin and end.
+      doc_file: docs/features/script-editing.mdx
+      click_path:
+        - Home
+        - Features
+        - Script Editing
+
+  - question: How do I use tags to manage a large project with many scenes?
+    question_info:
+      category: Features
+      tags: [tagging, batch operations, scenes, shots, organization]
+    answer:
+      description: >
+        Right-click any scene or shot and click Add Tag. Create tags like
+        "Needs Review", "VFX Heavy", or "Beach Scenes". Then use the Tag
+        Filter in the sidebar to view only tagged items. You can also run
+        batch operations on all tagged items — for example, render all shots
+        tagged "Approved for Final".
+      doc_file: docs/features/video-editor.mdx
+      click_path:
+        - Home
+        - Features
+        - Video Editor
+
+  - question: How do I lock a scene or shot so no one can accidentally change it?
+    question_info:
+      category: Features
+      tags: [lock-down, freeze, approved, protect, scene]
+    answer:
+      description: >
+        Right-click the scene or shot in the outline or timeline and select
+        Lock. Locked elements are read-only for all team members except the
+        project Owner and Admins. A lock icon appears on the item. This is
+        useful after a scene is approved and you want to prevent accidental
+        edits during later production phases.
+      doc_file: docs/features/collaboration.mdx
+      click_path:
+        - Home
+        - Features
+        - Collaboration
+
+  - question: How do I copy a shot's AI prompt to use somewhere else?
+    question_info:
+      category: Features
+      tags: [copy prompt, export prompt, AI prompt, debugging]
+    answer:
+      description: >
+        Open any shot and click the Copy Prompt button in the AI Prompt Editing
+        panel. This copies the full assembled Mega Prompt to your clipboard.
+        You can paste it into another tool, save it for reference, or use it
+        to debug why a generation produced unexpected results.
+      doc_file: docs/features/ai-video-generation.mdx
+      click_path:
+        - Home
+        - Features
+        - AI Video Generation
+
+  - question: How do I use the Figma-style top-down canvas for blocking?
+    question_info:
+      category: Features
+      tags: [top-down canvas, blocking, Figma-style, character placement]
+    answer:
+      description: >
+        Click the Top-Down tab in the editor to open the bird's-eye canvas.
+        Pan and zoom like Figma. Drag character icons onto the set layout
+        and draw movement paths using the spline tool. Place virtual cameras
+        and see their field-of-view cones. This blocking plan feeds directly
+        into the shot data for generation.
+      doc_file: docs/features/sets.mdx
+      click_path:
+        - Home
+        - Features
+        - Sets
+
+  # -----------------------------------------------------------------------
+  # SETS — ADVANCED (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: What is a procedural city set and how do I create one?
+    question_info:
+      category: Sets
+      tags: [procedural city, city on rails, urban, environment]
+    answer:
+      description: >
+        A City on Rails set generates a full city block procedurally. In the
+        Set editor, choose Set Type → City on Rails. Define building types
+        for each location (restaurant, store, park) and the style (modern,
+        historical, dystopian). ACT3 AI assembles a walkable urban environment
+        you can use across multiple shots.
+      doc_file: docs/features/sets.mdx
+      click_path:
+        - Home
+        - Features
+        - Sets
+
+  - question: Can I reuse a set across multiple scenes in my movie?
+    question_info:
+      category: Sets
+      tags: [reuse set, multiple scenes, consistency, environment]
+    answer:
+      description: >
+        Yes. Sets are saved to your organization's Set Library and can be
+        assigned to any scene across any project. Using the same set in
+        multiple scenes ensures visual consistency in that location throughout
+        your film.
+      doc_file: docs/features/sets.mdx
+      click_path:
+        - Home
+        - Features
+        - Sets
+
+  - question: How do I place characters on a 2D background image to make it feel 3D?
+    question_info:
+      category: Sets
+      tags: [2D set, 3D ground alignment, character placement, perspective]
+    answer:
+      description: >
+        When using a 2D image as a set, use the 3D Ground Alignment tools to
+        define the ground plane and vanishing points. This lets ACT3 AI
+        correctly position 3D characters in perspective against the 2D
+        background, giving the illusion of depth and proper scale.
+      doc_file: docs/features/sets.mdx
+      click_path:
+        - Home
+        - Features
+        - Sets
+
+  - question: How do I browse and find sets in the Set Library?
+    question_info:
+      category: Sets
+      tags: [set library, search, filter, browse]
+    answer:
+      description: >
+        Open the Sets panel and use the search bar to find sets by keyword.
+        Filter by set type (2D, 3D Blender, Procedural), location category
+        (Country → City → Campus), or usage in current project. Sort by title,
+        date added, or rating. Favorite sets for quick access to your preferred
+        environments.
+      doc_file: docs/features/sets.mdx
+      click_path:
+        - Home
+        - Features
+        - Sets
+
+  # -----------------------------------------------------------------------
+  # PREVISUALIZATION (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: What is previsualization and how do I use it in ACT3 AI?
+    question_info:
+      category: Features
+      tags: [previs, previsualization, planning, storyboard, rough cut]
+    answer:
+      description: >
+        Previsualization (previs) is the process of planning shots before final
+        generation. In ACT3 AI, you previs by generating storyboard panels with
+        FLUX, doing a rough pass using Wan 2.1 (low cost), and reviewing in the
+        timeline before committing Veo 3 credits to final quality renders.
+      doc_file: docs/features/storyboard.mdx
+      click_path:
+        - Home
+        - Features
+        - Storyboard
+
+  - question: Can I use a low-quality draft render before doing the final render?
+    question_info:
+      category: Features
+      tags: [draft render, quality levels, previs, cost saving]
+    answer:
+      description: >
+        Yes. In the generation dialog, choose Draft quality. Draft renders use
+        fewer credits and complete faster — ideal for previewing composition,
+        timing, and action before committing to full quality. Once you're happy
+        with the draft, regenerate at Standard or High quality.
+      doc_file: docs/features/render-queue.mdx
+      click_path:
+        - Home
+        - Features
+        - Render Queue
+
+  # -----------------------------------------------------------------------
+  # SOCIAL MEDIA CREATORS (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I create content optimized for multiple social platforms at once?
+    question_info:
+      category: Export
+      tags: [social media, multi-platform, YouTube, TikTok, Instagram]
+    answer:
+      description: >
+        Use the multi-export workflow: set your primary aspect ratio to 16:9
+        for YouTube, then add export targets for TikTok (9:16) and Instagram
+        (1:1). ACT3 AI generates optimized exports for each format from the
+        same project, adjusting reframe positions per shot for each target.
+      doc_file: docs/export/overview.mdx
+      click_path:
+        - Home
+        - Export
+        - Export Overview
+
+  - question: How do I add captions for social media accessibility?
+    question_info:
+      category: Features
+      tags: [captions, social media, accessibility, subtitles]
+    answer:
+      description: >
+        Enable Auto-Caption in the Export dialog. ACT3 AI generates captions
+        from your dialogue audio and displays them as a subtitle layer. Choose
+        burned-in captions (embedded in video) or a separate SRT file for
+        platforms that support external caption files.
+      doc_file: docs/features/video-editor.mdx
+      click_path:
+        - Home
+        - Features
+        - Video Editor
+
+  - question: Can ACT3 AI generate thumbnails for my YouTube videos?
+    question_info:
+      category: Features
+      tags: [thumbnail, YouTube, social media, image generation]
+    answer:
+      description: >
+        Yes. Use the Storyboard generator with FLUX to create high-quality
+        thumbnail images. Select a frame from your timeline as a reference,
+        add title text overlay, and export as PNG or JPEG at the dimensions
+        YouTube recommends (1280×720). You can generate multiple variations
+        for A/B testing.
+      doc_file: docs/features/storyboard.mdx
+      click_path:
+        - Home
+        - Features
+        - Storyboard
+
+  # -----------------------------------------------------------------------
+  # COLLABORATION — ADVANCED (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I get feedback from a client or producer on my cuts?
+    question_info:
+      category: Collaboration
+      tags: [feedback, client review, comments, timestamps]
+    answer:
+      description: >
+        Share a review link with your client from the Project → Share menu.
+        Reviewers can leave time-stamped comments on the video timeline without
+        needing an ACT3 AI account. Comments appear in your editor with the
+        exact timecode so you can jump directly to the flagged moment.
+      doc_file: docs/features/collaboration.mdx
+      click_path:
+        - Home
+        - Features
+        - Collaboration
+
+  - question: Can multiple team members edit the same project at the same time?
+    question_info:
+      category: Collaboration
+      tags: [concurrent editing, real-time, team, version control]
+    answer:
+      description: >
+        Yes. ACT3 AI supports concurrent editing with conflict resolution.
+        Multiple team members can work in the same project simultaneously.
+        The platform shows who is editing each scene and prevents conflicting
+        changes by locking the section being actively edited by another user.
+      doc_file: docs/features/collaboration.mdx
+      click_path:
+        - Home
+        - Features
+        - Collaboration
+
+  # -----------------------------------------------------------------------
+  # VERSION CONTROL — ADVANCED (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I compare two versions of the same scene side by side?
+    question_info:
+      category: Version Control
+      tags: [compare versions, side by side, script, revision]
+    answer:
+      description: >
+        Open the Version History panel and select two versions to compare.
+        ACT3 AI shows a split-script view with the two script versions side
+        by side, highlighting differences. For video, you can play both versions
+        in synchronized playback to spot visual differences.
+      doc_file: docs/features/version-control.mdx
+      click_path:
+        - Home
+        - Features
+        - Version Control
+
+  - question: Does ACT3 AI save automatically?
+    question_info:
+      category: Features
+      tags: [auto-save, save, version history]
+    answer:
+      description: >
+        Yes. ACT3 AI auto-saves your project continuously as you work. A save
+        indicator in the top bar shows when the last save occurred. You can
+        also manually trigger a named save ("Version 2 - Director's Cut") from
+        the File menu to create a labeled checkpoint you can return to.
+      doc_file: docs/features/version-control.mdx
+      click_path:
+        - Home
+        - Features
+        - Version Control
+
+  # -----------------------------------------------------------------------
+  # KEYBOARD SHORTCUTS (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: What are the main keyboard shortcuts in ACT3 AI?
+    question_info:
+      category: Features
+      tags: [keyboard shortcuts, hotkeys, efficiency, navigation]
+    answer:
+      description: >
+        Key shortcuts include: Space (play/pause), Shift ←/→ (jump between
+        scenes), Alt ←/→ (jump between shots), Keypad 1/3 (frame-by-frame),
+        Ctrl/Cmd E P (switch column panel), and assist-key menus for all
+        other commands (require Ctrl/Alt to avoid accidental activation).
+        The full shortcut list is in Settings → Keyboard Shortcuts.
+      doc_file: docs/features/video-editor.mdx
+      click_path:
+        - Home
+        - Features
+        - Video Editor
+
+  # -----------------------------------------------------------------------
+  # AI QUALITY CONTROL (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: What quality levels are available for video generation?
+    question_info:
+      category: Features
+      tags: [quality levels, draft, standard, high, 4K]
+    answer:
+      description: >
+        ACT3 AI offers four quality tiers: Draft (lowest cost, fastest, good
+        for previs), Standard (balanced quality and cost for most shots),
+        High (near-final quality for key scenes), and 4K (maximum resolution,
+        Enterprise plan required). Credit cost increases with each quality
+        level.
+      doc_file: docs/features/render-queue.mdx
+      click_path:
+        - Home
+        - Features
+        - Render Queue
+
+  - question: How do I make my generation results more predictable and repeatable?
+    question_info:
+      category: Features
+      tags: [repeatable, seed, consistent results, generation]
+    answer:
+      description: >
+        Use a fixed seed value in the advanced shot settings. A seed locks the
+        randomness in the model, producing very similar results when you
+        regenerate with the same prompt and seed. This is useful for making
+        minor adjustments while preserving the core look of a shot.
+      doc_file: docs/features/ai-video-generation.mdx
+      click_path:
+        - Home
+        - Features
+        - AI Video Generation
+
+  # -----------------------------------------------------------------------
+  # PROJECT MANAGEMENT (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I organize a long feature film with hundreds of shots?
+    question_info:
+      category: Getting Started
+      tags: [feature film, large project, organization, shots]
+    answer:
+      description: >
+        Use the Outline View to navigate your Act → Scene → Shot hierarchy.
+        Tag shots by status (Approved, Needs Work, Not Started). Use the
+        render queue's batch selection to generate entire scenes at once.
+        Lock approved scenes to prevent accidental changes as production
+        progresses.
+      doc_file: docs/getting-started/first-project.mdx
+      click_path:
+        - Home
+        - Getting Started
+        - Your First Project
+
+  - question: How do I duplicate a scene to create a variation?
+    question_info:
+      category: Features
+      tags: [duplicate, copy scene, variation, alternate cut]
+    answer:
+      description: >
+        Right-click any scene in the outline and select Duplicate. ACT3 AI
+        creates an exact copy of the scene including all shots, settings, and
+        prompts. Modify the duplicate to create an alternate version without
+        losing the original. Both versions live in the project and you choose
+        which to use in the final assembly.
+      doc_file: docs/features/version-control.mdx
+      click_path:
+        - Home
+        - Features
+        - Version Control
+
+  - question: Can I import an idea instead of a full script?
+    question_info:
+      category: Getting Started
+      tags: [logline, idea, AI expansion, script]
+    answer:
+      description: >
+        Yes. When creating a new project, choose Start from Idea. Enter a
+        logline, paragraph, or rough concept. The AI Writer expands it into
+        a complete beat sheet, scene outline, and draft screenplay. You then
+        review and refine before moving to shot generation.
+      doc_file: docs/getting-started/first-project.mdx
+      click_path:
+        - Home
+        - Getting Started
+        - Your First Project
+
+  # -----------------------------------------------------------------------
+  # PERFORMANCE & SCALE (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: Can ACT3 AI handle a full 40-minute film?
+    question_info:
+      category: Features
+      tags: [film length, feature film, scale, 40 minutes]
+    answer:
+      description: >
+        Yes. ACT3 AI is designed for full-length films and TV episodes. A
+        40-minute film requires approximately 650 shots. The render queue
+        handles batches of shots in parallel based on your plan's concurrency
+        limit. Use tags and scene locking to manage production across this
+        scale efficiently.
+      doc_file: docs/getting-started/introduction.mdx
+      click_path:
+        - Home
+        - Getting Started
+        - Introduction
+
+  - question: How many concurrent renders can I run?
+    question_info:
+      category: Features
+      tags: [concurrent jobs, parallel renders, plan limit]
+    answer:
+      description: >
+        Concurrent job limits depend on your plan: Free (1 job), Community
+        (1 job), Standard (3 jobs), Business (6 jobs), Enterprise (10+ jobs).
+        Each job is one shot being generated. Higher concurrency means less
+        wall-clock time to generate large scene batches.
+      doc_file: docs/account/billing.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Billing & Plans
+
+  # -----------------------------------------------------------------------
+  # TROUBLESHOOTING — ADDITIONAL (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: My render queue shows a shot stuck at 0% for a long time. What do I do?
+    question_info:
+      category: Troubleshooting
+      tags: [stuck render, queue, hung, generation]
+    answer:
+      description: >
+        First wait 5 minutes — the model API may be experiencing load. If the
+        shot is still stuck, click Cancel on the shot and regenerate. If
+        cancellation fails, go to Account → Support and submit a stuck-job
+        report with the shot ID. Credits are refunded for verifiably stuck
+        generations.
+      doc_file: docs/faq/general.mdx
+      click_path:
+        - Home
+        - FAQ
+        - General FAQ
+
+  - question: My Blender sync is not connecting to ACT3 AI. How do I fix it?
+    question_info:
+      category: Troubleshooting
+      tags: [Blender sync, connection error, integration, troubleshooting]
+    answer:
+      description: >
+        Check that the ACT3 AI Blender add-on is enabled in Blender Preferences
+        and that your API key is entered correctly. Ensure ACT3 AI is open in
+        your browser and you are signed in. The add-on requires an active
+        internet connection. If the issue persists, try regenerating your API
+        key in Account → API Settings.
+      doc_file: docs/integrations/blender.mdx
+      click_path:
+        - Home
+        - Integrations
+        - Blender
+
+  - question: Why is my exported video lower quality than the in-app preview?
+    question_info:
+      category: Troubleshooting
+      tags: [export quality, compression, bitrate, video quality]
+    answer:
+      description: >
+        Check that you selected the correct quality preset in the Export dialog.
+        If you chose a web preset (e.g., YouTube), it applies lossy compression
+        appropriate for streaming. For maximum quality, export as ProRes 4444
+        (requires Business or Enterprise plan) and then compress in post using
+        your target platform's recommended settings.
+      doc_file: docs/export/overview.mdx
+      click_path:
+        - Home
+        - Export
+        - Export Overview
+
+  - question: How do I recover a project I accidentally deleted?
+    question_info:
+      category: Troubleshooting
+      tags: [deleted project, recover, restore, trash]
+    answer:
+      description: >
+        Deleted projects go to the Trash folder (Account → Projects → Trash)
+        and are retained for 30 days before permanent deletion. Open the Trash,
+        find your project, and click Restore. After 30 days the project is
+        permanently deleted and cannot be recovered.
+      doc_file: docs/faq/general.mdx
+      click_path:
+        - Home
+        - FAQ
+        - General FAQ
+
+  - question: Why does my character look different between shots even with the same actor?
+    question_info:
+      category: Troubleshooting
+      tags: [character inconsistency, actor reference, generation, consistency]
+    answer:
+      description: >
+        Character appearance drift happens when the reference image is low
+        resolution, the shot prompt overrides the character description, or
+        the lighting/style preset is creating very different shadows. Update
+        the actor with a higher-quality reference image, ensure the prompt
+        doesn't contradict the actor definition, and check that the style
+        preset is not drastically altering the look.
+      doc_file: docs/features/actors.mdx
+      click_path:
+        - Home
+        - Features
+        - Actors
+
+  # -----------------------------------------------------------------------
+  # API & DEVELOPERS (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I get an API key for ACT3 AI?
+    question_info:
+      category: API
+      tags: [API key, developer, authentication, REST]
+    answer:
+      description: >
+        Go to Account → API Settings and click Generate API Key. Copy the key
+        and store it securely — it is shown only once. Use the key as a Bearer
+        token in the Authorization header of all API requests. You can create
+        multiple keys and revoke them individually.
+      doc_file: docs/api/overview.mdx
+      click_path:
+        - Home
+        - API Reference
+        - API Overview
+
+  - question: What can I automate using the ACT3 AI API?
+    question_info:
+      category: API
+      tags: [API, automation, developer, batch, pipeline]
+    answer:
+      description: >
+        The REST API supports creating and managing projects, scenes, shots,
+        and actors; triggering and polling generation jobs; downloading
+        completed video clips; managing organization members and credits;
+        and reading render queue status. This lets you build fully automated
+        production pipelines or integrate ACT3 AI into existing tools.
+      doc_file: docs/api/overview.mdx
+      click_path:
+        - Home
+        - API Reference
+        - API Overview
+
+  - question: Is there a webhook I can use to be notified when a render finishes?
+    question_info:
+      category: API
+      tags: [webhook, notification, render complete, developer]
+    answer:
+      description: >
+        Yes. Register a webhook URL in Account → API Settings → Webhooks. ACT3
+        AI sends a POST request to your URL when a shot render completes,
+        fails, or is cancelled. The payload includes the shot ID, status, and
+        download URL if successful.
+      doc_file: docs/api/overview.mdx
+      click_path:
+        - Home
+        - API Reference
+        - API Overview
+
+  # -----------------------------------------------------------------------
+  # FINAL FAQ (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How is ACT3 AI different from just using Runway or Veo 3 directly?
+    question_info:
+      category: Getting Started
+      tags: [differentiation, comparison, Runway, Veo 3, workflow]
+    answer:
+      description: >
+        Runway and Veo 3 generate individual clips from text prompts. ACT3 AI
+        manages an entire film: it structures your story into acts, scenes,
+        shots, and beats; maintains character and set consistency across
+        hundreds of shots; assembles and edits the final cut; and handles
+        export for any platform. It uses Runway and Veo 3 as generation
+        engines but provides the full directorial layer on top.
+      doc_file: docs/getting-started/introduction.mdx
+      click_path:
+        - Home
+        - Getting Started
+        - Introduction
+
+  - question: Do I need to know how to code or use Blender to use ACT3 AI?
+    question_info:
+      category: Getting Started
+      tags: [no code, beginner, Blender, learning curve]
+    answer:
+      description: >
+        No. ACT3 AI is designed for storytellers, not engineers. You can create
+        a complete AI-generated film using only the web interface — no coding,
+        no Blender, no command-line tools. Blender and the API are optional
+        power-user features for those who want deeper 3D control or automation.
+      doc_file: docs/getting-started/introduction.mdx
+      click_path:
+        - Home
+        - Getting Started
+        - Introduction
+
+  - question: How much does it cost to make a short film with ACT3 AI?
+    question_info:
+      category: Account & Billing
+      tags: [cost, short film, budget, estimate]
+    answer:
+      description: >
+        A 5-minute short film at standard quality (Veo 3, ~65 shots) costs
+        approximately 650–1,300 credits, or roughly $2–$5 on a Standard plan
+        ($35/month). The built-in credit estimator shows the exact cost for
+        your chosen models and quality settings before you commit any credits.
+      doc_file: docs/account/credits.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Credits
+
+  - question: Can I use ACT3 AI to make a movie for a client and keep the rights?
+    question_info:
+      category: Account & Billing
+      tags: [client work, commercial, rights, business plan]
+    answer:
+      description: >
+        Yes, on the Business or Enterprise plan. Your Organization owns all
+        generated content and can assign those rights to clients. The Business
+        plan includes commercial use rights. Review the Terms of Service for
+        specifics on sublicensing and client work before delivering content
+        commercially.
+      doc_file: docs/account/billing.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Billing & Plans
+
+  - question: What support options are available if I get stuck?
+    question_info:
+      category: Getting Started
+      tags: [support, help, chat, documentation]
+    answer:
+      description: >
+        ACT3 AI provides in-app help via the ? button in the top navigation,
+        this documentation site, and a support chat (Business and Enterprise
+        plans get priority support with faster response times). Community plan
+        users have access to the community forum. Enterprise includes a
+        dedicated account manager.
+      doc_file: docs/faq/general.mdx
+      click_path:
+        - Home
+        - FAQ
+        - General FAQ
+
+  # -----------------------------------------------------------------------
+  # WORKFLOW & PIPELINE — DEEP DIVE (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I set up a two-person micro-studio workflow?
+    question_info:
+      category: Collaboration
+      tags: [micro-studio, two person, small team, workflow]
+    answer:
+      description: >
+        Create an Organization and invite your partner. Assign one person the
+        Writer role (Script Editor access) and the other the Director role
+        (Shot and Timeline access). Both share the same credit pool. Use the
+        Lock feature to protect approved scenes from changes while the other
+        person works on later acts.
+      doc_file: docs/features/collaboration.mdx
+      click_path:
+        - Home
+        - Features
+        - Collaboration
+
+  - question: How does ACT3 AI reduce pre-production time?
+    question_info:
+      category: Getting Started
+      tags: [pre-production, time saving, workflow, efficiency]
+    answer:
+      description: >
+        ACT3 AI collapses traditional pre-production tasks into a single editor.
+        Location scouting, set design, cinematography planning, lighting setup,
+        and character casting all happen inside the platform. Tasks that
+        typically take 80–200 hours can be completed in approximately 2 hours
+        by a single person.
+      doc_file: docs/getting-started/introduction.mdx
+      click_path:
+        - Home
+        - Getting Started
+        - Introduction
+
+  - question: What is the difference between a movie project and a series project?
+    question_info:
+      category: Getting Started
+      tags: [movie, series, project type, TV show]
+    answer:
+      description: >
+        A Movie project has a single script with acts and scenes. A Series
+        project has a Show container with Seasons and Episodes — each episode
+        has its own script. Both types share the same actors, sets, and style
+        presets. Choose the project type when creating a new project.
+      doc_file: docs/getting-started/first-project.mdx
+      click_path:
+        - Home
+        - Getting Started
+        - Your First Project
+
+  - question: Can I use ACT3 AI for a short film under 5 minutes?
+    question_info:
+      category: Getting Started
+      tags: [short film, quick project, 5 minutes, beginner]
+    answer:
+      description: >
+        Yes, and it's a great way to learn the platform. A 5-minute short
+        typically needs 40–65 shots. Start with the Standard plan to access
+        Veo 3. Write or import a brief script, break it into scenes and shots,
+        generate, and export. Most users complete their first short film in
+        a single session.
+      doc_file: docs/getting-started/first-project.mdx
+      click_path:
+        - Home
+        - Getting Started
+        - Your First Project
+
+  # -----------------------------------------------------------------------
+  # AUDIO & SOUND DESIGN (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I add sound effects to my movie?
+    question_info:
+      category: Video Editor
+      tags: [sound effects, SFX, audio, timeline]
+    answer:
+      description: >
+        In the Timeline, click the Sound Effects track lane and select Add
+        Sound Effect. Browse the built-in SFX library (footsteps, ambient
+        noise, impacts, weather) or upload your own audio file. Position the
+        clip at the correct timecode and adjust the volume.
+      doc_file: docs/features/video-editor.mdx
+      click_path:
+        - Home
+        - Features
+        - Video Editor
+
+  - question: Can I record my own voiceover narration inside ACT3 AI?
+    question_info:
+      category: Features
+      tags: [voiceover, narration, record, audio]
+    answer:
+      description: >
+        Yes. In the Audio panel, click Record Voiceover and use your computer
+        microphone to record narration directly to a timeline track. Set the
+        playhead at the correct scene, click Record, and speak. The recording
+        appears on the audio track and can be trimmed like any other clip.
+      doc_file: docs/features/tts.mdx
+      click_path:
+        - Home
+        - Features
+        - Text-to-Speech
+
+  - question: How do I mix audio levels between dialogue, music, and sound effects?
+    question_info:
+      category: Video Editor
+      tags: [audio mixing, levels, volume, dialogue, music]
+    answer:
+      description: >
+        Each audio track in the Timeline has its own volume fader. Click a
+        track's fader and drag to set the level. For dynamic mixing, add volume
+        keyframes directly on the audio waveform by clicking at the point where
+        you want a level change. Standard practice is dialogue at -12dB, music
+        at -18dB, effects at -20dB.
+      doc_file: docs/features/video-editor.mdx
+      click_path:
+        - Home
+        - Features
+        - Video Editor
+
+  - question: How do I dub my film into another language?
+    question_info:
+      category: Features
+      tags: [dubbing, localization, multi-lingual, TTS]
+    answer:
+      description: >
+        Open the Dubbing panel for your project. Select the target language
+        from the Azure Neural TTS language list. ACT3 AI generates translated
+        audio for each dialogue line, replaces the original audio track, and
+        re-syncs the lip animation to match the new audio. You can review
+        and replace individual lines if the translation needs adjustment.
+      doc_file: docs/features/tts.mdx
+      click_path:
+        - Home
+        - Features
+        - Text-to-Speech
+
+  # -----------------------------------------------------------------------
+  # CINEMATOGRAPHY — ADVANCED (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I set up a two-shot with two characters facing each other?
+    question_info:
+      category: Cinematography
+      tags: [two-shot, dialogue, framing, characters]
+    answer:
+      description: >
+        Select Two-Shot as the shot type in the Cinematography panel. Assign
+        both actors to the shot in the Cast panel. In the top-down view,
+        position them facing each other and place the camera between them
+        slightly to one side. In the shot prompt, describe their relative
+        positions and emotional state.
+      doc_file: docs/features/cinematography.mdx
+      click_path:
+        - Home
+        - Features
+        - Cinematography
+
+  - question: How do I set up an over-the-shoulder shot?
+    question_info:
+      category: Cinematography
+      tags: [over-the-shoulder, OTS, dialogue, framing]
+    answer:
+      description: >
+        Select Over-the-Shoulder (OTS) in the Cinematography panel. Specify
+        the foreground character (whose shoulder is in frame) and the facing
+        character (the one we see clearly). In the shot prompt, describe the
+        facing character's expression and action. Use OTS shots alternately
+        in dialogue scenes to create eyeline continuity.
+      doc_file: docs/features/cinematography.mdx
+      click_path:
+        - Home
+        - Features
+        - Cinematography
+
+  - question: How do I achieve consistent eyeline between two characters talking?
+    question_info:
+      category: Cinematography
+      tags: [eyeline, continuity, 180-degree rule, dialogue]
+    answer:
+      description: >
+        Set up an axis of action in the top-down view. Keep all shots on the
+        same side of this axis to maintain the 180-degree rule. Use the
+        Cinematography panel to define the camera position relative to each
+        character, and include eyeline direction notes in your shot prompts
+        (e.g., "character looks screen right toward David").
+      doc_file: docs/features/cinematography.mdx
+      click_path:
+        - Home
+        - Features
+        - Cinematography
+
+  - question: How do I generate an aerial or drone-style shot?
+    question_info:
+      category: Cinematography
+      tags: [aerial, drone, bird's-eye, establishing shot]
+    answer:
+      description: >
+        Select Aerial or Crane as the shot type and set a very high camera
+        elevation in the Cinematography panel. In the shot prompt, describe
+        what is visible from above (e.g., "sweeping aerial view of the city
+        at dusk, camera slowly tilting down to reveal the protagonist on
+        the rooftop"). Veo 3 handles aerial cinematography particularly well.
+      doc_file: docs/features/cinematography.mdx
+      click_path:
+        - Home
+        - Features
+        - Cinematography
+
+  # -----------------------------------------------------------------------
+  # LIGHTING — ADVANCED (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I achieve a noir lighting look for my film?
+    question_info:
+      category: Lighting
+      tags: [noir, hard shadows, low key, dramatic lighting]
+    answer:
+      description: >
+        Select the Noir preset in the Lighting panel. This sets a high-contrast
+        hard key light from the side, minimal fill, and deep shadows. Add
+        venetian blind shadows with a gobo light effect. In the shot prompt,
+        include "hard side lighting, deep shadows, high contrast, film noir"
+        to reinforce the aesthetic.
+      doc_file: docs/features/lighting.mdx
+      click_path:
+        - Home
+        - Features
+        - Lighting
+
+  - question: How do I create a candle-lit scene?
+    question_info:
+      category: Lighting
+      tags: [candle, practical light, warm, intimate lighting]
+    answer:
+      description: >
+        In the Lighting panel, set very low ambient and add warm point lights
+        at candle height (flickering on). Set the color to deep amber-orange
+        (approximately 2200K). Include "warm candlelight, flickering shadows,
+        intimate low-key lighting" in the shot prompt. For the flicker effect,
+        describe it in the prompt or use a keyframed intensity curve.
+      doc_file: docs/features/lighting.mdx
+      click_path:
+        - Home
+        - Features
+        - Lighting
+
+  - question: Can I match lighting automatically to a background plate?
+    question_info:
+      category: Lighting
+      tags: [lighting match, background plate, automatic, consistency]
+    answer:
+      description: >
+        Yes. When using a 2D background set, ACT3 AI's lighting system
+        analyzes the background plate and suggests matching light directions
+        and color temperatures for foreground elements. Enable Auto-Match
+        Lighting in the Lighting panel to apply this automatically, keeping
+        characters lit consistently with the environment.
+      doc_file: docs/features/lighting.mdx
+      click_path:
+        - Home
+        - Features
+        - Lighting
+
+  # -----------------------------------------------------------------------
+  # ACTORS — ADVANCED (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How many digital actors can I have in my project?
+    question_info:
+      category: Actors
+      tags: [actor limit, characters, cast size]
+    answer:
+      description: >
+        There is no hard limit on the number of digital actors you can create
+        in your Actor Library. Actors are stored at the Organization level and
+        available across all projects. For very large casts, use the search
+        and filter tools in the Actor Library to manage them efficiently.
+      doc_file: docs/features/actors.mdx
+      click_path:
+        - Home
+        - Features
+        - Actors
+
+  - question: Can I define a character's personality and backstory to guide the AI?
+    question_info:
+      category: Actors
+      tags: [character backstory, personality, story factors, actor]
+    answer:
+      description: >
+        Yes. In the Actor editor, open the Character Notes section and write
+        the character's backstory, personality traits, speech patterns, and
+        emotional tendencies. Link these to Story Factors so the AI Writer
+        and AI Director can reference them when generating dialogue and
+        shot descriptions.
+      doc_file: docs/features/actors.mdx
+      click_path:
+        - Home
+        - Features
+        - Actors
+
+  - question: How do I dress a character in different wardrobe across scenes?
+    question_info:
+      category: Actors
+      tags: [wardrobe, costume change, actor, scene]
+    answer:
+      description: >
+        In the shot's Cast panel, open the actor's wardrobe override. Define
+        alternate clothing for that specific shot or scene without changing the
+        actor's default wardrobe. For example, a character can wear a suit in
+        act one and casual clothes in act two using the same base actor
+        definition.
+      doc_file: docs/features/actors.mdx
+      click_path:
+        - Home
+        - Features
+        - Actors
+
+  - question: Can I cast AI-generated extras as background characters?
+    question_info:
+      category: Actors
+      tags: [extras, background characters, crowd, generation]
+    answer:
+      description: >
+        Yes. In the shot's Cast panel, enable Background Extras and set the
+        number of extras, their general description (age range, clothing era,
+        activity), and density. ACT3 AI generates background characters
+        appropriate to the scene without requiring individually defined actors.
+      doc_file: docs/features/actors.mdx
+      click_path:
+        - Home
+        - Features
+        - Actors
+
+  # -----------------------------------------------------------------------
+  # MOTION CAPTURE — ADVANCED (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I sync motion capture data from Blender to ACT3 AI?
+    question_info:
+      category: Motion Capture
+      tags: [Blender sync, mocap, animation, pipeline]
+    answer:
+      description: >
+        After rigging and animating your character in Blender using captured
+        motion data, open the ACT3 AI Blender add-on panel and click Push
+        Character Animation. Select the character and the shot to target.
+        The animation data syncs to ACT3 AI and is applied to the digital
+        actor in that shot, replacing the AI-generated motion.
+      doc_file: docs/features/motion-capture.mdx
+      click_path:
+        - Home
+        - Features
+        - Motion Capture
+
+  - question: Can I use motion capture data from professional mocap systems?
+    question_info:
+      category: Motion Capture
+      tags: [professional mocap, BVH, FBX, animation import]
+    answer:
+      description: >
+        Yes. Import BVH or FBX animation files into Blender and apply them
+        to the ACT3 AI character rig. Then sync to ACT3 AI via the Blender
+        add-on. This lets you use data from Vicon, OptiTrack, or any
+        industry-standard motion capture system in your AI-generated film.
+      doc_file: docs/features/motion-capture.mdx
+      click_path:
+        - Home
+        - Features
+        - Motion Capture
+
+  # -----------------------------------------------------------------------
+  # EXPORT — ADVANCED (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: Can I export just the audio mix without video?
+    question_info:
+      category: Export
+      tags: [audio export, WAV, mix, sound]
+    answer:
+      description: >
+        Yes. In the Export dialog, select Audio Only as the output type.
+        Choose WAV (uncompressed), AAC, or MP3. This exports your full audio
+        mix — dialogue, music, and effects — in the final timeline order.
+        Useful for passing to a composer or sound designer.
+      doc_file: docs/export/overview.mdx
+      click_path:
+        - Home
+        - Export
+        - Export Overview
+
+  - question: How do I export individual shots as separate clips?
+    question_info:
+      category: Export
+      tags: [individual clips, shot export, separate files, VFX]
+    answer:
+      description: >
+        In the Export dialog, select Export Shots Individually. ACT3 AI
+        renders each shot as a separate numbered file with handles (extra
+        frames before and after). This is useful for handing off shots to
+        a VFX team or compositing in external software.
+      doc_file: docs/export/overview.mdx
+      click_path:
+        - Home
+        - Export
+        - Export Overview
+
+  - question: What is a DCP and do I need one for my festival submission?
+    question_info:
+      category: Export
+      tags: [DCP, Digital Cinema Package, festival, cinema]
+    answer:
+      description: >
+        A DCP (Digital Cinema Package) is the standard format for theatrical
+        cinema projection. Most major film festivals require DCP submissions.
+        ACT3 AI can package a DCP with the correct P3-DCI color space and
+        48kHz/24-bit audio. Check your specific festival's tech specs before
+        generating — some festivals accept ProRes instead.
+      doc_file: docs/export/overview.mdx
+      click_path:
+        - Home
+        - Export
+        - Export Overview
+
+  - question: Can I export a shot list or script breakdown for production planning?
+    question_info:
+      category: Export
+      tags: [shot list, script breakdown, production planning, PDF]
+    answer:
+      description: >
+        Yes. Go to Project → Export → Shot List to download a formatted
+        spreadsheet or PDF listing every shot with its scene, duration, cast,
+        set, model, and estimated credit cost. Use this for production budgeting,
+        scheduling, or sharing with collaborators who don't use ACT3 AI.
+      doc_file: docs/export/overview.mdx
+      click_path:
+        - Home
+        - Export
+        - Export Overview
+
+  # -----------------------------------------------------------------------
+  # INTEGRATIONS — ADVANCED (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: Can I use OpenAI Sora or Luma Dream Machine in ACT3 AI?
+    question_info:
+      category: Integrations
+      tags: [Sora, Luma, Dream Machine, video model, third party]
+    answer:
+      description: >
+        ACT3 AI's adapter layer supports multiple cloud text-to-video APIs
+        including Runway Gen-2, Google Veo 3, and Luma Dream Machine. OpenAI
+        Sora support is on the roadmap. When additional model providers are
+        enabled, they appear in the AI Video Model selector alongside existing
+        options.
+      doc_file: docs/integrations/veo3.mdx
+      click_path:
+        - Home
+        - Integrations
+        - Google Veo 3
+
+  - question: How do I set up ComfyUI with ControlNets for more precise control?
+    question_info:
+      category: Integrations
+      tags: [ComfyUI, ControlNet, image control, advanced]
+    answer:
+      description: >
+        In your local ComfyUI installation, add ControlNet nodes to your
+        workflow and connect them to the ACT3 AI output node. ACT3 AI supports
+        regional masking and ControlNet inputs, passing depth maps or pose data
+        from your shot setup into ComfyUI's generation pipeline for tighter
+        compositional control.
+      doc_file: docs/integrations/comfyui.mdx
+      click_path:
+        - Home
+        - Integrations
+        - ComfyUI
+
+  - question: How does ACT3 AI choose which AI model to use automatically?
+    question_info:
+      category: Integrations
+      tags: [model selection, auto-routing, cost optimization, intelligence]
+    answer:
+      description: >
+        When Auto-Select Model is enabled in project settings, ACT3 AI's
+        routing engine evaluates each shot's style, complexity, and your quality
+        target and selects the cheapest model that meets those constraints.
+        For example, action-heavy shots may route to Runway while dialogue
+        close-ups go to Veo 3.
+      doc_file: docs/integrations/veo3.mdx
+      click_path:
+        - Home
+        - Integrations
+        - Google Veo 3
+
+  # -----------------------------------------------------------------------
+  # STORY ARC & NARRATIVE TOOLS (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: What is the Story Arc editor?
+    question_info:
+      category: Features
+      tags: [story arc, narrative, emotional arc, structure]
+    answer:
+      description: >
+        The Story Arc editor is a visual tool for mapping the emotional journey
+        of your film. Plot tension, character emotion, and pacing on a graph
+        across all acts and scenes. The Story Arc connects to Story Factors,
+        so changes here cascade through the script and shot prompts that depend
+        on them.
+      doc_file: docs/concepts/overview.mdx
+      click_path:
+        - Home
+        - Core Concepts
+        - Story Structure Overview
+
+  - question: How do I use the AI Ideas feature?
+    question_info:
+      category: Features
+      tags: [AI Ideas, brainstorm, script ideas, story]
+    answer:
+      description: >
+        Click AI Ideas in the navigation rail to open the brainstorming panel.
+        Describe a genre, character type, or theme and the AI Writer generates
+        loglines, scene ideas, and character concepts. Accept any suggestion
+        to add it directly to your project's script or story arc.
+      doc_file: docs/features/script-editing.mdx
+      click_path:
+        - Home
+        - Features
+        - Script Editing
+
+  - question: How do I write a beat sheet before writing the full script?
+    question_info:
+      category: Features
+      tags: [beat sheet, outline, pre-writing, story planning]
+    answer:
+      description: >
+        Start from the Story Arc editor. Add beats as cards and describe each
+        moment in one or two sentences. Organize them into acts by dragging.
+        Once the beat sheet is complete, use the AI Writer to expand each beat
+        into a full scene with action and dialogue. This top-down approach
+        prevents structural problems in the script.
+      doc_file: docs/features/script-editing.mdx
+      click_path:
+        - Home
+        - Features
+        - Script Editing
+
+  # -----------------------------------------------------------------------
+  # FINANCIAL & COST MANAGEMENT (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I see my credit usage history?
+    question_info:
+      category: Account & Billing
+      tags: [credit history, usage, billing, breakdown]
+    answer:
+      description: >
+        Go to Account → Credits → Usage History. This shows a log of every
+        credit-consuming action with the date, action type, model used, shot
+        ID, and credits consumed. You can filter by project or date range and
+        export the log as a CSV for budget tracking.
+      doc_file: docs/account/credits.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Credits
+
+  - question: How do I see past invoices and download receipts?
+    question_info:
+      category: Account & Billing
+      tags: [invoices, receipts, billing history, download]
+    answer:
+      description: >
+        Go to Account → Billing → Invoice History. Click any invoice to
+        download it as a PDF. Invoices are available for the current and all
+        past billing periods. Billing admins and Organization owners can
+        access this section.
+      doc_file: docs/account/billing.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Billing & Plans
+
+  - question: Can I upgrade my plan mid-month?
+    question_info:
+      category: Account & Billing
+      tags: [upgrade, mid-month, plan change, immediate]
+    answer:
+      description: >
+        Yes. Plan upgrades take effect immediately. You are charged a prorated
+        amount for the remainder of the current billing period. New credits
+        are added to your account right away. Downgrades take effect at the
+        start of the next billing cycle.
+      doc_file: docs/account/billing.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Billing & Plans
+
+  - question: What payment methods does ACT3 AI accept?
+    question_info:
+      category: Account & Billing
+      tags: [payment, credit card, billing method]
+    answer:
+      description: >
+        ACT3 AI accepts all major credit and debit cards (Visa, Mastercard,
+        Amex, Discover) through Stripe. Enterprise plans can arrange invoice
+        billing with net-30 payment terms. Go to Account → Billing → Payment
+        Method to add or update your card.
+      doc_file: docs/account/billing.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Billing & Plans
+
+  # -----------------------------------------------------------------------
+  # DATA FORMATS & YAML CONTRACTS (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: Can I define shot parameters in YAML or JSON for batch creation?
+    question_info:
+      category: API
+      tags: [YAML, JSON, data contract, batch, programmatic]
+    answer:
+      description: >
+        Yes. ACT3 AI's data contract system stores every shot as machine-
+        readable YAML internally. Using the API, you can POST shot definitions
+        in YAML/JSON format to create or update shots programmatically. This
+        is powerful for batch-creating hundreds of shots from a structured
+        production breakdown.
+      doc_file: docs/api/overview.mdx
+      click_path:
+        - Home
+        - API Reference
+        - API Overview
+
+  - question: How does ACT3 AI keep UI, generation engine, and version control in sync?
+    question_info:
+      category: Features
+      tags: [data contract, YAML, sync, version control, consistency]
+    answer:
+      description: >
+        Every renderable unit in ACT3 AI — shots, scenes, actors, sets — is
+        defined in a machine-readable YAML data contract. All three systems
+        (UI, generation engine, version control) read from and write to this
+        same contract, ensuring perfect synchronization. When you edit a shot
+        in the UI, the YAML updates, and the engine always reads the latest.
+      doc_file: docs/concepts/overview.mdx
+      click_path:
+        - Home
+        - Core Concepts
+        - Story Structure Overview
+
+  # -----------------------------------------------------------------------
+  # DISTRIBUTION & POST (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I share a rough cut with my producer for review?
+    question_info:
+      category: Collaboration
+      tags: [rough cut, producer review, share, link]
+    answer:
+      description: >
+        Go to Project → Share → Create Review Link. Set a password if desired
+        and an expiry date. Send the link to your producer. They watch the
+        cut and leave time-stamped comments without needing an ACT3 AI account.
+        You see their comments in your editor's feedback panel.
+      doc_file: docs/features/collaboration.mdx
+      click_path:
+        - Home
+        - Features
+        - Collaboration
+
+  - question: Can I push my finished episode directly to a streaming platform?
+    question_info:
+      category: Export
+      tags: [streaming, distribution, upload, platform]
+    answer:
+      description: >
+        ACT3 AI exports in formats compatible with all major streaming platforms
+        (YouTube, Vimeo, Netflix deliverables). Enterprise plans can push
+        content directly to the ACT3 streaming portal for immediate playback.
+        For other platforms, export the appropriate format and upload manually.
+      doc_file: docs/export/overview.mdx
+      click_path:
+        - Home
+        - Export
+        - Export Overview
+
+  # -----------------------------------------------------------------------
+  # ACCESSIBILITY & COMPLIANCE (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: Does ACT3 AI support WCAG accessibility in the exported video?
+    question_info:
+      category: Export
+      tags: [accessibility, WCAG, captions, audio description]
+    answer:
+      description: >
+        ACT3 AI generates captions and SRT files to support hearing-impaired
+        viewers. For audio description (for visually impaired viewers), you
+        can record a narration track in the Audio panel and mix it into the
+        export. These features help meet WCAG 2.1 AA requirements for web
+        video content.
+      doc_file: docs/export/overview.mdx
+      click_path:
+        - Home
+        - Export
+        - Export Overview
+
+  - question: Is ACT3 AI compliant with GDPR and data privacy requirements?
+    question_info:
+      category: Account & Billing
+      tags: [GDPR, data privacy, compliance, EU]
+    answer:
+      description: >
+        ACT3 AI complies with GDPR for EU users. You can request a data export
+        of all your personal data and project content from Account → Settings →
+        Privacy → Export My Data. You can also request account deletion, which
+        removes all personal data within 30 days per GDPR requirements.
+      doc_file: docs/account/account-settings.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Account Settings
+
+  # -----------------------------------------------------------------------
+  # INVESTOR & PITCH USE CASES (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: Can I use ACT3 AI to create a proof-of-concept for investors?
+    question_info:
+      category: Getting Started
+      tags: [investor pitch, proof of concept, demo reel, funding]
+    answer:
+      description: >
+        Yes. Many filmmakers use ACT3 AI to generate a 2–5 minute proof-of-
+        concept short that demonstrates visual style, tone, and story before
+        seeking funding. Export a high-quality ProRes version with watermarked
+        dailies as proof of authorship, then use it in pitch decks and
+        investor meetings.
+      doc_file: docs/getting-started/introduction.mdx
+      click_path:
+        - Home
+        - Getting Started
+        - Introduction
+
+  - question: How do I package my project as a pilot pitch for a streaming platform?
+    question_info:
+      category: Export
+      tags: [pilot, pitch package, streaming, TV, series]
+    answer:
+      description: >
+        Generate a polished pilot episode using Veo 3 at high quality. Export
+        a ProRes master and a compressed MP4 for screener distribution. The
+        platform can also export a formatted shot list and script PDF to
+        accompany the visual package. Include style preset documentation to
+        show visual consistency across future episodes.
+      doc_file: docs/export/overview.mdx
+      click_path:
+        - Home
+        - Export
+        - Export Overview
+
+  # -----------------------------------------------------------------------
+  # BLENDER — ADVANCED (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: What Blender version does the ACT3 AI add-on support?
+    question_info:
+      category: Integrations
+      tags: [Blender version, add-on, compatibility]
+    answer:
+      description: >
+        The ACT3 AI Blender add-on supports Blender 3.6 LTS and Blender 4.x.
+        Earlier versions are not supported. Download the add-on from the
+        Integrations page in ACT3 AI. New Blender versions are tested and
+        supported within 60 days of their stable release.
+      doc_file: docs/integrations/blender.mdx
+      click_path:
+        - Home
+        - Integrations
+        - Blender
+
+  - question: How do I bring camera moves from Blender into ACT3 AI?
+    question_info:
+      category: Integrations
+      tags: [Blender camera, camera rig, sync, animation]
+    answer:
+      description: >
+        In Blender, animate your camera and then use the ACT3 AI add-on to
+        select the camera object and click Push Camera to ACT3 AI. The keyframe
+        animation data is sent to the target shot, replacing any ACT3 AI-
+        generated camera movement with your precisely keyframed Blender camera.
+      doc_file: docs/integrations/blender.mdx
+      click_path:
+        - Home
+        - Integrations
+        - Blender
+
+  # -----------------------------------------------------------------------
+  # SOCIAL MEDIA CREATOR — ADVANCED (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I generate a brand-safe music track for my video?
+    question_info:
+      category: Video Editor
+      tags: [royalty-free music, brand safe, music, licensing]
+    answer:
+      description: >
+        In the Timeline, click Add Music and select from the built-in royalty-
+        free library. All tracks in the library are cleared for commercial use
+        on any platform. Filter by mood (uplifting, dramatic, ambient) and
+        tempo. The license terms for each track are displayed before adding.
+      doc_file: docs/features/video-editor.mdx
+      click_path:
+        - Home
+        - Features
+        - Video Editor
+
+  - question: How do I create multiple variations of a shot quickly for A/B testing?
+    question_info:
+      category: Features
+      tags: [variations, A/B test, regenerate, comparison]
+    answer:
+      description: >
+        In the Shot editor, click Generate Variations. ACT3 AI generates 2–4
+        versions of the shot with slight prompt and seed variations. All
+        versions appear in the shot's Version History. Compare them side by
+        side in the preview panel and select the best one as the active version.
+      doc_file: docs/features/ai-video-generation.mdx
+      click_path:
+        - Home
+        - Features
+        - AI Video Generation
+
+  # -----------------------------------------------------------------------
+  # RENDER QUEUE — ADVANCED (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I prioritize which shots render first?
+    question_info:
+      category: Render Queue
+      tags: [priority, render queue, order, scheduling]
+    answer:
+      description: >
+        In the Render Queue panel, drag shots to reorder them or right-click
+        a shot and select Move to Top. Business and Enterprise plan users can
+        also mark individual shots as High Priority, which places them ahead
+        of Standard priority shots regardless of queue order.
+      doc_file: docs/features/render-queue.mdx
+      click_path:
+        - Home
+        - Features
+        - Render Queue
+
+  - question: Can I schedule renders to run overnight?
+    question_info:
+      category: Render Queue
+      tags: [scheduled render, overnight, batch, automation]
+    answer:
+      description: >
+        Yes. Select the shots you want to batch-generate, click Schedule
+        Render, and set the start time. ACT3 AI will begin processing the
+        queue at the scheduled time. You receive an email notification when
+        the batch is complete.
+      doc_file: docs/features/render-queue.mdx
+      click_path:
+        - Home
+        - Features
+        - Render Queue
+
+  # -----------------------------------------------------------------------
+  # ONBOARDING — ADVANCED (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: Is there a tutorial or sample project I can learn from?
+    question_info:
+      category: Getting Started
+      tags: [tutorial, sample project, learning, onboarding]
+    answer:
+      description: >
+        Yes. When you first sign in, ACT3 AI offers to load a sample project
+        with pre-built acts, scenes, shots, and actors. Walk through the sample
+        to see how a complete project is structured before building your own.
+        Interactive tooltips guide you through each panel.
+      doc_file: docs/getting-started/introduction.mdx
+      click_path:
+        - Home
+        - Getting Started
+        - Introduction
+
+  - question: How long does it take to learn ACT3 AI enough to make a first video?
+    question_info:
+      category: Getting Started
+      tags: [learning curve, beginner, first video, onboarding]
+    answer:
+      description: >
+        Most users generate their first short clip within 30 minutes of signing
+        up by following the Quick Start guide. A complete short film project
+        (5 minutes) typically takes 1–2 hours for a first-time user. The
+        platform is designed for storytellers, not engineers, so you do not
+        need technical expertise to get started.
+      doc_file: docs/getting-started/introduction.mdx
+      click_path:
+        - Home
+        - Getting Started
+        - Introduction
+
+  # -----------------------------------------------------------------------
+  # MARKETING AGENCY USE CASES (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I create a 30-second TV commercial in ACT3 AI?
+    question_info:
+      category: Getting Started
+      tags: [commercial, 30 seconds, marketing, agency]
+    answer:
+      description: >
+        Create a new Movie project and set the target duration to 30 seconds.
+        Write a script with 5–8 scenes. For each scene, define 2–4 shots with
+        precise framing and product placement notes in the shot prompts. Apply
+        your brand Style Preset for color and logo consistency. Generate with
+        Veo 3 for highest quality and export the YouTube or broadcast preset.
+      doc_file: docs/getting-started/first-project.mdx
+      click_path:
+        - Home
+        - Getting Started
+        - Your First Project
+
+  - question: How do multiple agency team members work on the same video project?
+    question_info:
+      category: Collaboration
+      tags: [agency, team workflow, roles, simultaneous editing]
+    answer:
+      description: >
+        Create an Organization for the agency and invite all team members with
+        appropriate roles (account managers as Viewers, creatives as Editors,
+        leads as Admins). Use the Lock feature to protect approved shots and
+        brand elements. The credit pool is shared across all members with
+        per-member limits to prevent overspending.
+      doc_file: docs/features/collaboration.mdx
+      click_path:
+        - Home
+        - Features
+        - Collaboration
+
+  # -----------------------------------------------------------------------
+  # CONTENT PIPELINE (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: Can I reuse scenes or shots across multiple projects?
+    question_info:
+      category: Features
+      tags: [reuse, cross-project, templates, efficiency]
+    answer:
+      description: >
+        Yes. Export a scene as a Scene Template from the Project menu and save
+        it to your Asset Library. Import that template into any other project.
+        Settings, prompts, actors, and sets come along. This is especially
+        useful for recurring locations (intro sequences, opening titles) used
+        across multiple episodes.
+      doc_file: docs/features/asset-library.mdx
+      click_path:
+        - Home
+        - Features
+        - Asset Library
+
+  - question: How do I build a library of reusable scene packs for my team?
+    question_info:
+      category: Features
+      tags: [scene packs, templates, library, agency, reuse]
+    answer:
+      description: >
+        Create a dedicated template project in your Organization. Build and
+        polish your recurring scenes there, then export each as a Scene
+        Template to the Organization's shared Asset Library. Any team member
+        can import these templates into client projects for consistent,
+        fast production.
+      doc_file: docs/features/asset-library.mdx
+      click_path:
+        - Home
+        - Features
+        - Asset Library
+
+  # -----------------------------------------------------------------------
+  # SECURITY & ENTERPRISE (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How does ACT3 AI protect my project data and generated videos?
+    question_info:
+      category: Account & Billing
+      tags: [security, data protection, encryption, privacy]
+    answer:
+      description: >
+        All project data is encrypted at rest and in transit using AES-256 and
+        TLS 1.3. Organizations are isolated from each other with strict multi-
+        tenant boundaries. ACT3 AI does not train its models on your private
+        project content. Enterprise plans include additional security SLAs and
+        a data processing agreement (DPA).
+      doc_file: docs/account/account-settings.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Account Settings
+
+  - question: How do I remove a team member who has left our organization?
+    question_info:
+      category: Teams
+      tags: [remove member, offboarding, access revocation, security]
+    answer:
+      description: >
+        Go to Account → Organization → Members. Find the member and click
+        Remove. Their access is revoked immediately — they can no longer view
+        or edit any organization projects. All content they created remains
+        with the Organization. For SSO-managed accounts, also disable them
+        in your identity provider.
+      doc_file: docs/account/teams.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Teams & Organization
+
+  # -----------------------------------------------------------------------
+  # FAQ — ADDITIONAL (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: Does ACT3 AI work offline?
+    question_info:
+      category: Getting Started
+      tags: [offline, internet, web app, local]
+    answer:
+      description: >
+        No. ACT3 AI is a cloud-based web application and requires an internet
+        connection for all generation tasks. The Hero Blender Sync desktop app
+        can work locally in Blender, but syncing data to ACT3 AI requires
+        connectivity. Local ComfyUI workflows can run offline if your ComfyUI
+        instance is local.
+      doc_file: docs/getting-started/introduction.mdx
+      click_path:
+        - Home
+        - Getting Started
+        - Introduction
+
+  - question: Can I use ACT3 AI on a tablet or mobile device?
+    question_info:
+      category: Getting Started
+      tags: [mobile, tablet, iPad, browser, responsive]
+    answer:
+      description: >
+        ACT3 AI's web interface is accessible on tablets and mobile browsers,
+        but the editing experience is optimized for desktop (1440px+ width).
+        Script editing, shot review, and approvals work well on an iPad. The
+        timeline editor and top-down canvas require a larger screen for
+        comfortable use.
+      doc_file: docs/getting-started/introduction.mdx
+      click_path:
+        - Home
+        - Getting Started
+        - Introduction
+
+  - question: Is my project data backed up automatically?
+    question_info:
+      category: Account & Billing
+      tags: [backup, data, recovery, cloud storage]
+    answer:
+      description: >
+        Yes. All project data is backed up continuously to cloud storage.
+        ACT3 AI maintains point-in-time recovery for up to 30 days. If you
+        need to restore a previous project state, contact support with the
+        project ID and the approximate date/time you want to restore to.
+      doc_file: docs/faq/general.mdx
+      click_path:
+        - Home
+        - FAQ
+        - General FAQ
+
+  - question: What browsers does ACT3 AI support?
+    question_info:
+      category: Getting Started
+      tags: [browser, Chrome, Firefox, Safari, compatibility]
+    answer:
+      description: >
+        ACT3 AI officially supports the latest two versions of Chrome, Firefox,
+        Edge, and Safari. Chrome is recommended for the best performance with
+        video scrubbing and preview. Internet Explorer is not supported.
+        Enable JavaScript and allow third-party cookies for full functionality.
+      doc_file: docs/getting-started/introduction.mdx
+      click_path:
+        - Home
+        - Getting Started
+        - Introduction
+
+  - question: How do I report a bug or request a new feature?
+    question_info:
+      category: Getting Started
+      tags: [bug report, feature request, support, feedback]
+    answer:
+      description: >
+        Click the ? help button in the top navigation and select Submit
+        Feedback. Choose Bug Report or Feature Request, fill in the details,
+        and optionally attach a screenshot. Bug reports with reproduction
+        steps are prioritized. Feature requests are reviewed by the product
+        team and popular requests appear on the public roadmap.
+      doc_file: docs/faq/general.mdx
+      click_path:
+        - Home
+        - FAQ
+        - General FAQ
+
+  # -----------------------------------------------------------------------
+  # SCRIPT TO SCREEN — DETAILED WORKFLOW (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How does the AI expand a logline into a full screenplay?
+    question_info:
+      category: Script Editing
+      tags: [logline, AI expansion, screenplay, automation]
+    answer:
+      description: >
+        Enter your logline in the AI Ideas panel and click Expand to Script.
+        The AI Writer first generates a three-act beat sheet for your approval.
+        After you confirm the structure, it writes scene headings, action
+        lines, and dialogue for each beat. The full draft appears in the Script
+        Editor where you can revise freely.
+      doc_file: docs/features/script-editing.mdx
+      click_path:
+        - Home
+        - Features
+        - Script Editing
+
+  - question: Can I compare my original script against an AI-rewritten version?
+    question_info:
+      category: Script Editing
+      tags: [compare, side by side, revision, AI rewrite]
+    answer:
+      description: >
+        Yes. Use the Multi-Column Script View (View → Split Script) to open
+        two script instances side by side. Put your original in the left column
+        and the AI-rewritten version in the right. Both are editable, so you
+        can cherry-pick the best lines from each version.
+      doc_file: docs/features/script-editing.mdx
+      click_path:
+        - Home
+        - Features
+        - Script Editing
+
+  - question: How do I automatically generate a shot list from my script?
+    question_info:
+      category: Features
+      tags: [shot list, auto-generate, script breakdown, automation]
+    answer:
+      description: >
+        After writing or importing your script, click Generate Shot List. ACT3
+        AI's AI Cinematographer reads each scene and proposes a shot list with
+        suggested shot types, camera movements, and durations. Review and
+        approve or modify each shot before committing to generation.
+      doc_file: docs/features/cinematography.mdx
+      click_path:
+        - Home
+        - Features
+        - Cinematography
+
+  - question: How do I transition between shots — cuts, dissolves, or wipes?
+    question_info:
+      category: Video Editor
+      tags: [transitions, cut, dissolve, wipe, editing]
+    answer:
+      description: >
+        In the Timeline, click the gap between two clips to open the Transition
+        selector. Choose Cut (default, no transition), Dissolve, Fade to Black,
+        Cross-Fade, Wipe, or custom transition effects. Set the duration of the
+        transition. Transitions are rendered into the final export.
+      doc_file: docs/features/video-editor.mdx
+      click_path:
+        - Home
+        - Features
+        - Video Editor
+
+  - question: How do I add a title card or text overlay to my video?
+    question_info:
+      category: Video Editor
+      tags: [title card, text overlay, caption, graphics]
+    answer:
+      description: >
+        Click the Graphics track lane in the Timeline and select Add Text.
+        Type your title, choose font, size, color, and position. Set the
+        in/out duration on the timeline. Text layers render on top of the
+        video and are included in the export. Use this for opening titles,
+        chapter cards, and end credits.
+      doc_file: docs/features/video-editor.mdx
+      click_path:
+        - Home
+        - Features
+        - Video Editor
+
+  # -----------------------------------------------------------------------
+  # SET DESIGN — ADVANCED (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: What is a 2D set vs a 3D Blender set?
+    question_info:
+      category: Sets
+      tags: [2D set, 3D set, Blender, comparison, set type]
+    answer:
+      description: >
+        A 2D set is a background image or photograph placed behind characters.
+        It is fast to set up and costs no extra credits. A 3D Blender set is
+        a full three-dimensional environment built in Blender and synced to
+        ACT3 AI, enabling precise camera placement, depth, and character
+        integration. 3D sets require Blender and more setup time but yield
+        more accurate spatial results.
+      doc_file: docs/features/sets.mdx
+      click_path:
+        - Home
+        - Features
+        - Sets
+
+  - question: Can I add notes to a set for other team members?
+    question_info:
+      category: Sets
+      tags: [set documentation, notes, team, collaboration]
+    answer:
+      description: >
+        Yes. Open any set in the Set Library and click Documentation. Add
+        notes about the set's origin, intended use, special lighting
+        requirements, or restrictions. These notes are visible to all
+        team members when they browse or select that set.
+      doc_file: docs/features/sets.mdx
+      click_path:
+        - Home
+        - Features
+        - Sets
+
+  # -----------------------------------------------------------------------
+  # ACTORS — BOOK & ANIMATION (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: Can I adapt a novel into a movie using ACT3 AI?
+    question_info:
+      category: Getting Started
+      tags: [novel, book adaptation, screenplay, narrative]
+    answer:
+      description: >
+        Yes. Paste chapters or summaries into the Script Editor or AI Ideas
+        panel. The AI Writer can convert prose narrative into proper screenplay
+        format with scene headings, action lines, and dialogue. You review and
+        refine the adapted script before moving to visualization.
+      doc_file: docs/getting-started/first-project.mdx
+      click_path:
+        - Home
+        - Getting Started
+        - Your First Project
+
+  - question: Can I make an animated series with cartoon characters?
+    question_info:
+      category: Features
+      tags: [animation, cartoon, 2D, series, anime]
+    answer:
+      description: >
+        Yes. Select the Cartoon 2D or Anime style preset and design digital
+        actors with an illustrated aesthetic. The AI generates video in the
+        chosen animation style. For a full animated series, structure the
+        project as a Series with Season and Episode containers for organized
+        episodic production.
+      doc_file: docs/features/style-presets.mdx
+      click_path:
+        - Home
+        - Features
+        - Style Presets
+
+  # -----------------------------------------------------------------------
+  # STORYBOARD — ADVANCED (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I use storyboard panels for a pitch deck presentation?
+    question_info:
+      category: Storyboard
+      tags: [pitch deck, storyboard, presentation, investor]
+    answer:
+      description: >
+        Generate storyboard panels for key scenes and export them as a PDF
+        from Project → Export → Storyboard PDF. The PDF includes shot panels
+        in sequence with scene headings and shot descriptions. Use this in
+        pitch decks, treatment documents, or creative briefs to communicate
+        your visual vision to investors or collaborators.
+      doc_file: docs/features/storyboard.mdx
+      click_path:
+        - Home
+        - Features
+        - Storyboard
+
+  - question: Can I edit storyboard panel images manually?
+    question_info:
+      category: Storyboard
+      tags: [edit storyboard, panel, image, revise]
+    answer:
+      description: >
+        Yes. Click any storyboard panel to open the panel editor. Modify the
+        image description and regenerate with FLUX, or click Edit Image to
+        open an inpainting tool where you can draw over specific areas to
+        change them. Accepted panels are saved and carry forward into your
+        production planning.
+      doc_file: docs/features/storyboard.mdx
+      click_path:
+        - Home
+        - Features
+        - Storyboard
+
+  # -----------------------------------------------------------------------
+  # RENDER QUALITY & CONSISTENCY (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: Why do different shots in my film look like they were made by different directors?
+    question_info:
+      category: Troubleshooting
+      tags: [visual consistency, style, shots, uniform look]
+    answer:
+      description: >
+        Visual inconsistency usually comes from inconsistent shot prompts,
+        different models per shot, or no Style Preset applied. Apply a single
+        Style Preset to your whole project, use the same AI model for all
+        shots in a scene, and ensure your shot prompts all include the same
+        lighting and mood language defined in your style guide.
+      doc_file: docs/features/style-presets.mdx
+      click_path:
+        - Home
+        - Features
+        - Style Presets
+
+  - question: How do I make AI-generated videos look more cinematic and less like AI?
+    question_info:
+      category: AI Video Generation
+      tags: [cinematic, quality, realistic, grain, look]
+    answer:
+      description: >
+        Use Veo 3 at High quality, add film grain and subtle vignette in your
+        Style Preset, specify real film stock references in prompts (e.g., "shot
+        on Kodak Vision3 500T"), include naturalistic camera movement (slight
+        handheld drift), and avoid overly literal or clean prompts. Review the
+        Cinematography guides for lens and lighting choices that add depth.
+      doc_file: docs/features/ai-video-generation.mdx
+      click_path:
+        - Home
+        - Features
+        - AI Video Generation
+
+  # -----------------------------------------------------------------------
+  # POST-PRODUCTION INTEGRATION (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: Can I use ACT3 AI alongside a traditional production shoot?
+    question_info:
+      category: Features
+      tags: [hybrid production, live action, AI, mixed media]
+    answer:
+      description: >
+        Yes. Import your live-action footage into the Asset Library and place
+        it on the timeline alongside AI-generated shots. Mix live-action and
+        AI content freely. This hybrid approach is common for productions
+        that shoot some scenes traditionally and use AI for VFX-heavy or
+        impractical scenes.
+      doc_file: docs/features/video-editor.mdx
+      click_path:
+        - Home
+        - Features
+        - Video Editor
+
+  - question: How do I use ACT3 AI as a pre-visualization tool before a live shoot?
+    question_info:
+      category: Features
+      tags: [previs, live shoot, pre-production, planning]
+    answer:
+      description: >
+        Generate low-cost Wan 2.1 or Hunyuan drafts of every planned shot
+        before the live production day. Review the pre-viz with your crew to
+        align on framing, blocking, and pacing. This reduces on-set decision
+        time and prevents missed shots. Export a shot list PDF to brief your
+        camera operator.
+      doc_file: docs/features/storyboard.mdx
+      click_path:
+        - Home
+        - Features
+        - Storyboard
+
+  # -----------------------------------------------------------------------
+  # ACCOUNT SETTINGS (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I change my display name or profile picture?
+    question_info:
+      category: Account & Billing
+      tags: [profile, display name, avatar, account settings]
+    answer:
+      description: >
+        Go to Account → Settings → Profile. Update your display name and upload
+        a new profile picture. These changes are visible to team members within
+        your shared Organizations. The email address used for login can also
+        be changed here with email verification.
+      doc_file: docs/account/account-settings.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Account Settings
+
+  - question: How do I reset my password?
+    question_info:
+      category: Account & Billing
+      tags: [password reset, forgot password, login, security]
+    answer:
+      description: >
+        On the login page, click Forgot Password. Enter your email address
+        and ACT3 AI sends a reset link. The link is valid for 30 minutes.
+        Click it and enter a new password. If you use SSO, password reset
+        is managed through your identity provider, not ACT3 AI directly.
+      doc_file: docs/account/account-settings.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Account Settings
+
+  # -----------------------------------------------------------------------
+  # ADVANCED GENERATION (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I control the duration of a generated shot?
+    question_info:
+      category: AI Video Generation
+      tags: [duration, shot length, seconds, clip length]
+    answer:
+      description: >
+        In the Shot editor, set the Target Duration field (in seconds). Most
+        models support clips from 3 to 30 seconds. Match the duration to your
+        narrative beat — fast-paced action shots may be 3–5 seconds; emotional
+        dialogue shots may be 8–15 seconds. The credit cost scales with
+        duration.
+      doc_file: docs/features/ai-video-generation.mdx
+      click_path:
+        - Home
+        - Features
+        - AI Video Generation
+
+  - question: How do I generate an establishing shot for my scene?
+    question_info:
+      category: Cinematography
+      tags: [establishing shot, wide shot, location, scene intro]
+    answer:
+      description: >
+        Select Extreme Wide or Wide as the shot type and frame the key landmark
+        or setting of your scene. In the shot prompt, describe the full
+        environment and time of day (e.g., "wide establishing shot of a
+        rain-soaked Tokyo street at night, neon signs reflecting in puddles").
+        Establishing shots are typically the first shot in a new scene.
+      doc_file: docs/features/cinematography.mdx
+      click_path:
+        - Home
+        - Features
+        - Cinematography
+
+  - question: How do I create an insert shot showing a detail?
+    question_info:
+      category: Cinematography
+      tags: [insert shot, detail, close-up, object]
+    answer:
+      description: >
+        Select Insert as the shot type. Insert shots are extreme close-ups of
+        objects or details (a hand picking up a key, a clock face showing
+        midnight, a message on a phone). Describe the object and the action
+        clearly in the shot prompt. Insert shots are usually very short (2–4
+        seconds).
+      doc_file: docs/features/cinematography.mdx
+      click_path:
+        - Home
+        - Features
+        - Cinematography
+
+  # -----------------------------------------------------------------------
+  # COST OPTIMIZATION (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: What is the cheapest way to previs a full feature before final rendering?
+    question_info:
+      category: Account & Billing
+      tags: [cost optimization, previs, Wan, Hunyuan, budget]
+    answer:
+      description: >
+        Use Wan 2.1 or Hunyuan at Draft quality for all previs shots — this
+        costs 2–5 credits per shot versus 10–20 for Veo 3 high quality. Lock
+        the previs pass and review the full film. Then selectively upgrade only
+        key scenes to Veo 3 High quality. This reduces total credit spend by
+        50–70% compared to rendering everything at final quality first.
+      doc_file: docs/account/credits.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Credits
+
+  - question: Do I get charged credits if a generation fails?
+    question_info:
+      category: Account & Billing
+      tags: [failed generation, credits, refund, error]
+    answer:
+      description: >
+        If a generation fails due to a platform or model error, credits are
+        refunded automatically. If the generation completed successfully but
+        you don't like the result, credits are consumed — you can regenerate
+        with the same or adjusted prompt at the same credit cost. Content
+        policy blocks before generation do not consume credits.
+      doc_file: docs/account/credits.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Credits
+
+  - question: How do I see the credit cost for a generation before committing?
+    question_info:
+      category: Account & Billing
+      tags: [cost estimate, credit cost, before generate, button]
+    answer:
+      description: >
+        Every Generate button shows the exact credit cost in brackets before
+        you click it (e.g., "Generate [120 Credits]"). The quality selector
+        shows multiple cost options side by side so you can choose the
+        right trade-off for each shot. If you don't have enough credits,
+        the button shows the shortfall.
+      doc_file: docs/account/credits.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Credits
+
+  # -----------------------------------------------------------------------
+  # STORY ARC & EMOTIONAL PACING (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: How do I ensure my film has good pacing between fast and slow scenes?
+    question_info:
+      category: Core Concepts
+      tags: [pacing, editing, story arc, fast slow, rhythm]
+    answer:
+      description: >
+        Use the Story Arc editor to visualize your tension curve. Plot the
+        emotional intensity of each scene. Alternate high-intensity action
+        scenes with lower-tension dialogue or character moments. The timeline
+        shows shot durations visually so you can see where the film breathes
+        and where it needs tightening.
+      doc_file: docs/concepts/overview.mdx
+      click_path:
+        - Home
+        - Core Concepts
+        - Story Structure Overview
+
+  - question: What is the three-act structure and how do I apply it in ACT3 AI?
+    question_info:
+      category: Core Concepts
+      tags: [three act, structure, screenplay, acts]
+    answer:
+      description: >
+        The three-act structure divides a story into Setup (Act 1), Confrontation
+        (Act 2), and Resolution (Act 3). In ACT3 AI, create three Act containers
+        in your project. Act 1 establishes characters and the inciting incident.
+        Act 2 develops the conflict. Act 3 resolves it. The Story Arc editor
+        helps you balance scene count and duration across all three acts.
+      doc_file: docs/concepts/acts.mdx
+      click_path:
+        - Home
+        - Core Concepts
+        - Acts
+
+  # -----------------------------------------------------------------------
+  # COMMUNITY & NETWORKING (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: Can I follow other filmmakers using ACT3 AI?
+    question_info:
+      category: Features
+      tags: [community, follow, networking, discovery]
+    answer:
+      description: >
+        Yes. In the Community Discovery Feed, click a creator's name to view
+        their profile and public projects. Click Follow to add them to your
+        feed. Followed creators' new public projects appear in your home feed
+        for inspiration and collaboration opportunities.
+      doc_file: docs/features/collaboration.mdx
+      click_path:
+        - Home
+        - Features
+        - Collaboration
+
+  - question: How do I get feedback from the ACT3 AI community on my work?
+    question_info:
+      category: Features
+      tags: [feedback, community, review, share]
+    answer:
+      description: >
+        Enable Community Sharing for your project in Project Settings. After
+        admin approval your project appears in the Community Discovery Feed
+        where other users can view it and leave comments. You receive
+        notifications for new community comments directly in ACT3 AI.
+      doc_file: docs/features/collaboration.mdx
+      click_path:
+        - Home
+        - Features
+        - Collaboration
+
+  # -----------------------------------------------------------------------
+  # VFX & BLENDER SPECIALISTS (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: I am a VFX artist. How does ACT3 AI fit into my existing Blender pipeline?
+    question_info:
+      category: Integrations
+      tags: [VFX, Blender, pipeline, 3D, specialist]
+    answer:
+      description: >
+        ACT3 AI acts as the production management layer above Blender. Build
+        and refine your 3D sets and character rigs in Blender, then sync them
+        to ACT3 AI via the add-on for shot-level AI generation. ACT3 AI handles
+        the narrative structure, shot sequencing, and final film assembly while
+        you focus on the 3D assets and VFX work in Blender.
+      doc_file: docs/integrations/blender.mdx
+      click_path:
+        - Home
+        - Integrations
+        - Blender
+
+  - question: Can I render Blender scenes server-side using ACT3 AI's cloud?
+    question_info:
+      category: Integrations
+      tags: [cloud render, Blender, GPU, server-side rendering]
+    answer:
+      description: >
+        ACT3 AI uses dedicated GPU nodes for its own AI generation pipeline.
+        Direct Blender CPU/GPU renders are not run on ACT3 AI's cloud —
+        Blender renders happen on your local machine and the output is synced
+        to ACT3 AI. For heavy Blender renders, use your own local GPU or a
+        dedicated cloud rendering service such as Sheepit or Render.st.
+      doc_file: docs/integrations/blender.mdx
+      click_path:
+        - Home
+        - Integrations
+        - Blender
+
+  # -----------------------------------------------------------------------
+  # CLOSING FAQ (NEW)
+  # -----------------------------------------------------------------------
+
+  - question: What is the best plan for a solo indie filmmaker just getting started?
+    question_info:
+      category: Account & Billing
+      tags: [indie filmmaker, solo, plan recommendation, standard]
+    answer:
+      description: >
+        Start on the Free tier to explore the platform. When you're ready to
+        make your first real project, upgrade to Standard ($35/month). Standard
+        gives you 33,000 credits, access to Veo 3 and Runway, 3 concurrent
+        jobs, and a high credit rollover cap — enough to produce a short film
+        or several scenes per month without worrying about running out.
+      doc_file: docs/account/billing.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Billing & Plans
+
+  - question: Can I cancel and restart my subscription without losing my projects?
+    question_info:
+      category: Account & Billing
+      tags: [cancel, restart, projects, data retention]
+    answer:
+      description: >
+        Yes. When you cancel, your account downgrades to the free tier and your
+        projects remain accessible for 90 days. If you resubscribe within that
+        window, everything is still there. After 90 days, projects may be
+        archived. Resubscribing after archival restores all project data.
+      doc_file: docs/account/account-cancellation.mdx
+      click_path:
+        - Home
+        - Account & Billing
+        - Account Cancellation
