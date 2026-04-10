@@ -29,18 +29,23 @@ const config = {
     locales: ['en'],
   },
 
+  staticDirectories: ['internal/static'],
+
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: './internal/sidebars.js',
           routeBasePath: '/docs',
         },
-        blog: false, // disable blog until needed
+        blog: false,
+        pages: {
+          path: 'internal/src/pages',
+        },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: './internal/src/css/custom.css',
         },
       }),
     ],
