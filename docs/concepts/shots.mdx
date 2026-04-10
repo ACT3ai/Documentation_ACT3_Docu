@@ -1,0 +1,73 @@
+---
+id: shots
+title: Shots
+sidebar_label: Shots
+description: What Shots are, shot types, and how to configure them in ACT3 AI.
+---
+
+# Shots
+
+A **Shot** is a single continuous camera angle within a [Beat](/docs/concepts/beats).
+Shots are the atomic unit of video generation in ACT3 AI — each shot produces one
+video clip rendered by the AI model of your choice.
+
+## Shot Types
+
+ACT3 AI supports all standard cinematic shot types:
+
+| Shot Type | Abbreviation | Description |
+|-----------|-------------|-------------|
+| Extreme Wide Shot | EWS | Establishes location; subject tiny in frame |
+| Wide Shot | WS | Full subject visible; environment prominent |
+| Medium Shot | MS | Subject from waist up |
+| Close-Up | CU | Face or object fills frame |
+| Extreme Close-Up | ECU | Detail shot — eyes, hands, props |
+| Over the Shoulder | OTS | Camera behind one character, facing another |
+| Point of View | POV | Camera sees what the character sees |
+| Two Shot | 2S | Two characters in frame together |
+
+## Camera Movement
+
+Each shot can include one camera movement:
+
+| Movement | Effect |
+|----------|--------|
+| **Static** | Camera holds still |
+| **Pan** | Camera rotates left or right on its axis |
+| **Tilt** | Camera rotates up or down on its axis |
+| **Dolly** | Camera physically moves forward or backward |
+| **Tracking** | Camera moves parallel to a moving subject |
+| **Crane / Jib** | Camera rises or descends vertically |
+| **Handheld** | Slight natural movement for documentary feel |
+| **Drone** | Aerial perspective with forward drift |
+
+## Shot Settings in ACT3 AI
+
+When you create or edit a shot, you configure:
+
+- **Shot type** — from the list above
+- **Camera movement** — from the list above
+- **Lens / focal length** — wide (24mm), normal (50mm), telephoto (85mm+)
+- **Lighting preset** — golden hour, overcast, studio, night, etc.
+- **Subject description** — what (or who) is in frame and what they're doing
+- **Background / set** — location or Blender scene to use
+- **Duration** — target clip length in seconds (2–10 sec recommended for AI gen)
+- **AI model** — Veo 3, Runway, ComfyUI, Hunyuan, or Wan 2.1
+
+## Generating Video from a Shot
+
+1. Open a Beat in the editor
+2. Click **+ Add Shot**
+3. Fill in shot type, movement, subject, and duration
+4. Click **Generate**
+5. ACT3 AI sends the prompt to the selected AI model
+6. The rendered clip appears in the shot card for review
+
+You can regenerate any shot with different settings or swap to a different AI model
+without losing your other shots.
+
+## Related
+
+- [Beats — Structuring your script](/docs/concepts/beats)
+- [The ACT3 AI Workflow](/docs/getting-started/introduction)
+- [AI Video Generation](/docs/features/ai-video-generation)
