@@ -83,6 +83,11 @@ const config = {
             label: 'All Docs',
           },
           {
+            to: '/docs/legacy-wiki',
+            position: 'left',
+            label: 'Legacy Wiki',
+          },
+          {
             href: 'https://act3ai.com',
             label: 'ACT3 AI',
             position: 'right',
