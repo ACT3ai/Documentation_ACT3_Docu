@@ -22,6 +22,7 @@ questions:
         and optional description, then click Create. ACT3 AI opens the project
         workspace where you can import or write your script.
       doc_file: docs/getting-started/first-project.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -37,6 +38,7 @@ questions:
         password, or sign up with Google. Confirm your email, then select a
         plan to activate your account.
       doc_file: docs/getting-started/create-account.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -52,6 +54,7 @@ questions:
         activity, credit balance, and quick links to start a new project,
         browse templates, or access the asset library.
       doc_file: docs/getting-started/dashboard.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -68,6 +71,7 @@ questions:
         break it into beats and scenes, define shots with camera and lighting
         settings, generate AI video for each shot, then assemble and export.
       doc_file: docs/getting-started/introduction.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -88,6 +92,7 @@ questions:
         blocks underneath scenes. Breaking your script into beats helps ACT3 AI
         understand pacing and generate the right video for each moment.
       doc_file: docs/concepts/beats.mdx
+      doc_updated: true
       click_path:
         - Home
         - Core Concepts
@@ -104,6 +109,7 @@ questions:
         within that scene. ACT3 AI generates one video clip per shot, then
         assembles them into scenes.
       doc_file: docs/concepts/scenes.mdx
+      doc_updated: true
       click_path:
         - Home
         - Core Concepts
@@ -120,6 +126,7 @@ questions:
         framing, camera motion, lighting, characters, and a shot prompt to
         guide the generation.
       doc_file: docs/concepts/shots.mdx
+      doc_updated: true
       click_path:
         - Home
         - Core Concepts
@@ -136,6 +143,7 @@ questions:
         highest level, helping you see the big-picture structure and pace of
         your film.
       doc_file: docs/concepts/acts.mdx
+      doc_updated: true
       click_path:
         - Home
         - Core Concepts
@@ -152,6 +160,7 @@ questions:
         smallest moment. Every beat you write eventually becomes one or more
         shots that ACT3 AI generates as video.
       doc_file: docs/concepts/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Core Concepts
@@ -168,6 +177,7 @@ questions:
         beat descriptions, and map the emotional arc across your whole film
         before generating any video.
       doc_file: docs/concepts/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Core Concepts
@@ -187,6 +197,7 @@ questions:
         Go to your project, click Import Script, and choose your file. The
         system parses scene headings, action lines, and dialogue automatically.
       doc_file: docs/features/script-editing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -202,6 +213,7 @@ questions:
         with scene headings, action lines, character cues, and dialogue. You
         can write from scratch or paste in raw text and let ACT3 AI format it.
       doc_file: docs/features/script-editing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -218,6 +230,7 @@ questions:
         You can also use it to fill in dialogue, rewrite scenes, or add
         description to existing script sections.
       doc_file: docs/features/script-editing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -234,6 +247,7 @@ questions:
         edit, merge, or split beats until they reflect the emotional units you
         want to visualize.
       doc_file: docs/features/script-editing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -249,6 +263,7 @@ questions:
         (.fdx) to download your script in standard industry formats for sharing,
         pitching, or archiving.
       doc_file: docs/features/script-editing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -264,6 +279,7 @@ questions:
         .fdx. The parser handles standard screenplay elements including scene
         headings, transitions, parentheticals, and dual dialogue.
       doc_file: docs/features/script-editing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -284,6 +300,7 @@ questions:
         sends the request to your selected AI video model (Veo 3, Runway, etc.)
         and returns a clip when ready.
       doc_file: docs/features/ai-video-generation.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -301,6 +318,7 @@ questions:
         previsualization. You can mix models across shots within the same
         project.
       doc_file: docs/features/ai-video-generation.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -317,6 +335,7 @@ questions:
         Check the error message on the failed shot. You can edit the prompt and
         regenerate without losing your shot settings.
       doc_file: docs/features/ai-video-generation.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -333,6 +352,7 @@ questions:
         versions are kept in the shot's version history so you can compare
         and revert.
       doc_file: docs/features/ai-video-generation.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -349,6 +369,7 @@ questions:
         maintaining appearance, wardrobe, and likeness across all shots that
         use that actor.
       doc_file: docs/features/actors.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -365,6 +386,7 @@ questions:
         Runway and Hunyuan can be faster. You can queue many shots at once and
         continue working while they generate.
       doc_file: docs/features/render-queue.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -381,6 +403,7 @@ questions:
         Hunyuan generate at 720p or 1080p. You set the target resolution per
         shot or globally for the project.
       doc_file: docs/features/ai-video-generation.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -398,6 +421,7 @@ questions:
         language. Example: "Marcus walks slowly through the foggy alley,
         looking over his shoulder, rain hitting the cobblestones."
       doc_file: docs/concepts/shots.mdx
+      doc_updated: true
       click_path:
         - Home
         - Core Concepts
@@ -414,6 +438,7 @@ questions:
         close-up"). The video editor can also apply time remapping to any
         generated clip to create slow motion in post.
       doc_file: docs/features/ai-video-generation.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -430,6 +455,7 @@ questions:
         argue across the kitchen table, Sarah pointing at him"). ACT3 AI passes
         both actor references to the model to maintain both appearances.
       doc_file: docs/features/actors.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -450,6 +476,7 @@ questions:
         POV, bird's-eye, worm's-eye) or describe a custom angle in the shot
         prompt.
       doc_file: docs/features/cinematography.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -466,6 +493,7 @@ questions:
         Cinematography panel. You can combine movements (e.g., dolly-in with
         a slight upward tilt).
       doc_file: docs/features/cinematography.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -481,6 +509,7 @@ questions:
         wide, 50mm normal, 85mm portrait, 200mm telephoto). Depth of field
         adjusts automatically; you can also override aperture to control bokeh.
       doc_file: docs/features/cinematography.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -497,6 +526,7 @@ questions:
         (e.g., "camera follows Alex as she runs down the corridor, tracking
         from behind at shoulder height").
       doc_file: docs/features/cinematography.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -514,6 +544,7 @@ questions:
         subject appear closer or farther. They produce visually distinct results
         and the Hitchcock dolly-zoom combines both for a vertigo effect.
       doc_file: docs/features/cinematography.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -534,6 +565,7 @@ questions:
         adding key, fill, and back lights. Settings propagate to all shots in
         the scene unless you override per shot.
       doc_file: docs/features/lighting.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -551,6 +583,7 @@ questions:
         colored hues. Include the lighting description in your shot prompt for
         best results.
       doc_file: docs/features/lighting.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -567,6 +600,7 @@ questions:
         prompt, mention "late afternoon golden light" or "magic hour sun
         backlighting the subject" to reinforce the look.
       doc_file: docs/features/lighting.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -587,6 +621,7 @@ questions:
         custom set using the 2D/3D set editor. You can describe the environment
         in the shot prompt to guide AI generation within that space.
       doc_file: docs/features/sets.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -603,6 +638,7 @@ questions:
         and spatial relationships in the shot. The AI uses it as a reference
         for generating consistent environments.
       doc_file: docs/features/sets.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -619,6 +655,7 @@ questions:
         characters, mark camera positions, and visualize sightlines. This is
         especially useful for action sequences or multi-character scenes.
       doc_file: docs/features/sets.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -639,6 +676,7 @@ questions:
         wardrobe, age). Save the actor and they become available in all your
         projects.
       doc_file: docs/features/actors.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -655,6 +693,7 @@ questions:
         ensure you have the rights and comply with applicable laws. ACT3 AI
         requires consent affirmation before creating likeness-based actors.
       doc_file: docs/features/actors.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -671,6 +710,7 @@ questions:
         their position and action in the shot. Multiple actors can be added per
         shot.
       doc_file: docs/features/actors.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -687,6 +727,7 @@ questions:
         apply to all future generations using that actor. Previously generated
         shots are not automatically re-generated.
       doc_file: docs/features/actors.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -707,6 +748,7 @@ questions:
         the motion capture data to ACT3 AI via the Hero Blender Sync integration,
         where it drives character animation in your scene.
       doc_file: docs/features/motion-capture.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -727,6 +769,7 @@ questions:
         ACT3 AI runs a lip sync pass that matches the character's mouth movement
         to the audio waveform and renders an updated video clip.
       doc_file: docs/features/lipsync.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -743,6 +786,7 @@ questions:
         Generate. ACT3 AI creates an audio file you can preview, adjust speed
         and pitch, and attach to the shot for lip sync.
       doc_file: docs/features/tts.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -759,6 +803,7 @@ questions:
         can also clone a voice from a short sample to generate new lines in that
         voice.
       doc_file: docs/features/tts.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -779,6 +824,7 @@ questions:
         and add transitions between shots. The timeline shows video, audio, and
         music tracks in separate lanes.
       doc_file: docs/features/video-editor.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -795,6 +841,7 @@ questions:
         the music clip to set its start point and adjust the volume envelope
         across the timeline.
       doc_file: docs/features/video-editor.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -811,6 +858,7 @@ questions:
         and highlights, or import a LUT (.cube) file to apply a cinematic look
         to all shots at once.
       doc_file: docs/features/video-editor.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -826,6 +874,7 @@ questions:
         clips (MP4, MOV, etc.). They appear in the Media Library and can be
         dragged directly onto the timeline or inserted as a shot in any scene.
       doc_file: docs/features/video-editor.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -842,6 +891,7 @@ questions:
         proxy clips for speed. A full-quality preview renders all shots before
         playback.
       doc_file: docs/features/video-editor.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -858,6 +908,7 @@ questions:
         You can also click the clip to open the shot editor and use the
         precise timecode trim controls.
       doc_file: docs/features/video-editor.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -878,6 +929,7 @@ questions:
         prompt. Panels show framing, character positions, and action notes.
         You can regenerate any panel individually or edit the image description.
       doc_file: docs/features/storyboard.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -898,6 +950,7 @@ questions:
         see progress, estimated completion time, and status (queued, generating,
         complete, failed) for each shot in real time.
       doc_file: docs/features/render-queue.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -913,6 +966,7 @@ questions:
         in parallel up to the concurrency limit of your plan. Higher-tier plans
         allow more simultaneous generations.
       doc_file: docs/features/render-queue.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -929,6 +983,7 @@ questions:
         only if the generation has not yet completed. A completed-but-rejected
         shot consumes credits.
       doc_file: docs/features/render-queue.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -949,6 +1004,7 @@ questions:
         assets into folders, search by name or tag, and drag them directly onto
         the timeline or into shots.
       doc_file: docs/features/asset-library.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -969,6 +1025,7 @@ questions:
         project and it injects those style instructions into every shot prompt
         automatically, keeping the look consistent across all generations.
       doc_file: docs/features/style-presets.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -985,6 +1042,7 @@ questions:
         stock, and reference films. Save it and apply it to your project or
         individual scenes.
       doc_file: docs/features/style-presets.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -1004,6 +1062,7 @@ questions:
         in the Project menu to see a timeline of saves. Click any version to
         preview its state and click Restore to revert the project to that point.
       doc_file: docs/features/version-control.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -1024,6 +1083,7 @@ questions:
         shots, and generate video. Viewers can comment and review but not
         change anything.
       doc_file: docs/features/collaboration.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -1044,6 +1104,7 @@ questions:
         on a shot, ACT3 AI sends the request to Veo 3 and returns the clip.
         No separate API key is needed — it runs through your ACT3 AI credits.
       doc_file: docs/integrations/veo3.mdx
+      doc_updated: true
       click_path:
         - Home
         - Integrations
@@ -1060,6 +1121,7 @@ questions:
         consistency, and character motion especially well. It costs more credits
         per shot than Runway or Hunyuan but delivers higher final-film quality.
       doc_file: docs/integrations/veo3.mdx
+      doc_updated: true
       click_path:
         - Home
         - Integrations
@@ -1080,6 +1142,7 @@ questions:
         is also faster and costs fewer credits, making it good for
         previsualization passes before doing a final Veo 3 render.
       doc_file: docs/integrations/runway.mdx
+      doc_updated: true
       click_path:
         - Home
         - Integrations
@@ -1100,6 +1163,7 @@ questions:
         ACT3 AI API key to link the two apps. You can then push scene data,
         camera rigs, and character animations directly to your ACT3 AI project.
       doc_file: docs/integrations/blender.mdx
+      doc_updated: true
       click_path:
         - Home
         - Integrations
@@ -1116,6 +1180,7 @@ questions:
         camera positions sync to ACT3 AI as a set reference for the selected
         scene or shot.
       doc_file: docs/integrations/blender.mdx
+      doc_updated: true
       click_path:
         - Home
         - Integrations
@@ -1136,6 +1201,7 @@ questions:
         Set the ComfyUI endpoint URL in Integrations settings, then trigger
         workflows directly from the Shot or Actor editor.
       doc_file: docs/integrations/comfyui.mdx
+      doc_updated: true
       click_path:
         - Home
         - Integrations
@@ -1152,6 +1218,7 @@ questions:
         FLUX as the image model in the Storyboard or Actor generator and it
         produces photorealistic or stylized reference imagery.
       doc_file: docs/integrations/flux.mdx
+      doc_updated: true
       click_path:
         - Home
         - Integrations
@@ -1172,6 +1239,7 @@ questions:
         combines them with audio, applies your color grade, and packages the
         final video file for download.
       doc_file: docs/export/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Export
@@ -1187,6 +1255,7 @@ questions:
         (422, 4444) for professional post-production, and DCP package for
         festival/cinema delivery. Choose the format in the Export dialog.
       doc_file: docs/export/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Export
@@ -1203,6 +1272,7 @@ questions:
         project's frame rate with AAC audio. It applies recommended bitrate
         settings for YouTube's compression pipeline.
       doc_file: docs/export/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Export
@@ -1219,6 +1289,7 @@ questions:
         for short-form vertical platforms. You can adjust the reframe position
         per shot before exporting.
       doc_file: docs/export/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Export
@@ -1235,6 +1306,7 @@ questions:
         color space (P3-DCI), audio format (48kHz/24-bit), and subtitle track.
         Check your specific festival's technical requirements before submitting.
       doc_file: docs/export/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Export
@@ -1251,6 +1323,7 @@ questions:
         or Dolby Digital. The export dialog shows which formats are available
         on your plan.
       doc_file: docs/export/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Export
@@ -1272,6 +1345,7 @@ questions:
         and storyboard panels cost 1–2 credits each. See the Credits page for
         the full table.
       doc_file: docs/account/credits.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1289,6 +1363,7 @@ questions:
         dashboard shows which credits are subscription credits vs. purchased
         credits.
       doc_file: docs/account/credits.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1306,6 +1381,7 @@ questions:
         seats, and priority render queue. See the Billing page for current plan
         details.
       doc_file: docs/account/billing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1321,6 +1397,7 @@ questions:
         size (100, 500, 1000, or 5000 credits). Credits are added to your
         account immediately after purchase and do not expire.
       doc_file: docs/account/credits.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1336,6 +1413,7 @@ questions:
         from the same pool when generating. Admins can set per-member credit
         limits to prevent any single user from consuming the whole balance.
       doc_file: docs/account/credits.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1351,6 +1429,7 @@ questions:
         their email address and select a role (Admin, Editor, or Viewer). They
         receive an email invitation and join your organization when they accept.
       doc_file: docs/account/teams.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1367,6 +1446,7 @@ questions:
         your account downgrades to the free tier. Projects and generated videos
         are retained for 90 days.
       doc_file: docs/account/account-cancellation.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1383,6 +1463,7 @@ questions:
         Authenticator, Authy) and enter the verification code to confirm.
         2FA applies on every new device login.
       doc_file: docs/account/account-settings.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1403,6 +1484,7 @@ questions:
         cinematic composition. It's a strong choice for dialogue-heavy scenes
         or when Veo 3 is unavailable. It uses fewer credits than Veo 3.
       doc_file: docs/integrations/hunyuan.mdx
+      doc_updated: true
       click_path:
         - Home
         - Integrations
@@ -1420,6 +1502,7 @@ questions:
         higher-quality model. Quality is lower than Veo 3 or Runway but
         adequate for planning purposes.
       doc_file: docs/integrations/wan.mdx
+      doc_updated: true
       click_path:
         - Home
         - Integrations
@@ -1441,6 +1524,7 @@ questions:
         positive and negative prompt fields. A local ComfyUI instance can
         also run custom SDXL workflows.
       doc_file: docs/integrations/stable-diffusion-xl.mdx
+      doc_updated: true
       click_path:
         - Home
         - Integrations
@@ -1461,6 +1545,7 @@ questions:
         video. Authenticate with a Bearer token from your API settings page.
         See the API Reference for endpoint documentation and code examples.
       doc_file: docs/api/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - API Reference
@@ -1482,6 +1567,7 @@ questions:
         shot prompt with more specific action and visual details, ensure your
         lighting preset matches the prompt, and try regenerating.
       doc_file: docs/faq/general.mdx
+      doc_updated: true
       click_path:
         - Home
         - FAQ
@@ -1498,6 +1584,7 @@ questions:
         current plan under Account → Billing. Upgrade to unlock features, or
         consult the FAQ for plan comparison.
       doc_file: docs/faq/general.mdx
+      doc_updated: true
       click_path:
         - Home
         - FAQ
@@ -1514,6 +1601,7 @@ questions:
         Hero Blender Sync desktop app runs on Mac and Windows for Blender
         integration.
       doc_file: docs/getting-started/introduction.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -1530,6 +1618,7 @@ questions:
         an XML or EDL from the timeline to import your edit directly into an
         external editor with cut points and clip references intact.
       doc_file: docs/export/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Export
@@ -1551,6 +1640,7 @@ questions:
         commercial use, 6 jobs). Enterprise (custom pricing, high volume,
         4K video, priority support). All plans bill monthly.
       doc_file: docs/account/billing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1568,6 +1658,7 @@ questions:
         cap (100,000). Standard is best if you generate more than a handful
         of shots per month.
       doc_file: docs/account/billing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1583,6 +1674,7 @@ questions:
         in the corner. Upgrading to Community ($8/month) or any higher plan
         removes the watermark from all generated content.
       doc_file: docs/account/billing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1599,6 +1691,7 @@ questions:
         The Standard plan allows personal and limited commercial use. Check
         the Terms of Service for full licensing details.
       doc_file: docs/account/billing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1616,6 +1709,7 @@ questions:
         (100,000), Business (500,000), Enterprise (unlimited). When your
         monthly credits run out, ACT3 AI draws from the bank automatically.
       doc_file: docs/account/credits.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1632,6 +1726,7 @@ questions:
         ($35/month) or higher. This ensures the platform remains sustainable
         while keeping entry-level access affordable.
       doc_file: docs/account/billing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1647,6 +1742,7 @@ questions:
         abuse and ensure account authenticity. Standard and higher plans
         use email/password or SSO and do not require LinkedIn.
       doc_file: docs/account/create-account.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -1663,6 +1759,7 @@ questions:
         [400 Credits]. If you don't have enough credits, a dialog tells you
         how many you need and offers an upgrade path.
       doc_file: docs/account/credits.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1684,6 +1781,7 @@ questions:
         personal Organization automatically. You can create or join multiple
         Organizations.
       doc_file: docs/account/teams.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1700,6 +1798,7 @@ questions:
         for a studio or agency client. Switch between them using the
         Organization dropdown in the top navigation.
       doc_file: docs/account/teams.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1717,6 +1816,7 @@ questions:
         Organization has the appropriate commercial-use plan for work you
         intend to distribute.
       doc_file: docs/account/teams.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1733,6 +1833,7 @@ questions:
         Both parties must confirm before the transfer completes. This is a
         security measure to prevent unauthorized transfers.
       doc_file: docs/account/teams.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1750,6 +1851,7 @@ questions:
         control plus member management). Assign the minimum permissions each
         person needs.
       doc_file: docs/account/teams.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1766,6 +1868,7 @@ questions:
         organization credit pool. When a member hits their limit, they are
         prompted to request more from the org owner.
       doc_file: docs/account/teams.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1782,6 +1885,7 @@ questions:
         indefinitely as long as the subscription is active. You receive an
         email warning before any deletion occurs.
       doc_file: docs/account/billing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -1802,6 +1906,7 @@ questions:
         Each episode has its own script, scenes, and shots. The platform handles
         full 22-minute episodes and multi-season arcs.
       doc_file: docs/concepts/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Core Concepts
@@ -1818,6 +1923,7 @@ questions:
         like an independent film project with its own script and shot list,
         but shares actors, sets, and style presets with the whole series.
       doc_file: docs/concepts/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Core Concepts
@@ -1834,6 +1940,7 @@ questions:
         same Style Preset to the whole series to lock in consistent lighting,
         color, and visual mood for every episode.
       doc_file: docs/features/actors.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -1854,6 +1961,7 @@ questions:
         narrative reads correctly. It works alongside the AI Writer and AI
         Cinematographer to propose a cohesive interpretation of your script.
       doc_file: docs/features/ai-video-generation.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -1870,6 +1978,7 @@ questions:
         from 22 standard shot types and key-framed camera curves to propose
         cinematography for each beat automatically.
       doc_file: docs/features/cinematography.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -1886,6 +1995,7 @@ questions:
         sheet, scene outline, and dialogue draft. You can also use it to
         rewrite individual scenes or fill in missing dialogue.
       doc_file: docs/features/script-editing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -1902,6 +2012,7 @@ questions:
         appropriate sets — from procedural city blocks to interior rooms. You
         can accept suggestions, modify them, or build from scratch.
       doc_file: docs/features/sets.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -1923,6 +2034,7 @@ questions:
         cascades the change through all scenes and shots that reference it,
         keeping the narrative consistent automatically.
       doc_file: docs/concepts/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Core Concepts
@@ -1940,6 +2052,7 @@ questions:
         review the flagged items and decide which to update, keeping edits
         non-destructive.
       doc_file: docs/concepts/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Core Concepts
@@ -1961,6 +2074,7 @@ questions:
         and motion data into one multi-modal prompt. You can view and edit it
         directly in the AI Prompt Editing panel for expert-level control.
       doc_file: docs/features/ai-video-generation.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -1977,6 +2091,7 @@ questions:
         edit the text directly to fine-tune what the model receives. This is
         useful for advanced users who want precise control over the output.
       doc_file: docs/features/ai-video-generation.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -1999,6 +2114,7 @@ questions:
         steadicam, handheld, and rack focus. Each maps to a camera curve
         template.
       doc_file: docs/features/cinematography.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2015,6 +2131,7 @@ questions:
         they see and how they're moving. The camera will be positioned at eye
         level representing that character's viewpoint.
       doc_file: docs/features/cinematography.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2031,6 +2148,7 @@ questions:
         tension, or disorientation in thriller or horror scenes. Select Dutch
         Angle in the Cinematography panel and adjust the roll degree.
       doc_file: docs/features/cinematography.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2047,6 +2165,7 @@ questions:
         the focus shift happens (e.g., "focus pulls from foreground glass to
         character in background as she begins speaking").
       doc_file: docs/features/cinematography.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2068,6 +2187,7 @@ questions:
         aesthetic). Each maps to a set of prompt templates you can override
         per shot.
       doc_file: docs/features/style-presets.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2084,6 +2204,7 @@ questions:
         shift from Cinematic Realism to Anime for a dream sequence and back
         again, all within the same project.
       doc_file: docs/features/style-presets.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2105,6 +2226,7 @@ questions:
         policy is auto-redacted or flagged for admin review. This applies
         to all tiers.
       doc_file: docs/faq/general.mdx
+      doc_updated: true
       click_path:
         - Home
         - FAQ
@@ -2121,6 +2243,7 @@ questions:
         problematic section, and resubmit. If you believe the block was in
         error, use the appeal link in the error dialog to request a review.
       doc_file: docs/faq/general.mdx
+      doc_updated: true
       click_path:
         - Home
         - FAQ
@@ -2140,6 +2263,7 @@ questions:
         the Community Discovery Feed, where it may appear to other users after
         admin approval. Sharing is voluntary and you can withdraw at any time.
       doc_file: docs/features/collaboration.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2156,6 +2280,7 @@ questions:
         the feed, enable Community Sharing in your project settings. Projects
         go through admin approval before becoming visible.
       doc_file: docs/features/collaboration.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2177,6 +2302,7 @@ questions:
         3D Environment (complete Blender render), and Hybrid approaches mixing
         modes. Set it per shot in the master dropdown.
       doc_file: docs/features/ai-video-generation.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2194,6 +2320,7 @@ questions:
         fidelity, or when you have existing 3D character assets you want to
         incorporate.
       doc_file: docs/features/ai-video-generation.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2214,6 +2341,7 @@ questions:
         Settings → Security → SSO. Once enabled, team members log in through
         your company's identity provider rather than creating separate passwords.
       doc_file: docs/account/account-settings.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -2231,6 +2359,7 @@ questions:
         priority support, and a dedicated account manager. Contact sales for
         pricing.
       doc_file: docs/account/billing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -2252,6 +2381,7 @@ questions:
         and mouth movement synchronized to the speech, going beyond simple lip
         sync.
       doc_file: docs/features/motion-capture.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2268,6 +2398,7 @@ questions:
         and facial data from the video and applies it to your digital actors
         in Blender, which then syncs back to the platform.
       doc_file: docs/features/motion-capture.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2288,6 +2419,7 @@ questions:
         The generated audio is used for character dialogue and drives both the
         lip sync duration and NVIDIA Audio2Face facial animation.
       doc_file: docs/features/tts.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2304,6 +2436,7 @@ questions:
         For dubbing existing video, the platform can replace the audio track
         with the translated TTS and re-sync the lip animation to match.
       doc_file: docs/features/tts.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2321,6 +2454,7 @@ questions:
         choose whether to burn them into the export or include them as a
         separate SRT file.
       doc_file: docs/features/video-editor.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2342,6 +2476,7 @@ questions:
         as proof of provenance. The Terms of Service spell out IP ownership
         clearly.
       doc_file: docs/account/billing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -2359,6 +2494,7 @@ questions:
         festival submissions that require proof of authorship. Available on
         Business and Enterprise plans.
       doc_file: docs/account/billing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -2379,6 +2515,7 @@ questions:
         marketplace from the Asset Library to find environment packs, character
         templates, and style presets created by other filmmakers.
       doc_file: docs/features/asset-library.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2395,6 +2532,7 @@ questions:
         on paid asset sales. Your assets must meet quality guidelines before
         appearing in the marketplace.
       doc_file: docs/features/asset-library.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2415,6 +2553,7 @@ questions:
         approved visual references. Locked brand elements cannot be overridden
         by Editors or Viewers — only Owners and Admins can modify them.
       doc_file: docs/features/collaboration.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2432,6 +2571,7 @@ questions:
         produced by the team matches brand guidelines without manual review
         of each shot.
       doc_file: docs/features/style-presets.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2452,6 +2592,7 @@ questions:
         matching your timeline. Import the EDL into Premiere Pro, Avid, or
         DaVinci Resolve to continue editing with your original media files.
       doc_file: docs/export/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Export
@@ -2472,6 +2613,7 @@ questions:
         remaining that triggers an email or in-app notification. You can
         set multiple thresholds (e.g., alert at 50%, alert at 10%).
       doc_file: docs/account/account-settings.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -2488,6 +2630,7 @@ questions:
         stops until the next billing cycle or you raise the cap. Individual
         member credit limits provide an additional layer of control.
       doc_file: docs/account/billing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -2509,6 +2652,7 @@ questions:
         front and center). You can also use the View As filter to switch any
         column to a different panel manually.
       doc_file: docs/features/video-editor.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2526,6 +2670,7 @@ questions:
         value. Add a second keyframe at a later time with a different value
         and ACT3 AI interpolates between them smoothly.
       doc_file: docs/features/video-editor.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2542,6 +2687,7 @@ questions:
         and automatically pauses when it reaches the end of the selection.
         This is useful for reviewing transitions and specific sequences.
       doc_file: docs/features/video-editor.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2559,6 +2705,7 @@ questions:
         structure without having to read every line to find where scenes
         and shots begin and end.
       doc_file: docs/features/script-editing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2576,6 +2723,7 @@ questions:
         batch operations on all tagged items — for example, render all shots
         tagged "Approved for Final".
       doc_file: docs/features/video-editor.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2593,6 +2741,7 @@ questions:
         useful after a scene is approved and you want to prevent accidental
         edits during later production phases.
       doc_file: docs/features/collaboration.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2609,6 +2758,7 @@ questions:
         You can paste it into another tool, save it for reference, or use it
         to debug why a generation produced unexpected results.
       doc_file: docs/features/ai-video-generation.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2626,6 +2776,7 @@ questions:
         and see their field-of-view cones. This blocking plan feeds directly
         into the shot data for generation.
       doc_file: docs/features/sets.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2647,6 +2798,7 @@ questions:
         historical, dystopian). ACT3 AI assembles a walkable urban environment
         you can use across multiple shots.
       doc_file: docs/features/sets.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2663,6 +2815,7 @@ questions:
         multiple scenes ensures visual consistency in that location throughout
         your film.
       doc_file: docs/features/sets.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2679,6 +2832,7 @@ questions:
         correctly position 3D characters in perspective against the 2D
         background, giving the illusion of depth and proper scale.
       doc_file: docs/features/sets.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2696,6 +2850,7 @@ questions:
         date added, or rating. Favorite sets for quick access to your preferred
         environments.
       doc_file: docs/features/sets.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2716,6 +2871,7 @@ questions:
         FLUX, doing a rough pass using Wan 2.1 (low cost), and reviewing in the
         timeline before committing Veo 3 credits to final quality renders.
       doc_file: docs/features/storyboard.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2732,6 +2888,7 @@ questions:
         timing, and action before committing to full quality. Once you're happy
         with the draft, regenerate at Standard or High quality.
       doc_file: docs/features/render-queue.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2752,6 +2909,7 @@ questions:
         (1:1). ACT3 AI generates optimized exports for each format from the
         same project, adjusting reframe positions per shot for each target.
       doc_file: docs/export/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Export
@@ -2768,6 +2926,7 @@ questions:
         burned-in captions (embedded in video) or a separate SRT file for
         platforms that support external caption files.
       doc_file: docs/features/video-editor.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2785,6 +2944,7 @@ questions:
         YouTube recommends (1280×720). You can generate multiple variations
         for A/B testing.
       doc_file: docs/features/storyboard.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2805,6 +2965,7 @@ questions:
         needing an ACT3 AI account. Comments appear in your editor with the
         exact timecode so you can jump directly to the flagged moment.
       doc_file: docs/features/collaboration.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2821,6 +2982,7 @@ questions:
         The platform shows who is editing each scene and prevents conflicting
         changes by locking the section being actively edited by another user.
       doc_file: docs/features/collaboration.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2841,6 +3003,7 @@ questions:
         by side, highlighting differences. For video, you can play both versions
         in synchronized playback to spot visual differences.
       doc_file: docs/features/version-control.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2857,6 +3020,7 @@ questions:
         also manually trigger a named save ("Version 2 - Director's Cut") from
         the File menu to create a labeled checkpoint you can return to.
       doc_file: docs/features/version-control.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2878,6 +3042,7 @@ questions:
         other commands (require Ctrl/Alt to avoid accidental activation).
         The full shortcut list is in Settings → Keyboard Shortcuts.
       doc_file: docs/features/video-editor.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2899,6 +3064,7 @@ questions:
         Enterprise plan required). Credit cost increases with each quality
         level.
       doc_file: docs/features/render-queue.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2915,6 +3081,7 @@ questions:
         regenerate with the same prompt and seed. This is useful for making
         minor adjustments while preserving the core look of a shot.
       doc_file: docs/features/ai-video-generation.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2936,6 +3103,7 @@ questions:
         Lock approved scenes to prevent accidental changes as production
         progresses.
       doc_file: docs/getting-started/first-project.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -2953,6 +3121,7 @@ questions:
         losing the original. Both versions live in the project and you choose
         which to use in the final assembly.
       doc_file: docs/features/version-control.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -2969,6 +3138,7 @@ questions:
         a complete beat sheet, scene outline, and draft screenplay. You then
         review and refine before moving to shot generation.
       doc_file: docs/getting-started/first-project.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -2990,6 +3160,7 @@ questions:
         limit. Use tags and scene locking to manage production across this
         scale efficiently.
       doc_file: docs/getting-started/introduction.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -3006,6 +3177,7 @@ questions:
         Each job is one shot being generated. Higher concurrency means less
         wall-clock time to generate large scene batches.
       doc_file: docs/account/billing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -3027,6 +3199,7 @@ questions:
         report with the shot ID. Credits are refunded for verifiably stuck
         generations.
       doc_file: docs/faq/general.mdx
+      doc_updated: true
       click_path:
         - Home
         - FAQ
@@ -3044,6 +3217,7 @@ questions:
         internet connection. If the issue persists, try regenerating your API
         key in Account → API Settings.
       doc_file: docs/integrations/blender.mdx
+      doc_updated: true
       click_path:
         - Home
         - Integrations
@@ -3061,6 +3235,7 @@ questions:
         (requires Business or Enterprise plan) and then compress in post using
         your target platform's recommended settings.
       doc_file: docs/export/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Export
@@ -3077,6 +3252,7 @@ questions:
         find your project, and click Restore. After 30 days the project is
         permanently deleted and cannot be recovered.
       doc_file: docs/faq/general.mdx
+      doc_updated: true
       click_path:
         - Home
         - FAQ
@@ -3095,6 +3271,7 @@ questions:
         doesn't contradict the actor definition, and check that the style
         preset is not drastically altering the look.
       doc_file: docs/features/actors.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3115,6 +3292,7 @@ questions:
         token in the Authorization header of all API requests. You can create
         multiple keys and revoke them individually.
       doc_file: docs/api/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - API Reference
@@ -3132,6 +3310,7 @@ questions:
         and reading render queue status. This lets you build fully automated
         production pipelines or integrate ACT3 AI into existing tools.
       doc_file: docs/api/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - API Reference
@@ -3148,6 +3327,7 @@ questions:
         fails, or is cancelled. The payload includes the shot ID, status, and
         download URL if successful.
       doc_file: docs/api/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - API Reference
@@ -3170,6 +3350,7 @@ questions:
         export for any platform. It uses Runway and Veo 3 as generation
         engines but provides the full directorial layer on top.
       doc_file: docs/getting-started/introduction.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -3186,6 +3367,7 @@ questions:
         no Blender, no command-line tools. Blender and the API are optional
         power-user features for those who want deeper 3D control or automation.
       doc_file: docs/getting-started/introduction.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -3202,6 +3384,7 @@ questions:
         ($35/month). The built-in credit estimator shows the exact cost for
         your chosen models and quality settings before you commit any credits.
       doc_file: docs/account/credits.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -3219,6 +3402,7 @@ questions:
         specifics on sublicensing and client work before delivering content
         commercially.
       doc_file: docs/account/billing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -3236,6 +3420,7 @@ questions:
         users have access to the community forum. Enterprise includes a
         dedicated account manager.
       doc_file: docs/faq/general.mdx
+      doc_updated: true
       click_path:
         - Home
         - FAQ
@@ -3257,6 +3442,7 @@ questions:
         Lock feature to protect approved scenes from changes while the other
         person works on later acts.
       doc_file: docs/features/collaboration.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3274,6 +3460,7 @@ questions:
         typically take 80–200 hours can be completed in approximately 2 hours
         by a single person.
       doc_file: docs/getting-started/introduction.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -3290,6 +3477,7 @@ questions:
         has its own script. Both types share the same actors, sets, and style
         presets. Choose the project type when creating a new project.
       doc_file: docs/getting-started/first-project.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -3307,6 +3495,7 @@ questions:
         generate, and export. Most users complete their first short film in
         a single session.
       doc_file: docs/getting-started/first-project.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -3327,6 +3516,7 @@ questions:
         noise, impacts, weather) or upload your own audio file. Position the
         clip at the correct timecode and adjust the volume.
       doc_file: docs/features/video-editor.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3343,6 +3533,7 @@ questions:
         playhead at the correct scene, click Record, and speak. The recording
         appears on the audio track and can be trimmed like any other clip.
       doc_file: docs/features/tts.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3360,6 +3551,7 @@ questions:
         you want a level change. Standard practice is dialogue at -12dB, music
         at -18dB, effects at -20dB.
       doc_file: docs/features/video-editor.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3377,6 +3569,7 @@ questions:
         re-syncs the lip animation to match the new audio. You can review
         and replace individual lines if the translation needs adjustment.
       doc_file: docs/features/tts.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3398,6 +3591,7 @@ questions:
         slightly to one side. In the shot prompt, describe their relative
         positions and emotional state.
       doc_file: docs/features/cinematography.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3415,6 +3609,7 @@ questions:
         facing character's expression and action. Use OTS shots alternately
         in dialogue scenes to create eyeline continuity.
       doc_file: docs/features/cinematography.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3432,6 +3627,7 @@ questions:
         character, and include eyeline direction notes in your shot prompts
         (e.g., "character looks screen right toward David").
       doc_file: docs/features/cinematography.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3449,6 +3645,7 @@ questions:
         at dusk, camera slowly tilting down to reveal the protagonist on
         the rooftop"). Veo 3 handles aerial cinematography particularly well.
       doc_file: docs/features/cinematography.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3470,6 +3667,7 @@ questions:
         include "hard side lighting, deep shadows, high contrast, film noir"
         to reinforce the aesthetic.
       doc_file: docs/features/lighting.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3487,6 +3685,7 @@ questions:
         intimate low-key lighting" in the shot prompt. For the flicker effect,
         describe it in the prompt or use a keyframed intensity curve.
       doc_file: docs/features/lighting.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3504,6 +3703,7 @@ questions:
         Lighting in the Lighting panel to apply this automatically, keeping
         characters lit consistently with the environment.
       doc_file: docs/features/lighting.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3524,6 +3724,7 @@ questions:
         available across all projects. For very large casts, use the search
         and filter tools in the Actor Library to manage them efficiently.
       doc_file: docs/features/actors.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3541,6 +3742,7 @@ questions:
         and AI Director can reference them when generating dialogue and
         shot descriptions.
       doc_file: docs/features/actors.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3558,6 +3760,7 @@ questions:
         act one and casual clothes in act two using the same base actor
         definition.
       doc_file: docs/features/actors.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3574,6 +3777,7 @@ questions:
         activity), and density. ACT3 AI generates background characters
         appropriate to the scene without requiring individually defined actors.
       doc_file: docs/features/actors.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3595,6 +3799,7 @@ questions:
         The animation data syncs to ACT3 AI and is applied to the digital
         actor in that shot, replacing the AI-generated motion.
       doc_file: docs/features/motion-capture.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3611,6 +3816,7 @@ questions:
         add-on. This lets you use data from Vicon, OptiTrack, or any
         industry-standard motion capture system in your AI-generated film.
       doc_file: docs/features/motion-capture.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3631,6 +3837,7 @@ questions:
         mix — dialogue, music, and effects — in the final timeline order.
         Useful for passing to a composer or sound designer.
       doc_file: docs/export/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Export
@@ -3647,6 +3854,7 @@ questions:
         frames before and after). This is useful for handing off shots to
         a VFX team or compositing in external software.
       doc_file: docs/export/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Export
@@ -3664,6 +3872,7 @@ questions:
         48kHz/24-bit audio. Check your specific festival's tech specs before
         generating — some festivals accept ProRes instead.
       doc_file: docs/export/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Export
@@ -3680,6 +3889,7 @@ questions:
         set, model, and estimated credit cost. Use this for production budgeting,
         scheduling, or sharing with collaborators who don't use ACT3 AI.
       doc_file: docs/export/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Export
@@ -3701,6 +3911,7 @@ questions:
         enabled, they appear in the AI Video Model selector alongside existing
         options.
       doc_file: docs/integrations/veo3.mdx
+      doc_updated: true
       click_path:
         - Home
         - Integrations
@@ -3718,6 +3929,7 @@ questions:
         from your shot setup into ComfyUI's generation pipeline for tighter
         compositional control.
       doc_file: docs/integrations/comfyui.mdx
+      doc_updated: true
       click_path:
         - Home
         - Integrations
@@ -3735,6 +3947,7 @@ questions:
         For example, action-heavy shots may route to Runway while dialogue
         close-ups go to Veo 3.
       doc_file: docs/integrations/veo3.mdx
+      doc_updated: true
       click_path:
         - Home
         - Integrations
@@ -3756,6 +3969,7 @@ questions:
         so changes here cascade through the script and shot prompts that depend
         on them.
       doc_file: docs/concepts/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Core Concepts
@@ -3772,6 +3986,7 @@ questions:
         loglines, scene ideas, and character concepts. Accept any suggestion
         to add it directly to your project's script or story arc.
       doc_file: docs/features/script-editing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3789,6 +4004,7 @@ questions:
         into a full scene with action and dialogue. This top-down approach
         prevents structural problems in the script.
       doc_file: docs/features/script-editing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3809,6 +4025,7 @@ questions:
         ID, and credits consumed. You can filter by project or date range and
         export the log as a CSV for budget tracking.
       doc_file: docs/account/credits.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -3825,6 +4042,7 @@ questions:
         past billing periods. Billing admins and Organization owners can
         access this section.
       doc_file: docs/account/billing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -3841,6 +4059,7 @@ questions:
         are added to your account right away. Downgrades take effect at the
         start of the next billing cycle.
       doc_file: docs/account/billing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -3857,6 +4076,7 @@ questions:
         billing with net-30 payment terms. Go to Account → Billing → Payment
         Method to add or update your card.
       doc_file: docs/account/billing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -3878,6 +4098,7 @@ questions:
         is powerful for batch-creating hundreds of shots from a structured
         production breakdown.
       doc_file: docs/api/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - API Reference
@@ -3895,6 +4116,7 @@ questions:
         same contract, ensuring perfect synchronization. When you edit a shot
         in the UI, the YAML updates, and the engine always reads the latest.
       doc_file: docs/concepts/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Core Concepts
@@ -3915,6 +4137,7 @@ questions:
         cut and leave time-stamped comments without needing an ACT3 AI account.
         You see their comments in your editor's feedback panel.
       doc_file: docs/features/collaboration.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -3931,6 +4154,7 @@ questions:
         content directly to the ACT3 streaming portal for immediate playback.
         For other platforms, export the appropriate format and upload manually.
       doc_file: docs/export/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Export
@@ -3952,6 +4176,7 @@ questions:
         export. These features help meet WCAG 2.1 AA requirements for web
         video content.
       doc_file: docs/export/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Export
@@ -3968,6 +4193,7 @@ questions:
         Privacy → Export My Data. You can also request account deletion, which
         removes all personal data within 30 days per GDPR requirements.
       doc_file: docs/account/account-settings.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -3989,6 +4215,7 @@ questions:
         dailies as proof of authorship, then use it in pitch decks and
         investor meetings.
       doc_file: docs/getting-started/introduction.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -4006,6 +4233,7 @@ questions:
         accompany the visual package. Include style preset documentation to
         show visual consistency across future episodes.
       doc_file: docs/export/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Export
@@ -4026,6 +4254,7 @@ questions:
         Integrations page in ACT3 AI. New Blender versions are tested and
         supported within 60 days of their stable release.
       doc_file: docs/integrations/blender.mdx
+      doc_updated: true
       click_path:
         - Home
         - Integrations
@@ -4042,6 +4271,7 @@ questions:
         animation data is sent to the target shot, replacing any ACT3 AI-
         generated camera movement with your precisely keyframed Blender camera.
       doc_file: docs/integrations/blender.mdx
+      doc_updated: true
       click_path:
         - Home
         - Integrations
@@ -4062,6 +4292,7 @@ questions:
         on any platform. Filter by mood (uplifting, dramatic, ambient) and
         tempo. The license terms for each track are displayed before adding.
       doc_file: docs/features/video-editor.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4078,6 +4309,7 @@ questions:
         versions appear in the shot's Version History. Compare them side by
         side in the preview panel and select the best one as the active version.
       doc_file: docs/features/ai-video-generation.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4098,6 +4330,7 @@ questions:
         also mark individual shots as High Priority, which places them ahead
         of Standard priority shots regardless of queue order.
       doc_file: docs/features/render-queue.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4114,6 +4347,7 @@ questions:
         queue at the scheduled time. You receive an email notification when
         the batch is complete.
       doc_file: docs/features/render-queue.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4134,6 +4368,7 @@ questions:
         to see how a complete project is structured before building your own.
         Interactive tooltips guide you through each panel.
       doc_file: docs/getting-started/introduction.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -4151,6 +4386,7 @@ questions:
         platform is designed for storytellers, not engineers, so you do not
         need technical expertise to get started.
       doc_file: docs/getting-started/introduction.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -4172,6 +4408,7 @@ questions:
         your brand Style Preset for color and logo consistency. Generate with
         Veo 3 for highest quality and export the YouTube or broadcast preset.
       doc_file: docs/getting-started/first-project.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -4189,6 +4426,7 @@ questions:
         brand elements. The credit pool is shared across all members with
         per-member limits to prevent overspending.
       doc_file: docs/features/collaboration.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4210,6 +4448,7 @@ questions:
         useful for recurring locations (intro sequences, opening titles) used
         across multiple episodes.
       doc_file: docs/features/asset-library.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4227,6 +4466,7 @@ questions:
         can import these templates into client projects for consistent,
         fast production.
       doc_file: docs/features/asset-library.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4248,6 +4488,7 @@ questions:
         project content. Enterprise plans include additional security SLAs and
         a data processing agreement (DPA).
       doc_file: docs/account/account-settings.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -4265,6 +4506,7 @@ questions:
         with the Organization. For SSO-managed accounts, also disable them
         in your identity provider.
       doc_file: docs/account/teams.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -4286,6 +4528,7 @@ questions:
         connectivity. Local ComfyUI workflows can run offline if your ComfyUI
         instance is local.
       doc_file: docs/getting-started/introduction.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -4303,6 +4546,7 @@ questions:
         timeline editor and top-down canvas require a larger screen for
         comfortable use.
       doc_file: docs/getting-started/introduction.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -4319,6 +4563,7 @@ questions:
         need to restore a previous project state, contact support with the
         project ID and the approximate date/time you want to restore to.
       doc_file: docs/faq/general.mdx
+      doc_updated: true
       click_path:
         - Home
         - FAQ
@@ -4335,6 +4580,7 @@ questions:
         video scrubbing and preview. Internet Explorer is not supported.
         Enable JavaScript and allow third-party cookies for full functionality.
       doc_file: docs/getting-started/introduction.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -4352,6 +4598,7 @@ questions:
         steps are prioritized. Feature requests are reviewed by the product
         team and popular requests appear on the public roadmap.
       doc_file: docs/faq/general.mdx
+      doc_updated: true
       click_path:
         - Home
         - FAQ
@@ -4373,6 +4620,7 @@ questions:
         lines, and dialogue for each beat. The full draft appears in the Script
         Editor where you can revise freely.
       doc_file: docs/features/script-editing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4389,6 +4637,7 @@ questions:
         and the AI-rewritten version in the right. Both are editable, so you
         can cherry-pick the best lines from each version.
       doc_file: docs/features/script-editing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4405,6 +4654,7 @@ questions:
         suggested shot types, camera movements, and durations. Review and
         approve or modify each shot before committing to generation.
       doc_file: docs/features/cinematography.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4421,6 +4671,7 @@ questions:
         Cross-Fade, Wipe, or custom transition effects. Set the duration of the
         transition. Transitions are rendered into the final export.
       doc_file: docs/features/video-editor.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4438,6 +4689,7 @@ questions:
         video and are included in the export. Use this for opening titles,
         chapter cards, and end credits.
       doc_file: docs/features/video-editor.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4460,6 +4712,7 @@ questions:
         integration. 3D sets require Blender and more setup time but yield
         more accurate spatial results.
       doc_file: docs/features/sets.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4476,6 +4729,7 @@ questions:
         requirements, or restrictions. These notes are visible to all
         team members when they browse or select that set.
       doc_file: docs/features/sets.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4496,6 +4750,7 @@ questions:
         format with scene headings, action lines, and dialogue. You review and
         refine the adapted script before moving to visualization.
       doc_file: docs/getting-started/first-project.mdx
+      doc_updated: true
       click_path:
         - Home
         - Getting Started
@@ -4513,6 +4768,7 @@ questions:
         project as a Series with Season and Episode containers for organized
         episodic production.
       doc_file: docs/features/style-presets.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4534,6 +4790,7 @@ questions:
         pitch decks, treatment documents, or creative briefs to communicate
         your visual vision to investors or collaborators.
       doc_file: docs/features/storyboard.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4551,6 +4808,7 @@ questions:
         change them. Accepted panels are saved and carry forward into your
         production planning.
       doc_file: docs/features/storyboard.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4572,6 +4830,7 @@ questions:
         shots in a scene, and ensure your shot prompts all include the same
         lighting and mood language defined in your style guide.
       doc_file: docs/features/style-presets.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4589,6 +4848,7 @@ questions:
         handheld drift), and avoid overly literal or clean prompts. Review the
         Cinematography guides for lens and lighting choices that add depth.
       doc_file: docs/features/ai-video-generation.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4610,6 +4870,7 @@ questions:
         that shoot some scenes traditionally and use AI for VFX-heavy or
         impractical scenes.
       doc_file: docs/features/video-editor.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4627,6 +4888,7 @@ questions:
         time and prevents missed shots. Export a shot list PDF to brief your
         camera operator.
       doc_file: docs/features/storyboard.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4647,6 +4909,7 @@ questions:
         your shared Organizations. The email address used for login can also
         be changed here with email verification.
       doc_file: docs/account/account-settings.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -4663,6 +4926,7 @@ questions:
         Click it and enter a new password. If you use SSO, password reset
         is managed through your identity provider, not ACT3 AI directly.
       doc_file: docs/account/account-settings.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -4684,6 +4948,7 @@ questions:
         dialogue shots may be 8–15 seconds. The credit cost scales with
         duration.
       doc_file: docs/features/ai-video-generation.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4701,6 +4966,7 @@ questions:
         rain-soaked Tokyo street at night, neon signs reflecting in puddles").
         Establishing shots are typically the first shot in a new scene.
       doc_file: docs/features/cinematography.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4718,6 +4984,7 @@ questions:
         clearly in the shot prompt. Insert shots are usually very short (2–4
         seconds).
       doc_file: docs/features/cinematography.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4739,6 +5006,7 @@ questions:
         key scenes to Veo 3 High quality. This reduces total credit spend by
         50–70% compared to rendering everything at final quality first.
       doc_file: docs/account/credits.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -4756,6 +5024,7 @@ questions:
         with the same or adjusted prompt at the same credit cost. Content
         policy blocks before generation do not consume credits.
       doc_file: docs/account/credits.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -4773,6 +5042,7 @@ questions:
         right trade-off for each shot. If you don't have enough credits,
         the button shows the shortfall.
       doc_file: docs/account/credits.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -4794,6 +5064,7 @@ questions:
         shows shot durations visually so you can see where the film breathes
         and where it needs tightening.
       doc_file: docs/concepts/overview.mdx
+      doc_updated: true
       click_path:
         - Home
         - Core Concepts
@@ -4811,6 +5082,7 @@ questions:
         Act 2 develops the conflict. Act 3 resolves it. The Story Arc editor
         helps you balance scene count and duration across all three acts.
       doc_file: docs/concepts/acts.mdx
+      doc_updated: true
       click_path:
         - Home
         - Core Concepts
@@ -4831,6 +5103,7 @@ questions:
         feed. Followed creators' new public projects appear in your home feed
         for inspiration and collaboration opportunities.
       doc_file: docs/features/collaboration.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4847,6 +5120,7 @@ questions:
         where other users can view it and leave comments. You receive
         notifications for new community comments directly in ACT3 AI.
       doc_file: docs/features/collaboration.mdx
+      doc_updated: true
       click_path:
         - Home
         - Features
@@ -4868,6 +5142,7 @@ questions:
         the narrative structure, shot sequencing, and final film assembly while
         you focus on the 3D assets and VFX work in Blender.
       doc_file: docs/integrations/blender.mdx
+      doc_updated: true
       click_path:
         - Home
         - Integrations
@@ -4885,6 +5160,7 @@ questions:
         to ACT3 AI. For heavy Blender renders, use your own local GPU or a
         dedicated cloud rendering service such as Sheepit or Render.st.
       doc_file: docs/integrations/blender.mdx
+      doc_updated: true
       click_path:
         - Home
         - Integrations
@@ -4906,6 +5182,7 @@ questions:
         jobs, and a high credit rollover cap — enough to produce a short film
         or several scenes per month without worrying about running out.
       doc_file: docs/account/billing.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
@@ -4922,6 +5199,7 @@ questions:
         window, everything is still there. After 90 days, projects may be
         archived. Resubscribing after archival restores all project data.
       doc_file: docs/account/account-cancellation.mdx
+      doc_updated: true
       click_path:
         - Home
         - Account & Billing
