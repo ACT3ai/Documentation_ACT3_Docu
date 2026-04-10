@@ -4,14 +4,14 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build",
-    "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
-    "clear": "docusaurus clear",
-    "serve": "docusaurus serve",
-    "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "start": "docusaurus start --config ./internal/docusaurus.config.js",
+    "build": "docusaurus build --config ./internal/docusaurus.config.js",
+    "swizzle": "docusaurus swizzle --config ./internal/docusaurus.config.js",
+    "deploy": "docusaurus deploy --config ./internal/docusaurus.config.js",
+    "clear": "docusaurus clear --config ./internal/docusaurus.config.js",
+    "serve": "docusaurus serve --config ./internal/docusaurus.config.js",
+    "write-translations": "docusaurus write-translations --config ./internal/docusaurus.config.js",
+    "write-heading-ids": "docusaurus write-heading-ids --config ./internal/docusaurus.config.js"
   },
   "dependencies": {
     "@docusaurus/core": "3.10.0",

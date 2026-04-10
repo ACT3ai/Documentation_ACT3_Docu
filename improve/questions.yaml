@@ -1,0 +1,1536 @@
+# ACT3 AI — Customer Questions
+# Filmmakers using Gen AI Video to make movies end-to-end
+#
+# click_path notation:
+#   - Home                  top-level entry point
+#   - "> Section"           intermediate sidebar section or overview page
+#   - "[> Page Name]"       final destination page with the answer
+
+questions:
+
+  # -----------------------------------------------------------------------
+  # GETTING STARTED
+  # -----------------------------------------------------------------------
+
+  - question: How do I create my first project in ACT3 AI?
+    question_info:
+      category: Getting Started
+      tags: [onboarding, project, new user]
+    answer:
+      description: >
+        After signing in, click New Project on the dashboard. Enter a title
+        and optional description, then click Create. ACT3 AI opens the project
+        workspace where you can import or write your script.
+      doc_file: docs/getting-started/first-project.mdx
+      click_path:
+        - Home
+        - "> Getting Started"
+        - "[> Your First Project]"
+
+  - question: How do I create an ACT3 AI account?
+    question_info:
+      category: Getting Started
+      tags: [account, sign up, registration]
+    answer:
+      description: >
+        Go to act3ai.com and click Get Started. Enter your email and choose a
+        password, or sign up with Google. Confirm your email, then select a
+        plan to activate your account.
+      doc_file: docs/getting-started/create-account.mdx
+      click_path:
+        - Home
+        - "> Getting Started"
+        - "[> Create Your Account]"
+
+  - question: What is the ACT3 AI dashboard and what can I do from it?
+    question_info:
+      category: Getting Started
+      tags: [dashboard, navigation, overview]
+    answer:
+      description: >
+        The dashboard is your home base. It shows all your projects, recent
+        activity, credit balance, and quick links to start a new project,
+        browse templates, or access the asset library.
+      doc_file: docs/getting-started/dashboard.mdx
+      click_path:
+        - Home
+        - "> Getting Started"
+        - "[> The Dashboard]"
+
+  - question: What is the core workflow for making a movie in ACT3 AI?
+    question_info:
+      category: Getting Started
+      tags: [workflow, overview, pipeline]
+    answer:
+      description: >
+        The workflow is: Script → Beats → Scenes → Shots → AI Video Generation
+        → Edit → Export. You start with a script (imported or written in-app),
+        break it into beats and scenes, define shots with camera and lighting
+        settings, generate AI video for each shot, then assemble and export.
+      doc_file: docs/getting-started/introduction.mdx
+      click_path:
+        - Home
+        - "> Getting Started"
+        - "[> Introduction]"
+
+  # -----------------------------------------------------------------------
+  # CORE CONCEPTS
+  # -----------------------------------------------------------------------
+
+  - question: What is a Beat in ACT3 AI?
+    question_info:
+      category: Core Concepts
+      tags: [beat, story, structure]
+    answer:
+      description: >
+        A Beat is the smallest unit of action or emotion in your script — a
+        single moment that moves the story forward. Beats are the building
+        blocks underneath scenes. Breaking your script into beats helps ACT3 AI
+        understand pacing and generate the right video for each moment.
+      doc_file: docs/concepts/beats.mdx
+      click_path:
+        - Home
+        - "> Core Concepts"
+        - "[> Beats]"
+
+  - question: What is a Scene and how is it different from a Shot?
+    question_info:
+      category: Core Concepts
+      tags: [scene, shot, structure, concepts]
+    answer:
+      description: >
+        A Scene is a continuous story unit set at one location and time — it
+        contains multiple shots. A Shot is a single camera angle and movement
+        within that scene. ACT3 AI generates one video clip per shot, then
+        assembles them into scenes.
+      doc_file: docs/concepts/scenes.mdx
+      click_path:
+        - Home
+        - "> Core Concepts"
+        - "[> Scenes]"
+
+  - question: What is a Shot in ACT3 AI?
+    question_info:
+      category: Core Concepts
+      tags: [shot, camera, generation, concepts]
+    answer:
+      description: >
+        A Shot defines a single camera angle, movement, and duration within a
+        scene. Each shot becomes one AI-generated video clip. You set the
+        framing, camera motion, lighting, characters, and a shot prompt to
+        guide the generation.
+      doc_file: docs/concepts/shots.mdx
+      click_path:
+        - Home
+        - "> Core Concepts"
+        - "[> Shots]"
+
+  - question: What is an Act and how does it organize my movie?
+    question_info:
+      category: Core Concepts
+      tags: [act, story structure, three-act]
+    answer:
+      description: >
+        An Act is a major story division — most movies use three acts (setup,
+        confrontation, resolution). In ACT3 AI, acts group your scenes at the
+        highest level, helping you see the big-picture structure and pace of
+        your film.
+      doc_file: docs/concepts/acts.mdx
+      click_path:
+        - Home
+        - "> Core Concepts"
+        - "[> Acts]"
+
+  - question: How are Acts, Scenes, Shots, and Beats related to each other?
+    question_info:
+      category: Core Concepts
+      tags: [hierarchy, structure, concepts]
+    answer:
+      description: >
+        They form a hierarchy: Acts contain Scenes, Scenes contain Shots, and
+        Shots map to Beats. An act is the broadest division; a beat is the
+        smallest moment. Every beat you write eventually becomes one or more
+        shots that ACT3 AI generates as video.
+      doc_file: docs/concepts/overview.mdx
+      click_path:
+        - Home
+        - "> Core Concepts"
+        - "[> Story Structure Overview]"
+
+  - question: What is story structure and how does ACT3 AI support it?
+    question_info:
+      category: Core Concepts
+      tags: [story structure, three-act, narrative]
+    answer:
+      description: >
+        Story structure is the organization of your narrative into acts and
+        story arcs. ACT3 AI provides an outliner where you define acts, write
+        beat descriptions, and map the emotional arc across your whole film
+        before generating any video.
+      doc_file: docs/concepts/overview.mdx
+      click_path:
+        - Home
+        - "> Core Concepts"
+        - "[> Story Structure Overview]"
+
+  # -----------------------------------------------------------------------
+  # SCRIPT & WRITING
+  # -----------------------------------------------------------------------
+
+  - question: Can I import my existing screenplay into ACT3 AI?
+    question_info:
+      category: Script Editing
+      tags: [import, screenplay, Final Draft, script]
+    answer:
+      description: >
+        Yes. ACT3 AI accepts Final Draft (.fdx) files and plain text scripts.
+        Go to your project, click Import Script, and choose your file. The
+        system parses scene headings, action lines, and dialogue automatically.
+      doc_file: docs/features/script-editing.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Script Editing]"
+
+  - question: Can I write my script directly inside ACT3 AI?
+    question_info:
+      category: Script Editing
+      tags: [script editor, writing, screenplay]
+    answer:
+      description: >
+        Yes. The built-in Script Editor supports standard screenplay format
+        with scene headings, action lines, character cues, and dialogue. You
+        can write from scratch or paste in raw text and let ACT3 AI format it.
+      doc_file: docs/features/script-editing.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Script Editing]"
+
+  - question: Can the AI help me write or expand my script?
+    question_info:
+      category: Script Editing
+      tags: [AI writing, script, expansion, AI wizard]
+    answer:
+      description: >
+        Yes. The AI Writing assistant can take a logline or rough idea and
+        expand it into a full beat sheet, scene outline, or draft screenplay.
+        You can also use it to fill in dialogue, rewrite scenes, or add
+        description to existing script sections.
+      doc_file: docs/features/script-editing.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Script Editing]"
+
+  - question: How do I break my script into beats?
+    question_info:
+      category: Script Editing
+      tags: [beats, breakdown, script parsing]
+    answer:
+      description: >
+        After importing or writing your script, use the Beat Breakdown tool.
+        ACT3 AI reads your scene text and proposes a beat list. You can accept,
+        edit, merge, or split beats until they reflect the emotional units you
+        want to visualize.
+      doc_file: docs/features/script-editing.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Script Editing]"
+
+  - question: Can I export my screenplay as a PDF?
+    question_info:
+      category: Script Editing
+      tags: [export, PDF, screenplay, Final Draft]
+    answer:
+      description: >
+        Yes. From the Script Editor, click Export → PDF or Export → Final Draft
+        (.fdx) to download your script in standard industry formats for sharing,
+        pitching, or archiving.
+      doc_file: docs/features/script-editing.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Script Editing]"
+
+  - question: Does ACT3 AI support Final Draft format?
+    question_info:
+      category: Script Editing
+      tags: [Final Draft, fdx, import, export]
+    answer:
+      description: >
+        Yes. ACT3 AI can import .fdx files from Final Draft and export back to
+        .fdx. The parser handles standard screenplay elements including scene
+        headings, transitions, parentheticals, and dual dialogue.
+      doc_file: docs/features/script-editing.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Script Editing]"
+
+  # -----------------------------------------------------------------------
+  # AI VIDEO GENERATION
+  # -----------------------------------------------------------------------
+
+  - question: How do I generate a video shot in ACT3 AI?
+    question_info:
+      category: AI Video Generation
+      tags: [generate, shot, video, AI]
+    answer:
+      description: >
+        Open a shot in your scene, set the camera angle, characters, lighting,
+        and write a shot prompt describing the action. Click Generate. ACT3 AI
+        sends the request to your selected AI video model (Veo 3, Runway, etc.)
+        and returns a clip when ready.
+      doc_file: docs/features/ai-video-generation.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> AI Video Generation]"
+
+  - question: Which AI video model should I use for my film?
+    question_info:
+      category: AI Video Generation
+      tags: [Veo 3, Runway, Hunyuan, model selection]
+    answer:
+      description: >
+        Google Veo 3 delivers the highest cinematic quality and is the default
+        for film projects. Runway Gen-3 excels at stylized or motion-heavy
+        shots. Hunyuan and Wan 2.1 offer fast, lower-cost generation good for
+        previsualization. You can mix models across shots within the same
+        project.
+      doc_file: docs/features/ai-video-generation.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> AI Video Generation]"
+
+  - question: Why did my video generation fail?
+    question_info:
+      category: AI Video Generation
+      tags: [error, failed, generation, troubleshooting]
+    answer:
+      description: >
+        Common causes: the shot prompt contains policy-violating content, the
+        selected model is temporarily unavailable, or you ran out of credits.
+        Check the error message on the failed shot. You can edit the prompt and
+        regenerate without losing your shot settings.
+      doc_file: docs/features/ai-video-generation.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> AI Video Generation]"
+
+  - question: Can I regenerate a shot I don't like?
+    question_info:
+      category: AI Video Generation
+      tags: [regenerate, retry, shot]
+    answer:
+      description: >
+        Yes. Click the regenerate icon on any shot. You can adjust the shot
+        prompt, camera settings, or model before regenerating. Previous
+        versions are kept in the shot's version history so you can compare
+        and revert.
+      doc_file: docs/features/ai-video-generation.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> AI Video Generation]"
+
+  - question: How do I keep characters consistent across multiple generated shots?
+    question_info:
+      category: AI Video Generation
+      tags: [character consistency, actors, generation]
+    answer:
+      description: >
+        Assign digital actors to each shot from your Actor Library. ACT3 AI
+        passes the same character reference into every generation request,
+        maintaining appearance, wardrobe, and likeness across all shots that
+        use that actor.
+      doc_file: docs/features/actors.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Actors]"
+
+  - question: How long does video generation take?
+    question_info:
+      category: AI Video Generation
+      tags: [generation time, render time, speed]
+    answer:
+      description: >
+        Generation time depends on the model, resolution, and clip length.
+        Veo 3 typically takes 1–4 minutes per shot at standard resolution.
+        Runway and Hunyuan can be faster. You can queue many shots at once and
+        continue working while they generate.
+      doc_file: docs/features/render-queue.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Render Queue]"
+
+  - question: What resolution can I generate at?
+    question_info:
+      category: AI Video Generation
+      tags: [resolution, 4K, 1080p, quality]
+    answer:
+      description: >
+        Available resolutions depend on the selected model. Veo 3 supports up
+        to 1080p; 4K upscaling is available as a post-process step. Runway and
+        Hunyuan generate at 720p or 1080p. You set the target resolution per
+        shot or globally for the project.
+      doc_file: docs/features/ai-video-generation.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> AI Video Generation]"
+
+  - question: How do I write a good shot prompt?
+    question_info:
+      category: AI Video Generation
+      tags: [shot prompt, prompt writing, generation quality]
+    answer:
+      description: >
+        Describe the action, mood, and visual style in plain English. Include
+        character actions, camera movement, and environmental details. Be
+        specific about what should be happening in the frame. Avoid vague
+        language. Example: "Marcus walks slowly through the foggy alley,
+        looking over his shoulder, rain hitting the cobblestones."
+      doc_file: docs/concepts/shots.mdx
+      click_path:
+        - Home
+        - "> Core Concepts"
+        - "[> Shots]"
+
+  - question: Can I generate slow motion?
+    question_info:
+      category: AI Video Generation
+      tags: [slow motion, frame rate, cinematic]
+    answer:
+      description: >
+        Yes. Set the frame rate override on a shot to high-frame-rate and
+        include slow motion language in your shot prompt (e.g., "slow-motion
+        close-up"). The video editor can also apply time remapping to any
+        generated clip to create slow motion in post.
+      doc_file: docs/features/ai-video-generation.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> AI Video Generation]"
+
+  - question: How do I generate a scene with two characters interacting?
+    question_info:
+      category: AI Video Generation
+      tags: [multi-character, interaction, generation]
+    answer:
+      description: >
+        Assign both digital actors to the shot in the cast panel. In your shot
+        prompt, describe the interaction between them (e.g., "Sarah and David
+        argue across the kitchen table, Sarah pointing at him"). ACT3 AI passes
+        both actor references to the model to maintain both appearances.
+      doc_file: docs/features/actors.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Actors]"
+
+  # -----------------------------------------------------------------------
+  # CINEMATOGRAPHY
+  # -----------------------------------------------------------------------
+
+  - question: How do I choose a camera angle for my shot?
+    question_info:
+      category: Cinematography
+      tags: [camera angle, framing, shot type]
+    answer:
+      description: >
+        In the Shot editor, open the Cinematography panel. Choose from preset
+        shot types (wide, medium, close-up, extreme close-up, over-the-shoulder,
+        POV, bird's-eye, worm's-eye) or describe a custom angle in the shot
+        prompt.
+      doc_file: docs/features/cinematography.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Cinematography]"
+
+  - question: What camera movements are available?
+    question_info:
+      category: Cinematography
+      tags: [camera movement, dolly, pan, tilt, crane, tracking]
+    answer:
+      description: >
+        ACT3 AI supports pan, tilt, dolly in/out, truck, crane/jib, handheld,
+        steadicam, and tracking shots. Set the movement type and speed in the
+        Cinematography panel. You can combine movements (e.g., dolly-in with
+        a slight upward tilt).
+      doc_file: docs/features/cinematography.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Cinematography]"
+
+  - question: How do I set the focal length or lens for a shot?
+    question_info:
+      category: Cinematography
+      tags: [lens, focal length, depth of field]
+    answer:
+      description: >
+        In the Cinematography panel, set the focal length in mm (e.g., 24mm
+        wide, 50mm normal, 85mm portrait, 200mm telephoto). Depth of field
+        adjusts automatically; you can also override aperture to control bokeh.
+      doc_file: docs/features/cinematography.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Cinematography]"
+
+  - question: How do I create a tracking shot that follows a character?
+    question_info:
+      category: Cinematography
+      tags: [tracking shot, follow, camera movement]
+    answer:
+      description: >
+        Select Tracking Shot as the camera movement, then set the target to the
+        assigned digital actor. Include tracking language in the shot prompt
+        (e.g., "camera follows Alex as she runs down the corridor, tracking
+        from behind at shoulder height").
+      doc_file: docs/features/cinematography.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Cinematography]"
+
+  - question: What is the difference between a dolly and a zoom?
+    question_info:
+      category: Cinematography
+      tags: [dolly, zoom, Hitchcock, camera]
+    answer:
+      description: >
+        A dolly physically moves the camera toward or away from the subject,
+        changing the perspective and depth relationship. A zoom changes the
+        focal length optically, keeping the camera stationary but making the
+        subject appear closer or farther. They produce visually distinct results
+        and the Hitchcock dolly-zoom combines both for a vertigo effect.
+      doc_file: docs/features/cinematography.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Cinematography]"
+
+  # -----------------------------------------------------------------------
+  # LIGHTING
+  # -----------------------------------------------------------------------
+
+  - question: How do I set the lighting for my scene?
+    question_info:
+      category: Lighting
+      tags: [lighting, setup, scene]
+    answer:
+      description: >
+        Open the Lighting panel in the Scene or Shot editor. Choose a lighting
+        preset (natural, studio, dramatic, noir, etc.) or build a custom rig by
+        adding key, fill, and back lights. Settings propagate to all shots in
+        the scene unless you override per shot.
+      doc_file: docs/features/lighting.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Lighting]"
+
+  - question: How do I create a night scene with street lamps?
+    question_info:
+      category: Lighting
+      tags: [night, exterior, practical lights, lighting]
+    answer:
+      description: >
+        Select the Night Exterior preset in the Lighting panel, which sets a
+        low ambient level with cool moonlight fill. Then add practical light
+        sources (street lamp, neon sign) as point lights with warm amber or
+        colored hues. Include the lighting description in your shot prompt for
+        best results.
+      doc_file: docs/features/lighting.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Lighting]"
+
+  - question: How do I get a golden hour look for my shot?
+    question_info:
+      category: Lighting
+      tags: [golden hour, sunset, lighting, cinematic]
+    answer:
+      description: >
+        Choose the Golden Hour preset in the Lighting panel. This sets a low
+        sun angle with warm orange-amber key light and soft fill. In your shot
+        prompt, mention "late afternoon golden light" or "magic hour sun
+        backlighting the subject" to reinforce the look.
+      doc_file: docs/features/lighting.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Lighting]"
+
+  # -----------------------------------------------------------------------
+  # SETS & ENVIRONMENTS
+  # -----------------------------------------------------------------------
+
+  - question: How do I choose or design a set for my scene?
+    question_info:
+      category: Sets
+      tags: [set design, location, environment]
+    answer:
+      description: >
+        In the Scene editor, click Set. Browse the Set Library for pre-built
+        environments (urban, interior, natural landscape, etc.) or design a
+        custom set using the 2D/3D set editor. You can describe the environment
+        in the shot prompt to guide AI generation within that space.
+      doc_file: docs/features/sets.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Sets]"
+
+  - question: Can I build a custom 3D set and use it in AI video generation?
+    question_info:
+      category: Sets
+      tags: [3D set, Blender, custom, environment]
+    answer:
+      description: >
+        Yes. Design your set in Blender, then sync it to ACT3 AI via the
+        Blender integration. The 3D geometry informs camera placement, depth,
+        and spatial relationships in the shot. The AI uses it as a reference
+        for generating consistent environments.
+      doc_file: docs/features/sets.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Sets]"
+
+  - question: What is the top-down view and when do I use it?
+    question_info:
+      category: Sets
+      tags: [top-down view, overhead, blocking, set layout]
+    answer:
+      description: >
+        The top-down view shows your set from above, letting you plan character
+        blocking and camera placement before generating any video. Place
+        characters, mark camera positions, and visualize sightlines. This is
+        especially useful for action sequences or multi-character scenes.
+      doc_file: docs/features/sets.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Sets]"
+
+  # -----------------------------------------------------------------------
+  # ACTORS & CHARACTERS
+  # -----------------------------------------------------------------------
+
+  - question: How do I create a digital actor?
+    question_info:
+      category: Actors
+      tags: [digital actor, character creation, actor library]
+    answer:
+      description: >
+        Go to the Actor Library and click New Actor. Upload a reference image
+        or use the character generator to define appearance (face, build,
+        wardrobe, age). Save the actor and they become available in all your
+        projects.
+      doc_file: docs/features/actors.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Actors]"
+
+  - question: Can I use my own face or a real person as a character?
+    question_info:
+      category: Actors
+      tags: [likeness, face, real person, custom actor]
+    answer:
+      description: >
+        You can upload photos of yourself or consenting individuals to create a
+        custom digital actor with that likeness. For real public figures,
+        ensure you have the rights and comply with applicable laws. ACT3 AI
+        requires consent affirmation before creating likeness-based actors.
+      doc_file: docs/features/actors.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Actors]"
+
+  - question: How do I add an actor to a specific shot?
+    question_info:
+      category: Actors
+      tags: [assign actor, cast, shot]
+    answer:
+      description: >
+        Open the shot in the Shot editor, then click the Cast panel. Search
+        your Actor Library and click Add to add an actor to this shot. Set
+        their position and action in the shot. Multiple actors can be added per
+        shot.
+      doc_file: docs/features/actors.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Actors]"
+
+  - question: Can I edit a digital actor's appearance after creating them?
+    question_info:
+      category: Actors
+      tags: [edit actor, wardrobe, character, update]
+    answer:
+      description: >
+        Yes. Open the actor in the Actor Library and click Edit. You can update
+        their reference image, wardrobe, hair, and appearance notes. Changes
+        apply to all future generations using that actor. Previously generated
+        shots are not automatically re-generated.
+      doc_file: docs/features/actors.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Actors]"
+
+  # -----------------------------------------------------------------------
+  # MOTION CAPTURE
+  # -----------------------------------------------------------------------
+
+  - question: Can I use my iPhone for motion capture?
+    question_info:
+      category: Motion Capture
+      tags: [motion capture, iPhone, mocap, Blender]
+    answer:
+      description: >
+        Yes. Use an iPhone with Face ID or lidar to capture body and facial
+        motion, then export the animation data to Blender. From Blender, sync
+        the motion capture data to ACT3 AI via the Hero Blender Sync integration,
+        where it drives character animation in your scene.
+      doc_file: docs/features/motion-capture.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Motion Capture]"
+
+  # -----------------------------------------------------------------------
+  # LIP SYNC & TTS
+  # -----------------------------------------------------------------------
+
+  - question: How does lip sync work in ACT3 AI?
+    question_info:
+      category: Lip Sync
+      tags: [lip sync, dialogue, audio, character]
+    answer:
+      description: >
+        After generating a shot with a speaking character, open the Lip Sync
+        panel and attach the dialogue audio (from TTS or your own recording).
+        ACT3 AI runs a lip sync pass that matches the character's mouth movement
+        to the audio waveform and renders an updated video clip.
+      doc_file: docs/features/lipsync.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Lip Sync]"
+
+  - question: How do I add character voices using text-to-speech?
+    question_info:
+      category: TTS
+      tags: [TTS, voice, text-to-speech, dialogue, audio]
+    answer:
+      description: >
+        Go to the shot's Audio panel and click Generate Voice. Select a voice
+        from the TTS library, paste or type the character's dialogue, and click
+        Generate. ACT3 AI creates an audio file you can preview, adjust speed
+        and pitch, and attach to the shot for lip sync.
+      doc_file: docs/features/tts.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Text-to-Speech]"
+
+  - question: Can I use my own voice recording for a character?
+    question_info:
+      category: TTS
+      tags: [voice recording, audio upload, custom voice]
+    answer:
+      description: >
+        Yes. Upload an audio file (WAV or MP3) to the shot's Audio panel instead
+        of generating TTS. ACT3 AI will use your recording for lip sync. You
+        can also clone a voice from a short sample to generate new lines in that
+        voice.
+      doc_file: docs/features/tts.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Text-to-Speech]"
+
+  # -----------------------------------------------------------------------
+  # VIDEO EDITOR
+  # -----------------------------------------------------------------------
+
+  - question: How do I assemble my shots on the timeline?
+    question_info:
+      category: Video Editor
+      tags: [timeline, editing, assembly, cut]
+    answer:
+      description: >
+        Generated shots appear automatically in the Timeline view in scene
+        order. Drag shots to reorder them, trim handles to adjust in/out points,
+        and add transitions between shots. The timeline shows video, audio, and
+        music tracks in separate lanes.
+      doc_file: docs/features/video-editor.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Video Editor]"
+
+  - question: How do I add background music to my movie?
+    question_info:
+      category: Video Editor
+      tags: [music, audio, soundtrack, timeline]
+    answer:
+      description: >
+        In the Timeline, click the Music Track lane and then Add Music. Browse
+        the built-in royalty-free library or upload your own audio file. Drag
+        the music clip to set its start point and adjust the volume envelope
+        across the timeline.
+      doc_file: docs/features/video-editor.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Video Editor]"
+
+  - question: Can I do color grading inside ACT3 AI?
+    question_info:
+      category: Video Editor
+      tags: [color grade, LUT, color, post-production]
+    answer:
+      description: >
+        Yes. Open the Color Grading panel on any shot or apply a grade globally
+        to the whole project. Adjust exposure, contrast, saturation, shadows,
+        and highlights, or import a LUT (.cube) file to apply a cinematic look
+        to all shots at once.
+      doc_file: docs/features/video-editor.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Video Editor]"
+
+  - question: How do I import B-roll footage into my project?
+    question_info:
+      category: Video Editor
+      tags: [B-roll, import, footage, media]
+    answer:
+      description: >
+        Go to the Asset Library and click Upload Media. Import your B-roll
+        clips (MP4, MOV, etc.). They appear in the Media Library and can be
+        dragged directly onto the timeline or inserted as a shot in any scene.
+      doc_file: docs/features/video-editor.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Video Editor]"
+
+  - question: Can I preview my movie before exporting?
+    question_info:
+      category: Video Editor
+      tags: [preview, playback, rough cut]
+    answer:
+      description: >
+        Yes. Click the Preview button in the Timeline to play back your entire
+        film or selected scenes in real time. Draft previews use compressed
+        proxy clips for speed. A full-quality preview renders all shots before
+        playback.
+      doc_file: docs/features/video-editor.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Video Editor]"
+
+  - question: How do I trim a generated video clip?
+    question_info:
+      category: Video Editor
+      tags: [trim, clip, in point, out point, edit]
+    answer:
+      description: >
+        In the Timeline, hover over the start or end of a clip to show the
+        trim handle. Drag the handle inward to set a new in or out point.
+        You can also click the clip to open the shot editor and use the
+        precise timecode trim controls.
+      doc_file: docs/features/video-editor.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Video Editor]"
+
+  # -----------------------------------------------------------------------
+  # STORYBOARD
+  # -----------------------------------------------------------------------
+
+  - question: How do I generate a storyboard for my movie?
+    question_info:
+      category: Storyboard
+      tags: [storyboard, previs, panels, planning]
+    answer:
+      description: >
+        Open a scene and click Generate Storyboard. ACT3 AI creates a static
+        image panel for each shot based on your camera settings and shot
+        prompt. Panels show framing, character positions, and action notes.
+        You can regenerate any panel individually or edit the image description.
+      doc_file: docs/features/storyboard.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Storyboard]"
+
+  # -----------------------------------------------------------------------
+  # RENDER QUEUE
+  # -----------------------------------------------------------------------
+
+  - question: How does the render queue work?
+    question_info:
+      category: Render Queue
+      tags: [render queue, batch, generation, progress]
+    answer:
+      description: >
+        When you click Generate on shots, they enter the Render Queue. The
+        queue processes shots based on priority and available credits. You can
+        see progress, estimated completion time, and status (queued, generating,
+        complete, failed) for each shot in real time.
+      doc_file: docs/features/render-queue.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Render Queue]"
+
+  - question: Can I render multiple shots at the same time?
+    question_info:
+      category: Render Queue
+      tags: [parallel render, batch, queue]
+    answer:
+      description: >
+        Yes. Select multiple shots and click Generate All. ACT3 AI runs them
+        in parallel up to the concurrency limit of your plan. Higher-tier plans
+        allow more simultaneous generations.
+      doc_file: docs/features/render-queue.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Render Queue]"
+
+  - question: How do I cancel a render in progress?
+    question_info:
+      category: Render Queue
+      tags: [cancel, render, stop]
+    answer:
+      description: >
+        Open the Render Queue panel, find the shot that is generating, and
+        click the cancel (X) button. Cancellation refunds any credits consumed
+        only if the generation has not yet completed. A completed-but-rejected
+        shot consumes credits.
+      doc_file: docs/features/render-queue.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Render Queue]"
+
+  # -----------------------------------------------------------------------
+  # ASSET LIBRARY
+  # -----------------------------------------------------------------------
+
+  - question: What is the Asset Library and how do I use it?
+    question_info:
+      category: Asset Library
+      tags: [asset library, media, uploads, organization]
+    answer:
+      description: >
+        The Asset Library stores all your uploaded and generated media: video
+        clips, audio files, images, 3D sets, and storyboard panels. Organize
+        assets into folders, search by name or tag, and drag them directly onto
+        the timeline or into shots.
+      doc_file: docs/features/asset-library.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Asset Library]"
+
+  # -----------------------------------------------------------------------
+  # STYLE PRESETS
+  # -----------------------------------------------------------------------
+
+  - question: How do I maintain a consistent visual style across my entire movie?
+    question_info:
+      category: Style Presets
+      tags: [style, consistency, visual, look]
+    answer:
+      description: >
+        Create a Style Preset that defines your color palette, film grain,
+        lighting mood, and cinematic references. Apply the preset to the whole
+        project and it injects those style instructions into every shot prompt
+        automatically, keeping the look consistent across all generations.
+      doc_file: docs/features/style-presets.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Style Presets]"
+
+  - question: Can I create a custom style preset for my film?
+    question_info:
+      category: Style Presets
+      tags: [custom style, preset, visual style]
+    answer:
+      description: >
+        Yes. In the Style Presets panel, click New Preset. Describe your film's
+        visual language: color grade, aspect ratio, lighting style, era, film
+        stock, and reference films. Save it and apply it to your project or
+        individual scenes.
+      doc_file: docs/features/style-presets.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Style Presets]"
+
+  # -----------------------------------------------------------------------
+  # VERSION CONTROL
+  # -----------------------------------------------------------------------
+
+  - question: How do I undo or revert changes in ACT3 AI?
+    question_info:
+      category: Version Control
+      tags: [undo, revert, version history]
+    answer:
+      description: >
+        ACT3 AI saves a version history for each project. Click Version History
+        in the Project menu to see a timeline of saves. Click any version to
+        preview its state and click Restore to revert the project to that point.
+      doc_file: docs/features/version-control.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Version Control]"
+
+  # -----------------------------------------------------------------------
+  # COLLABORATION
+  # -----------------------------------------------------------------------
+
+  - question: Can I collaborate with a co-writer or co-director on my project?
+    question_info:
+      category: Collaboration
+      tags: [collaboration, team, co-director, sharing]
+    answer:
+      description: >
+        Yes. From the Project menu, click Share and invite collaborators by
+        email. Assign them Editor or Viewer roles. Editors can modify scenes,
+        shots, and generate video. Viewers can comment and review but not
+        change anything.
+      doc_file: docs/features/collaboration.mdx
+      click_path:
+        - Home
+        - "> Features"
+        - "[> Collaboration]"
+
+  # -----------------------------------------------------------------------
+  # INTEGRATIONS — VEO 3
+  # -----------------------------------------------------------------------
+
+  - question: How do I use Google Veo 3 for video generation?
+    question_info:
+      category: Integrations
+      tags: [Veo 3, Google, video generation, integration]
+    answer:
+      description: >
+        Veo 3 is the default model for new projects. In the project settings,
+        confirm Veo 3 is selected under AI Video Model. When you click Generate
+        on a shot, ACT3 AI sends the request to Veo 3 and returns the clip.
+        No separate API key is needed — it runs through your ACT3 AI credits.
+      doc_file: docs/integrations/veo3.mdx
+      click_path:
+        - Home
+        - "> Integrations"
+        - "[> Google Veo 3]"
+
+  - question: What makes Veo 3 different from other video models?
+    question_info:
+      category: Integrations
+      tags: [Veo 3, model comparison, quality]
+    answer:
+      description: >
+        Veo 3 produces the most photorealistic and cinematically accurate video
+        of the available models. It handles complex scene geometry, lighting
+        consistency, and character motion especially well. It costs more credits
+        per shot than Runway or Hunyuan but delivers higher final-film quality.
+      doc_file: docs/integrations/veo3.mdx
+      click_path:
+        - Home
+        - "> Integrations"
+        - "[> Google Veo 3]"
+
+  # -----------------------------------------------------------------------
+  # INTEGRATIONS — RUNWAY
+  # -----------------------------------------------------------------------
+
+  - question: When should I use Runway instead of Veo 3?
+    question_info:
+      category: Integrations
+      tags: [Runway, model selection, stylized, motion]
+    answer:
+      description: >
+        Use Runway Gen-3 for shots that need strong motion, exaggerated
+        movement, or stylized aesthetics (anime, painterly, surrealist). Runway
+        is also faster and costs fewer credits, making it good for
+        previsualization passes before doing a final Veo 3 render.
+      doc_file: docs/integrations/runway.mdx
+      click_path:
+        - Home
+        - "> Integrations"
+        - "[> Runway]"
+
+  # -----------------------------------------------------------------------
+  # INTEGRATIONS — BLENDER
+  # -----------------------------------------------------------------------
+
+  - question: How do I connect ACT3 AI to Blender?
+    question_info:
+      category: Integrations
+      tags: [Blender, integration, 3D, sets, sync]
+    answer:
+      description: >
+        Install the ACT3 AI Blender add-on from the Integrations page. In
+        Blender, go to Edit → Preferences → Add-ons and enable it. Enter your
+        ACT3 AI API key to link the two apps. You can then push scene data,
+        camera rigs, and character animations directly to your ACT3 AI project.
+      doc_file: docs/integrations/blender.mdx
+      click_path:
+        - Home
+        - "> Integrations"
+        - "[> Blender]"
+
+  - question: Can I import a Blender scene as a set in ACT3 AI?
+    question_info:
+      category: Integrations
+      tags: [Blender, import, set, 3D scene]
+    answer:
+      description: >
+        Yes. After linking Blender via the add-on, click Push Scene in the
+        Blender sidebar panel. Your scene geometry, materials, lights, and
+        camera positions sync to ACT3 AI as a set reference for the selected
+        scene or shot.
+      doc_file: docs/integrations/blender.mdx
+      click_path:
+        - Home
+        - "> Integrations"
+        - "[> Blender]"
+
+  # -----------------------------------------------------------------------
+  # INTEGRATIONS — COMFYUI / FLUX / SDXL
+  # -----------------------------------------------------------------------
+
+  - question: How does ComfyUI work inside ACT3 AI?
+    question_info:
+      category: Integrations
+      tags: [ComfyUI, nodes, image generation, custom workflow]
+    answer:
+      description: >
+        ACT3 AI can connect to a local ComfyUI instance to run custom node
+        workflows for image generation, character design, or set concept art.
+        Set the ComfyUI endpoint URL in Integrations settings, then trigger
+        workflows directly from the Shot or Actor editor.
+      doc_file: docs/integrations/comfyui.mdx
+      click_path:
+        - Home
+        - "> Integrations"
+        - "[> ComfyUI]"
+
+  - question: What is FLUX and how do I use it for images?
+    question_info:
+      category: Integrations
+      tags: [FLUX, image generation, concept art, storyboard]
+    answer:
+      description: >
+        FLUX is a high-quality image generation model used in ACT3 AI for
+        storyboard panels, actor concept art, and set design images. Select
+        FLUX as the image model in the Storyboard or Actor generator and it
+        produces photorealistic or stylized reference imagery.
+      doc_file: docs/integrations/flux.mdx
+      click_path:
+        - Home
+        - "> Integrations"
+        - "[> FLUX]"
+
+  # -----------------------------------------------------------------------
+  # EXPORT
+  # -----------------------------------------------------------------------
+
+  - question: How do I export my finished movie?
+    question_info:
+      category: Export
+      tags: [export, final output, render, movie]
+    answer:
+      description: >
+        Go to the Project menu and click Export Movie. Choose your output
+        format, resolution, and frame rate. ACT3 AI renders all shots in order,
+        combines them with audio, applies your color grade, and packages the
+        final video file for download.
+      doc_file: docs/export/overview.mdx
+      click_path:
+        - Home
+        - "> Export"
+        - "[> Export Overview]"
+
+  - question: What video formats can I export to?
+    question_info:
+      category: Export
+      tags: [formats, MP4, ProRes, export]
+    answer:
+      description: >
+        ACT3 AI exports to MP4 (H.264/H.265) for web and social media, ProRes
+        (422, 4444) for professional post-production, and DCP package for
+        festival/cinema delivery. Choose the format in the Export dialog.
+      doc_file: docs/export/overview.mdx
+      click_path:
+        - Home
+        - "> Export"
+        - "[> Export Overview]"
+
+  - question: How do I export for YouTube?
+    question_info:
+      category: Export
+      tags: [YouTube, export, social media, horizontal]
+    answer:
+      description: >
+        In the Export dialog, select the YouTube preset. This outputs MP4
+        H.264 at 1920×1080 or 3840×2160 (4K), 16:9 aspect ratio, at your
+        project's frame rate with AAC audio. It applies recommended bitrate
+        settings for YouTube's compression pipeline.
+      doc_file: docs/export/overview.mdx
+      click_path:
+        - Home
+        - "> Export"
+        - "[> Export Overview]"
+
+  - question: How do I export for TikTok or vertical video (9:16)?
+    question_info:
+      category: Export
+      tags: [TikTok, vertical, 9:16, social media, Reels]
+    answer:
+      description: >
+        In the Export dialog, select the TikTok / Reels preset. This crops or
+        reframes your shots to 9:16 at 1080×1920 and outputs an MP4 optimized
+        for short-form vertical platforms. You can adjust the reframe position
+        per shot before exporting.
+      doc_file: docs/export/overview.mdx
+      click_path:
+        - Home
+        - "> Export"
+        - "[> Export Overview]"
+
+  - question: How do I export for film festivals?
+    question_info:
+      category: Export
+      tags: [festival, DCP, ProRes, professional]
+    answer:
+      description: >
+        Select the Festival / DCP preset. ACT3 AI renders a ProRes 4444 master
+        and optionally packages a DCP (Digital Cinema Package) with the correct
+        color space (P3-DCI), audio format (48kHz/24-bit), and subtitle track.
+        Check your specific festival's technical requirements before submitting.
+      doc_file: docs/export/overview.mdx
+      click_path:
+        - Home
+        - "> Export"
+        - "[> Export Overview]"
+
+  - question: What file formats are supported for export?
+    question_info:
+      category: Export
+      tags: [file formats, formats, export options]
+    answer:
+      description: >
+        Supported export formats include MP4 (H.264, H.265), ProRes 422 and
+        4444, WebM (VP9), and DCP. Audio exports as AAC (for web), PCM WAV,
+        or Dolby Digital. The export dialog shows which formats are available
+        on your plan.
+      doc_file: docs/export/overview.mdx
+      click_path:
+        - Home
+        - "> Export"
+        - "[> Export Overview]"
+
+  # -----------------------------------------------------------------------
+  # ACCOUNT & BILLING
+  # -----------------------------------------------------------------------
+
+  - question: How many credits does it cost to generate one shot?
+    question_info:
+      category: Account & Billing
+      tags: [credits, cost, generation, pricing]
+    answer:
+      description: >
+        Credit cost depends on the model and resolution. Veo 3 at 1080p costs
+        approximately 10–20 credits per shot (5 seconds). Runway costs 4–8
+        credits. Hunyuan and Wan cost 2–5 credits. TTS generation, lip sync,
+        and storyboard panels cost 1–2 credits each. See the Credits page for
+        the full table.
+      doc_file: docs/account/credits.mdx
+      click_path:
+        - Home
+        - "> Account & Billing"
+        - "[> Credits]"
+
+  - question: Do credits expire?
+    question_info:
+      category: Account & Billing
+      tags: [credits, expiry, rollover]
+    answer:
+      description: >
+        Credits purchased as part of a monthly subscription do not roll over
+        to the next billing period. Credits purchased as one-time top-ups
+        (credit packs) do not expire and carry forward indefinitely. Your
+        dashboard shows which credits are subscription credits vs. purchased
+        credits.
+      doc_file: docs/account/credits.mdx
+      click_path:
+        - Home
+        - "> Account & Billing"
+        - "[> Credits]"
+
+  - question: What is included in the free tier vs. paid plans?
+    question_info:
+      category: Account & Billing
+      tags: [pricing, free tier, plans, subscription]
+    answer:
+      description: >
+        The free tier includes a small credit allowance for exploration, access
+        to Hunyuan and Wan models, and limited project storage. Paid plans add
+        higher monthly credits, access to Veo 3 and Runway, 4K export, team
+        seats, and priority render queue. See the Billing page for current plan
+        details.
+      doc_file: docs/account/billing.mdx
+      click_path:
+        - Home
+        - "> Account & Billing"
+        - "[> Billing & Plans]"
+
+  - question: How do I buy more credits?
+    question_info:
+      category: Account & Billing
+      tags: [buy credits, top up, purchase]
+    answer:
+      description: >
+        Go to Account → Credits and click Buy Credits. Choose a credit pack
+        size (100, 500, 1000, or 5000 credits). Credits are added to your
+        account immediately after purchase and do not expire.
+      doc_file: docs/account/credits.mdx
+      click_path:
+        - Home
+        - "> Account & Billing"
+        - "[> Credits]"
+
+  - question: Can I share credits with my team?
+    question_info:
+      category: Account & Billing
+      tags: [team credits, shared pool, organization]
+    answer:
+      description: >
+        Yes. Organization accounts have a shared credit pool. All members draw
+        from the same pool when generating. Admins can set per-member credit
+        limits to prevent any single user from consuming the whole balance.
+      doc_file: docs/account/credits.mdx
+      click_path:
+        - Home
+        - "> Account & Billing"
+        - "[> Credits]"
+
+  - question: How do I invite a team member to my organization?
+    question_info:
+      category: Teams
+      tags: [invite, team, organization, collaboration]
+    answer:
+      description: >
+        Go to Account → Organization → Members and click Invite Member. Enter
+        their email address and select a role (Admin, Editor, or Viewer). They
+        receive an email invitation and join your organization when they accept.
+      doc_file: docs/account/teams.mdx
+      click_path:
+        - Home
+        - "> Account & Billing"
+        - "[> Teams & Organization]"
+
+  - question: How do I cancel my ACT3 AI subscription?
+    question_info:
+      category: Account & Billing
+      tags: [cancel, subscription, billing]
+    answer:
+      description: >
+        Go to Account → Billing and click Cancel Subscription. Your plan stays
+        active until the end of the current billing period. After cancellation,
+        your account downgrades to the free tier. Projects and generated videos
+        are retained for 90 days.
+      doc_file: docs/account/account-cancellation.mdx
+      click_path:
+        - Home
+        - "> Account & Billing"
+        - "[> Account Cancellation]"
+
+  - question: How do I enable two-factor authentication?
+    question_info:
+      category: Account & Billing
+      tags: [2FA, security, account settings]
+    answer:
+      description: >
+        Go to Account → Settings → Security and click Enable Two-Factor
+        Authentication. Scan the QR code with an authenticator app (Google
+        Authenticator, Authy) and enter the verification code to confirm.
+        2FA applies on every new device login.
+      doc_file: docs/account/account-settings.mdx
+      click_path:
+        - Home
+        - "> Account & Billing"
+        - "[> Account Settings]"
+
+  # -----------------------------------------------------------------------
+  # INTEGRATIONS — HUNYUAN & WAN
+  # -----------------------------------------------------------------------
+
+  - question: What is Hunyuan and when should I use it?
+    question_info:
+      category: Integrations
+      tags: [Hunyuan, model, video, fast, previs]
+    answer:
+      description: >
+        Hunyuan Video is a high-quality open-source video generation model
+        suited for shots with natural human movement, expressive faces, and
+        cinematic composition. It's a strong choice for dialogue-heavy scenes
+        or when Veo 3 is unavailable. It uses fewer credits than Veo 3.
+      doc_file: docs/integrations/hunyuan.mdx
+      click_path:
+        - Home
+        - "> Integrations"
+        - "[> Hunyuan]"
+
+  - question: What is Wan 2.1 and how does it differ from other models?
+    question_info:
+      category: Integrations
+      tags: [Wan, video model, open source, speed]
+    answer:
+      description: >
+        Wan 2.1 is a fast, low-cost open-source video model good for
+        previsualization and rough cuts. It generates clips quickly and is
+        useful for rapidly testing shot ideas before committing credits to a
+        higher-quality model. Quality is lower than Veo 3 or Runway but
+        adequate for planning purposes.
+      doc_file: docs/integrations/wan.mdx
+      click_path:
+        - Home
+        - "> Integrations"
+        - "[> Wan 2.1]"
+
+  # -----------------------------------------------------------------------
+  # STABLE DIFFUSION / FLUX / IMAGES
+  # -----------------------------------------------------------------------
+
+  - question: Can I use Stable Diffusion for concept art or storyboard images?
+    question_info:
+      category: Integrations
+      tags: [Stable Diffusion, SDXL, image, concept art]
+    answer:
+      description: >
+        Yes. ACT3 AI supports Stable Diffusion XL (SDXL) for generating
+        storyboard panels, set concepts, and character reference images.
+        Select SDXL in the Storyboard or Asset generator and use standard
+        positive and negative prompt fields. A local ComfyUI instance can
+        also run custom SDXL workflows.
+      doc_file: docs/integrations/stable-diffusion-xl.mdx
+      click_path:
+        - Home
+        - "> Integrations"
+        - "[> Stable Diffusion XL]"
+
+  # -----------------------------------------------------------------------
+  # API
+  # -----------------------------------------------------------------------
+
+  - question: Does ACT3 AI have an API I can use to automate my workflow?
+    question_info:
+      category: API
+      tags: [API, automation, developer, integration]
+    answer:
+      description: >
+        Yes. ACT3 AI provides a REST API for creating projects, managing
+        scenes and shots, triggering generation, and downloading completed
+        video. Authenticate with a Bearer token from your API settings page.
+        See the API Reference for endpoint documentation and code examples.
+      doc_file: docs/api/overview.mdx
+      click_path:
+        - Home
+        - "> API Reference"
+        - "[> API Overview]"
+
+  # -----------------------------------------------------------------------
+  # TROUBLESHOOTING & FAQ
+  # -----------------------------------------------------------------------
+
+  - question: Why does my generated video not match my shot prompt?
+    question_info:
+      category: Troubleshooting
+      tags: [generation quality, prompt, mismatch]
+    answer:
+      description: >
+        The most common causes are an ambiguous or short prompt, conflicting
+        instructions (e.g., "bright daylight" with a night lighting preset),
+        or a model that struggles with a specific scene type. Improve your
+        shot prompt with more specific action and visual details, ensure your
+        lighting preset matches the prompt, and try regenerating.
+      doc_file: docs/faq/general.mdx
+      click_path:
+        - Home
+        - "> FAQ"
+        - "[> General FAQ]"
+
+  - question: Why can't I see some features in my account?
+    question_info:
+      category: Troubleshooting
+      tags: [missing features, plan, upgrade]
+    answer:
+      description: >
+        Some features (Veo 3, 4K export, team seats, priority render) require
+        a paid plan. If a feature appears locked or unavailable, check your
+        current plan under Account → Billing. Upgrade to unlock features, or
+        consult the FAQ for plan comparison.
+      doc_file: docs/faq/general.mdx
+      click_path:
+        - Home
+        - "> FAQ"
+        - "[> General FAQ]"
+
+  - question: Can I use ACT3 AI on Windows and Mac?
+    question_info:
+      category: Troubleshooting
+      tags: [platform, browser, Mac, Windows, web app]
+    answer:
+      description: >
+        ACT3 AI is a web application and runs in any modern browser on Mac,
+        Windows, and Linux. No local installation is required. The optional
+        Hero Blender Sync desktop app runs on Mac and Windows for Blender
+        integration.
+      doc_file: docs/getting-started/introduction.mdx
+      click_path:
+        - Home
+        - "> Getting Started"
+        - "[> Introduction]"
+
+  - question: Does ACT3 AI work with Adobe Premiere Pro or DaVinci Resolve?
+    question_info:
+      category: Integrations
+      tags: [Premiere Pro, DaVinci Resolve, post-production, NLE]
+    answer:
+      description: >
+        ACT3 AI exports ProRes and MP4 files that are fully compatible with
+        Premiere Pro, DaVinci Resolve, Final Cut Pro, and other NLEs. Export
+        an XML or EDL from the timeline to import your edit directly into an
+        external editor with cut points and clip references intact.
+      doc_file: docs/export/overview.mdx
+      click_path:
+        - Home
+        - "> Export"
+        - "[> Export Overview]"

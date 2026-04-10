@@ -29,6 +29,8 @@ const config = {
     locales: ['en'],
   },
 
+  // All paths below resolve relative to the project root (CWD), not this config file's location.
+  // Docusaurus derives siteDir from the CWD, not from --config file location.
   staticDirectories: ['internal/static'],
 
   presets: [
