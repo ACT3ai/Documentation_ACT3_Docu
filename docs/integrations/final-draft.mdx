@@ -1,0 +1,108 @@
+---
+id: final-draft
+title: Final Draft Integration
+sidebar_label: Final Draft
+description: How to import and export Final Draft scripts in ACT3 AI, and how to copy-paste script content between Final Draft and the ACT3 AI script panel.
+---
+
+# Final Draft Integration
+
+[Final Draft](https://www.finaldraft.com/) is the industry-standard professional screenwriting application. ACT3 AI integrates with Final Draft through file import, file export, and direct copy-paste workflows — so you can move your screenplay between the two tools at any point in production.
+
+## Importing a Final Draft Script
+
+### Import via File Upload
+
+1. Open or create a project in ACT3 AI
+2. In the [Script Panel](/features/script-panel), click **File → Import → Script**
+3. Select **Final Draft (.fdx)** as the format
+4. Browse to your `.fdx` file and click **Open**
+5. ACT3 AI parses the file and maps its contents:
+   - Scene headings (INT./EXT.) → [Scene](/concepts/scenes) cards in the Outline
+   - Character names → dialogue tracks and [Actor](/features/actors) name entries
+   - Dialogue blocks → per-character speech in each scene
+   - Action lines → scene description fields
+   - Transitions → noted as shot transition hints
+6. Review the import preview — verify scene count, character names, and act structure
+7. Click **Confirm Import** to apply to your project
+
+The importer preserves all Final Draft formatting elements including scene colors, revision marks, and locked pages when present.
+
+### Handling Large Scripts
+
+For feature-length scripts (90+ pages), the import may take 10–20 seconds. During this time, ACT3 AI:
+- Creates all [acts](/concepts/acts) and [scenes](/concepts/scenes) in the project hierarchy
+- Registers all character names found in dialogue
+- Generates a scene-by-scene summary using AI for use in the Outline view
+
+You can begin adding shots to scenes immediately after import while ACT3 AI continues processing in the background.
+
+## Exporting a Script to Final Draft
+
+If you write or revise your script inside ACT3 AI and want to open it in Final Draft:
+
+1. In the Script Panel, click **File → Export → Script**
+2. Choose **Final Draft (.fdx)** as the export format
+3. Choose what to include:
+   - Full script (all acts and scenes)
+   - Selected scenes only
+   - Current act only
+4. Click **Export**
+5. The `.fdx` file downloads to your computer — open it in Final Draft normally
+
+Exported scripts preserve all screenplay formatting: scene headings, action lines, character names, dialogue, and parentheticals. ACT3 AI-specific metadata (shot assignments, camera notes) is not included in the export — it lives in the project data, not the screenplay file.
+
+## Copy-Pasting Between Final Draft and ACT3 AI
+
+For quick transfers without a file export/import cycle:
+
+### From Final Draft → ACT3 AI
+
+1. In Final Draft, select the scene or scenes you want to transfer (Cmd+A for all)
+2. Copy (Cmd+C)
+3. In ACT3 AI, open the [Script Panel](/features/script-panel) and click in the script editor
+4. Paste (Cmd+V)
+5. ACT3 AI detects the screenplay formatting and auto-applies element types:
+   - Lines beginning with `INT.` or `EXT.` become scene headings
+   - ALL CAPS lines after action lines become character cues
+   - Indented lines following character cues become dialogue
+   - Everything else becomes action
+
+Review the pasted content in the Script Panel and correct any element types using the [Element Type dropdown](/features/script-panel#element-types).
+
+### From ACT3 AI → Final Draft
+
+1. In the ACT3 AI Script Panel, select the text you want (Cmd+A for all, or select specific scenes)
+2. Copy (Cmd+C)
+3. In Final Draft, click in the script document
+4. Paste (Cmd+V)
+5. Final Draft will apply its own auto-formatting — review for any element type corrections needed
+
+### Tips for Clean Paste Results
+
+- Copy complete scenes rather than mid-scene fragments for cleaner element detection
+- If character names paste as action lines, click the line in the Script Panel, open the Element Type dropdown, and change it to **Character**
+- Paste into a blank scene rather than mid-script to avoid mixing content unintentionally
+
+## Re-Importing After Revisions
+
+If you revise your script in Final Draft and want to sync the updates back to ACT3 AI:
+
+1. In ACT3 AI, open **Project Settings → Script → Re-import**
+2. Upload the updated `.fdx` file
+3. Choose **Merge** (preserves existing shots, notes, and actor assignments — only updates script text) or **Replace** (full overwrite)
+4. Confirm
+
+**Merge** is the recommended option during active production — it keeps all your shot work and only applies the script text changes.
+
+## Supported Final Draft Versions
+
+ACT3 AI supports Final Draft `.fdx` files from Final Draft 9 through Final Draft 13 (current). Older `.fdr` format files from Final Draft 8 and earlier must be resaved as `.fdx` in Final Draft before importing.
+
+## Related
+
+- [Script Panel](/features/script-panel)
+- [Script Editing](/features/script-editing)
+- [Import a Script](/getting-started/new-project-import)
+- [Scenes](/concepts/scenes)
+- [Actors](/features/actors)

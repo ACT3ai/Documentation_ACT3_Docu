@@ -1,0 +1,128 @@
+---
+id: script-panel
+title: Script Panel
+sidebar_label: Script Panel
+description: How to use the Script Panel in the ACT3 AI editor — the built-in screenplay editor with element type formatting, auto-detection, and direct integration with the production pipeline.
+---
+
+# Script Panel
+
+The Script Panel is the built-in screenplay editor inside the ACT3 AI editor workspace. It is where you write, import, and edit your script — and where every line of dialogue and every scene heading connects directly to the rest of your production. Changes in the Script Panel instantly update [scene](/concepts/scenes) cards, character assignments, and [shot](/concepts/shots) metadata.
+
+## Accessing the Script Panel
+
+The Script Panel appears in the **left column** of the editor workspace by default. If it is not visible:
+
+1. Click **View** in the editor toolbar
+2. Select **Script** from the panel options
+3. Or press **Cmd+1** / **Ctrl+1** to focus the Script Panel
+
+You can resize the Script Panel by dragging the column divider. Switch the left column to a different panel at any time from **View → Left Panel**.
+
+## Writing in the Script Panel
+
+The Script Panel auto-formats as you type:
+
+- Type `INT.` or `EXT.` at the start of a line and press **Enter** — ACT3 AI formats it as a Scene Heading and creates a new [Scene](/concepts/scenes) card in the project Outline
+- Press **Tab** to cycle through element types: Action → Character → Dialogue → Parenthetical → back to Action
+- Type a character name you have used before and it appears in autocomplete
+- Press **Enter** twice from a Dialogue line to return to Action
+
+You do not need to think about formatting — just write, and the panel handles it.
+
+## Element Types
+
+Every line in a screenplay belongs to one of these element types. The Script Panel formats each type differently on screen and treats it differently in the production pipeline.
+
+### Element Type Dropdown
+
+To change the element type of any line:
+
+1. Click the line you want to change
+2. Click the **Element Type dropdown** in the Script Panel toolbar (shows the current element type name)
+3. Select the new type from the list
+
+You can also right-click any line and select **Element Type** from the context menu.
+
+### The Element Types
+
+| Element Type | What It Is | Format in Script Panel |
+|---|---|---|
+| **Scene Heading** | Location and time of day. Starts with INT. or EXT. | ALL CAPS, bold, full width |
+| **Action** | Description of what the camera sees — events, movement, environment | Normal text, full width |
+| **Character** | The name of the person who is about to speak | ALL CAPS, centered |
+| **Dialogue** | What the character says | Centered, narrower column |
+| **Parenthetical** | Acting direction for a line of dialogue, in parentheses | Centered, indented, inside the dialogue block |
+| **Transition** | CUT TO, DISSOLVE TO, SMASH CUT, etc. | ALL CAPS, right-aligned |
+| **Shot** | Camera direction embedded in the script (non-standard; used in shooting scripts) | ALL CAPS, bold |
+| **Note** | Internal production notes — not included in exported scripts | Italic, highlighted background |
+| **Beat** | Marks a key dramatic moment — ties to the [story arc](/features/story-arc) system | Highlighted, links to Beat card in Outline |
+
+### How Element Types Connect to Production
+
+- **Scene Headings** automatically create [Scene](/concepts/scenes) cards in the Outline
+- **Character** names are registered as cast members and link to [Actor Library](/features/actors) entries
+- **Dialogue** lines feed into the [TTS](/features/tts) and [ElevenLabs](/features/elevenlabs) voice generation systems — each character's lines are available for audio generation
+- **Beat** markers create [Beat](/concepts/beats) cards in the story structure and appear in the [Story Arc](/features/story-arc) timeline
+- **Note** elements are stripped from all exports — they are for internal use only
+
+## Auto-Detection on Paste
+
+When you paste content into the Script Panel from an external source (Final Draft, plain text, a word processor), ACT3 AI analyzes the pasted text and auto-assigns element types:
+
+- Lines beginning with `INT.` or `EXT.` → Scene Heading
+- ALL CAPS lines following action lines → Character
+- Lines following a Character element → Dialogue
+- Everything else → Action
+
+If auto-detection gets a line wrong, click the line and change the Element Type using the dropdown.
+
+## Script Panel vs. Outline View
+
+The Script Panel and the Outline work together:
+
+- The **Script Panel** is the prose view — full screenplay text, formatted as a readable script
+- The **Outline** is the structural view — scenes, beats, and shots as cards and lists
+
+Changes in either view sync to the other. Editing a scene description in the Outline updates the corresponding action block in the Script Panel. Adding a Scene Heading in the Script Panel creates a new Scene card in the Outline.
+
+## Find and Replace
+
+Press **Cmd+F** / **Ctrl+F** to open Find. Press **Cmd+H** / **Ctrl+H** for Find and Replace. Useful for:
+
+- Renaming a character throughout the script (replace "DETECTIVE CHEN" with "DETECTIVE LEE")
+- Fixing a recurring formatting error
+- Locating all instances of a specific location name
+
+Find operates across the full script, not just the visible portion.
+
+## Script Panel and the Shot List
+
+[Shots](/concepts/shots) in ACT3 AI are associated with specific script lines. When you add a shot to a scene, you can pin it to the specific action line or dialogue cue it represents. In the Script Panel, a small camera icon appears on the left margin next to lines that have associated shots. Clicking the icon opens the shot card directly.
+
+## Importing Into the Script Panel
+
+To bring in an existing script:
+
+- **Final Draft**: File → Import → Script → Final Draft (.fdx) — see [Final Draft Integration](/integrations/final-draft)
+- **Plain text / Fountain**: File → Import → Script → Text (.txt) or Fountain (.fountain)
+- **Markdown**: File → Import → Script → Markdown (.md)
+- **PDF**: File → Import → Script → PDF (.pdf) — uses OCR; review formatting after import
+
+## Exporting From the Script Panel
+
+File → Export → Script. Choose the format:
+- Final Draft (.fdx) — for professional screenwriting tools
+- PDF — for distribution and printing
+- Plain text — for simple sharing
+- Fountain (.fountain) — open format compatible with many tools
+
+## Related
+
+- [Script Editing](/features/script-editing)
+- [Final Draft Integration](/integrations/final-draft)
+- [Scenes](/concepts/scenes)
+- [Beats](/concepts/beats)
+- [Actors](/features/actors)
+- [Story Arc](/features/story-arc)
+- [4D Sets](/features/4d-sets)

@@ -1,0 +1,208 @@
+---
+id: 4d-sets
+title: 4D Sets
+sidebar_label: 4D Sets
+description: How to describe a room or environment in three-dimensional English-language prose in ACT3 AI — defining walls, furniture, and spatial layout so the camera can move through the space consistently across all shots.
+---
+
+# 4D Sets
+
+A 4D Set is an environment defined in full three-dimensional prose — written as natural language that describes every wall, what is on it, what is in the space, and where everything is positioned. Unlike a static backdrop, a 4D Set gives ACT3 AI a complete mental model of the physical space. The camera can face any direction and move to any position within the room, and the set remains spatially consistent across every shot that uses it.
+
+The "4D" refers to the three spatial dimensions plus the temporal dimension — the set description holds up shot-after-shot, across time, no matter where the camera is pointed.
+
+## Why 4D Sets Matter
+
+Traditional AI-generated video suffers from spatial incoherence: a room shot from one angle looks completely different when the camera turns around. Objects appear and disappear. The window that was on the left in Shot 3 is missing entirely in Shot 7.
+
+4D Sets solve this by giving the AI a precise, consistent description of the space before any shot is generated. The room description is not written per-shot — it is written once for the whole set, and every shot in that set references it. The camera can orbit 360°, and the room stays consistent.
+
+## How to Write a 4D Set Description
+
+Describe the room in terms of:
+
+- **Cardinal directions** — North, South, East, West based on the Top-Down View canvas (North = top of canvas)
+- **Frame directions** — frame left, frame right, foreground, background (camera-relative)
+- **What is on each wall** — windows, doors, artwork, shelving, screens
+- **What is on the floor** — furniture, rugs, props
+- **Ceiling and overhead elements**
+- **Light sources** — where natural and practical light comes from
+- **Distances and proportions** — approximate room dimensions, distance between objects
+
+### Example 1 — Harbor Boardwalk Scene (from *Bryan in Mexico*)
+
+This example shows how spatial language defines a 4D outdoor "room" that the camera can move through freely:
+
+```
+EXT. VENTURA HARBOR BOARDWALK — DAY
+
+Shot 30: Bryan on Boardwalk
+
+There's a 12-foot-wide cement boardwalk running from south to north 
+in the Ventura Harbor, white cement. Bryan is on a skateboard going 
+from south to north. The camera is in front, tracking shot looking 
+back at him. The harbor is on the east side, which is framed left. 
+There are the retail buildings on frame right from the Ventura, 
+California, Harbor Village stores.
+
+Bryan is moving forward on the skateboard, using his right foot to 
+push as a normal skateboarder does. We're seeing on frame left the 
+harbor move along back as Bryan is moving forward along the sidewalk.
+```
+
+- **What this does:** Establishes the boardwalk runs North-South. Harbor is always East. Stores are always West. No matter which way the camera faces — North tracking Bryan, or orbiting to reveal the harbor — the spatial anchor holds. East is always harbor. West is always stores.
+
+---
+
+### Example 2 — Orbiting Camera in a Consistent Space (from *Bryan in Mexico*)
+
+```
+EXT. VENTURA HARBOR BOARDWALK — DAY
+
+Shot 31: Bryan Stops on Boardwalk
+
+Bryan slows down and stops on his skateboard on the white cement 
+boardwalk. The Harbor Village retail buildings are still visible on 
+frame right (west side). The camera, from the front looking back, 
+tracking shot, is slowly orbiting counterclockwise 80 degrees. 
+The harbor is always on the east side. As the camera orbits, you can 
+now see more of the harbor, and you start to see a ramp that goes 
+down to docks for boats. The dock down below goes out towards the east, 
+away from the camera, and there are slips along the left side of the 
+dock and the right side of the dock.
+```
+
+- **What this does:** The camera orbits 80° — a significant rotation. Because the cardinal directions are anchored (harbor = East, stores = West), the AI maintains spatial consistency as the camera swings around. The dock appears as the camera reveals the eastern view — it is always there, waiting to be revealed, not invented.
+
+---
+
+### Example 3 — Interior with Full Compass Description (from *Bryan in Mexico*)
+
+```
+INT. VENTURA HARBOR CAROUSEL BUILDING — DAY
+
+Shot 34: Inside Carousel Big Room
+
+This is a very big inside building. The roof is 40 ft tall. 
+The building walls are circular. Diameter: 140 ft. 
+The camera is on the south inside side of the big building.
+
+The carousel is 70 ft in diameter, positioned more on the west side. 
+The east side holds a candy stand: white counter, 3 ft deep and 12 ft wide, 
+candy along the front and sides. Holly is on the east side of the counter, 
+2 ft to the right, with a cotton candy machine behind her.
+
+The camera starts 9 ft south of Holly during the shot. 
+The camera orbits counterclockwise 48°.
+```
+
+- **What this does:** A circular building with a diameter of 140 ft is defined. West = carousel. East = candy stand. The camera starts South of Holly and orbits 48° — revealing the carousel coming into frame as it rotates. The west-side carousel is always in the west. The east-side candy stand is always in the east.
+
+---
+
+### Example 4 — Production Script Format with SET and SPOT (from *University* film)
+
+```
+INT. UTAH - CHURCH1 INDOOR BASKETBALL COURT - DAY
+
+SHOT 8: WALK ACROSS COURT TO BEN
+
+SET: CHURCH1 INDOOR BASKETBALL COURT - Spot: Interior - Location: UTAH
+
+Cinematography: Tracking shot following SARAH AND CHARLOTTE WALKING 
+in fluid, continuous motion. The camera moves dynamically alongside 
+the action, creating kinetic energy and forward momentum.
+
+Sarah and Charlotte walk down the bleacher steps and across the court 
+toward Ben. Ben stands 8 feet from the basketball hoop.
+```
+
+- **What this does:** References a named SET ("CHURCH1 INDOOR BASKETBALL COURT") and a named SPOT ("Interior"). The bleachers and basketball hoop are established elements in the set definition. Every shot in this set can reference "bleachers" and "hoop" and the AI knows where they are — because the set description defined their positions once. Shot 8 builds on the spatial context set up in Shots 1–7 without redefining the room.
+
+---
+
+### Example 5 — Open Water as a 4D Space (from *Bryan in Mexico*)
+
+```
+EXT. ACAPULCO HARBOR BAY — DAY
+
+We are in the harbor of Acapulco. 60 feet from the Acapulco Yacht Club 
+on the west. 500 feet east is the beach along Acapulco Bay where the 
+resort hotels line the shore.
+
+Camera position 1: pointing straight east — hotel shoreline in background.
+Camera position 2: pointing northeast — yacht club on frame left, open water 
+center.
+Camera position 3: pointing southeast — harbor entrance and sea horizon.
+
+Brian says: "Hey Holly, look — there's dolphins in the harbor."
+Next shot: camera 12 feet above, tilt down. Bottom half of frame: Brian and 
+Holly on deck. Top half: the bay, and two dolphins swimming around the boat.
+```
+
+- **What this does:** An outdoor harbor bay is treated as a 4D set by anchoring compass directions. Yacht Club = West. Hotels = East. The AI can generate shots from three different camera angles — East, Northeast, Southeast — and the geography remains consistent in every frame. The dolphins appear in the correct spatial relationship to the boat and the harbor in every shot.
+
+---
+
+## Writing a 4D Set Description Step by Step
+
+### Step 1 — Define the Compass
+
+In the Top-Down View, determine which direction is North (typically the top of the canvas). State it explicitly in the set description:
+
+*"North is toward the back of the building. South is toward the main entrance."*
+
+### Step 2 — Describe Each Wall
+
+Go around the room: North wall, East wall, South wall, West wall. Describe what is on each:
+
+*"North wall: floor-to-ceiling windows overlooking the harbor. Single door to the hallway on the far right side of the north wall."*
+
+*"East wall: bare brick. Industrial shelving unit, floor to ceiling, 12 feet wide, 8 feet from the north corner. Covered in equipment cases and tool storage."*
+
+### Step 3 — Describe the Floor
+
+What is in the middle? What is against the walls? How far are things from each other?
+
+*"Floor: concrete, industrial grey. In the center: a 6-foot workbench running east-west, 4 feet wide, covered in tools. Two stools on the south side of the workbench, 2 feet apart."*
+
+### Step 4 — Describe Light Sources
+
+Where does natural light come from? What are the practical lights?
+
+*"Natural light from the north windows — daylight. Overhead fluorescent tubes running east-west, 4 feet apart, 9 feet up. Single pendant lamp over the workbench center."*
+
+### Step 5 — Save as a Set in ACT3 AI
+
+1. Write the full description in the **Set Description** field in the Set Library
+2. Name the set clearly: "Ventura Harbor Boardwalk — Day" or "CHURCH1 Indoor Basketball Court"
+3. Optionally add [Spots](/features/set-spots) for actor positions and camera positions
+4. Optionally add [Rooms](/features/set-rooms) if the set contains multiple distinct sub-areas
+5. Save to the Set Library — the description is now available to all shots assigned to this set
+
+### Step 6 — Reference the Set in Shots
+
+In each [shot](/concepts/shots) in this set, you do not need to re-describe the room. Instead, reference the spatial anchors:
+
+- *"Camera facing North toward the windows, Bryan at the workbench (center)"*
+- *"Over-the-shoulder from the East side, facing West toward the door"*
+- *"Wide establishing shot from the South entrance, looking North through the full room"*
+
+The AI uses the set description to fill in the consistent background for each camera position.
+
+## Tips for 4D Set Descriptions
+
+- **Be precise about distances** — "12 feet from the north wall" is more useful than "near the north wall"
+- **Anchor key features to compass directions** — every important element should have a stated compass position
+- **Describe what is always visible from any angle** — ceiling height, floor material, dominant colors
+- **Describe what changes with camera direction** — what you see looking North vs. South should be clearly distinct
+- **Use frame direction for shot-level notes** — save "frame left" and "frame right" for individual shot descriptions; use compass directions in the set definition
+
+## Related
+
+- [Sets](/features/sets)
+- [Set Spots](/features/set-spots)
+- [Set Rooms](/features/set-rooms)
+- [Script Panel](/features/script-panel)
+- [Shots](/concepts/shots)
+- [Cinematography](/features/cinematography)
