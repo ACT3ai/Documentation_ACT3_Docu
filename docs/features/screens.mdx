@@ -1,0 +1,176 @@
+---
+id: screens
+title: Screens
+sidebar_label: Screens
+description: How to place images and video on screen surfaces like TVs, phones, and laptops within ACT3 AI scenes.
+---
+
+# Screens
+
+The Screens feature lets you embed images, video clips, and live content onto any screen surface that appears within a [shot](/concepts/shots) — wall-mounted TVs, laptop monitors, phone displays, tablets, digital billboards, vehicle dashboards, movie theater screens, arcade cabinets, and more. Rather than leaving those surfaces blank or relying on the AI to guess what they show, you assign specific media to each screen so it renders correctly and realistically in every shot.
+
+## What the Screens Feature Does
+
+When a set contains a visible screen surface, ACT3 AI detects it as a bindable screen object. You choose what plays on that screen — a still image, a looping video clip, B-roll footage, or a clip from another [ACT3 AI project](/concepts/projects). The content you assign is composited onto the screen surface during rendering, with perspective, brightness, and reflection automatically adjusted to match the scene's lighting and camera angle.
+
+This gives you precise control over background storytelling details: what news channel is playing on the TV in the waiting room, what app is open on the suspect's laptop, what advertisement scrolls across the billboard in a city scene.
+
+## Supported Screen Surface Types
+
+| Surface Type | Examples |
+|---|---|
+| Wall-mounted TV | Living room TV, sports bar screens, conference room display |
+| Computer monitor | Desktop workstation, security monitors, broadcast control room |
+| Laptop screen | Character working at a laptop, open laptop in background |
+| Phone display | Character using a smartphone, phone screen visible in frame |
+| Tablet / iPad | Character holding a tablet, tablet propped on a stand |
+| Digital billboard | City street advertising screens, outdoor LED displays |
+| Vehicle dashboard | Car infotainment screen, cockpit instrumentation panels |
+| Movie theater screen | Cinema interior, drive-in theater, projection screens |
+| Arcade cabinet | Arcade machine displays, retro gaming cabinets |
+| Kiosk / ATM | Self-service kiosks, ATM screens, airport information displays |
+| Smart appliances | Refrigerator screens, oven displays, smart home panels |
+
+## Types of Content You Can Place on Screens
+
+**Static Images** — A frozen frame, a photograph, a graphic, an app screenshot, or any still image from your [Asset Library](/features/asset-library). Best for screens that are incidental background detail.
+
+**Video Clips** — A short video plays on the screen during the shot. The clip loops automatically if it is shorter than the shot duration. Use this for news broadcasts, sports coverage, commercials playing on background TVs, or any screen that should show motion.
+
+**B-Roll Footage** — Upload existing footage to the Asset Library and assign it to a screen surface. Useful for adding documentary-style authenticity — a real weather map on a meteorologist's display, actual archival footage on a news monitor.
+
+**Clips from Other Projects** — Reference a rendered shot from another ACT3 AI project directly. This is powerful for shared-universe storytelling: the clip playing on the TV in one scene can be the exact video you generated in a different project.
+
+**Looping Animations** — Short animated loops (GIF-equivalent) that play continuously. Good for screensavers, loading indicators, ambient digital signage, and motion graphics.
+
+**AI-Generated Content** — Generate an image or video specifically for a screen surface using the [AI Video Generation](/features/ai-video-generation) tools, then assign the result to the screen. The AI can generate a realistic-looking news broadcast segment, a fictional app interface, a website layout, or any custom visual.
+
+## Assigning Content to a Screen
+
+### Step-by-Step
+
+1. Open the [Shot](/concepts/shots) editor for the shot you want to configure
+2. In the right-side panel, click the **Screens** tab — this lists all screen surfaces detected in the current [set](/features/sets)
+3. Click the screen surface you want to assign content to (for example: "Monitor — Left Background")
+4. Click **Assign Media**
+5. The Asset Library opens — browse or search for the image, video clip, or B-roll you want
+6. Select the asset and click **Assign to Screen**
+7. A preview thumbnail appears in the Screens tab showing the assigned content
+8. Repeat for any other screen surfaces in the shot
+
+The assigned content is applied automatically to all shots in the same scene that contain that screen surface, unless you override it at the individual shot level.
+
+### Assigning Different Content Per Shot
+
+If a screen needs to show different content across multiple shots — for example, a news broadcast at the start of a scene and a weather app later — override the screen assignment at the shot level:
+
+1. Open the individual shot
+2. Go to the **Screens** tab
+3. Find the screen surface and click **Override Scene Assignment**
+4. Assign the shot-specific content
+
+The override applies only to that shot. Other shots in the scene continue to use the scene-level assignment.
+
+## Using Content from Another Project
+
+You can pull rendered video from any other project in your [organization](/features/organization) and display it on a screen surface.
+
+1. In the Screens tab, click **Assign Media**
+2. In the Asset Library, switch to the **Projects** tab
+3. Browse other projects in your organization
+4. Select a rendered clip from that project
+5. Click **Assign to Screen**
+
+The selected clip plays on the screen surface in your current shot. If the source project is updated and the clip is re-rendered, you can refresh the link to pull in the new version.
+
+This feature is particularly useful for:
+
+- Showing a teaser trailer on a theater screen in a scene
+- Placing a previously generated "broadcast" clip on a background TV
+- Referencing the same "breaking news" footage across multiple scenes in different episodes
+
+## Screen Brightness and Reflection Controls
+
+Screens in real environments emit light and reflect their surroundings. ACT3 AI includes controls to make screen-embedded content look natural within the shot lighting.
+
+### Brightness
+
+Adjust the **Screen Brightness** slider in the Screens tab to match the ambient light level of the scene. A phone screen in a bright office should appear dimmer relative to the surroundings than the same phone in a dark bedroom. Range: 0% (off) to 200% (over-bright, useful for stylized glare effects).
+
+### Color Temperature
+
+Match the screen's color temperature to the scene's dominant light source. A screen in a warm tungsten-lit interior should not look cold and blue. The **Color Temperature** control lets you shift the screen's white point to match the overall scene. Linked to the scene's [lighting](/features/lighting) preset by default — override it manually if needed.
+
+### Ambient Screen Glow
+
+Enable **Screen Glow** to add a subtle light spill from the screen onto nearby surfaces and characters. A laptop screen in a dark room naturally throws light onto the user's face. ACT3 AI simulates this spill automatically when Screen Glow is enabled. Adjust the glow radius and intensity in the Screens tab.
+
+### Reflections
+
+The **Reflection** control determines how much of the surrounding environment appears as a reflection on the screen surface. A TV in a bright room will show window reflections unless the surface is matte. Reduce this value to suppress reflections for cleaner compositing, or increase it for a more grounded, realistic look.
+
+## Animated vs. Static Screens
+
+You can choose whether a screen plays an animated clip or displays a frozen frame.
+
+**Animated** — The assigned video plays during the shot. The video starts at a configurable offset so you can control exactly what frame is visible at the start of the shot. If the video is shorter than the shot, it loops.
+
+**Static (Frozen Frame)** — The assigned video is paused at a single frame. Useful when you want to show a video asset as a still image — for example, a paused movie on a TV or a news graphic frozen on-screen.
+
+Toggle between these modes using the **Playback Mode** control in the Screens tab. For still images assigned to a screen, this setting has no effect.
+
+## Screen Aspect Ratio Matching
+
+Screen surfaces have aspect ratios that must match the content you assign to them. Mismatched ratios cause cropping, letterboxing, or stretching.
+
+| Surface | Typical Ratio |
+|---|---|
+| Widescreen TV / monitor | 16:9 |
+| Phone display | 9:16 (portrait) or 16:9 (landscape) |
+| Tablet / iPad | 4:3 or 16:9 |
+| Older computer monitor | 4:3 |
+| Digital billboard | Varies — often 16:9, 3:1, or custom |
+| Square kiosk | 1:1 |
+
+When you assign media to a screen surface, ACT3 AI shows the surface's aspect ratio and warns you if the assigned asset does not match. Choose from three fit modes:
+
+- **Fill** — Crops the asset to fill the screen surface exactly (no letterboxing)
+- **Fit** — Letterboxes or pillarboxes to fit the full asset within the surface
+- **Stretch** — Forces the asset to fill the surface regardless of ratio (use sparingly — distortion is usually undesirable)
+
+For phone screens, keep content in portrait orientation (9:16) for the most natural look.
+
+## Use Cases
+
+**News broadcast on a background TV** — Place a looping clip of a fictional news broadcast on the TV in a hospital waiting room set. The broadcast can reference plot-relevant information — a story the characters are reacting to — without dialogue.
+
+**Character using a phone with visible screen content** — Show an actual image on the character's phone display: a text conversation, a map, a social media post. This grounds the scene in specific story detail that dialogue alone cannot convey as efficiently.
+
+**Laptop with realistic app content** — Place a screenshot of a fictional spreadsheet, code editor, or browser window on a laptop screen in an office scene. Shows the character's work context without requiring a separate insert shot.
+
+**Billboard in a city scene** — Place a brand image, advertisement, or AI-generated graphic on a digital billboard in a street set. Customize the billboard's content per shot if the story requires a specific ad to be visible.
+
+**Movie theater scene** — Generate a short clip to play on the theater's large screen so characters in the audience react to something specific. The screen content becomes a prop that drives action.
+
+**Surveillance or security monitors** — Assign different camera feeds or static map images to a bank of monitors in a security control room. Each monitor can show different content in the same shot.
+
+## Best Practices for Realism
+
+**Match brightness to the scene.** A screen in a dark room should be the brightest object in the frame. A screen in a sunlit outdoor environment should be barely visible. Miscalibrated screen brightness is one of the most noticeable compositing errors.
+
+**Use color temperature to unify the shot.** If the scene has warm practical lighting, shift the screen's color temperature slightly warm as well. A cold, perfectly neutral screen in a warm scene reads as composited rather than captured.
+
+**Enable subtle screen glow on nearby surfaces.** Even small screens affect the light on faces and hands close to them. A phone screen at night should throw a faint rectangle of light on a character's face. This detail dramatically increases believability.
+
+**Keep content relevant to the story.** Blank or randomly chosen screen content is a missed opportunity. Even incidental screens in the background are part of the scene's world-building. A TV in a character's apartment can reveal something about who they are.
+
+**Use static images for distant or small screens.** If a screen is small in the frame or far from camera, a static image is indistinguishable from video and costs no additional render complexity. Reserve animated content for screens that are clearly visible and meaningful to the shot.
+
+## Related
+
+- [Sets](/features/sets)
+- [Asset Library](/features/asset-library)
+- [Video Editor](/features/video-editor)
+- [Shots](/concepts/shots)
+- [Lighting](/features/lighting)
+- [AI Video Generation](/features/ai-video-generation)
