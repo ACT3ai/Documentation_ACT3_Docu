@@ -40,7 +40,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './internal/sidebars.js',
-          routeBasePath: '/docs',
+          routeBasePath: '/',
         },
         blog: false,
         pages: {
@@ -69,17 +69,17 @@ const config = {
         },
         items: [
           {
-            to: '/docs/getting-started/introduction',
+            to: '/',
             position: 'left',
             label: 'Getting Started',
           },
           {
-            to: '/docs/concepts/beats',
+            to: '/concepts/beats',
             position: 'left',
             label: 'Beats',
           },
           {
-            to: '/docs/concepts/shots',
+            to: '/concepts/shots',
             position: 'left',
             label: 'Shots',
           },
@@ -102,18 +102,18 @@ const config = {
           {
             title: 'Documentation',
             items: [
-              { label: 'Getting Started', to: '/docs/getting-started/introduction' },
-              { label: 'Core Concepts', to: '/docs/concepts/overview' },
-              { label: 'Features', to: '/docs/category/features' },
-              { label: 'Integrations', to: '/docs/category/integrations' },
+              { label: 'Getting Started', to: '/' },
+              { label: 'Core Concepts', to: '/concepts/overview' },
+              { label: 'Features', to: '/category/features' },
+              { label: 'Integrations', to: '/category/integrations' },
             ],
           },
           {
             title: 'Product',
             items: [
               { label: 'ACT3 AI', href: 'https://act3ai.com' },
-              { label: 'API Reference', to: '/docs/api/overview' },
-              { label: 'FAQ', to: '/docs/faq/general' },
+              { label: 'API Reference', to: '/api/overview' },
+              { label: 'FAQ', to: '/faq/general' },
             ],
           },
         ],
