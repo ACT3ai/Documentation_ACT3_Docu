@@ -11,7 +11,7 @@ Grok Video is an AI video generation engine developed by xAI, Elon Musk's AI com
 
 ## What Grok Video Does
 
-Grok Video takes a text prompt, a scene description, and optional reference inputs and generates a short video clip. Inside ACT3 AI, it receives the same structured shot data — camera angle, character positions, lighting, set description, mood — that every engine receives. The difference is in how it interprets and renders that data.
+Grok Video takes a text prompt, a [scene](/concepts/scenes) description, and optional reference inputs and generates a short video clip. Inside ACT3 AI, it receives the same structured [shot](/concepts/shots) data — camera angle, character positions, lighting, set description, mood — that every engine receives. The difference is in how it interprets and renders that data.
 
 Grok Video is especially strong at:
 
@@ -106,8 +106,8 @@ Grok Video is a strong choice when:
 
 ## When to Use Other Engines
 
-- **Google Veo 3.1** is the primary engine in ACT3 AI and produces the highest-fidelity photorealistic output. Use it for dialogue scenes, intimate character moments, and production-grade final renders where naturalism is the goal.
-- **Wan 2.1** is the fast preview engine. Use it for rapid iteration, blocking tests, and checking composition before committing to a full render.
+- **[Google Veo 3.1](/integrations/veo3)** is the primary engine in ACT3 AI and produces the highest-fidelity photorealistic output. Use it for dialogue scenes, intimate character moments, and production-grade final renders where naturalism is the goal.
+- **[Wan 2.1](/integrations/wan)** is the fast preview engine. Use it for rapid iteration, blocking tests, and checking composition before committing to a full render.
 
 Use Grok Video as a creative alternative when the scene specifically benefits from its stylistic qualities, not as a replacement for Veo 3.1 in general production work.
 
@@ -117,7 +117,7 @@ Use Grok Video as a creative alternative when the scene specifically benefits fr
 Grok Video uses the actor reference image attached to your Digital Actor profile. Check that the actor profile has a clear, high-resolution reference image uploaded. If the prompt includes physical descriptions that contradict the reference image, the engine may drift. Remove conflicting physical descriptions from the shot prompt.
 
 **Output is too stylized and does not match the rest of the project.**
-Apply a Style Preset at the project level to constrain color grade and mood. Grok Video respects style preset instructions when they are applied consistently.
+Apply a [Style Preset](/features/style-presets) at the project level to constrain color grade and mood. Grok Video respects style preset instructions when they are applied consistently.
 
 **Render fails or returns an error.**
 Check your credit balance — a failed render may indicate insufficient credits. If credits are sufficient, retry the render. Persistent failures on a specific shot may indicate the prompt contains disallowed content; review the prompt against ACT3 AI content guidelines.
