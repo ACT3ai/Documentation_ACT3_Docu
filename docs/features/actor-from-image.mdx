@@ -1,0 +1,127 @@
+---
+id: actor-from-image
+title: Creating an Actor from an Image
+sidebar_label: Actor from Image
+description: How to create a digital actor in ACT3 AI by uploading a photo or reference image — walkthrough of the image-based character creation process.
+---
+
+# Creating an Actor from an Image
+
+ACT3 AI can generate a fully usable [digital actor](/features/actors) from a single photo or reference image. Upload a portrait or reference, and ACT3 AI builds a consistent digital character that can be placed in any scene, assigned dialogue, given wardrobe, and rendered across your entire production.
+
+## When to Use Image-Based Actor Creation
+
+Use this workflow when you want to:
+
+- Cast a specific real person (with appropriate consent and rights)
+- Build a character based on a concept image or illustration
+- Use a character design created in another tool (Midjourney, DALL-E, Photoshop)
+- Match a character to an existing visual reference from your production
+- Create a digital actor that closely resembles a real person for commercial or narrative work
+
+## What Makes a Good Reference Image
+
+The quality of the generated actor depends heavily on the source image. Best results come from:
+
+- **Clear, front-facing portrait** — the full face visible without heavy shadows
+- **Neutral or natural expression** — avoids baking an expression permanently into the character
+- **Good resolution** — at least 512×512 pixels; 1024×1024 or larger preferred
+- **Clean background** — solid or blurred backgrounds make extraction more accurate
+- **No heavy retouching** — overly processed images can confuse the AI model
+
+Multiple reference images of the same person or character from different angles produce a more accurate and consistent actor.
+
+## Step-by-Step Walkthrough
+
+### Step 1 — Open the Actor Library
+
+1. In the editor, click the **Actors** tab in the left sidebar
+2. Click **New Actor**
+3. In the creation dialog, select **Create from Image** (instead of "Describe from Text")
+
+### Step 2 — Upload Your Reference Image
+
+1. Click **Upload Image** or drag an image file into the upload zone
+2. Supported formats: JPG, PNG, WEBP, HEIC
+3. For best results, upload a portrait-oriented image that clearly shows the face
+4. Optional: upload additional angles (3/4 view, profile) using **+ Add Reference Image** to improve accuracy
+
+### Step 3 — Review Extraction
+
+ACT3 AI analyzes the uploaded image and displays:
+
+- **Face region** — a highlighted box showing what was detected as the face
+- **Skin tone** — the extracted base tone used for rendering
+- **Hair color and style** — extracted for use across different shot lighting
+- **Approximate age range** — used for consistent rendering at different angles
+
+Verify the extraction looks correct. If the face region is incorrectly bounded (e.g., including background elements), use the **Crop** tool to manually define the face area and re-run extraction.
+
+### Step 4 — Name and Configure the Actor
+
+1. Enter a **Character Name** — this is the name used throughout the project to refer to this actor
+2. Set **Gender expression** if relevant to how the actor will be cast
+3. Set **Height** — used for scaling relative to other actors in a scene
+4. Add a **Description note** — for example, "Lead detective, 40s, confident" — this helps the AI maintain character intent across different renderings
+
+### Step 5 — Add Wardrobe
+
+Before saving, optionally assign a starting wardrobe:
+
+1. Click the **Wardrobe** tab in the actor dialog
+2. Describe the costume in the text field: *"Dark grey business suit, white shirt, no tie, detective badge visible on belt"*
+3. Or click **AI Suggest Wardrobe** and the system will propose outfit options based on the character name and description
+
+See [Costume Design](/features/costumes) for full wardrobe options.
+
+### Step 6 — Add Voice
+
+1. Click the **Voice** tab
+2. Select a voice profile that fits the character
+3. Preview voice samples
+4. Save the selection
+
+See [Voice Casting](/features/voice-casting) for details on voice selection and voice actor requests.
+
+### Step 7 — Generate and Preview
+
+1. Click **Generate Actor**
+2. ACT3 AI creates a digital representation of the character based on the uploaded image
+3. The Preview panel shows the actor in a neutral standing pose under standard lighting
+4. Test the character from multiple camera angles using the **Rotate Preview** button
+
+If the result does not match your intent:
+
+- **Adjust the description** — add more specific detail about features, age, or expression
+- **Crop and re-upload** — if the face region was extracted incorrectly
+- **Upload a cleaner image** — higher resolution or better lighting in the source photo
+- **Re-generate** — click **Regenerate** to get a different interpretation of the same input
+
+### Step 8 — Save to Actor Library
+
+Click **Save Actor**. The actor is now in your project's Actor Library. You can:
+
+- Assign the actor to a character name in your script
+- Place the actor in scenes and shots
+- Reuse the actor across all scenes without re-uploading
+- Share the actor with your Organization for use in other projects
+
+## Consistency Across Shots
+
+Once created from an image, the actor maintains consistent appearance across every shot in which they appear — the same face, hair, and general features under different lighting, angles, and emotional expressions. You do not need to re-upload the reference image for each shot.
+
+## Rights and Consent
+
+When creating a digital actor from an image of a real person:
+
+- Ensure you have the legal right to use the person's likeness
+- For professional productions, secure a written likeness agreement
+- ACT3 AI's terms of service require that users have appropriate rights for any uploaded reference image
+- Do not upload images of third parties without consent for commercial productions
+
+## Related
+
+- [Actors](/features/actors)
+- [Costume Design](/features/costumes)
+- [Voice Casting](/features/voice-casting)
+- [Shots](/concepts/shots)

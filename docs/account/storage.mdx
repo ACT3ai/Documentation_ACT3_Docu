@@ -1,0 +1,82 @@
+---
+id: storage
+title: Storage
+sidebar_label: Storage
+description: How ACT3 AI storage works — what counts toward your limit, storage by plan, and how to manage and reduce usage.
+---
+
+# Storage
+
+ACT3 AI stores your projects, scripts, generated video clips, uploaded assets, and audio files in the cloud. Storage is measured in gigabytes and the amount available depends on your subscription plan.
+
+## What Counts Toward Storage
+
+| Item | Stored |
+|---|---|
+| Generated video clips | Yes — each rendered shot |
+| Uploaded assets (images, video, audio) | Yes |
+| Actor reference images and voice samples | Yes |
+| Set files and 3D assets | Yes |
+| Scripts and project data | Yes (minimal — text is small) |
+| Draft renders | Yes |
+| Exported final videos | Yes |
+| Deleted project contents (not yet purged) | Yes, until purged |
+
+Generated video is the largest contributor to storage usage. A single 8-second rendered shot at 1080p is approximately 50–200 MB depending on the engine and quality setting. A feature film with 650 shots at draft quality can easily accumulate 30–100 GB before final renders.
+
+## Storage by Plan
+
+| Plan | Storage |
+|---|---|
+| Free | 5 GB |
+| Community | 15 GB |
+| Standard | 100 GB |
+| Business | 500 GB |
+| Enterprise | Custom / Unlimited |
+
+When you approach your storage limit, ACT3 AI sends an alert email. If you exceed the limit, new renders are paused until storage is freed or your plan is upgraded.
+
+## Viewing Your Storage Usage
+
+1. Click your organization name in the top navigation
+2. Go to **Settings → Storage**
+3. The Storage panel shows:
+   - Total used vs. total available
+   - Breakdown by project (which project is using the most space)
+   - Breakdown by content type (video, assets, audio)
+
+Project-level storage breakdown is also visible in each project's **Project Settings → Storage** tab.
+
+## Managing Storage
+
+The fastest way to free up space is to delete generated video clips you no longer need — especially draft-quality renders and superseded shot versions. See [Reduce Storage Usage](/account/reduce-storage) for a step-by-step guide to all available storage reduction options.
+
+## Upgrading Storage
+
+To increase your storage limit, upgrade your subscription plan:
+
+1. Go to **Organization Settings → Billing**
+2. Click **Upgrade Plan**
+3. Select a plan with the storage capacity you need
+4. Confirm the upgrade
+
+For Enterprise storage requirements beyond the Business plan maximum, contact the ACT3 AI sales team for custom storage arrangements.
+
+## Storage and Deleted Content
+
+When you delete a project, scene, or generated clip, the content is moved to a **Trash** state. It does not free up storage immediately.
+
+To permanently free the storage:
+
+1. Go to **Organization Settings → Storage → Trash**
+2. Review the items in Trash
+3. Click **Empty Trash** to permanently delete all trashed items and reclaim the storage
+
+**Warning:** Emptying Trash is permanent and cannot be undone.
+
+## Related
+
+- [Reduce Storage Usage](/account/reduce-storage)
+- [Organization Settings](/account/settings-organization)
+- [Project Settings](/account/settings-project)
+- [Account and Billing](/account/credits)

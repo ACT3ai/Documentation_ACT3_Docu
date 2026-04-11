@@ -1,0 +1,110 @@
+---
+id: set-rooms
+title: Rooms Within Sets
+sidebar_label: Set Rooms
+description: How to define and use rooms within a set in ACT3 AI — organizing multi-room environments so scenes and shots can reference specific areas of a larger location.
+---
+
+# Rooms Within Sets
+
+A Room is a defined sub-area within a larger [set](/features/sets). Real locations — a house, a hospital, a spaceship, an office building — contain multiple distinct spaces. By defining rooms within a set, you can assign scenes and shots to specific areas of the same location, maintain visual consistency, and move characters between rooms in a spatially coherent way.
+
+## What a Room Is
+
+A Room is a bounded section of a set with its own:
+
+- **Name** — *"Kitchen"*, *"Corridor"*, *"Bridge"*, *"Server Room"*
+- **Interior description** — the visual character of the space
+- **Lighting setup** — rooms often have different lighting than adjacent areas
+- **Props and furnishings** — specific to that area
+- **Spots** — named positions within the room (see [Set Spots](/features/set-spots))
+- **Entry/exit points** — connections to adjacent rooms
+
+## Why Rooms Matter
+
+Without room definitions, a set is a single undifferentiated space. When a script says *"INT. CHEN HOUSE — KITCHEN — DAY"* and later *"INT. CHEN HOUSE — LIVING ROOM — DAY"*, both are in the same set but require different visual environments.
+
+Rooms let you:
+
+- Assign different visual treatments to different areas of the same set
+- Move characters from room to room within a coherent spatial layout
+- Maintain consistent appearance for each room across every scene that visits it
+- Reference rooms by name in shot descriptions without re-describing the visual context
+
+## Defining Rooms in a Set
+
+1. Open a set in the **Top-Down View** (editor → Sets → open set → Top-Down tab)
+2. Click **Rooms** in the toolbar
+3. Draw a room boundary on the set canvas:
+   - Click to place boundary corners
+   - Double-click to close the shape
+4. Name the room
+5. Add a room description: *"Modern kitchen — white counters, stainless appliances, morning light from east-facing window"*
+6. Configure the room's lighting (see [Lighting](/features/lighting) for options)
+7. Add [spots](/features/set-spots) within the room for actor and camera placement
+8. Define entry/exit points — click on boundary edges and mark which sides connect to other rooms
+
+Repeat for each distinct space in the set.
+
+## Assigning Scenes to Rooms
+
+Once rooms are defined, scenes can be assigned to a specific room:
+
+1. Open a Scene card in the editor
+2. In Scene Settings, under **Location**, select the parent set
+3. A **Room** dropdown appears — select the specific room for this scene
+4. All shots in this scene default to that room's visual context and lighting
+
+When you assign a room, the set's general description is filtered down to just that room's environment — actors are placed within the room's defined area, and the camera operates within those boundaries.
+
+## Moving Characters Between Rooms
+
+To show a character moving from one room to another:
+
+1. In the first shot, the character is positioned at an **exit point** of Room A
+2. In the transition shot (corridor, doorway), the character moves through the connecting space
+3. In the arrival shot, the character enters at the **entry point** of Room B
+
+Define corridor and hallway segments as their own rooms or as connecting paths between rooms. This produces spatially consistent transitions that feel like a real building.
+
+## Room Descriptions and North/South/Frame Direction
+
+When describing character and camera positions within a room, use:
+
+- **Compass directions** — North, South, East, West based on the room's orientation in the set canvas. In Top-Down View, North is the top of the canvas.
+  - *"Camera at the South wall, facing North toward the refrigerator"*
+  - *"Actor standing at the East window"*
+
+- **Frame direction** — Frame left, frame right, foreground, background based on the camera's perspective.
+  - *"The actor moves frame right as she approaches the counter"*
+  - *"Subject is foreground right; background shows the door"*
+
+Both systems work in shot prompts and room spot descriptions. Most teams use compass directions for set planning and frame directions for camera-specific shot descriptions.
+
+## Room Library
+
+Frequently used room types can be saved to your Organization's Room Library:
+
+- Define the room once (name, description, lighting, spots)
+- Save it to the library
+- Apply it to any set in any project in one click
+
+Standard room types — *"modern office"*, *"hospital room"*, *"apartment living room"*, *"server room"* — can be reused across productions, saving design time on recurring location types.
+
+## Rooms and Visual Consistency
+
+Like [set spots](/features/set-spots), rooms are saved as part of the set definition and persist across every scene that uses that set. If *"Chen's Kitchen"* appears in three scenes across the film, all three scenes reference the same room definition, ensuring:
+
+- Identical prop placement and furniture layout
+- Same lighting baseline (scene-level lighting adjustments layer on top)
+- Same spatial orientation for the camera
+
+The audience perceives the kitchen as a single, real, consistent place — because it is defined once and never rebuilt.
+
+## Related
+
+- [Sets](/features/sets)
+- [Set Spots](/features/set-spots)
+- [Lighting](/features/lighting)
+- [Shots](/concepts/shots)
+- [Cinematography](/features/cinematography)

@@ -1,0 +1,127 @@
+---
+id: settings-organization
+title: Organization Settings
+sidebar_label: Organization Settings
+description: How to configure organization-level settings in ACT3 AI — defaults, access controls, billing, and global preferences that apply to all projects.
+---
+
+# Organization Settings
+
+Organization Settings control the defaults and policies for your entire ACT3 AI organization. These settings apply to all projects in the organization unless overridden at the project level. Think of them as the master configuration: every project inherits these values until it explicitly sets something different.
+
+## Accessing Organization Settings
+
+1. Click your organization name in the top navigation bar
+2. Select **Settings** from the dropdown
+3. The Organization Settings panel opens
+
+Only **Owners** and **Admins** can modify Organization Settings. Other roles can view but not edit.
+
+## Settings Inheritance Model
+
+ACT3 AI uses a three-tier settings inheritance:
+
+```
+Organization Settings (base defaults)
+  └── Project Settings (inherits from org, can override)
+        └── Shot / Scene Settings (inherits from project, can override)
+```
+
+When a setting is **inherited**, it shows the organization value with an "Inherited" label. When a setting is **overridden**, it shows the local value with a pencil icon. You can reset any overridden setting back to inherited at any time.
+
+This means you set defaults once at the organization level and only configure exceptions at the project or shot level.
+
+## General Settings
+
+**Organization Name**
+Display name shown in the dashboard and shared project links.
+
+**Default Language**
+The default language for script editing, dialogue, and captions. Projects can override per project.
+
+**Default Aspect Ratio**
+Pre-selected when creating new projects. Individual projects can override.
+
+**Default Format**
+Movie, TV Episode, Short, or Social — used as the default when creating new projects.
+
+## AI and Rendering Defaults
+
+**Default AI Video Engine**
+Sets the default rendering engine for new shots across all projects:
+- [Google Veo 3.1](/integrations/veo3) (highest fidelity)
+- [Grok Video](/integrations/grok-video) (creative/stylistic)
+- [Wan 2.1](/integrations/wan) (fast/low-cost)
+
+Projects and individual shots can override this default.
+
+**Default Render Quality**
+Draft, Standard, High, or Ultra. Controls the default quality level when adding shots to the render queue.
+
+**Default Render Style**
+Set an organization-wide [render style](/features/render-styles) that all new projects start with. Useful for agencies or production companies maintaining a consistent visual brand across client work.
+
+## Audio and Voice Defaults
+
+**Default Voice Engine**
+[ElevenLabs](/features/elevenlabs) or Internal Engine. Sets the default for all new actors across projects.
+
+**Default Background Audio**
+On or Off by default for new shots. Teams focused on narrative content typically leave this on; marketing teams working with pre-existing audio sometimes prefer it off.
+
+## Access and Security
+
+**Member Roles**
+Manage which team members have Owner, Admin, Editor, or Viewer access. See [Organizations](/features/organization) for full role documentation.
+
+**SAML SSO**
+Configure single sign-on for enterprise plans. Members authenticate through your identity provider instead of ACT3 AI passwords.
+
+**Two-Factor Authentication**
+Require 2FA for all organization members (Enterprise plan).
+
+**Brand-Lock Controls**
+Restrict project style settings to approved presets only. Useful for brand consistency in marketing teams. Members cannot apply unapproved styles when Brand-Lock is active.
+
+**IP Ownership**
+Configure ownership declaration defaults for content produced by the organization. See [Organizations](/features/organization).
+
+## Billing and Credits
+
+**Payment Method**
+The credit card or payment method on file for the organization. All credit purchases and subscription billing flow through this payment method.
+
+**Credit Pool**
+Organization-level credit balance. All projects draw from the same pool.
+
+**Credit Alerts**
+Set a low-credit threshold — ACT3 AI sends an email alert when the balance drops below the configured amount.
+
+**Per-Project Credit Budgets**
+Optionally assign a credit budget to individual projects. Projects cannot exceed their budget without admin approval.
+
+**Subscription Plan**
+View and manage your current subscription tier. See [Account and Billing](/account/credits) for plan details.
+
+## Storage
+
+View current storage usage across the organization and manage storage limits. See [Storage](/account/storage) for full storage management documentation.
+
+## Audit Log
+
+The Audit Log records all significant organization-level actions:
+- Member additions, role changes, and removals
+- Settings changes (who changed what, and when)
+- Project creation and deletion
+- Credit purchases and large render job submissions
+
+Available to Owners and Admins. Export as CSV for compliance reporting.
+
+## Related
+
+- [Project Settings](/account/settings-project)
+- [Organizations](/features/organization)
+- [Account and Billing](/account/credits)
+- [Storage](/account/storage)
+- [ElevenLabs Voice Consistency](/features/elevenlabs)
+- [Render Styles](/features/render-styles)

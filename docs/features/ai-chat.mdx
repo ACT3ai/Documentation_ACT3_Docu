@@ -1,0 +1,105 @@
+---
+id: ai-chat
+title: AI Chat Window
+sidebar_label: AI Chat
+description: How to use the AI chat window in the ACT3 AI editor to make changes to your production through natural language instructions.
+---
+
+# AI Chat Window
+
+The AI Chat window is an always-available assistant built directly into the ACT3 AI editor. Type a change you want to make — in plain language — and the AI applies it to your production. You do not need to navigate menus or know where a specific setting lives. Just describe what you want.
+
+## Where to Find It
+
+The AI Chat panel appears on the right side of the editor workspace. Click the **Chat** icon in the toolbar to open or collapse it. It stays in context with whatever is currently selected in the editor — a shot, a scene, an actor, or the full project.
+
+## What You Can Ask It To Do
+
+The AI Chat window can make changes across every layer of your production:
+
+**Shot and camera changes:**
+- *"Make this shot a close-up instead of a wide shot"*
+- *"Add a slow dolly-in movement to this shot"*
+- *"Change the lighting in this shot to feel more like late afternoon"*
+- *"Make this shot 2 seconds shorter"*
+
+**Script and dialogue:**
+- *"Rewrite this line of dialogue to sound more casual"*
+- *"Add a beat of hesitation before the character speaks"*
+- *"Change the scene heading to an exterior night scene"*
+
+**Actors and appearance:**
+- *"Change the actor's wardrobe in this scene to a formal suit"*
+- *"Make the villain look more menacing — add a scar and cold eyes"*
+- *"Swap out the background actor in scene 3 for a different extra"*
+
+**Sets and environments:**
+- *"Add fog to this exterior scene"*
+- *"Change the set to feel more run-down and abandoned"*
+- *"Move the camera to the other side of the room"*
+
+**Pacing and structure:**
+- *"Split this scene into two separate scenes"*
+- *"Move the confrontation scene earlier in the act"*
+- *"Add a beat of silence before the reveal"*
+
+**Style and mood:**
+- *"Make the whole project feel more noir — high contrast, desaturated"*
+- *"Apply a warmer color grade to all shots in Act 2"*
+- *"Add film grain to this scene"*
+
+## How It Works
+
+When you type a request:
+
+1. ACT3 AI reads the current state of the selected element (shot, scene, or project)
+2. Interprets your instruction in context
+3. Proposes the change in a preview — you see what will change before it's applied
+4. You click **Apply** to confirm or **Reject** to discard
+
+Some changes apply immediately (shot type, prompt description); others queue a re-render (visual changes that require new AI video generation). The Chat window tells you which category a change falls into and the credit cost before you confirm.
+
+## Scope of Changes
+
+At the top of the Chat panel, set the scope:
+
+- **This Shot** — applies only to the currently selected shot
+- **This Scene** — applies to all shots in the current scene
+- **This Act** — applies across all scenes in the act
+- **Whole Project** — applies globally
+
+Setting scope carefully prevents unintended changes. When in doubt, start with **This Shot** and expand if the result looks right.
+
+## Multi-Step Instructions
+
+You can chain multiple instructions in a single message:
+
+*"Change this to a medium close-up, add handheld camera movement, and reduce the lighting intensity by 30%"*
+
+ACT3 AI parses each part of the instruction and applies them together. The preview shows all proposed changes before you confirm.
+
+## Undoing Chat Changes
+
+Every change made through the Chat window is tracked in Version History. If a change does not look right:
+
+- Click **Reject** in the Chat preview before applying, or
+- Open **Edit → Undo** to revert the last applied change
+- Go to **Version History** to roll back to any earlier state
+
+## Chat History
+
+The Chat window keeps a log of all requests made in the current session. Scroll up to review past instructions and their outcomes. You can click **Re-apply** on any past instruction to run it again on a different selection.
+
+## Tips for Effective Chat Instructions
+
+- Be specific about what element you mean: *"the actor on the left"* vs. *"all actors"*
+- Reference the character name when asking about dialogue or performance: *"Make Sarah's line sound more confident"*
+- Use cinematic language when describing camera and visual changes — the AI understands standard film terminology
+- If a change does not apply as expected, rephrase with more detail or break it into two separate instructions
+
+## Related
+
+- [Video Editor](/features/video-editor)
+- [Shots](/concepts/shots)
+- [Render Styles](/features/render-styles)
+- [Cinematography](/features/cinematography)

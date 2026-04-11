@@ -1,0 +1,94 @@
+---
+id: background-audio
+title: Background Audio
+sidebar_label: Background Audio
+description: How to use background audio in ACT3 AI — enabling ambient sound tracks, isolating background audio in rendering, and controlling ambience separately from dialogue.
+---
+
+# Background Audio
+
+Background Audio is the ambient sound layer that gives scenes a sense of place — the hum of a busy street, rain on a window, the low noise of an empty hallway, a crowd in a bar. It plays beneath dialogue and music and is controlled independently from both.
+
+ACT3 AI supports background audio as a separate rendering pass, giving you the option to isolate it from the visual render and control it with precision.
+
+## Background Audio as a Separate Render
+
+For scenes that require clean audio post-production control, ACT3 AI can render a **dedicated background audio pass** — a second rendering that produces only the ambient and environmental sounds, without dialogue.
+
+This separate pass is useful for:
+
+- Post-production mixing in Premiere Pro, DaVinci Resolve, or Pro Tools
+- Replacing or adjusting ambience without re-rendering dialogue
+- Delivering separate audio stems for broadcast or theatrical delivery
+- Layering your own custom ambient recordings over AI-generated dialogue
+
+### Enabling Background Audio Rendering
+
+1. Open **Shot Settings** for the shot (or **Scene Settings** for the whole scene)
+2. Go to the **Audio** tab
+3. Toggle **Render Background Audio Track** to ON
+4. Select the ambience type:
+   - **Auto** — ACT3 AI infers the appropriate background sound from the set description and scene context
+   - **Manual** — choose from the ambience library (see below)
+   - **None** — silence in the background audio pass (useful when adding your own ambience in post)
+5. When you render the shot, two audio files are produced:
+   - The main output (dialogue + ambience mixed together)
+   - A separate background audio stem (ambience only)
+
+Both files are available in the Render Queue download after the job completes.
+
+## Background Audio Library
+
+ACT3 AI includes a library of ambient sound categories you can manually assign to any shot:
+
+| Category | Examples |
+|---|---|
+| Interior — Office | HVAC hum, keyboard sounds, distant phone |
+| Interior — Home | Quiet room tone, ticking clock, faint traffic |
+| Interior — Restaurant | Murmur of conversation, clinking glasses, soft music |
+| Interior — Hospital | Distant beeping, intercom, quiet hallway |
+| Exterior — Urban | Traffic, pedestrians, distant sirens |
+| Exterior — Nature | Forest birds, wind through trees, stream |
+| Exterior — Beach | Waves, seagulls, wind |
+| Weather | Rain on windows, thunderstorm, heavy rain exterior |
+| Vehicles | Car interior road noise, airplane cabin hum |
+| Crowd | Large crowd murmur, applause, sports stadium |
+
+Search the ambience library by keyword in the **Audio → Ambience** panel.
+
+## Turning Background Audio On or Off
+
+Background audio is enabled by default for all shots. To turn it off:
+
+1. Open **Shot Settings**
+2. Go to the **Audio** tab
+3. Toggle **Background Audio** to OFF
+
+Turning it off produces a shot with only dialogue — no ambient layer. This is appropriate for highly controlled studio scenes or if you intend to add your own ambience in post.
+
+You can toggle background audio at the project level under **Project Settings → Audio Defaults** to set a default for all new shots.
+
+## Controlling Ambience Volume
+
+In the editor's Audio panel:
+
+- Adjust the **Ambience Volume** slider (0–100%) for each shot independently
+- Use the **Fade In** and **Fade Out** controls to smoothly ramp ambience at the start or end of a shot
+- The ambience volume is relative to the dialogue level — set it so ambience is present but does not compete with speech
+
+For most interior dialogue scenes, 20–40% ambience relative to dialogue produces a natural result. Exterior scenes with no dialogue can run at 80–100%.
+
+## Best Practices
+
+- Auto-assign ambience for first drafts — manual adjustment is only needed when the automatic selection does not match the scene
+- Use the separate background audio stem whenever delivering to broadcast, streaming platforms, or professional post-production workflows
+- Turn off background audio for dream sequences, memory sequences, or any stylized moment where silence is part of the design
+- Keep interior background audio subtle — overpowering ambience distracts from dialogue and makes the scene feel artificial
+
+## Related
+
+- [Video Editor](/features/video-editor)
+- [TTS and Audio](/features/tts)
+- [Voice Casting](/features/voice-casting)
+- [Render Queue](/features/render-queue)
+- [Export](/export/overview)

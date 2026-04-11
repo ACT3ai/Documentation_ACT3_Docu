@@ -1,0 +1,99 @@
+---
+id: set-spots
+title: Spots Within Sets
+sidebar_label: Set Spots
+description: How to define and use named spots within a set in ACT3 AI — fixed positions within an environment that actors, cameras, and props can reference by name.
+---
+
+# Spots Within Sets
+
+A Spot is a named position within a [set](/features/sets). Instead of describing an actor's location in vague terms or repositioning them manually for each shot, you define spots once and reference them by name. Actors and cameras can be assigned to spots, making blocking consistent and reproducible across every scene that uses the same set.
+
+## What a Spot Is
+
+A spot is a saved point in the set's 2D layout — a named anchor with a position and facing direction. Examples:
+
+- **"Front door"** — the position just inside the entrance
+- **"Left window"** — standing position next to the window on frame left
+- **"Center stage"** — the midpoint of the main floor area
+- **"Behind counter"** — the position behind a desk or bar counter
+- **"Frame left corner"** — the far left of the camera frame, close to wall
+
+Spots remove ambiguity from positioning instructions. When you say *"place the detective at 'desk chair'"*, the AI knows exactly where to put them every time.
+
+## Defining Spots in a Set
+
+1. Open a set in the **Top-Down View** (editor → Sets → open set → Top-Down tab)
+2. Click **Spots** in the toolbar
+3. Click anywhere on the set layout to place a new spot marker
+4. Name the spot — use a descriptive, plain-language name
+5. Set the **facing direction** — which way an actor standing at this spot will naturally face
+6. Optionally add a **description**: *"position behind the reception desk, facing the entrance"*
+7. Click **Save Spot**
+
+Repeat for each named position in the set. Most sets benefit from 5–15 named spots.
+
+## Using Spots in Shot Descriptions
+
+Once spots are defined, reference them by name in your shot prompt or actor placement:
+
+- *"Maria is at 'left window'. Detective Chen is at 'doorway'. Camera at 'center right, facing left window'."*
+- *"Begin with the actor at 'bar stool'. They stand and move toward 'exit'."*
+
+ACT3 AI maps the spot names to the correct positions when generating the shot. This produces consistent actor placement without manually repositioning every time.
+
+## Frame Direction Terminology
+
+When defining spots and describing camera positions, you can use standard film frame direction language:
+
+- **Frame left / Frame right** — left and right from the camera's point of view
+- **Frame center** — the center of the camera's view
+- **Foreground / Background** — close to the camera vs. deep in the scene
+- **North / South / East / West** — compass directions based on the set layout (in Top-Down View, North is typically the top of the canvas)
+
+You can describe spot positions in either system:
+
+- *"Frame left, near background"*
+- *"North wall, centered"*
+- *"Foreground, frame right"*
+
+Both work in spot descriptions and in shot prompts. Use whichever is clearer for your team.
+
+## Spots and Camera Positions
+
+Cameras can also be placed at named spots. Camera spots record:
+
+- Position on the set
+- Facing direction
+- Lens and angle preset associated with that camera position
+
+This lets you define standard coverage positions — *"master shot camera"*, *"close-up camera A"*, *"over-the-shoulder B"* — and recall them instantly when building shot lists for scenes that use the same set.
+
+## Spots and Movement Paths
+
+You can connect two spots with a movement path:
+
+1. In Top-Down View, click the **Paths** tool
+2. Click a start spot, then an end spot
+3. The path is drawn as a line between them
+4. Name the path: *"walk from desk to window"*
+5. Assign a movement style: Walk, Run, Sneak, Stagger
+
+Actors can be instructed to move between named spots in shot prompts: *"Detective Chen moves from 'desk' to 'window' slowly as she speaks."*
+
+## Spots Across Scenes
+
+Spots are part of the set definition — they apply every time that set is used, in any scene or project. If the same office set appears in five scenes across Act 1 and Act 2, all five scenes share the same spot definitions.
+
+This means:
+- Characters remain in consistent relative positions across all scenes in that location
+- The audience perceives the space as physically coherent
+- You save time blocking each new scene because the positions are already named and ready
+
+## Related
+
+- [Sets](/features/sets)
+- [Set Rooms](/features/set-rooms)
+- [Shots](/concepts/shots)
+- [Cinematography](/features/cinematography)
+- [Actors](/features/actors)

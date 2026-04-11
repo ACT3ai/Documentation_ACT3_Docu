@@ -1,0 +1,140 @@
+---
+id: render-styles
+title: Render Styles
+sidebar_label: Render Styles
+description: How to choose and apply render styles in ACT3 AI — visual aesthetics, cinematic looks, and the full walkthrough from style selection to final output.
+---
+
+# Render Styles
+
+Render Styles define the overall visual aesthetic of your production. They control color grading, film grain, contrast, saturation, lens character, and mood — everything that makes a video feel like a polished film rather than raw footage. Choosing the right render style before you generate shots locks in a consistent visual identity across your entire project.
+
+## What a Render Style Controls
+
+A render style is a combination of visual parameters applied at render time:
+
+- **Color grade** — warm vs. cool tones, teal-and-orange, desaturated, high contrast
+- **Film emulation** — grain texture, halation, vignetting, lens falloff
+- **Contrast curve** — flat and cinematic vs. punchy and high-contrast
+- **Saturation level** — hyper-vivid, natural, desaturated, bleach bypass
+- **Shadow detail** — crushed blacks vs. lifted, detail-preserving shadows
+- **Highlight rolloff** — how bright areas transition to white (film-like vs. digital)
+- **Lens character** — sharpness, aberration, bokeh quality
+
+Render styles work in combination with your [lighting](/features/lighting) setup and [cinematography](/features/cinematography) choices. Lighting sets the physical illumination in the scene; the render style applies the film-grade treatment on top.
+
+## Walkthrough: Applying a Render Style
+
+### Step 1 — Open Style Settings
+
+From the project sidebar, click **Style**. This opens the Style Panel where you manage render styles for the entire project and for individual shots.
+
+### Step 2 — Choose a Base Style
+
+The Style Panel shows a gallery of preset styles organized by genre and aesthetic. Browse the presets or use the search field to filter by keyword (e.g., "noir," "documentary," "sci-fi").
+
+Click any preset to see a live preview applied to the current shot's still frame.
+
+**Available style categories:**
+
+| Category | Description |
+|---|---|
+| Cinematic | Filmic color science, latitude, and grain for narrative work |
+| Documentary | Neutral, naturalistic, high clarity with minimal processing |
+| Horror | Desaturated, pushed contrast, green or teal shadows |
+| Sci-Fi | Cool blue/cyan ambient, high sharpness, clean highlights |
+| Period / Historical | Warm amber grades, faded saturation, soft grain |
+| Animation | Vivid saturation, clean edges, stylized contrast |
+| Commercial | Bright, clean, punchy — optimized for product and marketing |
+| Social / Vertical | High saturation, warm skin tones, short-form optimized |
+| Noir | Deep shadows, hard key light, black-and-white or near-monochrome |
+| Fantasy | Rich warm/cool contrast, golden-hour base, cinematic latitude |
+
+### Step 3 — Apply to Project or Shot
+
+**Project-level application** (recommended for consistency):
+
+1. In the Style Panel, select your chosen preset
+2. Click **Apply to Entire Project**
+3. All rendered shots will use this style unless overridden at the shot level
+
+**Shot-level override:**
+
+1. Open a specific shot
+2. In the shot settings, click **Style Override**
+3. Select a different style for this shot only
+
+Use shot-level overrides sparingly — for dream sequences, flashbacks, or scenes that intentionally feel different from the rest of the project.
+
+### Step 4 — Adjust Style Parameters
+
+After selecting a preset, you can fine-tune it:
+
+- **Intensity** — Blend between 0% (no style applied) and 100% (full preset strength)
+- **Color temp shift** — Push warmer or cooler along the Kelvin scale
+- **Contrast** — Adjust the tone curve globally
+- **Grain** — Control the amount of film grain overlay
+- **Vignette** — Add or remove corner darkening
+
+Your adjustments save as a custom style variant. You can name and save it for reuse across other projects.
+
+### Step 5 — Preview Before Rendering
+
+Before submitting to the [Render Queue](/features/render-queue):
+
+1. Click **Preview Frame** to apply the style to a still from your shot
+2. For motion preview, click **Draft Render** — this generates a low-resolution clip with the style applied at minimal credit cost
+3. Compare styles by splitting the preview window: original on the left, styled on the right
+
+Draft renders with style applied are the fastest way to confirm a look before spending credits on full resolution.
+
+### Step 6 — Render with Style Applied
+
+Once your style is confirmed:
+
+1. Add shots to the [Render Queue](/features/render-queue)
+2. In the Render Queue dialog, confirm the selected style shows correctly in the job summary
+3. Submit — the style bakes into the final render output
+
+Style is applied as part of the generation process — the AI rendering engine incorporates the style directives into the video output, not as a post-process filter.
+
+## Custom Style Presets
+
+You can create and save your own style presets:
+
+1. Adjust any existing preset using the parameter sliders
+2. Click **Save as New Preset**
+3. Name the preset and assign it a thumbnail shot
+4. The preset becomes available in your Organization's style library
+
+Custom presets are available to all projects in the Organization. If you are building a TV series, create one custom preset for the series and apply it to every episode project to maintain visual consistency across the run.
+
+## Style and AI Engine Interaction
+
+Different AI rendering engines respond to style directives differently:
+
+- **Google Veo 3.1** — Highest style fidelity. Responds to detailed color and mood descriptions. Best for cinematic and narrative work.
+- **Grok Video** — Strong stylistic interpretation, especially for artistic and distinctive looks. May push styles more aggressively than described.
+- **Wan 2.1** — Style application is functional but lighter. Good for previsualization; recommend Veo 3.1 for final style-critical output.
+
+For style-critical projects, generate draft shots in Wan 2.1 to approve composition and timing, then regenerate final shots in Veo 3.1 with the full style applied.
+
+## Adding Style to Your Shot Prompt
+
+You can also describe the visual style directly in your [shot](/concepts/shots) prompt to reinforce the style preset:
+
+- *"Teal-and-orange color grade, cinematic 2.39:1 ratio, slight film grain, shallow depth of field"*
+- *"Desaturated, high contrast, noir lighting, deep shadow detail"*
+- *"Clean commercial look, natural warm skin tones, bright and open"*
+- *"Cool blue sci-fi grade, sharp and clinical, lens flare from practical lights"*
+
+Style prompt language and the preset work together — the preset sets the foundation, the prompt description reinforces specific elements.
+
+## Related
+
+- [Render Queue](/features/render-queue)
+- [AI Video Generation](/features/ai-video-generation)
+- [Lighting](/features/lighting)
+- [Cinematography](/features/cinematography)
+- [Shots](/concepts/shots)
+- [Style Presets](/features/style-presets)

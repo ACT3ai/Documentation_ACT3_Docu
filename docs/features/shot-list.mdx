@@ -1,0 +1,119 @@
+---
+id: shot-list
+title: Shot List
+sidebar_label: Shot List
+description: How to use the Shot List in ACT3 AI — viewing, managing, and working with all shots in a scene or project across different workflows.
+---
+
+# Shot List
+
+The Shot List is a structured view of all [shots](/concepts/shots) in a scene or project. It shows every shot in sequence — its type, duration, status, assigned actor, set, and generation state — and provides the controls you need to manage your production at the shot level.
+
+## What the Shot List Shows
+
+Each entry in the Shot List displays:
+
+- **Shot number** — sequential within the scene (e.g., Scene 3, Shot 5)
+- **Shot type** — wide shot, medium shot, close-up, over-the-shoulder, etc.
+- **Duration** — the current trimmed length of the shot
+- **Status** — Not Started, Draft Generated, Approved, Final Rendered, or Needs Revision
+- **Actors** — which digital actors appear in the shot
+- **Set** — the assigned environment
+- **AI Engine** — which rendering engine is assigned to this shot
+- **Prompt preview** — the first line of the shot description
+
+## Accessing the Shot List
+
+**Per scene:**
+1. Open a Scene card in the editor
+2. Click the **Shot List** tab (or the list icon) at the top of the scene panel
+3. All shots for that scene appear in order
+
+**Across the full project:**
+1. In the editor, click the **Shot List** icon in the left sidebar (or go to **View → Shot List**)
+2. The full project shot list loads — every shot across all acts and scenes
+3. Use the **Filter** bar at the top to filter by status, actor, set, engine, or scene
+
+## Adding Shots to the Shot List
+
+1. In the Shot List view for a scene, click **+ Add Shot**
+2. Choose a shot type from the dropdown
+3. Write the shot prompt — describe the action, camera angle, movement, and mood
+4. Assign actors, set, and AI engine
+5. Click **Save Shot** — the shot appears in the list
+
+You can also reorder shots by dragging them up or down in the list. The sequence order in the shot list determines the sequence order in the timeline.
+
+## Shot List in Different Workflows
+
+### Writing / Pre-Production
+
+During the writing phase, the Shot List functions as a **visual breakdown tool**. Before generating any video:
+
+1. Read through the scene in the script
+2. Add shots to the list — one shot per distinct camera angle or action beat
+3. Write descriptions for each shot to clarify intent
+4. Don't worry about perfecting prompts at this stage — rough descriptions are enough to plan coverage
+
+This builds your production plan before you spend any credits. You see immediately whether a scene has adequate coverage, missing reaction shots, or redundant angles.
+
+### Generating and Reviewing
+
+Once prompts are written, the Shot List becomes your **generation dashboard**:
+
+- Click **Generate** on individual shots to render them one at a time
+- Click **Generate Scene** to send all shots in a scene to the [Render Queue](/features/render-queue) at once
+- After generation, play each clip directly from the Shot List using the preview player
+- Mark shots **Approved** or **Needs Revision** with a single click
+- Add notes to shots using the inline comment field
+
+### Production / Locking
+
+As the project moves toward completion, the Shot List helps manage the final phase:
+
+- Filter by **Needs Revision** to see only shots that need work
+- Filter by **Approved** to confirm coverage is complete
+- Filter by **Not Started** to catch any shots that were skipped
+- Use **Lock Shot** (right-click any shot) to protect approved shots from accidental changes
+- Generate final-quality renders for all approved shots using **Generate All Approved**
+
+## Shot List Export
+
+Export the shot list as a production document:
+
+1. Click **Export** in the Shot List toolbar
+2. Choose format:
+   - **CSV** — spreadsheet-compatible, includes all shot data
+   - **PDF** — formatted shot list for printing or sharing with collaborators
+   - **JSON** — structured data for integration with other tools
+
+The exported shot list includes shot numbers, descriptions, actor assignments, set names, duration estimates, and status — ready to share with a production team.
+
+## Batch Operations
+
+Select multiple shots using checkboxes in the Shot List, then:
+
+- **Generate Selected** — send all selected shots to the render queue
+- **Delete Selected** — remove multiple shots at once
+- **Change Engine** — reassign all selected shots to a different AI rendering engine
+- **Mark as Approved / Needs Revision** — update status for multiple shots simultaneously
+- **Lock / Unlock** — batch lock or unlock selected shots
+
+## Shot List and the Timeline
+
+The Shot List and the [Video Editor](/features/video-editor) Timeline are synchronized views of the same data:
+
+- A shot created in the Shot List automatically appears in the Timeline
+- Reordering shots in the Shot List updates the Timeline sequence
+- Trim changes made in the Timeline update the duration shown in the Shot List
+
+Use the Shot List for management and status tracking; use the Timeline for assembly and timing.
+
+## Related
+
+- [Shots](/concepts/shots)
+- [Video Editor](/features/video-editor)
+- [Render Queue](/features/render-queue)
+- [Scenes](/concepts/scenes)
+- [AI Video Generation](/features/ai-video-generation)
+- [Trimming Shots](/features/trimming)

@@ -1,0 +1,95 @@
+---
+id: trimming
+title: Trimming Shots
+sidebar_label: Trimming
+description: How to trim the duration of generated shots in ACT3 AI — removing unused frames from the end of a clip to tighten pacing and eliminate dead space.
+---
+
+# Trimming Shots
+
+AI-generated video clips are typically 8 seconds long. If a shot contains only 3–4 seconds of dialogue or meaningful action, the remaining seconds can feel slow or visually flat. Trimming lets you shorten a clip to exactly the length you need — removing the dead space at the end and keeping only the frames that serve the story.
+
+## Why Trimming Matters
+
+A shot with 4 words of dialogue might have the character finish speaking at second 3.5. The final 4.5 seconds may show the character standing still or the action resolving with nothing to add. In the assembled cut, that unused footage slows the pace and weakens the edit.
+
+Trimming keeps the cut tight. A well-trimmed shot ends the moment the action completes — not when the AI renderer ran out of content.
+
+## How to Trim a Shot
+
+### Manual Trim
+
+1. In the **Timeline**, find the shot you want to trim
+2. Look at the **center column** — each shot is displayed as a horizontal block with its duration
+3. Above the shot block, the timeline shows:
+   - **Dialogue / audio track** — where the spoken words begin and end
+   - **Visual track** — the corresponding video frames
+4. Hover over the **right edge** of the shot block — the cursor changes to a resize arrow
+5. **Drag the right edge inward** to shorten the clip
+6. Watch the dialogue and visual tracks above to see exactly where speech ends — trim to that point, or a second or two after for a natural breath
+
+The shot block resizes in real time. Release to set the new end point.
+
+### Reading the Tracks While Trimming
+
+As you drag the trim handle, the tracks above show:
+
+- **Where dialogue ends** — the audio waveform drops off or the subtitle text ends; this is your natural trim point
+- **Where visual action completes** — any motion or expression that wraps up after the last word
+
+A good trim point is 0.5–1.5 seconds after dialogue ends. This gives the viewer a beat to absorb what was said before cutting to the next shot.
+
+### AI Auto-Trim
+
+ACT3 AI can automatically trim your shots based on when dialogue ends:
+
+**For a single shot:**
+1. Right-click the shot in the timeline
+2. Select **Auto-Trim → This Shot**
+3. ACT3 AI analyzes the audio track and trims the clip to 1 second after the last spoken word
+
+**For all shots in a scene:**
+1. Right-click the scene block in the timeline
+2. Select **Auto-Trim → All Shots in Scene**
+
+**For all shots in the project:**
+1. Open the **Edit** menu
+2. Select **Auto-Trim → All Shots**
+3. Choose your trim buffer: 0.5s, 1s, or 1.5s after dialogue ends
+4. Confirm — ACT3 AI processes all shots and applies trims
+
+Auto-Trim runs without generating new video — it only adjusts the end point of each existing clip. No credits are consumed.
+
+## Trim Controls in the Duration Panel
+
+The center column of the editor also shows a **Duration** field for each shot. You can:
+
+- Type a specific duration directly (e.g., `4.2s`) to set an exact trim
+- Use the up/down arrows to increment by 0.1 seconds
+- Click **Reset** to restore the original generated clip length
+
+The Duration field and the timeline drag handle are linked — changing one updates the other.
+
+## What Trimming Does Not Do
+
+- **Does not cut from the beginning** — trim only shortens the end of a clip. To remove frames from the start, use the **In Point** control (left handle on the timeline block).
+- **Does not re-render the clip** — trimming adjusts the playback endpoint of the existing video; no new generation is needed.
+- **Does not affect the source file** — the full original clip is preserved. You can extend the trim point back out to restore any frames you removed.
+
+## Trimming and Pacing
+
+Tighter trims generally improve pacing. Consider:
+
+- **Dialogue-heavy scenes** — trim to 0.5s after the last word for a punchy, fast edit
+- **Dramatic pauses** — trim to 1.5–2s after dialogue to let emotion land before cutting
+- **Action shots** — trim as soon as the action completes; holding on a still frame weakens impact
+- **Reaction shots** — a 1–2 second trim after the reaction registers creates good rhythm
+
+The Auto-Trim feature with a 1-second buffer is a good starting point for most scenes. Fine-tune manually for key emotional moments.
+
+## Related
+
+- [Video Editor](/features/video-editor)
+- [Shots](/concepts/shots)
+- [Render Queue](/features/render-queue)
+- [AI Video Generation](/features/ai-video-generation)

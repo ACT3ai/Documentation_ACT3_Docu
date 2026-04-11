@@ -1,0 +1,120 @@
+---
+id: new-project-import
+title: Import a Script or Content
+sidebar_label: Import Script
+description: How to import an existing screenplay, outline, or content into a new ACT3 AI project.
+---
+
+# Import a Script or Content
+
+If you already have a screenplay, treatment, outline, or other written content, ACT3 AI can import it directly and convert it into a structured project. The importer reads your file, parses scene headings and character names, and automatically populates the Script view, Outline, and Scene cards.
+
+## When to Use This Approach
+
+Choose Import when:
+
+- You have a finished or draft screenplay in Final Draft, PDF, plain text, or Markdown
+- You have an existing outline or treatment you want to expand inside ACT3 AI
+- You are adapting an existing project from another tool
+- You are resuming work on a script that was written outside the platform
+
+If you do not have a script yet, see [Empty Project](/getting-started/new-project-empty) to write one from scratch, or [Plot Wizard](/getting-started/new-project-wizard) to build a structure with AI assistance.
+
+## Supported Import Formats
+
+| Format | Extension | Notes |
+|---|---|---|
+| Final Draft | .fdx | Full formatting preserved — scenes, sluglines, dialogue |
+| Plain Text | .txt | ACT3 AI detects scene headings and character names automatically |
+| Markdown | .md | Scene headings mapped from `##` headers |
+| PDF | .pdf | OCR-based extraction; formatting may require cleanup |
+| Fountain | .fountain | Open screenplay format fully supported |
+| CSV Outline | .csv | Scene title + description columns mapped to scene cards |
+
+## Step 1 — Create the Project
+
+1. From the [Dashboard](/getting-started/dashboard), click **New Project**
+2. Enter a **Project Name**
+3. Select **Import Script or Content** as the starting point
+4. Click **Create Project**
+
+The project opens to the Import dialog.
+
+## Step 2 — Upload Your File
+
+1. In the Import dialog, click **Choose File** or drag your script file into the upload area
+2. Select the file format if ACT3 AI does not detect it automatically
+3. Click **Import**
+
+ACT3 AI processes the file and maps it to the project structure. This typically takes 5–15 seconds for most screenplay lengths.
+
+## Step 3 — Review the Import
+
+After importing, ACT3 AI shows a preview of what was parsed:
+
+- **Scenes detected** — Each scene heading from the script becomes a scene card
+- **Characters found** — All character names encountered in dialogue are listed
+- **Acts** — ACT3 AI proposes an act division based on script structure (you can adjust this)
+
+Review the preview to confirm the import looks correct. Common things to check:
+
+- Scene count matches your script
+- Character names are correctly capitalized and not duplicated (e.g., "DETECTIVE CHEN" and "CHEN" treated as two different characters)
+- No extra scenes were created from scene description text
+
+Click **Confirm Import** to apply it to your project.
+
+## Step 4 — Clean Up and Fill In
+
+After import, walk through the project and fill in any gaps:
+
+**Scenes** — Add descriptions, set references, and mood notes to each scene card as needed.
+
+**Characters** — In the Actor Library, create or assign digital actors to each imported character name.
+
+**Acts** — Adjust act boundaries if the AI-suggested divisions do not match your story structure.
+
+**Beats** — If your script has marked beats or key moments, verify they imported correctly. You can add beats manually at any point.
+
+## Step 5 — Add Shots
+
+With scenes in place, add [shots](/concepts/shots) to each scene:
+
+1. Open a Scene card
+2. Click **+ Add Shot**
+3. Build out your shot list — camera angles, movement, framing, and prompts
+
+The imported script content populates the scene context, making it easier to write shot prompts that reference specific lines of dialogue or action.
+
+## Importing an Outline or Treatment (Non-Script)
+
+If your content is an outline rather than a full screenplay:
+
+- Import it as plain text or Markdown
+- Each major section heading becomes a scene
+- After import, expand each scene in the Script view with dialogue and action
+- Use the AI Writer (**Write with AI** button in the Script view) to draft dialogue from your outline notes
+
+## Re-importing After Revisions
+
+If you revise the original script file outside ACT3 AI and want to sync it back:
+
+1. Open **Project Settings**
+2. Go to **Script → Re-import**
+3. Upload the revised file
+4. Choose whether to merge (preserve existing shots and notes) or replace (overwrite everything)
+
+The merge option is recommended — it keeps all your shot work and only updates script content that changed.
+
+## Other Ways to Start a Project
+
+- [Empty Project](/getting-started/new-project-empty) — write your script from scratch in ACT3 AI
+- [Plot Wizard](/getting-started/new-project-wizard) — AI-assisted story development from a concept or premise
+
+## Related
+
+- [Your First Project](/getting-started/first-project)
+- [Script Editing](/features/script-editing)
+- [Actors](/features/actors)
+- [Scenes](/concepts/scenes)
+- [Beats](/concepts/beats)

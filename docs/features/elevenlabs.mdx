@@ -1,0 +1,129 @@
+---
+id: elevenlabs
+title: ElevenLabs Voice Consistency
+sidebar_label: ElevenLabs
+description: How ACT3 AI uses ElevenLabs for consistent voice generation across your production — character voice profiles, dialogue generation, and the internal voice engine option.
+---
+
+# ElevenLabs Voice Consistency
+
+ACT3 AI uses [ElevenLabs](https://elevenlabs.io) as the primary voice generation engine for dialogue, narration, and character speech. ElevenLabs provides the voice consistency that professional productions require — the same character sounds the same across every line of dialogue in every scene, regardless of tone, emotion, or phrasing.
+
+## Why Voice Consistency Matters
+
+In a traditional production, a voice actor records all their lines in one or a few sessions, and the voice stays consistent throughout the film. In AI-generated productions, dialogue can be generated line by line across many sessions. Without a consistent voice engine, the same character can sound noticeably different from scene to scene.
+
+ElevenLabs solves this by assigning each character a **Voice Profile** — a stable voice identity that generates consistent output every time that character speaks.
+
+## How It Works in ACT3 AI
+
+1. Each [digital actor](/features/actors) is assigned a voice profile in the **Voice** tab of the Actor configuration
+2. All dialogue for that actor is sent to ElevenLabs using that voice profile
+3. ElevenLabs generates the audio and ACT3 AI syncs it to the actor's lip movement in the generated video
+4. The result is a character whose voice sounds identical whether they are speaking in Act 1 or Act 3
+
+### Assigning an ElevenLabs Voice Profile
+
+1. Open the **Actor Library** and select an actor
+2. Click the **Voice** tab
+3. Browse the **ElevenLabs Voice Library** — hundreds of professional voice profiles categorized by:
+   - Gender expression
+   - Age range
+   - Accent and language
+   - Character type (authoritative, warm, mysterious, energetic, etc.)
+4. Click **Preview** to hear a sample
+5. Click **Assign** to lock that voice to the actor
+
+The assigned voice generates all dialogue for that actor going forward, with consistent character and tone.
+
+## Emotion and Delivery Control
+
+ElevenLabs supports emotional delivery tags in dialogue. In the script or shot dialogue field, you can add emotion markers:
+
+- `[nervous]` — the line is delivered with a nervous affect
+- `[angry]` — forceful, raised energy
+- `[whispered]` — quiet, breathy delivery
+- `[sad]` — slower, heavier tone
+- `[excited]` — higher energy, faster pace
+
+ACT3 AI passes these markers to ElevenLabs automatically when generating dialogue audio. The markers appear as optional hints in the Script editor as you write.
+
+## Multi-Language Support
+
+ElevenLabs supports over 30 languages. To set a character's dialogue language:
+
+1. In the actor's Voice tab, select **Language**
+2. Choose from the available ElevenLabs-supported languages
+3. All generated dialogue for that actor renders in the selected language
+
+For multi-language productions, each language version of a character can use the same base voice profile with the language switched — giving the same voice character across different dubbed versions.
+
+## ACT3 AI Internal Voice Engine
+
+In addition to ElevenLabs, ACT3 AI offers an **Internal Voice Engine** — a proprietary system built for fast, lower-cost dialogue generation.
+
+The internal engine is optimized for:
+
+- **Speed** — faster generation for draft and preview passes
+- **Cost** — lower credit cost per line compared to ElevenLabs
+- **Volume** — high-throughput dialogue generation for projects with hundreds of dialogue lines
+
+The internal engine is well-suited for:
+- Draft dialogue passes before final production
+- Projects with very high dialogue volume where budget is a factor
+- Background characters and extras with minimal speaking lines
+
+For full internal engine documentation, see [Internal Voice Engine](/features/tts).
+
+### When to Use Each Engine
+
+| Scenario | Recommended Engine |
+|---|---|
+| Lead character dialogue — final production | ElevenLabs |
+| Supporting character dialogue — key scenes | ElevenLabs |
+| Background characters | Internal Engine |
+| Draft dialogue for timing and review | Internal Engine |
+| Final export with maximum quality | ElevenLabs |
+| High-volume content (100+ dialogue lines) | Internal Engine (draft), ElevenLabs (final) |
+
+## ElevenLabs Voice Cloning (Custom Voices)
+
+For productions that require a custom voice — matching a specific performer's voice — ACT3 AI supports ElevenLabs Voice Cloning:
+
+1. Submit a recording request to a voice actor via the [Voice Casting](/features/voice-casting) workflow
+2. The voice actor records a reference sample (5–10 minutes of clean audio)
+3. Upload the sample to ACT3 AI under **Voice Library → Clone Voice**
+4. ElevenLabs creates a custom voice model from the recording
+5. The cloned voice is available as a private voice profile in your Organization
+
+Custom voice cloning requires the voice actor's explicit consent and appropriate rights agreement.
+
+## Credit Usage
+
+ElevenLabs dialogue generation consumes credits separately from video rendering:
+
+| Type | Cost |
+|---|---|
+| Standard voice (per line) | 0.5 credits |
+| Premium ElevenLabs voice (per line) | 1 credit |
+| Internal engine (per line) | 0.1 credits |
+| Custom cloned voice (per line) | 1.5 credits |
+
+Dialogue credits are deducted when audio is generated. Re-generating the same line (with edits or retakes) consumes credits again.
+
+## Troubleshooting
+
+**Voice sounds inconsistent between scenes** — Confirm the same voice profile is assigned to the actor across all scenes. Check the Voice tab in the Actor Library.
+
+**Emotion tags not applied** — Verify the tag format matches the expected syntax (`[emotion]`) and is placed at the start of the dialogue line.
+
+**Voice not available for a language** — Not all ElevenLabs voices support all languages. Check language availability in the Voice Library filter.
+
+**Audio out of sync with lip movement** — Re-sync by regenerating the shot or manually adjusting the audio offset in the editor's Audio panel.
+
+## Related
+
+- [Voice Casting](/features/voice-casting)
+- [Actors](/features/actors)
+- [TTS and Audio](/features/tts)
+- [AI Video Generation](/features/ai-video-generation)

@@ -1,0 +1,93 @@
+---
+id: settings-project
+title: Project Settings
+sidebar_label: Project Settings
+description: How to configure settings for a specific project in ACT3 AI — format, style, audio, rendering defaults, and how project settings inherit from and override organization settings.
+---
+
+# Project Settings
+
+Project Settings control the configuration for a single production. They inherit from [Organization Settings](/account/settings-organization) by default and can override any setting that should differ for this specific project.
+
+## Accessing Project Settings
+
+1. Open the project
+2. Click the gear icon in the project header, or go to **Project → Settings** in the menu bar
+3. The Project Settings panel opens
+
+Project Owners, Admins, and Editors with appropriate permissions can view project settings. Only Admins and the project Owner can modify them.
+
+## How Inheritance Works
+
+Every setting in Project Settings shows one of two states:
+
+- **Inherited** — the value comes from [Organization Settings](/account/settings-organization). If the organization changes the default, this project updates automatically.
+- **Overridden** — a specific value has been set for this project. Organization changes do not affect it.
+
+To override an inherited setting, click the **Edit** (pencil) icon next to it and set your value. To return to inheritance, click **Reset to Inherited**.
+
+This model means you only configure what makes this project different — everything else follows the organization's defaults automatically.
+
+## General Settings
+
+**Project Title**
+The name of the production. Appears in exports, render job names, and the organization dashboard.
+
+**Description**
+A one-sentence summary. Optional but useful for teams managing many projects.
+
+**Format**
+Movie, TV Episode, Short Film, Marketing / Commercial, or Social Clip. Overrides the organization default if set.
+
+**Aspect Ratio**
+16:9, 9:16, or 1:1. Set per project if it differs from the organization default.
+
+**Target Duration**
+The intended finished length in minutes. Used for pacing guidance in story structure.
+
+## AI and Rendering Settings
+
+**Default AI Video Engine**
+Override the organization default to use a specific engine for this project. For example, if the organization default is Wan 2.1 for speed, a high-priority film project might override to [Google Veo 3.1](/integrations/veo3) for maximum fidelity.
+
+**Default Render Quality**
+Override the quality level for new shots in this project.
+
+**Render Style**
+Set the [render style](/features/render-styles) for this project. This style applies to all shots unless overridden at the shot level. Choosing a style at the project level locks in a consistent visual look for the entire production.
+
+## Audio Settings
+
+**Default Voice Engine**
+Override the organization's default voice engine for this project. Useful when one project requires [ElevenLabs](/features/elevenlabs) premium voices while others use the internal engine.
+
+**Default Background Audio**
+On or Off for new shots in this project. Override the organization default if this production has specific audio requirements.
+
+## Access and Collaboration
+
+**Project Visibility**
+- **Organization** — all organization members with Editor access or above can view and edit
+- **Restricted** — only explicitly listed team members can access this project
+
+**Lock Project**
+Put the project in read-only mode. Useful after a production is complete or during final review. Editors cannot make changes; only Admins and the Owner can unlock.
+
+## Version History
+
+Project Settings tracks changes over time. Open the **History** tab to:
+
+- See every settings change with timestamp and the name of who made it
+- Restore a previous settings state if a change needs to be undone
+
+## Storage
+
+View how much storage this project is using. Delete renders, archived outputs, or the entire project to free up space. See [Reduce Storage Usage](/account/reduce-storage) for specific steps.
+
+## Related
+
+- [Organization Settings](/account/settings-organization)
+- [Render Styles](/features/render-styles)
+- [ElevenLabs Voice Consistency](/features/elevenlabs)
+- [AI Video Generation](/features/ai-video-generation)
+- [Storage](/account/storage)
