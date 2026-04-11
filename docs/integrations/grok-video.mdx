@@ -1,0 +1,136 @@
+---
+id: grok-video
+title: Grok Video
+sidebar_label: Grok Video
+description: Use xAI's Grok Video engine inside ACT3 AI for creative, stylistically distinctive AI-generated video clips.
+---
+
+# Grok Video
+
+Grok Video is an AI video generation engine developed by xAI, Elon Musk's AI company. ACT3 AI integrates Grok Video as one of its selectable render engines, sitting alongside Google Veo 3.1 and Wan 2.1. Grok Video brings a distinctive creative sensibility to video generation — it excels at stylized, high-energy, and unconventional visual output that other engines approach differently.
+
+## What Grok Video Does
+
+Grok Video takes a text prompt, a scene description, and optional reference inputs and generates a short video clip. Inside ACT3 AI, it receives the same structured shot data — camera angle, character positions, lighting, set description, mood — that every engine receives. The difference is in how it interprets and renders that data.
+
+Grok Video is especially strong at:
+
+- Bold, high-contrast cinematic looks
+- Fast-paced action and kinetic movement
+- Abstract, surreal, or genre-bending visual styles
+- Expressive character emotion and body language
+- Creative transitions between beats
+
+## Key Capabilities
+
+- Generates clips at standard ACT3 AI resolutions (1080p, 4K depending on plan tier)
+- Accepts character reference images for actor consistency
+- Supports aspect ratios: 16:9 (cinematic), 9:16 (vertical/social), 1:1 (square)
+- Responds to detailed mood and tone descriptors in prompts
+- Handles complex multi-character compositions
+- Accepts lighting and color grade instructions
+
+## How to Use Grok Video in ACT3 AI
+
+### Selecting Grok Video as the Engine for a Shot
+
+1. Open a project and navigate to a Scene
+2. Select the Shot you want to render
+3. In the Shot Editor, locate the **Render Engine** dropdown (top-right of the render panel)
+4. Select **Grok Video** from the list
+5. Confirm your shot prompt and parameters look correct
+6. Click **Generate** to send the shot to the render queue
+
+The shot enters the [Render Queue](/features/render-queue) and processes. When complete, the clip appears in your timeline for review.
+
+### Setting Grok Video as the Default Engine for a Project
+
+1. Open **Project Settings** from the sidebar
+2. Go to the **Render** tab
+3. Under **Default Engine**, select **Grok Video**
+4. All new shots created in this project will default to Grok Video unless overridden at the shot level
+
+### Running a Batch Render with Grok Video
+
+1. In the Scene list, select multiple shots using the checkbox
+2. Click **Batch Render**
+3. In the render dialog, choose **Grok Video** as the engine
+4. Confirm credit cost (shown before committing)
+5. Click **Start Batch**
+
+All selected shots queue and process in parallel.
+
+## Prompt Tips for Grok Video
+
+Grok Video responds well to vivid, specific language. Vague prompts produce average results. Here is what works:
+
+**Be specific about energy and movement.**
+Write "character sprints across a rain-soaked rooftop, coat whipping behind her, camera tracks low and fast" rather than "character runs on a rooftop."
+
+**Name a visual style or reference.**
+Phrases like "noir low-key lighting," "neon-drenched cyberpunk alley," or "warm golden-hour documentary look" sharpen the output significantly.
+
+**Describe emotion directly.**
+"Character's face shifts from forced calm to barely contained panic" gives the engine clear direction on the performance register.
+
+**Specify camera behavior.**
+"Slow push-in on the character's eyes as she reads the letter" produces a more controlled result than "close-up of character reading."
+
+**Keep the prompt focused.**
+One action, one camera move, one emotional beat per shot prompt. Grok Video — like all engines — performs best when the prompt is not trying to do three things at once.
+
+**Avoid contradictions.**
+Do not write "fast-paced slow motion" or "bright noir scene." Mixed signals produce inconsistent output.
+
+## Credit Usage
+
+Grok Video uses credits from your organization's credit pool. Credit cost per shot depends on:
+
+- Resolution (1080p vs. 4K)
+- Clip duration (in seconds)
+- Quality tier (Draft, Standard, High)
+
+Draft renders are significantly cheaper and useful for testing prompts before committing to a full-quality render. Run a Draft first, review the output, adjust the prompt if needed, then render at Standard or High quality.
+
+See [Credits](/account/credits) for full pricing details and how to manage your credit balance.
+
+## Best Use Cases
+
+Grok Video is a strong choice when:
+
+- The scene calls for a bold, distinctive visual style rather than naturalistic realism
+- You are rendering action sequences, chase scenes, or high-energy moments
+- The script asks for an unconventional or genre-defying aesthetic
+- You want expressive character performance as the focal point of the shot
+- You are producing content for social platforms where visual punch matters more than photorealism
+
+## When to Use Other Engines
+
+- **Google Veo 3.1** is the primary engine in ACT3 AI and produces the highest-fidelity photorealistic output. Use it for dialogue scenes, intimate character moments, and production-grade final renders where naturalism is the goal.
+- **Wan 2.1** is the fast preview engine. Use it for rapid iteration, blocking tests, and checking composition before committing to a full render.
+
+Use Grok Video as a creative alternative when the scene specifically benefits from its stylistic qualities, not as a replacement for Veo 3.1 in general production work.
+
+## Troubleshooting
+
+**Clip does not match the character's appearance.**
+Grok Video uses the actor reference image attached to your Digital Actor profile. Check that the actor profile has a clear, high-resolution reference image uploaded. If the prompt includes physical descriptions that contradict the reference image, the engine may drift. Remove conflicting physical descriptions from the shot prompt.
+
+**Output is too stylized and does not match the rest of the project.**
+Apply a Style Preset at the project level to constrain color grade and mood. Grok Video respects style preset instructions when they are applied consistently.
+
+**Render fails or returns an error.**
+Check your credit balance — a failed render may indicate insufficient credits. If credits are sufficient, retry the render. Persistent failures on a specific shot may indicate the prompt contains disallowed content; review the prompt against ACT3 AI content guidelines.
+
+**Clip duration is shorter than expected.**
+Shot duration is set in the Shot Editor. Confirm the target duration field is set correctly before rendering.
+
+**Quality is lower than expected on a Standard render.**
+Try adding more specific visual detail to the prompt. Grok Video output quality scales with prompt specificity.
+
+## Related
+
+- [AI Video Generation](/features/ai-video-generation)
+- [Wan 2.1](/integrations/wan)
+- [Render Queue](/features/render-queue)
+- [Credits](/account/credits)

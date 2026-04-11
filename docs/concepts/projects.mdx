@@ -1,0 +1,158 @@
+---
+id: projects
+title: Projects
+sidebar_label: Projects
+description: What a Project is in ACT3 AI, how it fits into the Organization hierarchy, and how to configure and manage your productions.
+---
+
+# Projects
+
+A Project in ACT3 AI is a single creative production — one movie, one TV episode, one marketing video, one short film, or one social clip. Projects are the primary working unit inside an Organization. Everything you create for a production lives in its Project: the script, the cast, the sets, the timeline, and all generated video clips.
+
+## Where Projects Fit
+
+Projects sit directly below the Organization in the content hierarchy:
+
+```
+Organization
+  └── Project
+        └── Acts
+              └── Scenes
+                    └── Beats
+                          └── Shots
+                                └── Generated Video
+```
+
+A Project inherits the Organization's credit pool, team members, and shared assets. It does not have its own separate billing or roster — those are managed at the Organization level.
+
+## One Project Per Production
+
+A Project represents one complete, discrete creative work. The guideline is:
+
+- One movie = one Project
+- One TV episode = one Project
+- One marketing video = one Project
+- One short film = one Project
+- One social clip = one Project
+
+For a TV series, each episode is typically a separate Project. The series is a label or folder used to group those episode Projects together inside the Organization, but the production work happens at the episode (Project) level.
+
+## Project Settings
+
+When you create a new Project, you configure:
+
+**Title**
+The name of the production. This appears throughout the platform and in exported files.
+
+**Format**
+Choose the type of production:
+- Movie
+- TV Episode
+- Short
+- Social
+
+The format setting influences default Act structure and export presets.
+
+**Aspect Ratio**
+- 16:9 — standard cinematic and broadcast
+- 9:16 — vertical format for mobile and social platforms
+- 1:1 — square format for social platforms
+
+**Target Duration**
+The intended finished length of the production, in minutes. ACT3 AI uses this to help pace Act and Scene structure during planning.
+
+To update these settings after creation, open **Project Settings** from the sidebar.
+
+## What a Project Contains
+
+Every Project holds all the creative elements for that production:
+
+- **Script** — the written source for the entire production
+- **Acts** — major structural divisions of the story
+- **Scenes** — individual locations and time periods within Acts
+- **Beats** — the smallest narrative units, within Scenes
+- **Shots** — individual camera angles and clips, produced from Beats
+- **Cast** — Digital Actors assigned to character roles
+- **Sets** — environment designs used across scenes
+- **Timeline** — the assembled edit of all generated clips
+- **Generated Clips** — all video output produced during rendering
+
+## Creating a New Project
+
+1. Open your Organization from the top navigation
+2. Click **New Project**
+3. Enter a title
+4. Select format, aspect ratio, and target duration
+5. Optionally apply a Style Preset for visual consistency
+6. Click **Create Project**
+
+The Project opens to the Script view. From here you can paste in an existing script or begin writing one.
+
+## Team Collaboration on a Project
+
+All Organization members with Editor access or above can work on a Project simultaneously. ACT3 AI supports real-time collaborative editing of scripts, scene data, and shot parameters. Changes made by one team member appear for others without a page refresh.
+
+Access is controlled by Organization roles — you do not assign different roles per project. A member's Organization role applies to all Projects in the Organization. If you need to restrict a member to specific Projects, use the Viewer role for the Organization and grant elevated access per project through the Admin panel.
+
+## Project-Level Style Presets
+
+A Style Preset locks the visual look for an entire Project — lighting tone, color grade, mood, and cinematic style. Applying a preset at the Project level means every shot rendered in that Project uses the same visual foundation.
+
+You can override the preset at the individual shot level when a scene requires a different look, but the Project-level preset serves as the default.
+
+Style Presets created in one Project are available to all Projects in the Organization.
+
+## Locking a Project
+
+Once a production moves into final review or delivery, you can lock the Project to prevent accidental changes.
+
+1. Open **Project Settings**
+2. Click **Lock Project**
+3. Confirm the lock
+
+A locked Project is read-only for all Editors. Admins and the Owner can still unlock it. Locking does not prevent viewing or downloading content — it only blocks edits.
+
+## Version History
+
+ACT3 AI maintains a version history at the Project level. Every significant edit — script changes, scene additions, cast reassignments — is logged with a timestamp and the name of the team member who made the change.
+
+To review version history:
+
+1. Open **Project Settings**
+2. Go to the **History** tab
+3. Browse the log of changes
+4. Click any version to preview what the Project looked like at that point
+5. Click **Restore** to roll back to that version
+
+Restoring a previous version does not delete the current state — the current version is saved as a history entry before the restore completes, so you can roll forward again if needed.
+
+## Archiving and Restoring Projects
+
+Projects that are complete or inactive can be archived to keep the Organization workspace clean without permanently deleting anything.
+
+**To archive a Project:**
+1. Open the Project list in your Organization
+2. Click the three-dot menu on the Project
+3. Select **Archive**
+
+Archived Projects are hidden from the main Project list but remain fully accessible from the **Archived** tab. All content, clips, and history are preserved.
+
+**To restore an archived Project:**
+1. Go to the **Archived** tab in your Organization
+2. Find the Project
+3. Click **Restore**
+
+The Project returns to the active Project list with all content intact.
+
+## For TV Series and Episodic Projects
+
+When producing a series, create one Project per episode and use a naming convention that groups them clearly — for example: "Dark Signal S01E01," "Dark Signal S01E02," and so on.
+
+Digital Actors and Set Templates defined in any Project are accessible from all Projects in the Organization, so your cast and environments stay consistent across episodes without duplication. Apply the same Style Preset to all episode Projects to lock in a consistent visual identity for the series.
+
+## Related
+
+- [Organizations](/features/organization)
+- [Acts](/concepts/acts)
+- [Scenes](/concepts/scenes)
+- [Collaboration](/features/collaboration)

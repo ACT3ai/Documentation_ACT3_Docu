@@ -1,0 +1,130 @@
+---
+id: costumes
+title: Costume Design
+sidebar_label: Costume Design
+description: Manage character wardrobe, create outfit variants, assign costumes to scenes, and maintain costume continuity across your production in ACT3 AI.
+---
+
+# Costume Design
+
+Costume Design in ACT3 AI controls what your characters wear — their complete outfit, accessories, period-specific garments, and how their wardrobe changes across scenes. The wardrobe system is separate from a Digital Actor's base appearance, which means you can dress the same actor differently for different scenes without duplicating the actor profile.
+
+## What Costume Design Does
+
+The costume system handles three things: creating and describing clothing items, assigning outfits to specific scenes, and ensuring a character wears the same thing consistently across all shots in a scene unless you tell it otherwise.
+
+When you assign a costume to a scene, every shot in that scene renders the character in that costume. If a character changes clothes between scenes — say, from a business suit to formal evening wear — you assign a different outfit variant to the later scene. The system flags inconsistencies so wardrobe mistakes do not slip into your final output.
+
+## The Wardrobe Panel
+
+The Wardrobe Panel lives inside each Digital Actor's profile. To open it:
+
+1. Go to the Actor Library from the sidebar
+2. Open any Digital Actor
+3. Click the **Wardrobe** tab
+
+From here you can see all outfit variants defined for that actor, create new outfits, edit existing ones, and review where each outfit is currently assigned across the project.
+
+## Creating Outfit Variants
+
+Each costume is an outfit variant — a named set of clothing items attached to a specific actor profile.
+
+1. Open the actor in the Actor Library and go to the **Wardrobe** tab
+2. Click **Add Outfit**
+3. Give the outfit a clear, descriptive name — for example: "Evening Party," "Working in Office," "Battle Armor," "1920s Street Clothes"
+4. Describe the clothing in the description field: garment type, style, color, material, era, and any accessories
+5. Add accessories separately if needed (hat, jewelry, weapons, bags)
+6. Optionally upload a reference image showing the intended look
+7. Click **Save Outfit**
+
+You can create as many outfit variants as the character needs. There is no limit.
+
+**Example outfit description:**
+> Navy wool double-breasted suit, white dress shirt, burgundy pocket square, black Oxford shoes. No tie. Mid-1940s cut.
+
+Specific, textured descriptions produce more consistent results across shots than generic ones like "nice suit."
+
+## Scene-Level Costume Assignment
+
+Once outfit variants exist, you assign them at the scene level.
+
+1. Open a Scene in the editor
+2. Go to the **Costumes** panel in the right sidebar
+3. For each character in the scene, select an outfit variant from the dropdown
+4. Click **Apply to Scene**
+
+The assigned costume now applies to every shot in that scene. If a shot inside the scene needs a different costume — a torn jacket, a jacket removed — you can override it at the shot level from the same panel.
+
+## AI-Assisted Dressing
+
+If you do not want to manually describe outfits from scratch, use AI Auto-Dress.
+
+1. Open the Wardrobe tab for an actor
+2. Click **AI Suggest Wardrobe**
+3. The AI reads the character description, the script context, the scene mood, and the production's period setting
+4. It proposes one or more outfit suggestions with full descriptions
+5. Review the suggestions, edit if needed, and save the ones you want
+
+AI Auto-Dress is useful when you are working quickly, handling background characters, or do not have a specific costume vision yet. It produces a reasonable starting point you can refine.
+
+## Continuity Across Scenes
+
+Costume continuity means a character wears the same outfit consistently across all shots in a scene, and that adjacent scenes do not show the character wearing something that conflicts with the story timeline.
+
+ACT3 AI enforces continuity automatically once a costume is assigned. If you assign "Evening Gown" to a cocktail party scene, all shots in that scene render the character in that gown. You do not need to re-specify it shot by shot.
+
+**Wardrobe Conflict Detection** alerts you when the same character appears in adjacent scenes wearing outfits that do not make narrative sense together — for example, the character arrives at the party in street clothes but appears in the next scene in the gown with no scene transition to account for the change. The system flags the conflict in the Continuity panel so you can resolve it before rendering.
+
+To resolve a conflict:
+
+1. Open the Continuity panel from the sidebar
+2. Review flagged costume inconsistencies
+3. Either reassign the correct outfit to the conflicting scene or add a transitional scene that accounts for the change
+4. Clear the flag once resolved
+
+## Period and Fantasy Costumes
+
+ACT3 AI handles historical, fantasy, science fiction, and genre-specific costuming the same way as contemporary clothing. Describe the period or setting explicitly in the outfit description.
+
+**Examples:**
+
+- "Imperial Roman centurion armor — segmented lorica segmentata breastplate, red wool tunic, crested bronze helmet, leather sandals"
+- "Far-future utility suit — matte graphite gray, form-fitting, subtle bioluminescent trim at the collar and cuffs, no visible seams"
+- "Tudor-era noblewoman — crimson velvet gown with gold embroidery, wide sleeves, pearl-studded headdress"
+
+The more specific the description, the more consistently the AI renders the costume across shots.
+
+## Exporting Costume Sheets
+
+You can export a costume reference sheet for any actor — a document listing all outfit variants, their descriptions, and reference images if uploaded. This is useful for sharing with collaborators, maintaining production records, or briefing a human costume designer working alongside the AI pipeline.
+
+1. Open the actor in the Actor Library
+2. Go to the **Wardrobe** tab
+3. Click **Export Costume Sheet**
+4. Choose the format: PDF or Markdown
+5. Download the file
+
+The exported sheet includes all outfit variants, scene assignments, and any reference images attached to each outfit.
+
+## Troubleshooting
+
+**Character renders in the wrong costume.**
+Check that the correct outfit variant is assigned to the scene, not just defined in the wardrobe tab. An outfit must be assigned to a scene to take effect. Open the scene's Costumes panel and verify the assignment.
+
+**AI Auto-Dress produces generic or period-incorrect outfits.**
+Add more detail to the character description and the script context before running AI Auto-Dress. If the character description does not mention a time period or setting, the AI defaults to contemporary clothing.
+
+**Wardrobe Conflict Detection fires incorrectly.**
+Conflict detection looks at chronological scene order. If your scene order in the timeline does not match the narrative chronology (for example, you are cutting between non-linear timelines), disable conflict detection for specific scenes from the Continuity panel settings.
+
+**Costume is not visible on a character in Top-Down View.**
+Top-Down View shows costume icons for assigned outfits. If the icon is missing, the actor does not have a costume assigned to that scene yet. Assign one from the Costumes panel.
+
+**Accessories are not rendering on the character.**
+Accessories defined in the outfit description sometimes require a separate line in the description to register. List each accessory on its own line or in a comma-separated list at the end of the description.
+
+## Related
+
+- [Actors](/features/actors)
+- [Sets](/features/sets)
+- [Shots](/concepts/shots)

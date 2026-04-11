@@ -1,0 +1,178 @@
+---
+id: story-arc
+title: Story Arc
+sidebar_label: Story Arc
+description: Plan, develop, and track the narrative shape of your production using the Story Arc system in ACT3 AI.
+---
+
+# Story Arc
+
+The Story Arc system is ACT3 AI's narrative planning and management tool. It gives you a dedicated space to develop the structural shape of your story — independent of the line-by-line script, but directly connected to it. When you edit scenes or shots in the Editor, Story Arc panels update to reflect your position in the narrative timeline, keeping the big picture visible while you work on individual moments.
+
+## What Story Arc Is
+
+Most video production tools focus on assembly — putting clips together. Story Arc focuses on the narrative foundation that makes the assembly meaningful. It answers questions like: Where does the tension peak? What is this character's emotional journey? How do the subplots intersect? Are the major turning points structurally sound?
+
+Story Arc is not a replacement for the script. It is the layer above the script that tracks how the story develops and where it is going.
+
+Access Story Arc from the left-hand navigation bar. It is available in any Project.
+
+## The Story Arc Timeline
+
+The Story Arc Timeline View is a horizontal visual display of the entire production measured in minutes. Each story layer appears as a horizontal track running left to right, with markers indicating key moments at specific points in the runtime.
+
+The timeline shows at a glance:
+
+- Where the story peaks and valleys sit across the full runtime
+- Which acts contain the most narrative density
+- Where character arcs rise, plateau, and resolve
+- How subplots overlap and intersect with the main plot
+- Where turning points cluster or where the story is thin
+
+Zoom in and out on the timeline to work at different levels of detail — from a high-level act view down to individual scenes.
+
+## Story Layers
+
+Story layers are the different tracks that run across the timeline. Each layer type captures a different aspect of the narrative.
+
+**Collapsible Layer Groups:**
+
+- **Character Arcs** — One track per character showing their emotional and situational journey
+- **Plot Points** — Key events that drive the main story forward
+- **Themes** — Recurring ideas, motifs, or questions the story explores
+- **Subplots** — Secondary storylines that run alongside the main plot
+- **Tone/Mood** — The emotional register of the story at each point in time
+
+Collapse any layer group to focus on what matters for your current task. Expand all layers to see the full picture.
+
+Story layers are informational planning tools — they do not directly generate shots. They shape the AI's understanding of the story when you run AI generation tasks.
+
+## Profound Arcs
+
+Profound Arcs are structural anchors — the major reveals, confrontations, and turning points that define the narrative. Think of them as the load-bearing moments the story is built toward.
+
+Where a regular plot point might be "the detective arrives at the crime scene," a Profound Arc is "the detective realizes his partner is the killer." The distinction matters because the AI uses Profound Arcs as high-priority structural targets when generating or suggesting story content.
+
+**To define a Profound Arc:**
+
+1. Click **Add Profound Arc** in the Story Arc panel
+2. Position it on the timeline at the appropriate minute mark
+3. Describe the arc: what happens, why it matters structurally, and what it resolves or opens up
+4. Tag it as a specific arc type: Revelation, Confrontation, Climax, Resolution, or Turn
+
+Once defined, Profound Arcs appear as highlighted markers across all story layers, making them easy to reference when planning surrounding scenes.
+
+## Dependency Graph
+
+The Dependency Graph lets you define causal relationships between story elements — "this beat must happen after that event" or "this scene only makes sense if the audience has already seen that scene."
+
+When story elements have defined dependencies, the system tracks them automatically. If you reorder scenes or move story elements in the timeline, ACT3 AI checks whether the move would violate any defined dependencies and alerts you before the change takes effect.
+
+**Setting a dependency:**
+
+1. Open a story element (plot point, beat, or scene)
+2. Click **Dependencies**
+3. Search for and select the element it depends on
+4. Choose the relationship type: Must Follow, Cannot Precede, or Must Accompany
+
+The Dependency Graph visualization shows all relationships as a directed graph. Use it to audit the logical structure of your story before you begin rendering.
+
+## AI Ideation
+
+The AI Ideation panel is a dedicated space for generating narrative suggestions. This is separate from the script editor — it is for developing the story at a structural level.
+
+Use AI Ideation to:
+
+- Generate story twist options at specific points in the narrative
+- Identify weak or thin story sections and get suggestions to strengthen them
+- Develop character motivations in more depth
+- Explore escalation paths — ways to raise the stakes from the current point
+- Brainstorm subplot additions that reinforce the main theme
+
+**To run AI Ideation:**
+
+1. Open the **Ideas by AI** section in the Story Arc panel
+2. Select the area of the story you want to develop (you can select a specific scene range on the timeline or leave it open-ended)
+3. Choose the type of suggestion: Twist, Escalation, Character Depth, Theme Reinforcement, or Subplot
+4. Click **Generate Ideas**
+
+ACT3 AI returns a set of suggestions. Each suggestion shows the proposed story element and where it would fit in the timeline. Accept any suggestion to add it to your Story Arc as a working element. Accepted suggestions are tracked separately from your confirmed story content until you approve them.
+
+## Story Factor Abstractions
+
+Story Factor Abstractions are reusable story building blocks — templates for recurring narrative devices, character goal types, thematic frameworks, and plot structures.
+
+Examples:
+
+- The Reluctant Hero who must accept responsibility before the story can resolve
+- The Dramatic Irony where the audience knows something the protagonist does not
+- The False Resolution — a moment of apparent success before the real conflict arrives
+
+Create a Story Factor Abstraction once and apply it to multiple projects or episodes. This is especially useful for series, where recurring character dynamics and thematic patterns repeat across episodes with variation.
+
+## Character Timeline View
+
+The Character Timeline View shows one character's complete journey across the entire production — and optionally across multiple episodes or seasons.
+
+To open it:
+
+1. Click **Character Timeline** in the Story Arc panel
+2. Select a character from the dropdown
+
+The view shows a single horizontal track for that character, with markers for every scene they appear in, the emotional beat they carry in each scene, and how their arc progresses. You can see at a glance where a character's presence is dense and where they disappear from the story for long stretches.
+
+For series work, the character timeline can span multiple Projects in the same Organization, giving you a continuous arc view across a whole season.
+
+## Working with the AI
+
+### The Automated Calculation Engine
+
+ACT3 AI runs an automated calculation engine whenever you make significant changes to the script or story arc. The engine processes defined dependencies, checks structural consistency, and prepares updated context for AI generation tasks. It runs in the background without interrupting your work.
+
+When the engine detects a structural issue — a dependency violated, a Profound Arc left unresolved, a character arc that plateaus with no resolution — it surfaces a notification in the Story Arc panel.
+
+### Human vs. AI Script Versioning
+
+ACT3 AI maintains two parallel tracks for your story content:
+
+- **Accepted Version** — the current human-approved state of the story
+- **AI-Recommended Version** — the AI's suggested adjustments, waiting for your review
+
+You always work in the Accepted Version. AI suggestions appear in a separate column. You can compare them side by side, accept individual suggestions, or dismiss them. This ensures you remain in control of the story even when using AI suggestions heavily.
+
+### One-Click AI Run
+
+Click **Run AI Summary View** to open a pre-flight panel that lists all the AI tasks available for your current Story Arc state. Each task shows:
+
+- What the AI proposes to do (propose replacement beats, deepen character motivation, restructure a weak act, etc.)
+- Which story elements it will affect
+- The credit cost before you commit
+
+Review the task list, select the ones you want, and click **Run Selected**. The AI executes only the tasks you approved. Nothing changes in your Accepted Version until you review and accept the AI's output.
+
+## Story Arc and the Editor
+
+When you open a shot or scene in the Editor, the Story Arc context panel on the right side of the screen updates to show:
+
+- Where the current scene sits in the overall story arc timeline
+- The emotional register expected at this point in the story
+- Any Profound Arcs the current scene is building toward or resolving
+- The current character arc state for each character in the scene
+
+This context keeps your production decisions connected to the larger narrative, even when you are deep in individual shot work.
+
+## Best Practices
+
+- Define your Profound Arcs early — they anchor everything else and help the AI understand what the story is building toward.
+- Use the Dependency Graph before rendering any large batch of shots. Story structure inconsistencies are much cheaper to fix before renders are committed.
+- Run AI Ideation during development, not after the script is locked. The suggestions are most valuable when you still have room to incorporate them.
+- Keep the Character Timeline View open when editing scenes for a character-focused sequence. It prevents continuity gaps where a character's arc jumps forward without the scenes to support it.
+- Check the AI-Recommended Version after major script changes. The AI often identifies structural improvements that are easy to overlook from inside the writing process.
+- Use Story Factor Abstractions to maintain consistency across episodes of a series — define the series' core narrative templates once, then apply them per episode.
+
+## Related
+
+- [Acts](/concepts/acts)
+- [Beats](/concepts/beats)
+- [Scenes](/concepts/scenes)
+- [Script Editing](/features/script-editing)

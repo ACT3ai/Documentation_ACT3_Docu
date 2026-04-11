@@ -1,0 +1,143 @@
+---
+id: voice-casting
+title: Voice Casting
+sidebar_label: Voice Casting
+description: Select voices for digital actors, configure voice profiles, and manage the voice actor recording request workflow in ACT3 AI.
+---
+
+# Voice Casting
+
+Voice Casting is how you assign and manage the voices of your digital actors in ACT3 AI. Every digital actor has a voice profile that determines how they sound — their language, accent, pitch, pace, and emotional register. You can use built-in AI-generated voices, import a reference recording, or request recordings from real voice actors using the built-in request workflow.
+
+## Voice Profiles
+
+A voice profile is attached to each digital actor and applies to all text-to-speech (TTS) lines generated for that actor in every scene. A consistent voice profile means the same actor sounds the same throughout the production — in dialogue, narration, and reaction lines — unless you specifically override it for a scene.
+
+Voice profiles store:
+
+- Language and accent
+- Pitch and tone characteristics
+- Speaking pace
+- Emotional register (neutral, warm, cold, intense)
+- Any reference audio recordings used to shape the voice
+
+## Selecting a Voice
+
+Open a digital actor's profile in the Actor Library and go to the **Voice** tab to configure the voice profile.
+
+1. Open the Actor Library from the sidebar
+2. Open the digital actor you want to configure
+3. Click the **Voice** tab
+4. Browse the built-in AI voice options — they are organized by language, accent, gender, and age range
+5. Click **Preview** on any voice to hear it read sample lines
+6. Use the filter controls to narrow by: language, accent (regional, neutral, British, Southern US, and many others), gender expression, and age range (child, young adult, middle-aged, senior)
+7. Select the voice that fits the character's personality, role, and the tone of the production
+8. Optionally upload a reference audio recording — a short clip of a voice you want to match. ACT3 AI uses the reference to fine-tune the selected AI voice toward that sound.
+9. Click **Save Voice Profile**
+
+The selected voice now applies to all TTS lines generated for this actor. You can return to this tab at any time to update the voice.
+
+## What to Listen For When Choosing a Voice
+
+- **Pace** — Does the voice feel unhurried or driven? Match it to the character's energy.
+- **Register** — Higher voices often read as younger or more anxious. Lower voices often read as authoritative or calm.
+- **Warmth vs. edge** — Some voices have a natural warmth that works for protagonists and allies. Others carry a natural edge that suits antagonists or authority figures.
+- **Accent consistency** — If your production has characters from specific regions or backgrounds, match the accent to the character's origin rather than defaulting to neutral.
+
+Audition several voices reading the same line before committing. The difference between a good voice and the right voice often becomes clear when you hear the character's actual dialogue.
+
+## Voice Actor Request Workflow
+
+Non-voice team members — directors, writers, editors — can request real voice recordings from voice actors without leaving the platform. This workflow coordinates recording tasks, tracks progress, and integrates finished recordings directly into the timeline.
+
+### Submitting a Recording Request
+
+1. Open a scene or shot in the Editor
+2. Go to the **Cast** panel on the right side
+3. Find the character you need a recording for
+4. Click **Request Voice Recording**
+5. Confirm or write the line text
+6. Add context notes for the voice actor: scene description, emotional direction, character backstory notes, and any specific delivery guidance
+7. Set a deadline if the production schedule requires it
+8. Click **Submit Request**
+
+A task is created in the Voice Tasks inbox. The task is visible to all team members assigned the voice actor role in your Organization.
+
+### The Voice Tasks Inbox
+
+Voice actors in your Organization see their assigned tasks in the Voice Tasks inbox, accessible from the left-hand navigation.
+
+Each task shows:
+
+- Character name
+- Line text (what needs to be recorded)
+- Scene context — a brief description of the scene and the moment in the story
+- Emotional and delivery direction
+- Deadline
+- Status (Pending, In Progress, Submitted, Approved, Re-take Requested)
+
+Voice actors can see all tasks assigned to them and prioritize their recording work from this view.
+
+### Recording and Submitting
+
+Voice actors record their lines in two ways:
+
+**In-Browser Recording:**
+1. Open the task in the Voice Tasks inbox
+2. Click **Record**
+3. Record the line using the browser's microphone
+4. Review the recording by playing it back
+5. Re-record if needed
+6. Click **Submit** when satisfied
+
+**File Upload:**
+1. Open the task
+2. Click **Upload Recording**
+3. Select an audio file from your device (WAV or MP3)
+4. Preview the upload to confirm it is the correct file
+5. Click **Submit**
+
+Submitted recordings appear immediately in the Director's review queue.
+
+### Reviewing and Approving Recordings
+
+Directors and Admins review submitted recordings from the Voice Tasks panel.
+
+1. Open the Voice Tasks panel from the left-hand navigation
+2. Find tasks with **Submitted** status
+3. Play the recording in context — the review player shows the recording synchronized with the scene timeline
+4. Click **Approve** to accept the recording. It replaces the TTS placeholder in the timeline.
+5. Click **Request Re-take** to send it back to the voice actor
+
+When you request a re-take, you can add notes explaining what needs to change — delivery, pacing, emotional intensity, or a specific word emphasis. The voice actor receives a notification and sees your notes in the task.
+
+An approved recording replaces the TTS-generated audio for that line across all shots in the scene where that line appears.
+
+## Voice Library
+
+Approved recordings are stored in the Voice Library — a section of the Asset Library that holds finalized voice recordings for reuse.
+
+Once a recording is approved, it is available to use in other scenes or episodes without re-requesting it from the voice actor. This is useful for:
+
+- Recurring catchphrases or signature lines
+- Episode intros and outros
+- Narration lines that repeat across a series
+
+Access the Voice Library from **Assets → Voice Library** in the sidebar.
+
+## Tips for Voice Direction
+
+**Give the voice actor the scene context, not just the line.**
+"Say this line cheerfully" is much less useful than "This character just discovered something they have been searching for for twenty years — the line lands at a moment of pure relief mixed with disbelief."
+
+**Specify what the character is hiding.**
+If a character is trying not to show fear, telling the voice actor to play "controlled with a hint of tremor" is more actionable than "nervous but brave."
+
+**Reference a comparable tone rather than a comparable voice.**
+Rather than saying "sound like [another actor]," describe the emotional quality: "measured and cold, like someone who has made their decision and is past the point of doubt."
+
+## Related
+
+- [Actors](/features/actors)
+- [TTS and Audio](/features/tts)
+- [Collaboration](/features/collaboration)

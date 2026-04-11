@@ -1,0 +1,121 @@
+---
+id: organization
+title: Organizations
+sidebar_label: Organizations
+description: Understand the Organization workspace in ACT3 AI — the top-level container for projects, team members, credits, and shared assets.
+---
+
+# Organizations
+
+An Organization is the top-level workspace in ACT3 AI. Think of it as the equivalent of a company account or a studio workspace — everything in ACT3 AI lives inside an Organization. All projects, all team members, all credits, all shared assets, and all billing flow through the Organization.
+
+When you sign up for ACT3 AI, you are placed into an Organization automatically. You can be a member of multiple organizations — for example, one for your own projects and one for a client you collaborate with.
+
+## The Organization Hierarchy
+
+Everything in ACT3 AI is structured under the Organization:
+
+```
+Organization
+  └── Projects
+        └── Acts
+              └── Scenes
+                    └── Shots
+                          └── Generated Video
+```
+
+An Organization contains all your Projects. Each Project contains Acts, which contain Scenes, which contain Shots, which produce the generated video clips that make up your finished production.
+
+## Billing and Credits
+
+The credit card on file is attached to the Organization, not to individual users. Credit spending from all team members and all projects pools at the organization level.
+
+- All rendered shots, AI generation runs, and processing tasks draw from the organization's credit balance
+- Any team member with a role that permits rendering can spend organization credits
+- Admins can set per-project credit limits to control how much a specific project can spend
+- Budget alert thresholds are configurable — the Organization receives an email notification when spending crosses a defined threshold
+
+See [Credits](/account/credits) and [Billing](/account/billing) for detailed pricing and payment management.
+
+## Roles and Permissions
+
+Every Organization member has one of four roles:
+
+**Owner**
+Full control over everything. The Owner manages billing, can transfer Organization ownership to another member, and has the same permissions as Admin for all content. There is one Owner per Organization at a time.
+
+**Admin**
+Can manage team members (invite, remove, change roles) and has full access to create, edit, and delete all projects and content. Cannot manage billing or transfer ownership.
+
+**Editor**
+Can create and edit projects, scenes, shots, actors, and sets. Cannot manage team members or billing. Most active production team members use the Editor role.
+
+**Viewer**
+Read-only access to all content in the Organization. Useful for stakeholders, clients, or executives who need visibility without the ability to change anything.
+
+## Inviting Members
+
+1. Open **Organization Settings** from the top navigation
+2. Go to the **Members** tab
+3. Click **Invite Member**
+4. Enter the invitee's email address
+5. Select their role (Owner, Admin, Editor, Viewer)
+6. Click **Send Invite**
+
+The invitee receives an email with a link to join. They must create an ACT3 AI account if they do not already have one. Once they accept, they appear in the Members list and have immediate access based on their assigned role.
+
+To change a member's role, find them in the Members list and use the role dropdown. Changes take effect immediately.
+
+To remove a member, click the **Remove** button next to their name. Removed members lose access to all Organization content immediately.
+
+## Organization-Level Shared Assets
+
+Assets created or imported at the organization level are available across every project. Shared assets include:
+
+- **Actor Library** — Digital actors created in any project are accessible from every project in the organization
+- **Set Templates** — Saved set designs can be reused across multiple productions
+- **Style Presets** — Visual look presets (lighting, color grade, mood) shared across projects
+- **Script Templates** — Reusable script structures for recurring formats (series episodes, ad formats, etc.)
+
+This means a digital actor you create for one project is immediately available to cast in any other project in the same organization. You do not need to recreate assets for each production.
+
+## IP Ownership
+
+All content created within an Organization — scripts, generated video clips, actor profiles, set designs, and all derivatives — is owned by the Organization. Individual team members do not hold IP rights to content they create inside the Organization's workspace. This is relevant for agencies, studios, and any team where IP ownership needs to be clearly assigned to the entity rather than individuals.
+
+Review your subscription agreement for full terms on IP ownership and licensing.
+
+## Ownership Transfer
+
+Transferring Organization ownership moves full control (including billing access) from the current Owner to a new member.
+
+1. Open **Organization Settings** and go to the **Members** tab
+2. Click **Transfer Ownership** at the bottom of the page
+3. Select the member you want to transfer to
+4. Confirm the transfer — both the current Owner and the receiving member receive a confirmation email
+5. The receiving member must click the confirmation link in their email to complete the transfer
+
+Ownership transfer requires confirmation from both parties. It cannot be reversed without the new owner's participation.
+
+## Enterprise Features
+
+Enterprise-tier Organizations have access to additional controls:
+
+**SAML SSO**
+Connect your organization's identity provider (Okta, Azure AD, Google Workspace, or any SAML 2.0-compatible IdP) so team members log in with their existing company credentials. Manage user access from your IdP — when you deprovision a user there, their ACT3 AI access is revoked automatically.
+
+**Brand-Lock Controls**
+Enforce brand standards across all team output. Administrators can lock Style Presets (logo placement, color palette, typography overlays) so all generated content stays on-brand without requiring manual review of every project.
+
+**Audit Logs**
+A complete, time-stamped log of all member activity within the Organization: who rendered what, who edited which project, who invited or removed members, and when each action occurred. Useful for compliance, billing review, and tracking project-level accountability.
+
+**Per-Project Credit Limits**
+Set a maximum credit budget for each project. When a project hits its limit, rendering is paused and the Admin is notified. This prevents runaway spending on a single project.
+
+## Related
+
+- [Teams](/account/teams)
+- [Billing](/account/billing)
+- [Credits](/account/credits)
+- [Collaboration](/features/collaboration)
