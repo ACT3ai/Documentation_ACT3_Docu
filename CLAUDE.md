@@ -104,6 +104,33 @@ Top-level sections inside docs/:
 * Never talk down to experienced filmmakers; never leave newcomers lost
 
 
+== Link and Bullet Style — Use Link-as-Title Pattern ==
+
+GOOD pattern — the bullet title IS the hyperlink, followed by a colon and brief description:
+
+  - **[Set up a shot](/how-to/set-up-a-shot):** Choose from 22 shot types and set framing per shot.
+  - **[Set camera movement](/how-to/set-camera-movement):** Define pan, tilt, dolly, crane, or handheld motion.
+
+The sentence before such a list should include a phrase like "Tasks below link to the page for each step."
+or "Each item below links to the guide for that task."
+
+BAD pattern — do NOT use the arrow-link pattern below a paragraph:
+
+  ### Set camera movement
+  Define how the camera moves through the shot — static, pan, tilt, dolly...
+
+  → How to set camera movement
+
+The bad pattern is verbose and inflates page length. The good pattern keeps pages scannable.
+The bullet title (first few words) doubles as the hyperlink. If a section has a named heading,
+ask whether that heading itself could instead be a linked bullet item — it usually can.
+
+Numbered bullets follow the same rule when steps are sequential:
+
+  1. **[Import a script](/how-to/import-a-script):** Paste in a Final Draft export, PDF, or plain text.
+  2. **[Expand an idea into a script](/how-to/expand-idea-to-script):** Describe your story; AI builds the screenplay.
+
+
 == ACT3 AI Product Context ==
 
 === Core Workflow ===

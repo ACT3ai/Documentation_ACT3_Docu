@@ -1,7 +1,8 @@
 ---
 id: filmmaking-concepts-overview
+slug: filmmaking-concepts
 title: Filmmaking Concepts
-sidebar_label: Overview
+sidebar_label: Filmmaking Concepts
 description: Plain-English explanations of film industry terms used throughout ACT3 AI.
 ---
 
@@ -47,9 +48,9 @@ Every term above is a real element inside the editor, not just documentation voc
 
 These concepts have their own guides in the How To section where you can see exactly how they work inside the platform:
 
-- **Beat and Act structure** — [Work with Acts and Beats](/how-to/work-with-acts-and-beats) walks through adding, editing, and reordering the structural elements of your story.
-- **Shot setup** — [Set Up a Shot](/how-to/set-up-a-shot) covers every parameter on a shot: camera angle, lens, movement, and framing.
-- **Scene assembly** — [Assemble a Scene](/how-to/assemble-scene) shows how to arrange shots into a finished scene with cuts and transitions.
-- **Blocking** — [Block a Scene](/how-to/block-a-scene) explains how to use the top-down canvas to choreograph character positions and movement.
-- **Coverage planning** — [Plan Scene Coverage](/how-to/plan-scene-coverage) is a step-by-step guide to building a shot list that covers a scene from every necessary angle.
-- **Storyboard review** — [Review Shots in the Timeline](/how-to/review-shots-in-timeline) explains how to use the timeline to review your visual plan before committing to a render.
+- **[Work with Acts and Beats](/how-to/work-with-acts-and-beats):** Add, edit, and reorder the acts and beats that define your story's structure.
+- **[Set Up a Shot](/how-to/set-up-a-shot):** Every parameter on a shot — camera angle, lens, movement, and framing.
+- **[Assemble a Scene](/how-to/assemble-scene):** Arrange shots into a finished scene with cuts and transitions.
+- **[Block a Scene](/how-to/block-a-scene):** Use the top-down canvas to choreograph character positions and movement.
+- **[Plan Scene Coverage](/how-to/plan-scene-coverage):** Build a shot list that covers a scene from every necessary angle.
+- **[Review Shots in the Timeline](/how-to/review-shots-in-timeline):** Use the timeline to review your visual plan before committing to a render.
