@@ -7,9 +7,13 @@ description: Plain-English explanations of film industry terms used throughout A
 
 # Filmmaking Concepts
 
-ACT3 AI uses real film industry language. If you are new to filmmaking, this section explains what each term means and how it maps to something you will actually click on inside the product.
+ACT3 AI uses real film industry language throughout the platform. Terms like Beat, Shot, Scene, and Act appear on buttons, in menus, and across the editor. If you come from a filmmaking background, these terms are already second nature. If you do not, this section explains what each one means and why it matters.
 
-If you already know film vocabulary, skip ahead to the specific concept you need.
+Every term here maps directly to something you will click on inside ACT3 AI. Understanding the vocabulary is not academic — it helps you use the platform more effectively and communicate clearly with collaborators who do have film experience.
+
+If you already know film vocabulary, skip ahead to the specific concept you need or jump straight to the [How To guides](/how-to).
+
+---
 
 ## The core terms
 
@@ -23,6 +27,29 @@ If you already know film vocabulary, skip ahead to the specific concept you need
 | **Coverage** | The full set of angles shot to cover a scene | Your shot list for a scene |
 | **Storyboard** | A sequence of still images visualizing shots before filming | Automatically generated from your shot list |
 
-## Guides in this section
+---
 
-Each guide below goes deeper on one concept and shows exactly how it works inside ACT3 AI.
+## How ACT3 AI uses these terms
+
+Every term above is a real element inside the editor, not just documentation vocabulary:
+
+- **Beat** appears in the Story Arc view as individual story events you can drag, rewrite, or regenerate. The AI Calc Engine watches your beats and updates scenes automatically when a beat changes.
+- **Shot** is the unit you render, approve, regenerate, and export. The Shot Panel on the right side of the editor shows every controllable parameter for the selected shot.
+- **Scene** is a container for shots that share a set and a time in the story. In the Timeline, each scene appears as a horizontal band that expands to show its shots.
+- **Act** is the top-level grouping in the Story Arc. The Act dividers in the timeline show the three-act structure of your project and help you see pacing at a macro level.
+- **Blocking** is editable in the Top-Down Editor — a canvas view of your set where you drag characters into position and draw movement paths. What you draw here directly influences how the AI composes and frames each shot.
+- **Coverage** is addressed in the shot list. The [Plan Scene Coverage](/how-to/plan-scene-coverage) guide walks through choosing the angles that fully cover a scene — wide establishing shot, medium two-shots, close-ups, cutaways.
+- **Storyboard** is generated automatically from your shot list and appears as a panel in the editor. Each shot contributes one frame to the storyboard view, giving you a visual preview of the scene before you render full video.
+
+---
+
+## Go deeper
+
+These concepts have their own guides in the How To section where you can see exactly how they work inside the platform:
+
+- **Beat and Act structure** — [Work with Acts and Beats](/how-to/work-with-acts-and-beats) walks through adding, editing, and reordering the structural elements of your story.
+- **Shot setup** — [Set Up a Shot](/how-to/set-up-a-shot) covers every parameter on a shot: camera angle, lens, movement, and framing.
+- **Scene assembly** — [Assemble a Scene](/how-to/assemble-scene) shows how to arrange shots into a finished scene with cuts and transitions.
+- **Blocking** — [Block a Scene](/how-to/block-a-scene) explains how to use the top-down canvas to choreograph character positions and movement.
+- **Coverage planning** — [Plan Scene Coverage](/how-to/plan-scene-coverage) is a step-by-step guide to building a shot list that covers a scene from every necessary angle.
+- **Storyboard review** — [Review Shots in the Timeline](/how-to/review-shots-in-timeline) explains how to use the timeline to review your visual plan before committing to a render.
