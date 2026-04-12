@@ -1,5 +1,6 @@
 ---
 id: filmmakers-production
+slug: production
 title: Production
 sidebar_label: Production
 description: How to manage a production in ACT3 AI — organizing the project, managing renders, and coordinating a team.
@@ -24,37 +25,37 @@ Tasks are listed most common first.
 ### Organize your project hierarchy
 A well-structured project is easier to navigate and render in batches. Set up your Act → Scene → Shot hierarchy clearly from the start, and use tags to group related shots for bulk operations.
 
-→ [How to organize a project](/docs/how-to/organize-project)
+→ [How to organize a project](/how-to/organize-project)
 
 ### Manage the render queue
 Submit shots and scenes to the render queue, check progress, and prioritize what gets rendered first. The queue shows estimated credit cost before you commit.
 
-→ [How to manage the render queue](/docs/how-to/manage-render-queue)
+→ [How to manage the render queue](/how-to/manage-render-queue)
 
 ### Monitor credit usage
 Watch your credit balance in real time. Every generation shows its cost before you run it. Set up budget alerts so you're not surprised at the end of the month.
 
-→ [How to monitor and manage credits](/docs/how-to/monitor-credits)
+→ [How to monitor and manage credits](/how-to/monitor-credits)
 
 ### Invite collaborators and set permissions
 Add team members to the project. Assign each person the right role — Read, Modify, Run AI, Use Credits, Billing, or Owner — so everyone has access to exactly what they need.
 
-→ [How to invite team members](/docs/how-to/invite-team-members)
+→ [How to invite team members](/how-to/invite-team-members)
 
 ### Tag scenes and shots for batch rendering
 Use tags — "exterior scenes," "shots for review," "final approved" — to group shots so you can render all of them at once without selecting each manually.
 
-→ [How to tag shots for batch operations](/docs/how-to/tag-shots-for-batch)
+→ [How to tag shots for batch operations](/how-to/tag-shots-for-batch)
 
 ### Lock approved elements
 Once a scene or shot is approved, lock it so it can't be accidentally changed during the rest of production. Locks are visible to all team members.
 
-→ [How to lock approved elements](/docs/how-to/lock-approved-elements)
+→ [How to lock approved elements](/how-to/lock-approved-elements)
 
 ### Export deliverables
 Export finished scenes or the full film in the format needed — ProRes for DCP submission, MP4 for streaming, platform-specific formats for social. Exports are available from the render queue when shots are complete.
 
-→ [How to export for delivery](/docs/how-to/export-for-delivery)
+→ [How to export for delivery](/how-to/export-for-delivery)
 
 ---
 

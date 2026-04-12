@@ -1,5 +1,6 @@
 ---
 id: filmmakers-colorist
+slug: colorist
 title: Colorist
 sidebar_label: Colorist
 description: How to control the visual style, color grade, and tonal consistency of your film in ACT3 AI.
@@ -26,32 +27,32 @@ Tasks are listed most common first.
 ### Set the project's visual style
 Choose the base visual style — Cinematic Realism, 3D Animated, Cartoon 2D, or Anime — and define the color palette, contrast level, and overall mood that runs through the whole film.
 
-→ [How to set visual style](/docs/how-to/set-visual-style)
+→ [How to set visual style](/how-to/set-visual-style)
 
 ### Upload a color reference image
 A film still, a painting, or a color board that captures the exact look you want. Upload it as a style reference and the AI generates shots that match its color temperature, saturation, and contrast.
 
-→ [How to use visual reference images](/docs/how-to/use-visual-references)
+→ [How to use visual reference images](/how-to/use-visual-references)
 
 ### Set a different look for a specific scene
 Some scenes need a different color world — a flashback, a dream sequence, a scene that happens in a different location. Override the project style at the scene level.
 
-→ [How to set per-scene visual style](/docs/how-to/per-scene-style)
+→ [How to set per-scene visual style](/how-to/per-scene-style)
 
 ### Define lighting mood per scene
 Lighting is the biggest driver of color feel. Set the lighting mood — golden hour, overcast, interior tungsten, night exterior — and it changes the color temperature of everything in the scene.
 
-→ [How to set up scene lighting](/docs/how-to/set-up-lighting)
+→ [How to set up scene lighting](/how-to/set-up-lighting)
 
 ### Check visual consistency across scenes
 Review scenes side by side to make sure the color world is consistent. Scenes from the same location should feel like they belong together.
 
-→ [How to review visual consistency](/docs/how-to/review-visual-consistency)
+→ [How to review visual consistency](/how-to/review-visual-consistency)
 
 ### Export for grading in DaVinci Resolve
 When you want to do a full professional grade after the AI renders are complete, export your cut as ProRes and bring it into DaVinci Resolve. The AI-rendered look is your starting point, not your ceiling.
 
-→ [How to export for DaVinci Resolve](/docs/how-to/export-for-delivery)
+→ [How to export for DaVinci Resolve](/how-to/export-for-delivery)
 
 ---
 

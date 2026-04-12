@@ -9,7 +9,7 @@ description: Step-by-step task guides for getting specific things done in ACT3 A
 
 Quick task-focused guides for getting specific things done. Each guide assumes you already have an account and a project open.
 
-Looking for a deeper explanation of how things work? See [Core Concepts](/docs/concepts) or [Filmmaking Concepts](/docs/filmmaking-concepts).
+Looking for a deeper explanation of how things work? See [Core Concepts](/filmmaking-concepts) or [Filmmaking Concepts](/filmmaking-concepts).
 
 ## What's in this section
 
@@ -24,4 +24,4 @@ Looking for a deeper explanation of how things work? See [Core Concepts](/docs/c
 - Managing credits and watching your balance
 - Inviting a collaborator to your project
 
-More guides are added regularly. If you can't find what you need, check the [FAQ](/docs/faq).
+More guides are added regularly. If you can't find what you need, check the [FAQ](/faq/general).

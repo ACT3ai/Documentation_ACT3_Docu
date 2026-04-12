@@ -1,5 +1,6 @@
 ---
 id: how-to-set-visual-style
+slug: set-visual-style
 title: How to Set Visual Style
 sidebar_label: Set Visual Style
 description: How to define the overall look, color palette, and visual tone of a project in ACT3 AI.
@@ -37,6 +38,6 @@ Visual style is set at the project level and flows through to every shot. You ca
 
 ## Next steps
 
-- [Use visual reference images](/docs/how-to/use-visual-references) for scene or shot-level style guidance
-- [Set up scene lighting](/docs/how-to/set-up-lighting) which works with the visual style setting
-- [Set per-scene style override](/docs/how-to/per-scene-style) for scenes that need a different look
+- [Use visual reference images](/how-to/use-visual-references) for scene or shot-level style guidance
+- [Set up scene lighting](/how-to/set-up-lighting) which works with the visual style setting
+- [Set per-scene style override](/how-to/per-scene-style) for scenes that need a different look

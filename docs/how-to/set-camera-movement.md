@@ -1,5 +1,6 @@
 ---
 id: how-to-set-camera-movement
+slug: set-camera-movement
 title: How to Set Camera Movement
 sidebar_label: Set Camera Movement
 description: How to define how the camera moves through a shot in ACT3 AI.
@@ -40,6 +41,6 @@ Camera movement is one of the most expressive tools in cinematography. In ACT3 A
 
 ## Next steps
 
-- [Set up a shot](/docs/how-to/set-up-a-shot) for the full shot setup process
-- [Place a camera in the top-down editor](/docs/how-to/place-camera-top-down) for spatial placement
-- [Set up scene lighting](/docs/how-to/set-up-lighting)
+- [Set up a shot](/how-to/set-up-a-shot) for the full shot setup process
+- [Place a camera in the top-down editor](/how-to/place-camera-top-down) for spatial placement
+- [Set up scene lighting](/how-to/set-up-lighting)

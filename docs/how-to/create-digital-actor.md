@@ -1,5 +1,6 @@
 ---
 id: how-to-create-digital-actor
+slug: create-digital-actor
 title: How to Create a Digital Actor
 sidebar_label: Create a Digital Actor
 description: How to build a character in ACT3 AI — appearance, voice, and motion — so they render consistently across every shot.
@@ -25,7 +26,7 @@ A digital actor is created once and can be used in any project. Their look, voic
 
 5. **Upload a reference photo (optional but recommended).** If you have a photo of a real person, an actor, or a character illustration that captures the look you want, upload it. The AI uses it alongside the text description.
 
-6. **Define the base wardrobe.** Describe what the character wears by default. This is their costume unless a scene overrides it. See [How to define a character's costume](/docs/how-to/define-character-costume).
+6. **Define the base wardrobe.** Describe what the character wears by default. This is their costume unless a scene overrides it. See [How to define a character's costume](/how-to/define-character-costume).
 
 7. **Assign a voice.** Go to the Voice tab. Choose from the TTS voice library — select by gender, age range, accent, and tone. Play samples to find the right match.
 
@@ -35,6 +36,6 @@ A digital actor is created once and can be used in any project. Their look, voic
 
 ## Next steps
 
-- [Cast an actor in a scene](/docs/how-to/cast-actor-in-scene)
-- [Add motion capture to an actor](/docs/how-to/add-mocap-to-actor)
-- [Define a character's costume](/docs/how-to/define-character-costume)
+- [Cast an actor in a scene](/how-to/cast-actor-in-scene)
+- [Add motion capture to an actor](/how-to/add-mocap-to-actor)
+- [Define a character's costume](/how-to/define-character-costume)

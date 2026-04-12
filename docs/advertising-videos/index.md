@@ -25,7 +25,7 @@ Advertising video has the highest cost-per-second in the industry — and the hi
 
 ## What's in this section
 
-- [Product Item Video](/docs/advertising-videos/product-item-video) — Show a specific product in its best light
-- [30-Second TV Spot](/docs/advertising-videos/thirty-second-spot) — Commercial storytelling in 30 seconds
-- [Paid Social Ad Campaign](/docs/advertising-videos/paid-social-campaign) — Multiple ad variants for A/B testing
-- [Brand Campaign Series](/docs/advertising-videos/brand-campaign-series) — A connected series of ads sharing a visual world
+- [Product Item Video](/advertising-videos/product-item-video) — Show a specific product in its best light
+- [30-Second TV Spot](/advertising-videos/thirty-second-spot) — Commercial storytelling in 30 seconds
+- [Paid Social Ad Campaign](/advertising-videos/paid-social-campaign) — Multiple ad variants for A/B testing
+- [Brand Campaign Series](/advertising-videos/brand-campaign-series) — A connected series of ads sharing a visual world

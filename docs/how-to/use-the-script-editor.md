@@ -1,5 +1,6 @@
 ---
 id: how-to-use-the-script-editor
+slug: use-the-script-editor
 title: How to Use the Script Editor
 sidebar_label: Use the Script Editor
 description: How to write and edit scripts directly in ACT3 AI using the built-in screenplay editor.
@@ -33,6 +34,6 @@ The script editor behaves like a light version of Final Draft. It understands sc
 
 ## Next steps
 
-- [Expand an idea into a full script](/docs/how-to/expand-idea-to-script) if you're starting from rough material
-- [Work with acts and beats](/docs/how-to/work-with-acts-and-beats) to reshape the story structure
-- [Import a script](/docs/how-to/import-a-script) if you prefer to keep writing in Final Draft and bring it in
+- [Expand an idea into a full script](/how-to/expand-idea-to-script) if you're starting from rough material
+- [Work with acts and beats](/how-to/work-with-acts-and-beats) to reshape the story structure
+- [Import a script](/how-to/import-a-script) if you prefer to keep writing in Final Draft and bring it in

@@ -1,5 +1,6 @@
 ---
 id: how-to-regenerate-a-shot
+slug: regenerate-a-shot
 title: How to Regenerate a Shot
 sidebar_label: Regenerate a Shot
 description: How to adjust and re-render a shot in ACT3 AI when the first result isn't what you wanted.
@@ -46,6 +47,6 @@ Shot regeneration is one of the most common actions in ACT3 AI. The AI rarely na
 
 ## Next steps
 
-- [Set up a shot](/docs/how-to/set-up-a-shot) for the full shot setup process
-- [Set camera movement](/docs/how-to/set-camera-movement) if movement is the issue
-- [Set up scene lighting](/docs/how-to/set-up-lighting) if lighting is the issue
+- [Set up a shot](/how-to/set-up-a-shot) for the full shot setup process
+- [Set camera movement](/how-to/set-camera-movement) if movement is the issue
+- [Set up scene lighting](/how-to/set-up-lighting) if lighting is the issue

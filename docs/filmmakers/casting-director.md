@@ -1,5 +1,6 @@
 ---
 id: filmmakers-casting-director
+slug: casting-director
 title: Casting Director
 sidebar_label: Casting Director
 description: How to create digital actors, build a cast, and assign characters to roles in ACT3 AI.
@@ -24,37 +25,37 @@ Tasks are listed most common first.
 ### Create a new digital actor
 Build a character from scratch using text description, reference photos, or a combination. Define their appearance, age, physical build, and default wardrobe.
 
-→ [How to create a digital actor](/docs/how-to/create-digital-actor)
+→ [How to create a digital actor](/how-to/create-digital-actor)
 
 ### Cast an actor into a scene
 Assign a digital actor to a character name in the script. From that point on, every shot that references that character uses that actor.
 
-→ [How to cast an actor in a scene](/docs/how-to/cast-actor-in-scene)
+→ [How to cast an actor in a scene](/how-to/cast-actor-in-scene)
 
 ### Manage your cast list
 View all actors across a project, see which scenes they appear in, and make bulk updates across all their appearances from one place.
 
-→ [How to manage your cast list](/docs/how-to/manage-cast-list)
+→ [How to manage your cast list](/how-to/manage-cast-list)
 
 ### Adjust an actor's appearance for a scene
 Characters change over time — aging, wardrobe changes, injuries. You can define per-scene appearance overrides for an actor without changing their base definition.
 
-→ [How to modify actor appearance per scene](/docs/how-to/per-scene-actor-appearance)
+→ [How to modify actor appearance per scene](/how-to/per-scene-actor-appearance)
 
 ### Add motion capture to an actor
 Bring performance data from iPhone motion capture or uploaded mocap files into an actor. The motion drives body movement and facial animation in the rendered shot.
 
-→ [How to add motion capture to an actor](/docs/how-to/add-mocap-to-actor)
+→ [How to add motion capture to an actor](/how-to/add-mocap-to-actor)
 
 ### Maintain visual consistency across scenes
 Review continuity — same hair, costume, and physical characteristics across every shot. The character panel shows consistency status and flags differences.
 
-→ [How to check actor consistency](/docs/how-to/check-actor-consistency)
+→ [How to check actor consistency](/how-to/check-actor-consistency)
 
 ### Create an ensemble or crowd
 For scenes needing background actors or large groups, create generalized "extra" characters with varied appearances and place them in bulk in the top-down editor.
 
-→ [How to add background actors](/docs/how-to/add-background-actors)
+→ [How to add background actors](/how-to/add-background-actors)
 
 ---
 

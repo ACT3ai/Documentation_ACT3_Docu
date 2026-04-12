@@ -1,5 +1,6 @@
 ---
 id: how-to-cast-actor-in-scene
+slug: cast-actor-in-scene
 title: How to Cast an Actor in a Scene
 sidebar_label: Cast an Actor in a Scene
 description: How to assign a digital actor to a character name in a scene so they appear in the rendered shots.
@@ -31,6 +32,6 @@ description: How to assign a digital actor to a character name in a scene so the
 
 ## Next steps
 
-- [Create a digital actor](/docs/how-to/create-digital-actor) if you haven't built the actor yet
-- [Set up a shot](/docs/how-to/set-up-a-shot) to render the scene
-- [Check actor consistency](/docs/how-to/check-actor-consistency) across scenes
+- [Create a digital actor](/how-to/create-digital-actor) if you haven't built the actor yet
+- [Set up a shot](/how-to/set-up-a-shot) to render the scene
+- [Check actor consistency](/how-to/check-actor-consistency) across scenes

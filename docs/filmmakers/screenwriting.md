@@ -1,5 +1,6 @@
 ---
 id: filmmakers-screenwriting
+slug: screenwriting
 title: Screenwriting
 sidebar_label: Screenwriting
 description: How to write, import, and develop scripts in ACT3 AI — from first draft to locked production script.
@@ -24,37 +25,37 @@ Tasks are listed most common first.
 ### Import a finished script
 If your script is written in Final Draft or as a PDF, bring it directly into ACT3 AI. The importer reads scene headings, action lines, dialogue, and character cues and converts them into a structured project.
 
-→ [How to import a script](/docs/how-to/import-a-script)
+→ [How to import a script](/how-to/import-a-script)
 
 ### Write or edit in the script editor
 The built-in editor formats like Final Draft — type a scene heading and it auto-formats, type a character name and it drops you into dialogue. You can also paste in raw text and reformat it.
 
-→ [How to use the script editor](/docs/how-to/use-the-script-editor)
+→ [How to use the script editor](/how-to/use-the-script-editor)
 
 ### Use AI to expand an idea into a full script
 Start with a logline or a paragraph description. The AI builds out acts, beats, scenes, and dialogue. You review each level and approve or rewrite before moving to the next.
 
-→ [How to expand an idea into a script](/docs/how-to/expand-idea-to-script)
+→ [How to expand an idea into a script](/how-to/expand-idea-to-script)
 
 ### Work with acts and beats
 The Story Arc panel shows your narrative structure visually. You can drag beats to reorder them, add new ones, or mark major turning points as "Profound Arcs" that the AI builds toward.
 
-→ [How to work with acts and beats](/docs/how-to/work-with-acts-and-beats)
+→ [How to work with acts and beats](/how-to/work-with-acts-and-beats)
 
 ### Compare AI-generated script with your own version
 ACT3 AI keeps a "human-approved" version and an "AI-recommended" version side by side. You can accept lines, scenes, or whole sections from the AI draft with one click.
 
-→ [How to compare script versions](/docs/how-to/compare-script-versions)
+→ [How to compare script versions](/how-to/compare-script-versions)
 
 ### Export back to Final Draft
 When you want to continue revisions in Final Draft, export from ACT3 AI and re-import when ready. The round trip is designed to keep your existing tools working alongside the platform.
 
-→ [How to export a script to Final Draft](/docs/how-to/export-script)
+→ [How to export a script to Final Draft](/how-to/export-script)
 
 ### Set up characters in the script
 Each speaking character in the script should be linked to a digital actor. The casting system connects script characters to the actors who will appear in the rendered shots.
 
-→ [How to link script characters to actors](/docs/how-to/link-characters-to-actors)
+→ [How to link script characters to actors](/how-to/link-characters-to-actors)
 
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: how-to-set-up-lighting
+slug: set-up-lighting
 title: How to Set Up Scene Lighting
 sidebar_label: Set Up Lighting
 description: How to define the lighting mood for a scene in ACT3 AI so every shot has consistent, intentional light.
@@ -43,6 +44,6 @@ Lighting is defined at the scene level. All shots in the scene inherit it. You c
 
 ## Next steps
 
-- [Set up a shot](/docs/how-to/set-up-a-shot) once lighting is defined
-- [Use visual reference images](/docs/how-to/use-visual-references) for more precise style control
-- [Set visual style](/docs/how-to/set-visual-style) for project-wide color and tone
+- [Set up a shot](/how-to/set-up-a-shot) once lighting is defined
+- [Use visual reference images](/how-to/use-visual-references) for more precise style control
+- [Set visual style](/how-to/set-visual-style) for project-wide color and tone

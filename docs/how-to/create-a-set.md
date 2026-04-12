@@ -1,5 +1,6 @@
 ---
 id: how-to-create-a-set
+slug: create-a-set
 title: How to Create a Set
 sidebar_label: Create a Set
 description: How to build a virtual location in ACT3 AI using text description, reference images, or procedural generation.
@@ -39,6 +40,6 @@ A set is created once and can be linked to any number of scenes. Change the set 
 
 ## Next steps
 
-- [Use the top-down set editor](/docs/how-to/top-down-set-editor) to place characters and cameras
-- [Link a set to scenes](/docs/how-to/link-set-to-scenes)
-- [Sync a Blender set](/docs/how-to/blender-set-sync) for professional 3D environments
+- [Use the top-down set editor](/how-to/top-down-set-editor) to place characters and cameras
+- [Link a set to scenes](/how-to/link-set-to-scenes)
+- [Sync a Blender set](/how-to/blender-set-sync) for professional 3D environments

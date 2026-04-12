@@ -1,5 +1,6 @@
 ---
 id: how-to-export-for-delivery
+slug: export-for-delivery
 title: How to Export for Delivery
 sidebar_label: Export for Delivery
 description: How to export your finished film from ACT3 AI in the right format for your platform or post-production workflow.
@@ -60,5 +61,5 @@ description: How to export your finished film from ACT3 AI in the right format f
 
 ## Next steps
 
-- [Manage the render queue](/docs/how-to/manage-render-queue) to batch-render before export
-- [Adjust shot timing](/docs/how-to/adjust-shot-timing) before final export if pacing needs work
+- [Manage the render queue](/how-to/manage-render-queue) to batch-render before export
+- [Adjust shot timing](/how-to/adjust-shot-timing) before final export if pacing needs work

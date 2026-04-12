@@ -1,5 +1,6 @@
 ---
 id: how-to-import-a-script
+slug: import-a-script
 title: How to Import a Script
 sidebar_label: Import a Script
 description: Step-by-step guide to importing a Final Draft, PDF, or plain-text script into ACT3 AI.
@@ -33,6 +34,6 @@ ACT3 AI accepts Final Draft exports (`.fdx`), PDF scripts, and plain text. The i
 
 ## Next steps
 
-- [Use the script editor](/docs/how-to/use-the-script-editor) to make edits after importing
-- [Link script characters to actors](/docs/how-to/link-characters-to-actors) to connect cast to dialogue
-- [Set up a shot](/docs/how-to/set-up-a-shot) to start building your shot list
+- [Use the script editor](/how-to/use-the-script-editor) to make edits after importing
+- [Link script characters to actors](/how-to/link-characters-to-actors) to connect cast to dialogue
+- [Set up a shot](/how-to/set-up-a-shot) to start building your shot list

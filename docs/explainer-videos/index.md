@@ -27,7 +27,7 @@ ACT3 AI is particularly well-suited to explainers because the platform handles v
 
 ## What's in this section
 
-- [How-It-Works Video](/docs/explainer-videos/how-it-works) — Explain how your product or process works
-- [Step-by-Step Process Video](/docs/explainer-videos/step-by-step-process) — Walk through a sequence of steps
-- [Concept Explainer](/docs/explainer-videos/concept-explainer) — Make an abstract idea visual and concrete
-- [Educational Series](/docs/explainer-videos/educational-series) — Multi-episode educational content built for retention
+- [How-It-Works Video](/explainer-videos/how-it-works) — Explain how your product or process works
+- [Step-by-Step Process Video](/explainer-videos/step-by-step-process) — Walk through a sequence of steps
+- [Concept Explainer](/explainer-videos/concept-explainer) — Make an abstract idea visual and concrete
+- [Educational Series](/explainer-videos/educational-series) — Multi-episode educational content built for retention

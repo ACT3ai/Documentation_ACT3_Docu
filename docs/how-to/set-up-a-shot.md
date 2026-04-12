@@ -1,5 +1,6 @@
 ---
 id: how-to-set-up-a-shot
+slug: set-up-a-shot
 title: How to Set Up a Shot
 sidebar_label: Set Up a Shot
 description: How to define a shot in ACT3 AI — shot type, framing, action, and AI prompt — before generating the video clip.
@@ -37,6 +38,6 @@ Every rendered clip in ACT3 AI starts as a shot definition. The more clearly you
 
 ## Next steps
 
-- [Set camera movement](/docs/how-to/set-camera-movement) for moving shots
-- [Set up scene lighting](/docs/how-to/set-up-lighting) to control the light mood
-- [Regenerate a shot](/docs/how-to/regenerate-a-shot) when the first result needs adjustment
+- [Set camera movement](/how-to/set-camera-movement) for moving shots
+- [Set up scene lighting](/how-to/set-up-lighting) to control the light mood
+- [Regenerate a shot](/how-to/regenerate-a-shot) when the first result needs adjustment

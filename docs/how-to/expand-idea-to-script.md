@@ -1,5 +1,6 @@
 ---
 id: how-to-expand-idea-to-script
+slug: expand-idea-to-script
 title: How to Expand an Idea into a Script
 sidebar_label: Expand Idea to Script
 description: How to turn a story idea, logline, or rough concept into a full screenplay using the ACT3 AI story expansion system.
@@ -39,6 +40,6 @@ You don't need a finished script to use ACT3 AI. The story expansion system buil
 
 ## Next steps
 
-- [Use the script editor](/docs/how-to/use-the-script-editor) to revise what the AI wrote
-- [Create a digital actor](/docs/how-to/create-digital-actor) for each character the AI proposed
-- [Set up a shot](/docs/how-to/set-up-a-shot) to begin building your visual production
+- [Use the script editor](/how-to/use-the-script-editor) to revise what the AI wrote
+- [Create a digital actor](/how-to/create-digital-actor) for each character the AI proposed
+- [Set up a shot](/how-to/set-up-a-shot) to begin building your visual production

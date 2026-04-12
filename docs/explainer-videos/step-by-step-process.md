@@ -1,5 +1,6 @@
 ---
 id: explainer-step-by-step
+slug: step-by-step-process
 title: Step-by-Step Process Video
 sidebar_label: Step-by-Step Process
 description: How to produce a video that walks a viewer through a process step by step in ACT3 AI.
@@ -26,12 +27,12 @@ STEP 3: Toggle on Email Alerts.
 
 Write it as simply as that, then build visuals around each line.
 
-→ [How to use the script editor](/docs/how-to/use-the-script-editor)
+→ [How to use the script editor](/how-to/use-the-script-editor)
 
 ### 2. Create a shot for every step
 Each step needs at least one shot showing it happening. The viewer should be able to follow along without listening — if you mute the video, you should still be able to understand what to do at each step.
 
-→ [How to set up a shot](/docs/how-to/set-up-a-shot)
+→ [How to set up a shot](/how-to/set-up-a-shot)
 
 ### 3. Number the steps on screen
 Build text overlays or graphic elements that number each step visually. This helps viewers track where they are in the process and return to specific steps when they re-watch.
@@ -39,19 +40,19 @@ Build text overlays or graphic elements that number each step visually. This hel
 ### 4. Use a consistent environment throughout
 Every step should happen in the same set. Consistency tells the viewer's brain they're still in the same process. A jarring environment change creates confusion.
 
-→ [How to create a set](/docs/how-to/create-a-set)
+→ [How to create a set](/how-to/create-a-set)
 
 ### 5. Use close-ups for key actions
 If someone needs to click something, press something, or touch something — use a close-up shot so the action is unambiguous. Medium shots are fine for orientation; close-ups are for the critical moments.
 
-→ [How to set up a shot](/docs/how-to/set-up-a-shot)
+→ [How to set up a shot](/how-to/set-up-a-shot)
 
 ### 6. Keep voice-over pacing slow and deliberate
 Process videos need room to breathe. The viewer is learning, not being entertained. Leave pauses between steps. Read the voice-over slower than feels natural — it will feel right on screen.
 
-→ [How to add narration or voice-over](/docs/how-to/add-narration)
+→ [How to add narration or voice-over](/how-to/add-narration)
 
 ### 7. Export with chapters
 For YouTube, structure your export so each step becomes a labeled chapter. This lets viewers navigate directly to the step they need when they return.
 
-→ [How to export for delivery](/docs/how-to/export-for-delivery)
+→ [How to export for delivery](/how-to/export-for-delivery)
