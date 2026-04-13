@@ -1,131 +1,124 @@
 ---
 id: blender
-title: Blender
-sidebar_label: Blender
-description: How to use the Blender integration in ACT3 AI for 3D sets, characters, and rendering.
+title: Screens — Background Composition
+sidebar_label: Screens
+sidebar_position: 4
+description: How to use ACT3 AI's Screens feature to composite video content onto virtual screens, backgrounds, and display surfaces within your sets.
 ---
 
-# Blender Integration
+# Screens — Background Composition
 
-The Blender integration connects ACT3 AI with Blender, the open-source 3D creation suite. This lets you import complex 3D assets, environments, and animations into ACT3 AI while keeping them synchronized with your [timeline](/how-to/review-shots-in-timeline) and AI-driven workflows.
+The Screens feature lets you place video content onto any display surface inside a virtual set — monitors, TVs, phone screens, presentation displays, digital billboards, or any screen-shaped element in the scene. The content on the screen plays in sync with the generated shot.
 
-## What the Blender Integration Does
+This is how you create scenes where a character is presenting to a room with slides behind them, watching a news broadcast, reacting to something on their phone, or standing in front of a video wall — all without needing a physical production setup.
 
-- **3D Asset Import** — Bring in characters, props, and [sets](/features/sets) created in Blender into the ACT3 AI Media Library
-- **Scene Linking** — Maintain live references between ACT3 AI [scenes](/concepts/scenes) and Blender projects for round-trip editing
-- **Camera and Lighting Sync** — Export camera movements and lighting setups from ACT3 AI into Blender for realistic final renders
-- **Material and Shader Support** — Preserve Blender's PBR materials, procedural textures, and shading nodes on import
-- **Animation Data Exchange** — Transfer keyframes, character rigs, and [Digital Actor](/features/actors) performances between platforms
-- **Batch Rendering** — Queue Blender renders directly through ACT3 AI's Render Queue for high-quality output
+---
 
-## Installing the Blender Add-On
+## What Screens does
 
-ACT3 AI connects to Blender through a dedicated add-on. Install it once and it persists across Blender sessions.
+- **Video-on-screen composition** — Attach any video clip or image to a screen surface in a set. When the shot renders, the screen surface shows the video playing in perspective, with correct reflections and ambient lighting.
+- **Background screen content** — Place a presentation, a video loop, or a scrolling feed on screens in the background of a scene without those screens being the shot's primary subject.
+- **Phone and device screens** — Render a close-up of a character holding a phone with a specific app, message, or video visible on the screen.
+- **News and broadcast inserts** — Composite a news segment, countdown timer, or broadcast graphic onto a TV in the set.
+- **AI-generated screen content** — Generate what's on the screen using ACT3 AI's video generation — a second video generated specifically as screen content, then composited into the primary shot.
 
-1. In ACT3 AI, go to **Account → Integrations → Blender**
-2. Click **Download Add-On** and save the .zip file
-3. Open Blender and go to **Edit → Preferences → Add-ons**
-4. Click **Install** and select the .zip file
-5. Enable the "ACT3 AI Sync" add-on by checking the checkbox
-6. In the add-on preferences, enter your ACT3 AI API key (found in **Account → API Keys**)
-7. A new **ACT3 AI** panel appears in the Blender sidebar (press N to toggle the sidebar)
+---
 
-The add-on requires an active internet connection and an open ACT3 AI session in your browser.
+## How to add a screen to a set
 
-**Troubleshooting the add-on:** If the Blender sync is not connecting, check that the add-on is enabled in Blender Preferences and that your API key is entered correctly. Ensure ACT3 AI is open in your browser and you are signed in. If the issue persists, try regenerating your API key in **Account → API Keys**.
+1. Open the Set Editor for the set you are using in the scene
+2. Open the **Screens** panel
+3. Click **+ Add Screen**
+4. Define the screen surface: position, size, and orientation in the set (you can place it on any flat surface)
+5. Select **Screen Content:**
+   - **Upload video** — Upload a clip that will play on the screen
+   - **Upload image** — A static image displayed on the screen
+   - **AI Generate** — Describe what the screen shows and generate a clip specifically for it
+   - **Live feed placeholder** — A colored placeholder for screens that represent live data (dashboards, feeds)
+6. Set the screen's display properties: brightness, reflection amount, bezel style
+7. Preview the screen in the set before generating the full shot
 
-## Pushing a Blender Scene to ACT3 AI
+---
 
-After installing and connecting the add-on:
+## B-roll screen content
 
-1. Set up your scene in Blender (geometry, materials, lights, cameras)
-2. Open the **ACT3 AI panel** in the Blender sidebar
-3. Click **Push Scene**
-4. Your scene geometry, materials, lights, and camera positions sync to ACT3 AI as a set reference
+A powerful use of Screens is generating [B-roll](/features/b-roll) content that appears on screen surfaces. For example:
 
-## How to Use
+- A news anchor scene where the chyron (lower-third graphic) and background graphics are AI-generated B-roll
+- A product demo scene where the interface being demonstrated plays on a monitor in the set
+- A video essay or explainer where graphs, diagrams, or animations appear on a screen behind the host
 
-### Exporting from ACT3 AI to Blender
+Generate the B-roll clip separately, then attach it to the screen surface. The primary shot shows both the host and the content on the screen simultaneously.
 
-1. In the Editor, select a scene or shot
-2. Click **Export → Blender Project**
-3. A .blend file is generated with your scene structure, camera positions, and lighting setup
-4. Open the .blend file in Blender and refine models, materials, or animations
+---
 
-### Importing from Blender to ACT3 AI
+## AI-generated screen content workflow
 
-1. In Blender, complete your scene modifications
-2. Save the .blend file with packed textures
-3. In ACT3 AI, go to **Import → Blender Scene**
-4. Select your .blend file
-5. ACT3 AI syncs the updated assets with your existing scene structure
+To generate what plays on a screen using ACT3 AI:
 
-### Full Round-Trip Workflow
+1. In the Screen settings, select **AI Generate**
+2. Enter a prompt describing the screen content — what is being shown, in what visual style
+3. Set the duration to match the shot length
+4. Generate — a dedicated clip is produced for the screen surface
+5. The generated clip is attached to the screen and composited into the shot automatically
 
-| Step | Tool | Action |
-|---|---|---|
-| Previsualization | ACT3 AI | Create scene layout and plan with AI Wizard |
-| Asset Creation | Blender | Model environment, props, and characters |
-| Import | ACT3 AI | Import Blender assets into Media Library |
-| Animation | ACT3 AI + Blender | Animate Digital Actors in ACT3 AI, refine with Blender keyframes |
-| Final Render | Blender via Render Queue | High-fidelity lighting, textures, and physics render |
-| Assembly | ACT3 AI | Combine Blender renders with AI-generated clips in the timeline |
+Screen content clips are generated at a lower resolution than primary shots (since they appear as a small element within a larger frame) — this makes them significantly less expensive in credits than primary renders.
 
-## Supported Formats
+---
 
-| Format | Use Case |
+## Composition with screen content
+
+When compositing screen content, the Screens feature handles:
+
+**Perspective correction** — The screen content is distorted to match the camera angle in the shot. A monitor seen from the side will show the video in the correct perspective, not as a flat rectangle.
+
+**Reflections** — The screen surface reflects ambient light from the set. If the scene is dark and the screen is bright, the screen glow will be visible on nearby surfaces and on characters' faces.
+
+**Ambient contribution** — A bright screen in a dark room contributes light to the scene. This is calculated automatically based on screen brightness settings.
+
+**Motion blur** — If the camera is moving, the screen content observes the same motion blur as the rest of the frame.
+
+---
+
+## Use cases
+
+- **Corporate presentation scenes** — Executive presenting to a board room, with slides visible on the screen behind them
+- **Tech demo scenes** — Characters interacting with software shown on a monitor
+- **News segment scenes** — Anchor at a desk with broadcast graphics on background screens
+- **Social media content** — Reaction videos where the reactor appears on one side and the content they're watching appears on a screen
+- **Surveillance / control room** — Banks of monitors showing different video feeds
+- **Retail / advertising** — Products on digital signage in a store environment
+- **Product unboxing / review** — Close-up of a phone or tablet screen showing an app
+- **Explainer videos** — Host presenting in front of an animated background screen
+
+---
+
+## Screen types
+
+| Screen type | Best for |
 |---|---|
-| .blend | Full Blender project with materials and rigs |
-| FBX | Characters, props, and environments |
-| OBJ | Simple 3D objects without animation |
-| GLTF / GLB | Lightweight scene exchange |
-| USD / USDZ | Complex scene hierarchies, AR assets |
+| Monitor (16:9) | Desktop computers, video editing suites, office scenes |
+| TV (various sizes) | Living room, bar, hotel, news studio |
+| Phone screen (9:16) | Close-up shots showing app content, texts, social media |
+| Presentation display | Conference rooms, classrooms, lecture halls |
+| Video wall | Broadcast studios, event venues, lobby installations |
+| Digital signage | Retail, airports, public spaces |
+| Billboard | Exterior urban scenes |
 
-## Camera and Lighting Sync
+---
 
-When you export to Blender, ACT3 AI exports:
+## Credit usage
 
-- Camera positions, orientation, and focal length settings
-- Camera movement keyframes (dolly, pan, tracking paths)
-- Light type, position, intensity, and color temperature settings
-- Time-of-day simulation parameters
+Screen content generation uses credits when you use **AI Generate** for screen content:
+- Screen content clips are billed at approximately 40% of a primary shot at the same duration and quality
+- Uploading your own video or image to a screen surface is free
+- Adding a screen surface to a set (without content) is free
 
-This means the camera work you planned in ACT3 AI's [Top-Down View](/how-to/top-down-set-editor) translates directly into Blender's camera animation — no manual recreation required.
-
-## Use Cases
-
-- **Feature film previsualization** — Rapid 3D blocking in ACT3 AI, detailed rendering in Blender
-- **Complex physical simulations** — Smoke, fluid, cloth, and particle effects that require full Blender rendering
-- **Architectural and environment design** — Precision 3D modeling for realistic backgrounds
-- **Character rigging** — Advanced bone rigs and blend shapes that go beyond ACT3 AI's built-in actor controls
-- **VFX compositing** — Combine AI-generated video with Blender CG elements
-
-## Credit Usage
-
-- Importing and exporting between ACT3 AI and Blender is free
-- Blender renders queued through the ACT3 AI [Render Queue](/features/render-queue) consume credits based on frame count, resolution, and complexity
-- AI previsualization in ACT3 AI before the Blender pass consumes standard credits
-
-## Best Practices
-
-- Save Blender projects with packed textures to ensure correct import — missing textures are the most common import issue
-- Use GLTF for lightweight scene exchanges during the creative phase; reserve .blend for final high-quality work
-- Heavy simulations (smoke, fire, physics) require full Blender renders rather than AI previews
-- Keep naming conventions consistent between ACT3 AI and Blender — mismatched names prevent correct asset linking
-- Test the round-trip with a simple scene before committing to a complex production pipeline
-
-## Troubleshooting
-
-**Textures missing after import** — Reopen the .blend file in Blender and pack all textures (File → External Data → Pack All Into .blend), then re-export.
-
-**Camera positions don't match** — Check that you exported from the correct scene version in ACT3 AI before opening in Blender.
-
-**Animation not transferred** — Verify that the Digital Actor profile used animation data compatible with Blender rigging standards. Some motion capture data may need format conversion.
+---
 
 ## Related
 
-- [Sets](/features/sets)
-- [Actors](/features/actors)
-- [Motion Capture](/features/motion-capture)
-- [AI Video Generation](/features/ai-video-generation)
-- [Render Queue](/features/render-queue)
+- **[B-roll](/features/b-roll)** — Supplementary and cutaway footage, including screen-generated B-roll
+- **[Sets](/features/sets)** — Managing virtual environments
+- **[How to Create a Set](/how-to/create-a-set)** — Setting up the set that contains the screen
+- **[AI Video Generation](/features/ai-video-generation)** — How generated screen content is produced

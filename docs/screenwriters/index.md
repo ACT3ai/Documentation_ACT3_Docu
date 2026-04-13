@@ -45,24 +45,38 @@ Describe your story in one sentence or a short paragraph. The AI Writer expands 
 
 ---
 
+## Screenwriting concepts — learn these first
+
+Each page below explains a core screenwriting concept and shows exactly how ACT3 AI represents it. If you know film vocabulary, these pages map the concepts to the platform. If you're newer to screenwriting, they teach both the craft and the tool.
+
+- **[Beats](/screenwriters/beats):** The smallest unit of story — a single moment of change. How to write beats, how to think in beats, and how the Story Arc beat list works.
+- **[Scenes](/screenwriters/scenes):** What every scene must do, how to write strong scene headings and action lines, and how ACT3 AI maps scenes to sets, cast, and shots.
+- **[Shots](/screenwriters/shots):** When screenwriters direct from the page, how to write action lines that generate well, and the 22 shot types available in ACT3 AI.
+- **[Plot](/screenwriters/plot):** Three-act structure, Save the Cat, the Hero's Journey — and how to build your plot in the Story Arc system.
+- **[Story Arc](/screenwriters/story-arc):** The Story Arc view, primary vs. AI Recommended versions, the Calc Engine, and how to use the tool as a structural development partner.
+- **[Character Arc](/screenwriters/character-arc):** Want vs. need, the false belief, positive and negative arcs — and how to track character transformation in the Story Arc view.
+- **[Final Draft](/screenwriters/final-draft):** Round-trip import/export with Final Draft, what's preserved on import, and how to keep both tools in sync.
+
+---
+
 ## Tasks you'll do here
 
 **Bringing your script in**
 
-- [Import a Script](/how-to/import-a-script) — Paste in a Final Draft export, a PDF, or plain text. ACT3 AI parses your scene headings, action lines, and dialogue automatically.
-- [Expand an Idea into a Script](/how-to/expand-idea-to-script) — Describe your story in a sentence or paragraph. The AI expands it into a full screenplay with acts, scenes, and shots.
+- **[Import a Script](/how-to/import-a-script)** — Paste in a Final Draft export, a PDF, or plain text. ACT3 AI parses your scene headings, action lines, and dialogue automatically.
+- **[Expand an Idea into a Script](/how-to/expand-idea-to-script)** — Describe your story in a sentence or paragraph. The AI expands it into a full screenplay with [acts](/concepts/acts), [scenes](/concepts/scenes), and [shots](/concepts/shots).
 
 **Working with structure**
 
-- [Work with Acts and Beats](/how-to/work-with-acts-and-beats) — Add, reorder, and edit the acts and beats that define your story's structure.
-- [Build Story Structure](/how-to/build-story-structure) — Set up the full narrative hierarchy for a new project from scratch.
+- **[Work with Acts and Beats](/how-to/work-with-acts-and-beats)** — Add, reorder, and edit the [acts](/concepts/acts) and [beats](/concepts/beats) that define your story's structure.
+- **[Build Story Structure](/how-to/build-story-structure)** — Set up the full narrative hierarchy for a new project from scratch.
 
 **Writing and editing**
 
-- [Use the Script Editor](/how-to/use-the-script-editor) — Write and edit dialogue, action lines, and scene headings inside the platform's Final Draft-grade editor.
-- [Compare Script Versions](/how-to/compare-script-versions) — Review two drafts side by side and decide what to keep from each.
-- [Export Script](/how-to/export-script) — Download your script as a PDF or Final Draft file for sharing with collaborators or talent.
+- **[Use the Script Editor](/how-to/use-the-script-editor)** — Write and edit dialogue, action lines, and scene headings inside the platform's Final Draft-grade editor.
+- **[Compare Script Versions](/how-to/compare-script-versions)** — Review two drafts side by side and decide what to keep from each.
+- **[Export Script](/how-to/export-script)** — Download your script as a PDF or Final Draft file for sharing with collaborators or talent.
 
 **Connecting story to production**
 
-- [Link Characters to Actors](/how-to/link-characters-to-actors) — Connect each character name in your script to a digital actor profile so the platform knows who to cast in each scene.
+- **[Link Characters to Actors](/how-to/link-characters-to-actors)** — Connect each character name in your script to a [digital actor](/how-to/create-digital-actor) profile so the platform knows who to cast in each scene.
