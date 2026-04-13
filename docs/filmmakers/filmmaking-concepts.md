@@ -20,12 +20,12 @@ If you already know film vocabulary, skip ahead to the specific concept you need
 
 | Term | What it means | In ACT3 AI |
 |---|---|---|
-| **Beat** | The smallest unit of action or emotion in a story — a micro-moment | A single story event that drives a scene forward |
-| **Shot** | One continuous camera angle or camera move | The atomic unit of video the AI renders |
-| **Scene** | A collection of shots at the same location and time | Groups of shots that share a set and a story moment |
-| **Act** | A major story division | A feature film has 3 acts; each act contains multiple scenes |
-| **Blocking** | Where characters stand and how they move within a scene | Defined in the Top-Down Editor using drag-and-drop |
-| **Coverage** | The full set of angles shot to cover a scene | Your shot list for a scene |
+| **[Beat](/concepts/beats)** | The smallest unit of action or emotion in a story — a micro-moment | A single story event that drives a scene forward |
+| **[Shot](/concepts/shots)** | One continuous camera angle or camera move | The atomic unit of video the AI renders |
+| **[Scene](/concepts/scenes)** | A collection of shots at the same location and time | Groups of shots that share a set and a story moment |
+| **[Act](/concepts/acts)** | A major story division | A feature film has 3 acts; each act contains multiple scenes |
+| **[Blocking](/how-to/block-a-scene)** | Where characters stand and how they move within a scene | Defined in the [Top-Down Editor](/how-to/top-down-set-editor) using drag-and-drop |
+| **[Coverage](/how-to/plan-scene-coverage)** | The full set of angles shot to cover a scene | Your shot list for a scene |
 | **Storyboard** | A sequence of still images visualizing shots before filming | Automatically generated from your shot list |
 
 ---
@@ -34,11 +34,11 @@ If you already know film vocabulary, skip ahead to the specific concept you need
 
 Every term above is a real element inside the editor, not just documentation vocabulary:
 
-- **Beat** appears in the Story Arc view as individual story events you can drag, rewrite, or regenerate. The AI Calc Engine watches your beats and updates scenes automatically when a beat changes.
-- **Shot** is the unit you render, approve, regenerate, and export. The Shot Panel on the right side of the editor shows every controllable parameter for the selected shot.
-- **Scene** is a container for shots that share a set and a time in the story. In the Timeline, each scene appears as a horizontal band that expands to show its shots.
-- **Act** is the top-level grouping in the Story Arc. The Act dividers in the timeline show the three-act structure of your project and help you see pacing at a macro level.
-- **Blocking** is editable in the Top-Down Editor — a canvas view of your set where you drag characters into position and draw movement paths. What you draw here directly influences how the AI composes and frames each shot.
+- **[Beat](/concepts/beats)** appears in the Story Arc view as individual story events you can drag, rewrite, or regenerate. The AI Calc Engine watches your beats and updates scenes automatically when a beat changes.
+- **[Shot](/concepts/shots)** is the unit you render, [approve](/how-to/review-and-approve-shots), [regenerate](/how-to/regenerate-a-shot), and [export](/how-to/export-for-delivery). The Shot Panel on the right side of the editor shows every controllable parameter for the selected shot.
+- **[Scene](/concepts/scenes)** is a container for shots that share a set and a time in the story. In the [Timeline](/how-to/review-shots-in-timeline), each scene appears as a horizontal band that expands to show its shots.
+- **[Act](/concepts/acts)** is the top-level grouping in the Story Arc. The Act dividers in the timeline show the three-act structure of your project and help you see pacing at a macro level.
+- **[Blocking](/how-to/block-a-scene)** is editable in the [Top-Down Editor](/how-to/top-down-set-editor) — a canvas view of your set where you drag characters into position and draw movement paths. What you draw here directly influences how the AI composes and frames each shot.
 - **Coverage** is addressed in the shot list. The [Plan Scene Coverage](/how-to/plan-scene-coverage) guide walks through choosing the angles that fully cover a scene — wide establishing shot, medium two-shots, close-ups, cutaways.
 - **Storyboard** is generated automatically from your shot list and appears as a panel in the editor. Each shot contributes one frame to the storyboard view, giving you a visual preview of the scene before you render full video.
 

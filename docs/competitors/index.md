@@ -13,9 +13,9 @@ There are many AI video tools. Here is how ACT3 AI fits into that landscape — 
 
 | Category | Examples | What they do | What they don't do |
 |---|---|---|---|
-| Prompt-to-video | Runway, Google Veo 3 (standalone) | Generate short clips from a text prompt | Manage full productions: multiple shots, scenes, characters, or story |
+| Prompt-to-video | Runway, [Google Veo 3](/integrations/veo3) (standalone) | Generate short clips from a text prompt | Manage full productions: multiple shots, scenes, characters, or story |
 | Storyboard / pre-viz | Previs Pro, ArcAds | Turn a script into storyboard images | Render final video |
-| 3D tools | Blender, Promethean AI | Powerful 3D environment creation | Accessible to non-3D experts; no AI video render |
+| 3D tools | [Blender](/integrations/blender), Promethean AI | Powerful 3D environment creation | Accessible to non-3D experts; no AI video render |
 | NLE editors | Adobe Premiere, DaVinci Resolve | Professional video editing | Generate AI video or manage story structure |
 | **ACT3 AI** | — | All of the above in one platform | — |
 
@@ -23,10 +23,10 @@ There are many AI video tools. Here is how ACT3 AI fits into that landscape — 
 
 ACT3 AI is the only platform that spans the entire production pipeline in one unified interface:
 
-1. **Scriptwriting** — import a finished screenplay or start from a one-sentence idea
-2. **Visual planning** — sets, blocking, cinematography, lighting
-3. **Generative rendering** — AI video generation using Veo 3, Runway, ComfyUI, and more
-4. **Iterative directing** — review every shot, request changes, regenerate without starting over
+1. **Scriptwriting** — [import a finished screenplay](/how-to/import-a-script) or start from a one-sentence idea
+2. **Visual planning** — sets, [blocking](/how-to/block-a-scene), [cinematography](/filmmakers/cinematography), [lighting](/how-to/set-up-lighting)
+3. **Generative rendering** — AI video generation using [Veo 3](/integrations/veo3), Runway, ComfyUI, and more
+4. **Iterative directing** — review every shot, request changes, [regenerate](/how-to/regenerate-a-shot) without starting over
 
 Traditional pre-production takes 80–200 hours. ACT3 AI targets roughly 2 hours for the same scope.
 

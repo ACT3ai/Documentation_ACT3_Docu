@@ -8,15 +8,15 @@ description: How to assemble, cut, and export your film in ACT3 AI — from shot
 
 # Video Editing
 
-As an editor, your job is to find the best version of the story in the material you've been given — choosing the right take, the right timing, the right cut. In ACT3 AI, your "material" is AI-rendered shots. You review them, order them, request re-renders where needed, and assemble the final cut.
+As an editor, your job is to find the best version of the story in the material you've been given — choosing the right take, the right timing, the right cut. In ACT3 AI, your "material" is AI-rendered [shots](/concepts/shots). You review them, order them, request re-renders where needed, and assemble the final cut.
 
-ACT3 AI's timeline is the editing workspace. When you're done, export to your format of choice, or move to Premiere Pro or DaVinci Resolve for finishing.
+ACT3 AI's [timeline](/how-to/review-shots-in-timeline) is the editing workspace. When you're done, [export](/how-to/export-for-delivery) to your format of choice, or move to Premiere Pro or DaVinci Resolve for finishing.
 
 ---
 
 ## Your work in ACT3 AI
 
-The Editor is where you spend most of your time. It has a zoomable timeline, video preview, selection-based playback, and direct control over what gets rendered next. You can work from rough assembly to fine cut without leaving the platform.
+The Editor is where you spend most of your time. It has a zoomable [timeline](/how-to/review-shots-in-timeline), video preview, selection-based playback, and direct control over what gets rendered next. You can work from rough assembly to fine cut without leaving the platform.
 
 ---
 

@@ -10,7 +10,7 @@ description: Learn how to navigate and use the top-down canvas to design your se
 
 **Goal:** Use the overhead canvas view to precisely place characters, position the camera, draw movement paths, and plan exactly how a scene will be staged.
 
-The Top-Down Editor shows your set from directly above — like a stage diagram or a floor plan. It is where you do your blocking: deciding where each character stands, how they move, and where the camera is. What you plan here drives how ACT3 AI renders each shot. Experienced filmmakers will recognize this as the traditional top-down blocking diagram used in pre-production; newcomers should think of it as an overhead map of the action.
+The Top-Down Editor shows your set from directly above — like a stage diagram or a floor plan. It is where you do your [blocking](/how-to/block-a-scene): deciding where each character stands, how they move, and where the camera is. What you plan here drives how ACT3 AI renders each [shot](/concepts/shots). Experienced filmmakers will recognize this as the traditional top-down blocking diagram used in pre-production; newcomers should think of it as an overhead map of the action.
 
 ---
 

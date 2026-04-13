@@ -10,9 +10,9 @@ description: Learn how to define character positions and movement paths within a
 
 **Goal:** Place characters, draw their movement paths, and position the camera in the Top-Down Editor so the AI knows exactly where everyone is.
 
-Blocking is the director's blueprint for a scene. It tells every performer where to stand, when to move, and where to end up — and it tells the camera what to watch. In ACT3 AI, blocking lives in the Top-Down Editor, an overhead canvas of your virtual set where you drag character icons, draw movement paths, and set camera angles. Every blocking decision feeds directly into the AI prompt for each shot.
+Blocking is the director's blueprint for a scene. It tells every performer where to stand, when to move, and where to end up — and it tells the camera what to watch. In ACT3 AI, blocking lives in the [Top-Down Editor](/how-to/top-down-set-editor), an overhead canvas of your virtual set where you drag character icons, draw movement paths, and set [camera angles](/how-to/set-camera-movement). Every blocking decision feeds directly into the AI prompt for each shot.
 
-If you are new to filmmaking: blocking is simply the plan for "who stands where and when." Getting it right before you render saves credits and makes every shot read clearly.
+If you are new to filmmaking: blocking is simply the plan for "who stands where and when." Getting it right before you render saves [credits](/account/credits) and makes every shot read clearly.
 
 ---
 

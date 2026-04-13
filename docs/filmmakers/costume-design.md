@@ -8,13 +8,13 @@ description: How to design, assign, and manage character wardrobe in ACT3 AI.
 
 # Costume Design
 
-Costume design is visual storytelling through clothing — who this person is, what period they're from, what they're going through. In ACT3 AI, wardrobe is part of the character definition. You describe what a character wears, the AI renders it consistently across every shot they appear in.
+Costume design is visual storytelling through clothing — who this person is, what period they're from, what they're going through. In ACT3 AI, wardrobe is part of the character definition. You describe what a character wears, the AI renders it consistently across every [shot](/concepts/shots) they appear in.
 
 ---
 
 ## Your work in ACT3 AI
 
-Costumes live inside character definitions. A character's wardrobe is defined by text description, reference images, or both. You can set a default costume and override it per scene — the same way a character has a main look and a wet clothes version when they fall in the river.
+Costumes live inside character definitions. A character's wardrobe is defined by text description, reference images, or both. You can set a default [costume](/how-to/define-character-costume) and override it per scene — the same way a character has a main look and a wet clothes version when they fall in the river.
 
 ---
 

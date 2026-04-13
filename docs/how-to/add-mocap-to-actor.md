@@ -10,7 +10,7 @@ description: Learn how to apply a motion capture clip to drive an actor's perfor
 
 **Goal:** Apply motion capture data to a character so their body movement in a shot is driven by real human performance rather than AI-generated motion.
 
-Motion capture (mocap) records the precise position and rotation of a person's joints over time, then replays that movement on a digital character. In ACT3 AI, mocap drives the character's body pose frame-by-frame inside a shot. The result is movement that looks authentically human — critical for action sequences, expressive physical performances, and dance. For simple actions like standing, sitting, or casual walking, AI-generated motion is often sufficient and requires no mocap file.
+Motion capture (mocap) records the precise position and rotation of a person's joints over time, then replays that movement on a [digital actor](/how-to/create-digital-actor). In ACT3 AI, mocap drives the character's body pose frame-by-frame inside a shot. The result is movement that looks authentically human — critical for action sequences, expressive physical performances, and dance. For simple actions like standing, sitting, or casual walking, AI-generated motion is often sufficient and requires no mocap file. Mocap rendering uses [credits](/account/credits) like any other render operation.
 
 ---
 

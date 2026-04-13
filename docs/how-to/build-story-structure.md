@@ -10,7 +10,7 @@ description: Learn how to define acts, beats, and plot points that shape your na
 
 **Goal:** Use the AI Wizard to lay out your story's act structure, define beats, and create a narrative framework before writing a single scene.
 
-The Story Arc panel is the backbone of your project. Before any scenes or shots exist, it gives you a bird's-eye view of your narrative: the acts, the turning points, and the emotional beats that connect them. Building this structure first means the AI has a clear map when it later helps you write dialogue, design shots, and suggest pacing.
+The Story Arc panel is the backbone of your project. Before any [scenes](/concepts/scenes) or [shots](/concepts/shots) exist, it gives you a bird's-eye view of your narrative: the [acts](/concepts/acts), the turning points, and the emotional [beats](/concepts/beats) that connect them. Building this structure first means the AI has a clear map when it later helps you write dialogue, design shots, and suggest pacing.
 
 If you already know film structure well, you can skip the wizard and build the arc manually in the Story Arc panel — jump to step 11.
 

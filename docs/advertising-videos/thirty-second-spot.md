@@ -10,7 +10,7 @@ description: How to produce a broadcast-quality 30-second television commercial 
 
 **Who this is for:** Agency creatives, brand managers, and production companies producing broadcast television or streaming pre-roll advertising.
 
-The 30-second spot is the most demanding creative format in advertising. You have 3 seconds to earn the next 27. Every shot, every word, every sound has to do work. ACT3 AI lets you produce broadcast-quality footage and iterate on the creative until it's right — without production day costs.
+The 30-second spot is the most demanding creative format in advertising. You have 3 seconds to earn the next 27. Every [shot](/concepts/shots), every word, every sound has to do work. ACT3 AI lets you produce broadcast-quality footage and iterate on the creative until it's right — without production day costs.
 
 ---
 
@@ -46,13 +46,13 @@ A 30-second spot lives or dies on the performance. Cast a digital actor with a l
 → [How to create a digital actor](/how-to/create-digital-actor)
 
 ### 6. Cinematography — make every frame count
-Broadcast advertising uses cinematic production values. Shallow depth of field on close-ups. Motivated camera movement. Deliberate lighting with clear source. Set each shot's camera and lighting with the same attention you'd give a feature film.
+Broadcast advertising uses cinematic production values. Shallow depth of field on close-ups. Motivated [camera movement](/how-to/set-camera-movement). Deliberate [lighting](/how-to/set-up-lighting) with clear source. Set each shot's camera and lighting with the same attention you'd give a feature film. See the [cinematography](/filmmakers/cinematography) guide for a full reference.
 
 → [How to set up a shot](/how-to/set-up-a-shot)
 → [How to set up scene lighting](/how-to/set-up-lighting)
 
 ### 7. Iterate until it's right
-Generate your spots and watch them. The first render is almost never the final one. Identify what's not working shot by shot and regenerate. This is where ACT3 AI's iteration speed becomes a real production advantage.
+Generate your spots and watch them. The first render is almost never the final one. Identify what's not working shot by shot and [regenerate](/how-to/regenerate-a-shot). This is where ACT3 AI's iteration speed becomes a real production advantage.
 
 → [How to regenerate a shot](/how-to/regenerate-a-shot)
 

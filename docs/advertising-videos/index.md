@@ -9,7 +9,7 @@ description: How to produce TV commercials, digital ads, and paid social video c
 
 **Who this section is for:** Advertising agency creatives, brand managers running paid campaigns, and production companies delivering commercial work for clients.
 
-Advertising video has the highest cost-per-second in the industry — and the highest stakes. A 30-second TV spot has to capture attention in 3 seconds, communicate in 15, and close in 30. ACT3 AI gives you the tools to produce commercial-quality video at a fraction of the traditional production cost, with the creative control to iterate until it's right.
+Advertising video has the highest cost-per-second in the industry — and the highest stakes. A 30-second TV spot has to capture attention in 3 seconds, communicate in 15, and close in 30. ACT3 AI gives you the tools to produce commercial-quality video at a fraction of the traditional production cost, with the creative control to iterate until it's right. For complete creative control over every shot, see the [cinematography](/filmmakers/cinematography) and [visual style](/how-to/set-visual-style) guides.
 
 ---
 

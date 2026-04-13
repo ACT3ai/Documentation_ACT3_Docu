@@ -8,13 +8,13 @@ description: How to write, import, and develop scripts in ACT3 AI — from first
 
 # Screenwriting
 
-ACT3 AI treats the script as the foundation of everything. Every scene, shot, and AI render traces back to what is written. The script editor understands screenplay format natively, and the AI can help you develop stories from idea to locked draft.
+ACT3 AI treats the script as the foundation of everything. Every [scene](/concepts/scenes), [shot](/concepts/shots), and AI render traces back to what is written. The [script editor](/how-to/use-the-script-editor) understands screenplay format natively, and the AI can help you develop stories from idea to locked draft.
 
 ---
 
 ## Your work in ACT3 AI
 
-You can write here from scratch, import from Final Draft, or use the AI to expand a rough idea. The script stays live — edit it at any stage and the changes ripple through your shots and scenes.
+You can write here from scratch, [import from Final Draft](/how-to/import-a-script), or use the AI to expand a rough idea. The script stays live — edit it at any stage and the changes ripple through your shots and scenes.
 
 ---
 
@@ -33,7 +33,7 @@ The built-in editor formats like Final Draft — type a scene heading and it aut
 → [How to use the script editor](/how-to/use-the-script-editor)
 
 ### Use AI to expand an idea into a full script
-Start with a logline or a paragraph description. The AI builds out acts, beats, scenes, and dialogue. You review each level and approve or rewrite before moving to the next.
+Start with a logline or a paragraph description. The AI builds out [acts](/concepts/acts), [beats](/concepts/beats), scenes, and dialogue. You review each level and approve or rewrite before moving to the next.
 
 → [How to expand an idea into a script](/how-to/expand-idea-to-script)
 
@@ -53,7 +53,7 @@ When you want to continue revisions in Final Draft, export from ACT3 AI and re-i
 → [How to export a script to Final Draft](/how-to/export-script)
 
 ### Set up characters in the script
-Each speaking character in the script should be linked to a digital actor. The casting system connects script characters to the actors who will appear in the rendered shots.
+Each speaking character in the script should be linked to a [digital actor](/how-to/create-digital-actor). The casting system connects script characters to the actors who will appear in the rendered shots.
 
 → [How to link script characters to actors](/how-to/link-characters-to-actors)
 

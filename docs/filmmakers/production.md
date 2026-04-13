@@ -14,7 +14,7 @@ Production management in filmmaking is keeping every piece of the machine moving
 
 ## Your work in ACT3 AI
 
-The platform handles the logistics of AI rendering the way a line producer handles crew scheduling. Your job is to make sure the right things get rendered at the right quality level, costs stay in line, and the team has the right access to the right parts of the project.
+The platform handles the logistics of AI rendering the way a line producer handles crew scheduling. Your job is to make sure the right things get rendered at the right quality level, costs stay in line with your [credits](/account/credits) balance, and the team has the right access to the right parts of the project.
 
 ---
 
@@ -23,12 +23,12 @@ The platform handles the logistics of AI rendering the way a line producer handl
 Tasks are listed most common first.
 
 ### Organize your project hierarchy
-A well-structured project is easier to navigate and render in batches. Set up your Act → Scene → Shot hierarchy clearly from the start, and use tags to group related shots for bulk operations.
+A well-structured project is easier to navigate and render in batches. Set up your [Act](/concepts/acts) → [Scene](/concepts/scenes) → [Shot](/concepts/shots) hierarchy clearly from the start, and use tags to group related shots for bulk operations.
 
 → [How to organize a project](/how-to/organize-project)
 
 ### Manage the render queue
-Submit shots and scenes to the render queue, check progress, and prioritize what gets rendered first. The queue shows estimated credit cost before you commit.
+Submit shots and scenes to the [render queue](/how-to/manage-render-queue), check progress, and prioritize what gets rendered first. The queue shows estimated [credit](/account/credits) cost before you commit.
 
 → [How to manage the render queue](/how-to/manage-render-queue)
 
@@ -53,7 +53,7 @@ Once a scene or shot is approved, lock it so it can't be accidentally changed du
 → [How to lock approved elements](/how-to/lock-approved-elements)
 
 ### Export deliverables
-Export finished scenes or the full film in the format needed — ProRes for DCP submission, MP4 for streaming, platform-specific formats for social. Exports are available from the render queue when shots are complete.
+[Export](/how-to/export-for-delivery) finished scenes or the full film in the format needed — ProRes for DCP submission, MP4 for streaming, platform-specific formats for social. Exports are available from the [render queue](/how-to/manage-render-queue) when shots are complete.
 
 → [How to export for delivery](/how-to/export-for-delivery)
 

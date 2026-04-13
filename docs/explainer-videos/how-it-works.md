@@ -22,7 +22,7 @@ The clearest how-it-works videos follow a simple structure:
 - **During** — Walk through the product or process step by step. This is what they came to learn.
 - **After** — Show the result. This is the payoff that makes the explanation worth watching.
 
-Write your script in three acts matching this structure.
+Write your script in three [acts](/concepts/acts) matching this structure.
 
 → [How to expand an idea into a script](/how-to/expand-idea-to-script)
 → [How to use the script editor](/how-to/use-the-script-editor)
@@ -40,7 +40,7 @@ Every step in your explanation needs a visual that shows it, not just a voice-ov
 → [How to set up a shot](/how-to/set-up-a-shot)
 
 ### 4. Use a host or narrator character
-Explainer videos are easier to follow when there's a consistent guide — either an on-screen host who walks through the explanation or a clear, confident voice-over. Create a host character and use them throughout.
+Explainer videos are easier to follow when there's a consistent guide — either an on-screen host who walks through the explanation or a clear, confident [voice-over](/how-to/add-narration). Create a host character and use them throughout.
 
 → [How to create a digital actor](/how-to/create-digital-actor)
 → [How to add narration or voice-over](/how-to/add-narration)

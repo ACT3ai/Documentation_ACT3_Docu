@@ -10,7 +10,7 @@ description: How to bring your existing film workflow into ACT3 AI — starting 
 
 You already know how to make films. This page is about where ACT3 AI fits into your existing process and how to get your first production off the ground fast.
 
-ACT3 AI works the same way your brain does: start with a script, break it into scenes, break scenes into shots, then generate the video. The difference is that instead of a crew, you have AI.
+ACT3 AI works the same way your brain does: start with a script, break it into [scenes](/concepts/scenes), break scenes into [shots](/concepts/shots), then generate the video. The difference is that instead of a crew, you have AI.
 
 ---
 
@@ -19,11 +19,11 @@ ACT3 AI works the same way your brain does: start with a script, break it into s
 The fastest way to start is to bring in the script you already have.
 
 **ACT3 AI accepts:**
-- Final Draft exports (`.fdx`)
+- [Final Draft](/how-to/import-a-script) exports (`.fdx`)
 - PDF scripts
 - Plain text — paste directly into the import window
 
-When you import, ACT3 AI parses your scene headings, action lines, and dialogue automatically. Your script becomes a structured project: Acts → Scenes → Shots.
+When you import, ACT3 AI parses your scene headings, action lines, and dialogue automatically. Your script becomes a structured project: [Acts](/concepts/acts) → [Scenes](/concepts/scenes) → [Shots](/concepts/shots).
 
 → See [How to import a script](/how-to/import-a-script)
 
@@ -31,7 +31,7 @@ When you import, ACT3 AI parses your scene headings, action lines, and dialogue 
 
 ## If you're working in the script editor
 
-The built-in script editor behaves like a light version of Final Draft. It understands screenplay format — scene headings, action lines, character cues, dialogue — and handles formatting automatically.
+The built-in [script editor](/how-to/use-the-script-editor) behaves like a light version of Final Draft. It understands screenplay format — scene headings, action lines, character cues, dialogue — and handles formatting automatically.
 
 You can:
 - Write your script directly in ACT3 AI
@@ -47,7 +47,7 @@ This round-trip workflow means you never have to abandon your existing script to
 
 ## If you're starting from an idea
 
-No finished script? That's fine. Describe your story in a sentence or a paragraph. ACT3 AI's story expansion system builds it into a full screenplay — acts, beats, scenes, dialogue — which you then review and adjust before generating any video.
+No finished script? That's fine. Describe your story in a sentence or a paragraph. ACT3 AI's story expansion system builds it into a full screenplay — [acts](/concepts/acts), [beats](/concepts/beats), scenes, dialogue — which you then review and adjust before generating any video.
 
 → See [How to expand an idea into a script](/how-to/expand-idea-to-script)
 
@@ -81,4 +81,4 @@ Once you're in with a script, the work splits by craft. Jump to the guide that m
 - [Video Editor](/filmmakers/video-editing) — assembling shots, timing, transitions, export
 - [Colorist](/filmmakers/colorist) — visual style, color grade, mood
 - [Voice Actor](/filmmakers/voice-actor) — dialogue, TTS voices, lipsync
-- [Production](/filmmakers/production) — project management, render queue, team
+- [Production](/filmmakers/production) — project management, [render queue](/how-to/manage-render-queue), team

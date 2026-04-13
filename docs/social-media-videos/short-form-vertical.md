@@ -34,12 +34,12 @@ In the shot settings, select **Vertical (9:16)** as the output format. Compose m
 At 30 seconds, you need 5–10 shots. At 60 seconds, 10–15. Keep cuts fast — 2–4 seconds per shot for energetic content, 4–8 seconds for storytelling.
 
 ### 4. Use a consistent visual style for your feed
-Your TikTok or Reels feed looks better when all your videos feel related. Set a consistent visual style across projects so viewers recognize your content instantly.
+Your TikTok or Reels feed looks better when all your videos feel related. Set a consistent [visual style](/how-to/set-visual-style) across projects so viewers recognize your content instantly.
 
 → [How to set visual style](/how-to/set-visual-style)
 
 ### 5. Create your on-screen persona
-If you have a recurring character or host, create them as a digital actor and reuse them across all your videos. Consistent talent builds audience recognition faster than any other factor.
+If you have a recurring character or host, create them as a [digital actor](/how-to/create-digital-actor) and reuse them across all your videos. Consistent talent builds audience recognition faster than any other factor.
 
 → [How to create a digital actor](/how-to/create-digital-actor)
 

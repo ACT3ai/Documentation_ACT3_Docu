@@ -33,12 +33,12 @@ Every location your series returns to — the main character's apartment, the of
 → [How to create a set](/how-to/create-a-set)
 
 ### 3. Create your recurring cast
-Build all your main and supporting characters as digital actors. Define their look, voice, and wardrobe in detail. Save them to your organization's character library.
+Build all your main and supporting characters as [digital actors](/how-to/create-digital-actor). Define their look, voice, and wardrobe in detail. Save them to your organization's character library.
 
 → [How to create a digital actor](/how-to/create-digital-actor)
 
 ### 4. Lock in the visual style
-Set the project-level visual style once and use it as a template for every episode. This is what makes your channel look like a channel.
+Set the project-level [visual style](/how-to/set-visual-style) once and use it as a template for every episode. This is what makes your channel look like a channel.
 
 → [How to set visual style](/how-to/set-visual-style)
 

@@ -16,7 +16,7 @@ The craft decisions are the same. What does the space look like? What does it sa
 
 ## Your work in ACT3 AI
 
-Sets in ACT3 AI are reusable environments attached to scenes. You create a set once and use it across as many shots and scenes as it appears in. Any change to the set updates every shot that uses it.
+Sets in ACT3 AI are reusable environments attached to [scenes](/concepts/scenes). You create a set once and use it across as many [shots](/concepts/shots) and scenes as it appears in. Any change to the set updates every shot that uses it.
 
 ---
 
@@ -45,7 +45,7 @@ For large-scale urban environments or repeating interior spaces, use the "City o
 → [How to use procedural set generation](/how-to/procedural-set-generation)
 
 ### Place characters and cameras in a set
-The top-down canvas gives you a bird's-eye view of the set. Drag character icons to position them, draw movement paths as splines, and place cameras with visible sight-line cones.
+The [top-down canvas](/how-to/top-down-set-editor) gives you a bird's-eye view of the set. Drag character icons to position them, draw movement paths as splines, and place cameras with visible sight-line cones.
 
 → [How to use the top-down set editor](/how-to/top-down-set-editor)
 
@@ -60,7 +60,7 @@ Once you've built a set, attach it to every scene that takes place there. The se
 → [How to link a set to scenes](/how-to/link-set-to-scenes)
 
 ### Import a 3D Blender set
-If you or a VFX artist are building custom 3D environments in Blender, sync them directly into ACT3 AI through the Blender Sync workflow.
+If you or a VFX artist are building custom 3D environments in [Blender](/integrations/blender), sync them directly into ACT3 AI through the Blender Sync workflow.
 
 → [How to sync a Blender set](/how-to/blender-set-sync)
 

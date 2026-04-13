@@ -12,7 +12,7 @@ description: Learn how to screen rendered shots and mark them approved for final
 
 After the render queue delivers your shots, the review pass is where you act as the director screening dailies — deciding what stays, what gets regenerated, and what needs notes before you call a scene finished. ACT3 AI tracks approval status per shot so you and your team always know the state of the cut.
 
-If you are new to film terminology: a "shot" is one continuous camera angle. A "scene" is a group of shots at the same location and time. Approving all shots in a scene means that scene is ready for export.
+If you are new to film terminology: a "[shot](/concepts/shots)" is one continuous camera angle. A "[scene](/concepts/scenes)" is a group of shots at the same location and time. Approving all shots in a scene means that scene is ready for [export](/how-to/export-for-delivery).
 
 ---
 

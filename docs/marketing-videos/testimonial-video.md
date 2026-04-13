@@ -17,7 +17,7 @@ Testimonial videos are the most persuasive content in the marketing funnel becau
 ## What you'll do, in order
 
 ### 1. Write the customer story as a script
-A testimonial has a clear arc: before (the problem), the turning point (finding your product), and after (the result). Write this in three beats with the testimonial subject speaking directly to camera in some shots and b-roll visuals in others.
+A testimonial has a clear arc: before (the problem), the turning point (finding your product), and after (the result). Write this in three [beats](/concepts/beats) with the testimonial subject speaking directly to camera in some shots and b-roll visuals in others. Use the [script editor](/how-to/use-the-script-editor) to format it correctly.
 
 → [How to use the script editor](/how-to/use-the-script-editor)
 
@@ -33,7 +33,7 @@ Office, home workspace, retail floor — where your customer lives and works. Th
 → [How to use a reference image as a set](/how-to/use-image-as-set)
 
 ### 4. Build a shot list — interview + b-roll
-A testimonial needs direct-to-camera interview shots and b-roll showing the product in use or the results achieved. Plan your coverage with a mix of close-up talking-head shots and wider contextual b-roll.
+A testimonial needs direct-to-camera interview shots and b-roll showing the product in use or the results achieved. Plan your [coverage](/how-to/plan-scene-coverage) with a mix of close-up talking-head shots and wider contextual b-roll.
 
 → [How to set up a shot](/how-to/set-up-a-shot)
 

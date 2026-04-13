@@ -10,7 +10,7 @@ description: How to produce multiple ad variants for paid social campaigns in AC
 
 **Who this is for:** Performance marketers, media buyers, and agency teams running paid video campaigns on Facebook, Instagram, TikTok, and YouTube.
 
-Paid social video demands volume and speed. You need multiple variants — different hooks, different lengths, different aspect ratios — to test what works and scale what wins. ACT3 AI lets you produce a full campaign's worth of variants from a single project.
+Paid social video demands volume and speed. You need multiple variants — different hooks, different lengths, different aspect ratios — to test what works and scale what wins. ACT3 AI lets you produce a full campaign's worth of variants from a single project. Credits are consumed per render — see [Credits](/account/credits) to understand costs before you batch-generate.
 
 ---
 
@@ -24,7 +24,7 @@ A paid social campaign is not one video — it's a matrix. Plan your variants up
 - **Audience variants** — Same product, different personas speaking to different benefits
 
 ### 2. Write a modular script
-Write the core video first — usually 60 seconds. Then identify where you can swap in different openings, different benefit statements, and different CTAs. This modular structure lets you create 10 variants without writing 10 scripts.
+Write the core video first — usually 60 seconds. Then identify where you can swap in different openings, different benefit statements, and different CTAs. This modular structure lets you create 10 variants without writing 10 scripts. Use the [script editor](/how-to/use-the-script-editor) to duplicate and modify scenes quickly.
 
 → [How to use the script editor](/how-to/use-the-script-editor)
 

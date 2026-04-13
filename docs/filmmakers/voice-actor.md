@@ -8,13 +8,13 @@ description: How to add dialogue, generate character voices, and sync audio to c
 
 # Voice Actor
 
-In traditional production, voice work happens on a recording stage and gets married to picture in post. In ACT3 AI, voice and dialogue are part of the shot definition — generated and synced before the video renders. You define the voice, the line, and the emotion, and the system handles lipsync automatically.
+In traditional production, voice work happens on a recording stage and gets married to picture in post. In ACT3 AI, voice and dialogue are part of the [shot](/concepts/shots) definition — generated and synced before the video renders. You define the voice, the line, and the emotion, and the system handles [lipsync](/how-to/review-lipsync) automatically.
 
 ---
 
 ## Your work in ACT3 AI
 
-Dialogue in ACT3 AI is driven by text-to-speech (TTS) per shot. Each character has a voice assigned to them. The script provides the lines. TTS converts them to audio and drives the lipsync on the character's face in the final render.
+Dialogue in ACT3 AI is driven by text-to-speech (TTS) per shot. Each character has a voice assigned to them. The script provides the lines. TTS converts them to audio and drives the [lipsync](/how-to/review-lipsync) on the character's face in the final render.
 
 You can also upload recorded audio if you want a real voice instead of a synthetic one.
 
@@ -50,7 +50,7 @@ ACT3 AI uses NVIDIA Audio2Face to drive facial animation from the audio track. T
 → [How to review lipsync sync](/how-to/review-lipsync)
 
 ### Add non-dialogue audio — narration, voice-over
-For narration or voice-over that plays over visuals without a character on screen, add a voice track to the scene-level audio and it will mix into the assembled output.
+For [narration](/how-to/add-narration) or voice-over that plays over visuals without a character on screen, add a voice track to the scene-level audio and it will mix into the assembled output.
 
 → [How to add narration or voice-over](/how-to/add-narration)
 

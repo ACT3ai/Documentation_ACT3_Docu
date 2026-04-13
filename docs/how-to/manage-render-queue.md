@@ -10,7 +10,7 @@ description: Learn how to monitor, reorder, pause, and cancel jobs in the render
 
 **Goal:** Monitor and control which shots are rendering, pause or cancel jobs, and prioritize the shots you need reviewed first.
 
-The Render Queue is the production engine of ACT3 AI. When you click Generate on a shot or run a batch render, the job enters the queue and waits its turn. Understanding the queue lets you respond to a director's urgent request by bumping one shot to the top, or catch a bad prompt before it wastes credits by canceling a job that has not started yet.
+The Render Queue is the production engine of ACT3 AI. When you click Generate on a shot or run a batch render, the job enters the queue and waits its turn. Understanding the queue lets you respond to a director's urgent request by bumping one shot to the top, or catch a bad prompt before it wastes [credits](/account/credits) by canceling a job that has not started yet.
 
 If you are new to production workflows: think of the Render Queue like a print queue. Jobs run in order. You can reorder, pause, or cancel jobs before they complete — but once a job is running, you have to wait for it or cancel it.
 

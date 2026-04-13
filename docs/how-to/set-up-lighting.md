@@ -10,7 +10,7 @@ description: How to define the lighting mood for a scene in ACT3 AI so every sho
 
 **Goal:** Define the lighting setup for a scene so every shot in that scene has the right light source, color temperature, and mood — without setting it separately for each shot.
 
-Lighting is defined at the scene level. All shots in the scene inherit it. You can override per shot when you need to.
+Lighting is defined at the [scene](/concepts/scenes) level. All [shots](/concepts/shots) in the scene inherit it. You can override per shot when you need to. The [visual style](/how-to/set-visual-style) setting also affects how lighting renders across the full project.
 
 ---
 

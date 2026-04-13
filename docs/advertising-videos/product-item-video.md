@@ -20,7 +20,7 @@ A product item video is the workhorse of advertising: it exists to make one prod
 Before writing a single word, answer: what is the single most compelling thing about this product? Speed, beauty, simplicity, price, exclusivity? Everything in the video should serve that one idea.
 
 ### 2. Write a 30–60 second script
-Product videos are typically 30 seconds (paid social), 60 seconds (YouTube, website), or 90 seconds (detailed demo). Structure it:
+Product videos are typically 30 seconds (paid social), 60 seconds (YouTube, website), or 90 seconds (detailed demo). Use the [script editor](/how-to/use-the-script-editor) to structure it:
 - 0–3s: Lead with the product's best visual or most interesting claim
 - 3–20s: Show it in use in the right context
 - 20–25s: State the key benefit
@@ -60,7 +60,7 @@ Your product ad should feel like it belongs in the brand's world. Set the visual
 → [How to set visual style](/how-to/set-visual-style)
 
 ### 8. Add voice-over or on-screen text
-Most product ads use a brief, confident voice-over. Write it to be heard, not read — short sentences, active voice, concrete language. Assign a voice that fits the brand's personality.
+Most product ads use a brief, confident voice-over. Write it to be heard, not read — short sentences, active voice, concrete language. Assign a voice that fits the brand's personality. The [narration](/how-to/add-narration) guide covers adding a voice track at the scene level.
 
 → [How to add narration or voice-over](/how-to/add-narration)
 

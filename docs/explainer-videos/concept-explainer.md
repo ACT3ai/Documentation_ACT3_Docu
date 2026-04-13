@@ -12,7 +12,7 @@ description: How to make an abstract concept visual and understandable using ACT
 
 Abstract concepts are hard to explain in words. *Inflation, machine learning, compound interest, supply chain risk* — these are ideas that live in systems and relationships, not things you can point to. The job of a concept explainer is to build a visual metaphor that makes the abstract concrete.
 
-ACT3 AI's AI story expansion system is particularly good at this — describe the concept and ask the AI to build a visual metaphor around it.
+ACT3 AI's AI story expansion system is particularly good at this — describe the concept and ask the AI to build a visual metaphor around it. Use [story structure](/how-to/build-story-structure) to plan the narrative arc of your explanation.
 
 ---
 

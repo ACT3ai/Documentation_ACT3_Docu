@@ -9,7 +9,7 @@ description: How screenwriters use ACT3 AI to turn their scripts into AI-generat
 
 If you wrote a script — or have a story idea — this is where you start.
 
-ACT3 AI turns your screenplay into a fully rendered AI video production. You bring the story. The platform handles the casting, sets, camera work, and video generation. You review and direct at every step — nothing gets rendered without your approval.
+ACT3 AI turns your screenplay into a fully rendered AI video production. You bring the story. The platform handles the casting, sets, [camera work](/filmmakers/cinematography), and video generation. You review and direct at every step — nothing gets rendered without your [approval](/how-to/review-and-approve-shots).
 
 You do not need to know 3D software, video editing, or AI prompting. Write the story. ACT3 AI handles the rest.
 
@@ -18,7 +18,7 @@ You do not need to know 3D software, video editing, or AI prompting. Write the s
 ## Two paths into the platform
 
 **I have a finished script.**
-Import it directly. ACT3 AI reads Final Draft exports, PDFs, and plain-text files. It automatically parses your scene headings, action lines, and dialogue into the platform's structure. From there, every scene becomes a shot list and every shot becomes a rendered video clip.
+Import it directly. ACT3 AI reads [Final Draft](/integrations/final-draft) exports, PDFs, and plain-text files. It automatically parses your scene headings, action lines, and dialogue into the platform's structure. From there, every [scene](/concepts/scenes) becomes a shot list and every [shot](/concepts/shots) becomes a rendered video clip.
 
 → Start here: [Import a Script](/how-to/import-a-script)
 
@@ -33,15 +33,15 @@ Describe your story in one sentence or a short paragraph. The AI Writer expands 
 
 1. **Get your story into the platform.** Import a finished script or use the AI Writer to develop one from your idea. Either path ends at the same place: a structured screenplay inside the editor.
 
-2. **Review and organize the structure.** Check that your acts and beats read the way you intended. The Story Arc view shows the full narrative shape of your project — use it to spot structural problems before you commit to rendering anything.
+2. **Review and organize the structure.** Check that your [acts](/concepts/acts) and [beats](/concepts/beats) read the way you intended. The Story Arc view shows the full narrative shape of your project — use it to spot structural problems before you commit to rendering anything.
 
-3. **Attach characters to actors.** Every named character in your script gets linked to a digital actor. The platform may propose matches automatically; you confirm or reassign them.
+3. **Attach characters to actors.** Every named character in your script gets linked to a [digital actor](/how-to/create-digital-actor). The platform may propose matches automatically; you confirm or reassign them.
 
 4. **Review the AI-generated shot list.** ACT3 AI reads your script and proposes a shot list for each scene. Accept the suggestions, replace them, or add your own. This is your director's eye applied to your own words.
 
-5. **Generate video.** Send scenes and shots to the render queue. The platform produces AI video for each shot. Review the output and approve or regenerate shot by shot.
+5. **Generate video.** Send scenes and shots to the [render queue](/how-to/manage-render-queue). The platform produces AI video for each shot. Review the output and [approve or regenerate](/how-to/review-and-approve-shots) shot by shot.
 
-6. **Assemble and export.** Arrange your approved shots into scenes, adjust timing, and export in the format you need — festival DCP, YouTube, social, or a professional ProRes master.
+6. **Assemble and export.** Arrange your approved shots into scenes, adjust timing, and [export](/how-to/export-for-delivery) in the format you need — festival DCP, YouTube, social, or a professional ProRes master.
 
 ---
 

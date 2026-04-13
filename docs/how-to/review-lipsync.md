@@ -10,7 +10,7 @@ description: Learn how to preview and refine the lipsync timing between audio an
 
 **Goal:** Check that a character's mouth movements match their dialogue, fix frames where the sync is off, and approve lipsync before final render.
 
-Lipsync in ACT3 AI is generated automatically from the character's voice audio — whether that audio came from Azure Neural TTS or from an uploaded recording. The system analyzes the phoneme timing in the waveform and drives the character's mouth animation accordingly. Auto-generated lipsync is accurate in most shots, but close-ups and emotionally charged lines benefit from a manual review pass. This guide walks through the review and correction workflow.
+Lipsync in ACT3 AI is generated automatically from the character's voice audio — whether that audio came from Azure Neural TTS or from an uploaded recording. The system analyzes the phoneme timing in the waveform and drives the character's mouth animation accordingly. Auto-generated lipsync is accurate in most [shots](/concepts/shots), but close-ups and emotionally charged lines benefit from a manual review pass. This guide walks through the review and correction workflow.
 
 ---
 

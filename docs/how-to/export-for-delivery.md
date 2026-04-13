@@ -14,7 +14,7 @@ description: How to export your finished film from ACT3 AI in the right format f
 
 ## Steps
 
-1. **Make sure all shots in the scene or project are rendered.** Check the render queue to confirm all shots are complete. Any shots still in Draft quality should be re-rendered at Standard or High before export.
+1. **Make sure all shots in the scene or project are rendered.** Check the [render queue](/how-to/manage-render-queue) to confirm all shots are complete. Any shots still in Draft quality should be re-rendered at Standard or High before export. See [Credits](/account/credits) if you are unsure about the cost of upgrading from Draft to High quality.
 
 2. **Open the Export panel.** Go to **Render Queue → Export** or **Project → Export**.
 

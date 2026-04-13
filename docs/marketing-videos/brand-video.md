@@ -10,7 +10,7 @@ description: How to produce a brand film or company overview video in ACT3 AI.
 
 **Who this is for:** Marketing managers, brand strategists, content leads, and agency producers who need a polished video that represents a company, product, or campaign.
 
-A brand video tells the story of what a company stands for. It's not a product demo — it's an emotional statement. In ACT3 AI, you script the narrative, define the visual identity, and generate the footage without a production crew.
+A brand video tells the story of what a company stands for. It's not a product demo — it's an emotional statement. In ACT3 AI, you script the narrative, define the [visual style](/how-to/set-visual-style), and generate the footage without a production crew.
 
 ---
 
@@ -39,18 +39,18 @@ Create digital actors that look like your target customer or brand ambassador. U
 → [How to cast an actor in a scene](/how-to/cast-actor-in-scene)
 
 ### 5. Build shots that feel cinematic
-Brand videos live or die on visual quality. Use wide establishing shots to set the world, close-ups for emotional moments, and slow camera moves to convey premium quality. Set lighting to match the brand mood — warm and inviting or clean and modern.
+Brand videos live or die on visual quality. Use wide establishing shots to set the world, close-ups for emotional moments, and slow [camera movement](/how-to/set-camera-movement) to convey premium quality. Set [lighting](/how-to/set-up-lighting) to match the brand mood — warm and inviting or clean and modern.
 
 → [How to set up a shot](/how-to/set-up-a-shot)
 → [How to set up scene lighting](/how-to/set-up-lighting)
 
 ### 6. Add voice-over or on-screen dialogue
-Brand videos often use a narrator's voice over a montage. Add narration as a voice track at the scene level, or write dialogue into the script for on-camera talent.
+Brand videos often use a narrator's voice over a montage. Add [narration](/how-to/add-narration) as a voice track at the scene level, or write dialogue into the script for on-camera talent.
 
 → [How to add narration or voice-over](/how-to/add-narration)
 
 ### 7. Assemble and review the cut
-Watch the assembled video end to end. Check that the narrative arc lands, the pacing feels right, and the visual style is consistent throughout. Regenerate any shots that don't fit.
+Watch the assembled video end to end. Check that the narrative arc lands, the pacing feels right, and the [visual consistency](/how-to/review-visual-consistency) holds throughout. [Regenerate](/how-to/regenerate-a-shot) any shots that don't fit.
 
 → [How to regenerate a shot](/how-to/regenerate-a-shot)
 

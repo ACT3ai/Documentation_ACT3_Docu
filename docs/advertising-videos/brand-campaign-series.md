@@ -10,14 +10,14 @@ description: How to produce a connected series of ads sharing a visual world in 
 
 **Who this is for:** Brand teams, creative directors, and agencies producing a coordinated set of ads that share a visual identity, cast, and world across multiple spots.
 
-A brand campaign series is not a collection of unrelated ads — it is a world. The same visual language, the same actors, the same sets, sometimes the same characters at different moments. The power comes from coherence: the viewer sees the second spot and immediately recognizes the brand's visual signature from the first. ACT3 AI's project structure and locked asset system make that coherence achievable without hiring a continuity supervisor.
+A brand campaign series is not a collection of unrelated ads — it is a world. The same visual language, the same actors, the same sets, sometimes the same characters at different moments. The power comes from coherence: the viewer sees the second spot and immediately recognizes the brand's visual signature from the first. ACT3 AI's project structure and locked asset system make that coherence achievable without hiring a continuity supervisor. For technical background on how shots and scenes work, see [Filmmaking Concepts](/filmmakers/filmmaking-concepts).
 
 ---
 
 ## What makes this format specific
 
 - Multiple individual ads (typically 2–6) that must look like they belong together
-- Shared cast and locations across spots — the same actors, same color grading, same lighting approach
+- Shared cast and locations across spots — the same actors, same color grading, same [lighting](/how-to/set-up-lighting) approach
 - Often produced simultaneously or in rapid succession to hit a campaign launch window
 - Each spot must also work independently — a viewer who only sees one ad gets the full brand message
 

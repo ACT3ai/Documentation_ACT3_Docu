@@ -10,7 +10,7 @@ description: Learn how to plan the full set of camera angles needed to cover a s
 
 **Goal:** Map out all the camera angles you need to cover a scene — wide, medium, close-up, reverses — so you generate a complete set of shots before rendering anything.
 
-Coverage is the collection of angles a director shoots to fully capture what happens in a scene. A covered scene has at least an establishing wide shot, medium shots on each character, and close-ups for key emotional moments. Without coverage, you may finish rendering and discover you're missing an angle you needed in the edit. Planning coverage before rendering saves you from expensive re-generates later.
+Coverage is the collection of angles a director shoots to fully capture what happens in a [scene](/concepts/scenes). A covered scene has at least an establishing wide shot, medium shots on each character, and close-ups for key emotional moments. Without coverage, you may finish rendering and discover you're missing an angle you needed in the edit. Planning coverage before rendering saves you from expensive re-generates later.
 
 If you're new to filmmaking: coverage just means "enough angles to tell the story." ACT3 AI guides you through this so you don't have to know every convention from the start.
 
@@ -48,7 +48,7 @@ If you're new to filmmaking: coverage just means "enough angles to tell the stor
 
 ## Tips
 
-- Over-shooting is fine — you can always leave shots on the cutting room floor in the editor. Under-shooting means going back to re-render, which costs both time and credits. When in doubt, add the angle.
+- Over-shooting is fine — you can always leave shots on the cutting room floor in the [timeline](/how-to/review-shots-in-timeline). Under-shooting means going back to re-render, which costs both time and [credits](/account/credits). When in doubt, add the angle.
 - For action scenes or crowd scenes, add more wide shots than you think you need — the editor needs wide shots to establish spatial relationships before cutting to close-ups.
 - Once you've planned coverage for a few scenes, the ACT3 AI suggestions will start matching your style preferences more closely.
 

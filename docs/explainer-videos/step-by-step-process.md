@@ -17,7 +17,7 @@ A step-by-step process video is built for retention and action. The viewer doesn
 ## What you'll do, in order
 
 ### 1. Write each step as a discrete beat
-In your script, each step gets its own beat. Don't combine steps. Don't skip steps. The script structure should map 1:1 to the process:
+In your script, each step gets its own [beat](/concepts/beats). Don't combine steps. Don't skip steps. The script structure should map 1:1 to the process:
 
 ```
 STEP 1: Open the settings panel.

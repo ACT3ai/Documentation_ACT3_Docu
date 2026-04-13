@@ -16,7 +16,7 @@ You're not grading footage after the fact. You're defining the look before the i
 
 ## Your work in ACT3 AI
 
-Visual style in ACT3 AI is set at the project level and can be overridden per scene or per shot. The AI uses your style settings to generate images that already have the color palette, contrast, and mood you specified. For final polish, export to DaVinci Resolve.
+[Visual style](/how-to/set-visual-style) in ACT3 AI is set at the project level and can be overridden per scene or per shot. The AI uses your style settings to generate images that already have the color palette, contrast, and mood you specified. For final polish, [export](/how-to/export-for-delivery) to DaVinci Resolve.
 
 ---
 
@@ -40,12 +40,12 @@ Some scenes need a different color world — a flashback, a dream sequence, a sc
 → [How to set per-scene visual style](/how-to/per-scene-style)
 
 ### Define lighting mood per scene
-Lighting is the biggest driver of color feel. Set the lighting mood — golden hour, overcast, interior tungsten, night exterior — and it changes the color temperature of everything in the scene.
+[Lighting](/how-to/set-up-lighting) is the biggest driver of color feel. Set the lighting mood — golden hour, overcast, interior tungsten, night exterior — and it changes the color temperature of everything in the scene.
 
 → [How to set up scene lighting](/how-to/set-up-lighting)
 
 ### Check visual consistency across scenes
-Review scenes side by side to make sure the color world is consistent. Scenes from the same location should feel like they belong together.
+Review scenes side by side to make sure the color world is [visually consistent](/how-to/review-visual-consistency). Scenes from the same location should feel like they belong together.
 
 → [How to review visual consistency](/how-to/review-visual-consistency)
 

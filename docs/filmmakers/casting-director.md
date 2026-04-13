@@ -8,13 +8,13 @@ description: How to create digital actors, build a cast, and assign characters t
 
 # Casting Director
 
-Casting is deciding who looks and feels right for each role — and maintaining that person's consistency across every scene in the film. In ACT3 AI, you create digital actors, define their appearance and personality, and cast them into the script. Once cast, the AI keeps them visually consistent across every shot they appear in.
+Casting is deciding who looks and feels right for each role — and maintaining that person's consistency across every [scene](/concepts/scenes) in the film. In ACT3 AI, you create [digital actors](/how-to/create-digital-actor), define their appearance and personality, and cast them into the script. Once cast, the AI keeps them [visually consistent](/how-to/review-visual-consistency) across every shot they appear in.
 
 ---
 
 ## Your work in ACT3 AI
 
-Digital actors are reusable assets. You build them once and they can appear in any scene, any project. Their look, voice, and motion capture data all travel with them.
+Digital actors are reusable assets. You build them once and they can appear in any scene, any project. Their look, voice, and [motion capture](/how-to/add-mocap-to-actor) data all travel with them.
 
 ---
 
@@ -53,7 +53,7 @@ Review continuity — same hair, costume, and physical characteristics across ev
 → [How to check actor consistency](/how-to/check-actor-consistency)
 
 ### Create an ensemble or crowd
-For scenes needing background actors or large groups, create generalized "extra" characters with varied appearances and place them in bulk in the top-down editor.
+For scenes needing background actors or large groups, create generalized "extra" characters with varied appearances and place them in bulk in the [top-down editor](/how-to/top-down-set-editor).
 
 → [How to add background actors](/how-to/add-background-actors)
 

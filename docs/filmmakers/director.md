@@ -8,7 +8,7 @@ description: How to direct your film in ACT3 AI — controlling vision, pacing, 
 
 # Director
 
-As director, your job is to hold the vision of the whole film and make sure every scene, shot, and performance serves that vision. In ACT3 AI, you do this through approvals, overrides, and direct creative control at every level of the hierarchy.
+As director, your job is to hold the vision of the whole film and make sure every [scene](/concepts/scenes), [shot](/concepts/shots), and performance serves that vision. In ACT3 AI, you do this through approvals, overrides, and direct creative control at every level of the hierarchy.
 
 The AI proposes. You decide.
 
@@ -16,7 +16,7 @@ The AI proposes. You decide.
 
 ## Your work in ACT3 AI
 
-ACT3 AI is built around the director's workflow. You set the story structure, define the visual style, approve or override what the AI generates, and drive iterative refinement until every shot looks the way you want it.
+ACT3 AI is built around the director's workflow. You set the [story structure](/how-to/build-story-structure), define the [visual style](/how-to/set-visual-style), approve or override what the AI generates, and drive iterative refinement until every shot looks the way you want it.
 
 ---
 
@@ -35,7 +35,7 @@ Before generating anything, you lock in the overall look — Cinematic Realism, 
 → [How to set visual style](/how-to/set-visual-style)
 
 ### Direct a scene — blocking, camera, pacing
-For each scene, you define where characters stand and move, where the camera is, and how the shot is timed. ACT3 AI has a top-down canvas that works like a stage diagram.
+For each scene, you define where characters stand and move, where the camera is, and how the shot is timed. ACT3 AI has a [top-down canvas](/how-to/top-down-set-editor) that works like a stage diagram.
 
 → [How to block a scene](/how-to/block-a-scene)
 
@@ -45,7 +45,7 @@ When a shot isn't working — the performance feels flat, the angle is wrong, th
 → [How to regenerate a shot](/how-to/regenerate-a-shot)
 
 ### Set overall story structure — acts and beats
-The director controls the narrative architecture. You can use the AI Wizard to build your act and beat structure, or import it from a script and reshape it.
+The director controls the narrative architecture. You can use the [AI Wizard](/how-to/build-story-structure) to build your [act](/concepts/acts) and [beat](/concepts/beats) structure, or import it from a script and reshape it.
 
 → [How to build story structure with the AI Wizard](/how-to/build-story-structure)
 

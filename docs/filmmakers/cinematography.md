@@ -8,7 +8,7 @@ description: How to handle cinematography in ACT3 AI — shot types, camera move
 
 # Cinematography
 
-Your job as cinematographer is to translate the director's vision into specific camera choices — what the audience sees, from where, and how the camera moves through it. In ACT3 AI, every one of those decisions is a parameter you set per shot before the AI renders it.
+Your job as cinematographer is to translate the director's vision into specific camera choices — what the audience sees, from where, and how the camera moves through it. In ACT3 AI, every one of those decisions is a parameter you set per [shot](/concepts/shots) before the AI renders it.
 
 No physical camera. The craft is identical.
 

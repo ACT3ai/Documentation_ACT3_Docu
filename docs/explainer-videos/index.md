@@ -25,9 +25,20 @@ ACT3 AI is particularly well-suited to explainers because the platform handles v
 
 ---
 
-## What's in this section
+## Start here: story structure and scripting
 
-- [How-It-Works Video](/explainer-videos/how-it-works) — Explain how your product or process works
-- [Step-by-Step Process Video](/explainer-videos/step-by-step-process) — Walk through a sequence of steps
-- [Concept Explainer](/explainer-videos/concept-explainer) — Make an abstract idea visual and concrete
-- [Educational Series](/explainer-videos/educational-series) — Multi-episode educational content built for retention
+If you're starting from a topic or idea and haven't written the script yet, begin with these two pages. They cover the storytelling principles that make explainer videos work and the step-by-step process of turning an idea into a production-ready script.
+
+- **[Storytelling Structure](/explainer-videos/storytelling-structure):** How explainer video storytelling works — hook, empathy bridge, explanation, resolution — and how each maps to ACT3 AI's [scenes](/concepts/scenes), [shots](/concepts/shots), and [acts](/concepts/acts).
+- **[Idea to Script](/explainer-videos/idea-to-script):** From a rough topic or concept to a finished script — finding the visual metaphor, structuring the three movements, and using the AI to draft or assist. Includes a worked example.
+
+---
+
+## Production guides by format
+
+Each guide below walks through the full production process for a specific explainer format. Tasks in each guide link to the relevant [how-to pages](/how-to/).
+
+- **[How-It-Works Video](/explainer-videos/how-it-works):** Explain how your product or process works. The most common explainer format.
+- **[Step-by-Step Process Video](/explainer-videos/step-by-step-process):** Walk through a sequence of steps. Built for training, onboarding, and procedural content.
+- **[Concept Explainer](/explainer-videos/concept-explainer):** Make an abstract idea visual and concrete. For finance, technology, science, and any topic with invisible mechanisms.
+- **[Educational Series](/explainer-videos/educational-series):** Multi-episode structured learning content with consistent visual identity across episodes.

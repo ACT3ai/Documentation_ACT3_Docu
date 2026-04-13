@@ -17,7 +17,7 @@ Three minutes is the sweet spot for social storytelling — long enough to devel
 ## What you'll do, in order
 
 ### 1. Structure your video as a three-act mini-story
-Even a 3-minute video needs a hook, a middle, and a payoff. Write your script with that structure. The AI Wizard can help you build this out if you start with a rough idea.
+Even a 3-minute video needs a hook, a middle, and a payoff. Write your script with that structure. The AI Wizard can help you build this out — see [story structure](/how-to/build-story-structure) — if you start with a rough idea.
 
 **A working structure for 3 minutes:**
 - 0:00–0:20 — Hook: show the most interesting thing first
@@ -49,7 +49,7 @@ Create the sets your video takes place in. For talking-head content, a simple, s
 → [How to create a set](/how-to/create-a-set)
 
 ### 6. Add voice and dialogue
-Assign a voice to your on-screen talent. For narration-driven content, write the voice-over as narration lines in the script and add them as a scene-level voice track.
+Assign a voice to your on-screen talent. For narration-driven content, write the [narration](/how-to/add-narration) lines in the script and add them as a scene-level voice track.
 
 → [How to assign a voice to a character](/how-to/assign-character-voice)
 → [How to add narration or voice-over](/how-to/add-narration)

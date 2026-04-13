@@ -17,7 +17,7 @@ A product demo video needs to do one thing: make the viewer understand what this
 ## What you'll do, in order
 
 ### 1. Write a focused script — problem, solution, proof
-A good product demo follows a tight structure: here's the problem your customer has, here's how the product solves it, here's proof it works. Write this as a script with clear scenes for each beat.
+A good product demo follows a tight structure: here's the problem your customer has, here's how the product solves it, here's proof it works. Write this as a script with clear [scenes](/concepts/scenes) for each [beat](/concepts/beats).
 
 → [How to use the script editor](/how-to/use-the-script-editor)
 → [How to expand an idea into a script](/how-to/expand-idea-to-script)
@@ -38,12 +38,12 @@ For product demos, clarity beats artistry. Use medium shots and close-ups to mak
 → [How to set up a shot](/how-to/set-up-a-shot)
 
 ### 5. Add voice-over for explanation
-Most product demos use a voice-over that explains what we're seeing. Write the voice-over text in the script as narration, assign a voice, and add it as a scene-level audio track.
+Most product demos use a voice-over that explains what we're seeing. Write the voice-over text in the script as [narration](/how-to/add-narration), assign a voice, and add it as a scene-level audio track.
 
 → [How to add narration or voice-over](/how-to/add-narration)
 
 ### 6. Keep visual style clean and professional
-For B2B or professional products: cool, desaturated, high-contrast. For consumer products: warm, vibrant, energetic. Set this at the project level so all shots are consistent.
+For B2B or professional products: cool, desaturated, high-contrast. For consumer products: warm, vibrant, energetic. Set your [visual style](/how-to/set-visual-style) at the project level so all shots are consistent.
 
 → [How to set visual style](/how-to/set-visual-style)
 

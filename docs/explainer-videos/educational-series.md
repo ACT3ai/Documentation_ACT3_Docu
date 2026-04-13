@@ -54,7 +54,7 @@ Create a single project named after the series — not after episode 1. All epis
 ## Part 2: Create a consistent visual identity for the series
 
 ### 4. Build your host character and lock their appearance
-Create a digital actor for the series host. This person appears in every episode, so their look needs to be exactly right. Once you are satisfied with the character, lock their appearance so it cannot drift across episodes.
+Create a [digital actor](/how-to/create-digital-actor) for the series host. This person appears in every episode, so their look needs to be exactly right. Once you are satisfied with the character, lock their appearance so it cannot drift across episodes.
 
 → [How to create a digital actor](/how-to/create-digital-actor)
 → [How to lock approved elements](/how-to/lock-approved-elements)
@@ -113,7 +113,7 @@ Do not move to episode 2 until episode 1 is fully approved and its assets are lo
 Once episode 1 is locked and approved, duplicate its scene structure to use as the starting framework for episodes 2 through N. You get the same internal structure, the same host, and the same sets. Replace the script content and update the shots. Everything that is consistent about the series is already in place.
 
 ### 12. Run a visual consistency check after every three episodes
-As the series grows, check that the host character, sets, and visual style are consistent across episodes. Run the Visual Consistency review periodically — especially if regenerating any shots — to catch drift before it compounds.
+As the series grows, check that the host character, sets, and [visual style](/how-to/set-visual-style) are consistent across episodes. Run the [visual consistency](/how-to/review-visual-consistency) review periodically — especially if regenerating any shots — to catch drift before it compounds.
 
 → [How to review visual consistency](/how-to/review-visual-consistency)
 
