@@ -14,47 +14,78 @@ ACT3 AI uses a credit-based system to measure [AI generation](/features/ai-video
 Credits are deducted in real time as you use the platform. The credit cost for any task depends on three factors:
 
 - **Resolution** — Higher resolution costs more credits per second of output
-- **Engine** — Premium AI engines ([Google Veo 3.1](/integrations/veo3), [Grok Video](/integrations/grok-video)) cost more than preview engines ([Wan 2.1](/integrations/wan))
-- **Duration** — Credits scale with the length of the generated clip or render
+- **Engine** — Premium AI engines ([Google Veo 3.1](/integrations/veo3), Seedance 2.0) cost more than fast / draft engines ([Grok Imagine](/integrations/grok-video), Veo 3.1 Fast, Seedance 2.0 Fast, [Wan 2.6](/integrations/wan))
+- **Duration** — Every video clip is generated as **8 seconds** by default; credits scale with that duration. Final render fees scale with the total length of generated footage.
 
-Before any generation or render job starts, ACT3 AI shows you the exact credit cost on the generate button — for example, **Generate [80 Credits]** or **Generate High Quality [400 Credits]**. If you do not have enough credits, a dialog tells you exactly how many you need and offers an upgrade path. You must confirm before credits are deducted.
+Before any generation or render job starts, ACT3 AI shows you the exact credit cost on the generate button — for example, **Generate [364 Credits]** or **Generate High Quality [2,080 Credits]**. If you do not have enough credits, a dialog tells you exactly how many you need and offers an upgrade path. You must confirm before credits are deducted.
+
+For the full per-model catalog and a worked example of a complete 50-shot project, see [Pricing Details](/account/pricing-details).
 
 ## Credit Usage by Task
 
-### Video Generation and Rendering
+### Video Generation — Per 8-Second Shot
 
-| Task | Draft / Preview | 1080p Final | 4K Final |
-|---|---|---|---|
-| Preview render (per 10s) | 1 credit | 2 credits | 4 credits |
-| Full render (per 10s) | 3 credits | 5 credits | 10 credits |
-| Google Veo 3.1 (per 10s) | — | 6 credits | 12 credits |
-| Grok Video (per 10s) | — | 5 credits | 10 credits |
-| Wan 2.1 session (per min) | 2 credits | 3 credits | — |
+| Model | Resolution | Credits |
+|---|---|---|
+| Grok Imagine | 720p | 364 |
+| Wan 2.6 | 1080p | 780 |
+| Veo 3.1 Fast | 720p | 780 |
+| Veo 3.1 Fast | 1080p | 780 |
+| Veo 3.1 | 1080p | 2,080 |
+| Seedance 2.0 Fast | 720p | 1,258 |
+| Seedance 2.0 | 1080p | 3,536 |
 
-### Audio and Export
+### Image Generation — Per Image (1K Resolution)
 
-| Task | Credit Cost |
+| Model | Credits |
 |---|---|
-| TTS voice generation (per scene) | 1–2 credits |
-| Subtitle generation | 1 credit per export |
-| Multi-language audio dub | 3–5 credits per language |
-| 4K export | Included in render cost |
+| Imagin Fast | 13 |
+| Imagin Preview | 26 |
+| Imagin Ultra | 39 |
+| Nano Banana 2 | 52 |
+| Nano Banana Pro | 98 |
+
+4K outputs cost **2× the standard rate** on every image model.
+
+### Audio and Post-Processing
+
+| Task | Unit | Credits |
+|---|---|---|
+| Text-to-Speech | per 100 characters | 23 |
+| Text-to-Speech | per 1,000 characters | 225 |
+| Lipsync | per ~5s clip | 38 |
+| Auto-trim audio | per shot | 25 |
+| Auto-trim + Speech Replace | per shot | 50 |
+
+### Story Generation (AI Writing)
+
+| Action | Credits |
+|---|---|
+| Generate Plot | 13 |
+| Generate Character Overview | 14 |
+| Generate Act | 11 |
+| Generate Beat | 22 |
+| Generate Scene | 39 |
+| Generate Shot | 60 |
+| Generate Shot Depth | 34 |
+| Generate Shot Script | 1 |
+| Generate Mega Prompt YAML | 9 |
+
+### Final Render
+
+The final merge step that stitches all generated shots into one video is billed at **77 credits per second of generated footage**. For a 50-shot project (50 × 8s = 400 seconds), this is 30,800 credits.
 
 ## Monthly Credit Allowance by Plan
 
 | Plan | Monthly Credits | Rollover Bank Cap |
 |---|---|---|
-| Free | 800 | 0 (no rollover) |
-| Community | 8,000 | 1,000 |
-| Standard | 33,000 | 100,000 |
-| Business | 180,000 | 500,000 |
-| Enterprise | Custom | Unlimited |
+| Starter | 245,000 | 612,500 (2.5 months) |
+| Pro | 875,000 | 2,187,500 (2.5 months) |
+| Enterprise | Custom | 2.5 months of monthly allowance |
 
 ## Credit Rollover
 
-Unused credits at the end of each billing period automatically roll into your Rollover Bank. Each plan has a maximum bank capacity as shown in the table above. Credits in the rollover bank are drawn from automatically when your monthly credits are exhausted. Rollover credits expire if you cancel or downgrade your subscription.
-
-The Free plan has no rollover — unused credits expire at the end of each billing period.
+Unused credits at the end of each billing period automatically roll into your Rollover Bank. Each plan has a maximum bank capacity equal to **2.5 months** of that plan's monthly allowance. Credits in the rollover bank are drawn from automatically when your monthly credits are exhausted. Rollover credits expire if you cancel or downgrade your subscription.
 
 ## Buying Additional Credits
 
@@ -88,9 +119,9 @@ Individual contributors draw from the shared pool automatically. Their usage is 
 
 ## Managing Credits Efficiently
 
-**Use Wan 2.1 for early-stage iteration** — Wan 2.1 costs 2 credits per minute at preview quality, which is significantly less than final-quality engines. Use it to test creative directions before committing to expensive renders.
+**Use Fast / cheaper models for early-stage iteration** — Grok Imagine (364 cr) and Wan 2.6 (780 cr) cost roughly 5–10× less per 8-second shot than Veo 3.1 standard (2,080 cr) or Seedance 2.0 (3,536 cr). Iterate creative direction on the cheap engines first, then commit hero shots to the premium models.
 
-**Use draft previews throughout production** — Draft renders cost 1–2 credits per 10 seconds compared to 5–10 for final quality. Validate your scene layout and timing in draft mode first.
+**Use Veo 3.1 Fast at 720p when you need Veo-quality on a budget** — Same 780 credits as Wan 2.6 but with native audio and Google's prompt fidelity.
 
 **Lock completed shots** — Once a shot is [approved](/how-to/review-and-approve-shots), [lock it](/how-to/lock-approved-elements) in the Editor to prevent accidental regeneration that would consume credits unnecessarily.
 
@@ -100,13 +131,14 @@ Individual contributors draw from the shared pool automatically. Their usage is 
 
 ## Best Practices
 
-- Test complex scenes at 720p or 1080p before committing to 4K renders
-- Generate 3–5 Wan 2.1 preview variations to find the right creative direction before using Google Veo 3.1
+- Iterate on Grok Imagine or Wan 2.6 to find the right creative direction before running expensive Seedance 2.0 or Veo 3.1 passes
+- Cut your shot count where possible — every shot triggers story-structure and video credits
 - Plan your credit usage across a production before starting final renders
 - Purchase extra credits before starting large production runs rather than waiting until your balance runs low
 
 ## Related
 
+- [Pricing Details](/account/pricing-details) — per-model cost catalog and a worked 50-shot project breakdown
 - [Billing](/account/billing)
 - [Teams](/account/teams)
 - [Render Queue](/features/render-queue)
