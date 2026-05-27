@@ -5,7 +5,54 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'ACT3 AI Documentation',
   tagline: 'AI Filmmaking — script to cinematography to video',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon/favicon.ico',
+
+  // Full favicon / PWA icon set (provided in static/img/favicon/).
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'icon',
+        type: 'image/svg+xml',
+        href: '/img/favicon/favicon.svg',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '96x96',
+        href: '/img/favicon/favicon-96x96.png',
+        media: '(prefers-color-scheme: light)',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'icon',
+        type: 'image/webp',
+        sizes: '96x96',
+        href: '/img/favicon/favicon-96x96-dark.webp',
+        media: '(prefers-color-scheme: dark)',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/img/favicon/apple-touch-icon.png',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'manifest',
+        href: '/img/favicon/site.webmanifest',
+      },
+    },
+  ],
 
   future: {
     v4: true,
@@ -65,7 +112,8 @@ const config = {
         title: 'ACT3 AI Docs',
         logo: {
           alt: 'ACT3 AI Logo',
-          src: 'img/logo.svg',
+          src: 'img/favicon/favicon-96x96.png',
+          srcDark: 'img/favicon/favicon-96x96-dark.webp',
         },
         items: [
           {
