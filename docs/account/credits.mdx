@@ -59,17 +59,19 @@ For the full per-model catalog and a worked example of a complete 50-shot projec
 
 ### Story Generation (AI Writing)
 
-| Action | Credits |
-|---|---|
-| Generate Plot | 13 |
-| Generate Character Overview | 14 |
-| Generate Act | 11 |
-| Generate Beat | 22 |
-| Generate Scene | 39 |
-| Generate Shot | 60 |
-| Generate Shot Depth | 34 |
-| Generate Shot Script | 1 |
-| Generate Mega Prompt YAML | 9 |
+Story-tree actions **cascade**: saving a parent level (e.g. Plot) auto-regenerates its children (e.g. Acts). The charge you see is the child level being regenerated, not the level you edited. Scenes and Shots are produced together by the bundled **Generate Scenes & Shots** action, billed per beat.
+
+| Action | Unit | Credits |
+|---|---|---|
+| Story Blueprint (Plot) | per blueprint, auto on script import / overview | 13 |
+| Character Overview | per overview, bundled with Overview generation | 14 |
+| Generate Character Profile | per profile | 54 |
+| Acts (regen from Plot) | per act, charged when Plot is saved | 11 |
+| Beats (regen from Acts) | per beat, charged when Acts are saved | 22 |
+| Generate Scenes & Shots | per beat (covers AI scene + shot generation for that beat) | 1,000 |
+| Generate Shot Depth | per shot | 34 |
+| Generate Shot Script | per shot | 1 |
+| Generate Mega Prompt YAML | per shot | 9 |
 
 ### Final Render
 

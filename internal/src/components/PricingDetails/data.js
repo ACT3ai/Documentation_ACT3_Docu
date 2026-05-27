@@ -139,6 +139,14 @@ const imageRaw = [
     vendorDollars: 0.15,
     badge: 'premium',
   },
+  {
+    id: 'gpt-image-2',
+    label: 'GPT Image 2.0',
+    vendor: 'OpenAI',
+    unit: 'per image (1k)',
+    vendorDollars: 0.13,
+    badge: 'premium',
+  },
 ];
 
 /* ---------------- AUDIO ---------------- */
@@ -254,14 +262,17 @@ const renderRaw = [
 
 /* ---------------- AI WRITING ---------------- */
 const aiRaw = [
-  { id: 'ai-plot', label: 'Generate Plot', vendor: 'OpenAI / xAI', unit: 'per plot', vendorDollars: 0.019 },
-  { id: 'ai-character-overview', label: 'Generate Character Overview', vendor: 'OpenAI / xAI', unit: 'per overview', vendorDollars: 0.0198 },
+  { id: 'ai-plot', label: 'Story Blueprint (Plot)', vendor: 'OpenAI / xAI', unit: 'per blueprint, auto on script import / overview', vendorDollars: 0.019 },
+  { id: 'ai-character-overview', label: 'Character Overview', vendor: 'OpenAI / xAI', unit: 'per overview, bundled with Overview generation', vendorDollars: 0.0198 },
   { id: 'ai-character-profile', label: 'Generate Character Profile', vendor: 'OpenAI / xAI', unit: 'per profile', vendorDollars: 0.0771 },
-  { id: 'ai-act', label: 'Generate Act', vendor: 'OpenAI / xAI', unit: 'per act', vendorDollars: 0.0151 },
-  { id: 'ai-beat', label: 'Generate Beat', vendor: 'OpenAI / xAI', unit: 'per beat', vendorDollars: 0.0319 },
-  { id: 'ai-scene', label: 'Generate Scene', vendor: 'OpenAI / xAI', unit: 'per scene', vendorDollars: 0.055 },
+  { id: 'ai-act', label: 'Acts (regen from Plot)', vendor: 'OpenAI / xAI', unit: 'per act, charged when Plot is saved', vendorDollars: 0.0151 },
+  { id: 'ai-beat', label: 'Beats (regen from Acts)', vendor: 'OpenAI / xAI', unit: 'per beat, charged when Acts are saved', vendorDollars: 0.0319 },
+  // Bundled Scenes & Shots: 1,000 customer credits/beat at runtime; back-compute vendorDollars
+  // so toItem's `round(vendorDollars * 500 * (1 + MARGIN.AI))` lands on 1,000.
+  { id: 'ai-scenes-shots-bundle', label: 'Generate Scenes & Shots', vendor: 'OpenAI / xAI', unit: 'per beat (covers AI scene + shot generation for that beat)', vendorDollars: 1000 / (CREDITS_PER_DOLLAR * (1 + MARGIN.AI)) },
+  { id: 'ai-scene', label: 'Scene (bundled in Generate Scenes & Shots)', vendor: 'OpenAI / xAI', unit: 'per scene, charged inside the bundled action above', vendorDollars: 0.055 },
   { id: 'ai-scene-set', label: 'Generate Scene Set', vendor: 'OpenAI / xAI', unit: 'per scene set', vendorDollars: 0.0521 },
-  { id: 'ai-shot', label: 'Generate Shot', vendor: 'OpenAI / xAI', unit: 'per shot', vendorDollars: 0.0858 },
+  { id: 'ai-shot', label: 'Shot (bundled in Generate Scenes & Shots)', vendor: 'OpenAI / xAI', unit: 'per shot, charged inside the bundled action above', vendorDollars: 0.0858 },
   { id: 'ai-shot-depth', label: 'Generate Shot Depth', vendor: 'OpenAI / xAI', unit: 'per shot', vendorDollars: 0.0481 },
   { id: 'ai-shot-script', label: 'Generate Shot Script', vendor: 'OpenAI / xAI', unit: 'per shot', vendorDollars: 0.0019 },
   { id: 'ai-shot-p2v', label: 'Generate Shot P2V', vendor: 'OpenAI / xAI', unit: 'per shot', vendorDollars: 0.01027 },
@@ -308,7 +319,10 @@ const categories = [
   {
     id: 'ai-writing',
     label: 'AI Writing & Story Generation',
-    description: 'LLM-driven story hierarchy actions (plot → act → beat → scene → shot).',
+    description:
+      'LLM-driven story hierarchy actions (plot → act → beat → scene → shot). ' +
+      'Story-tree actions cascade: saving a parent level (e.g. Plot) auto-regenerates ' +
+      'its children (e.g. Acts), so the charge you see is the child level, not the level you edited.',
     items: aiRaw.map((r) => toItem(r, MARGIN.AI)),
   },
 ];
@@ -478,6 +492,13 @@ const QUICK_ANSWERS = [
   },
   {
     kind: 'item',
+    q: 'How much for a GPT Image 2.0 image?',
+    categoryId: 'image',
+    itemId: 'gpt-image-2',
+    note: 'Token-based: scales with prompt length, reference images, and resolution',
+  },
+  {
+    kind: 'item',
     q: 'How much for a dialog line (TTS)?',
     categoryId: 'audio',
     itemId: 'tts-500-chars',
@@ -500,13 +521,12 @@ const PROJECT_TOTAL_FOOTAGE_SECONDS = PROJECT_TOTAL_SHOTS * PROJECT_SHOT_DURATIO
 const PROJECT_MERGE_CREDITS_PER_SEC = 77;
 
 const PROJECT_STORY_STEPS = [
-  { step: 'Generate Plot', perUnit: 13, count: 1, countLabel: '1 plot' },
-  { step: 'Generate Character Overview', perUnit: 14, count: 1, countLabel: '1 overview' },
+  { step: 'Story Blueprint (Plot)', perUnit: 13, count: 1, countLabel: '1 blueprint' },
+  { step: 'Character Overview', perUnit: 14, count: 1, countLabel: '1 overview' },
   { step: 'Generate Character Profile', perUnit: 54, count: 1, countLabel: '1 profile' },
-  { step: 'Generate Acts', perUnit: 11, count: 3, countLabel: '3 acts' },
-  { step: 'Generate Beats', perUnit: 22, count: 12, countLabel: '12 beats' },
-  { step: 'Generate Scenes', perUnit: 39, count: 41, countLabel: '41 scenes' },
-  { step: 'Generate Shot (overview)', perUnit: 60, count: 50, countLabel: '50 shots' },
+  { step: 'Acts (regen from Plot)', perUnit: 11, count: 3, countLabel: '3 acts' },
+  { step: 'Beats (regen from Acts)', perUnit: 22, count: 12, countLabel: '12 beats' },
+  { step: 'Generate Scenes & Shots (bundled)', perUnit: 1000, count: 12, countLabel: '12 beats' },
   { step: 'Generate Shot Depth', perUnit: 34, count: 50, countLabel: '50 shots' },
   { step: 'Generate Shot Script', perUnit: 1, count: 50, countLabel: '50 shots' },
   { step: 'Generate Mega Prompt YAML', perUnit: 9, count: 50, countLabel: '50 shots' },
