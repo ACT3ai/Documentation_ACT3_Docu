@@ -71,12 +71,23 @@ const videoRaw = [
     vendorDollars: 0.4 * D,
     badge: '1080p',
   },
+  // Seedance vendor $/s from BytePlus ModelArk token pricing (July 2026),
+  // "input without video" rate. Derivation lives in appsrv
+  // video-credit.service.ts (V2V_MODEL_CREDITS): keep in sync.
+  {
+    id: 'seedance-2-mini',
+    label: 'Seedance 2.0 Mini (720p)',
+    modelId: 'bytedance/seedance-2.0/mini',
+    unit: `${D}s clip, 720p, native audio`,
+    vendorDollars: 0.0756 * D,
+    badge: '720p Mini',
+  },
   {
     id: 'seedance-2-fast',
     label: 'Seedance 2.0 Fast (720p)',
     modelId: 'bytedance/seedance-2.0/fast',
     unit: `${D}s clip, 720p, native audio`,
-    vendorDollars: 0.2419 * D,
+    vendorDollars: 0.12096 * D,
     badge: '720p Fast',
   },
   {
@@ -84,8 +95,16 @@ const videoRaw = [
     label: 'Seedance 2.0 (1080p)',
     modelId: 'bytedance/seedance-2.0',
     unit: `${D}s clip, 1080p, native audio`,
-    vendorDollars: 0.6804 * D,
+    vendorDollars: 0.377 * D,
     badge: '1080p Top Quality',
+  },
+  {
+    id: 'seedance-2-4k',
+    label: 'Seedance 2.0 (4K)',
+    modelId: 'bytedance/seedance-2.0',
+    unit: `${D}s clip, 4K (2160p), native audio`,
+    vendorDollars: 0.7776 * D,
+    badge: '4K',
   },
   {
     id: 'wan-onprem',
@@ -534,7 +553,7 @@ const PROJECT_STORY_STEPS = [
 
 const PROJECT_PRODUCTION_STEPS = [
   { step: 'First-frame Image (Imagin Preview)', perUnit: 26, count: 50, countLabel: '50 shots' },
-  { step: 'Video — Seedance 2.0 Fast (8s × 720p)', perUnit: 1258, count: 50, countLabel: '50 shots' },
+  { step: 'Video — Seedance 2.0 Fast (8s × 720p)', perUnit: 629, count: 50, countLabel: '50 shots' },
   { step: 'Text-to-Speech dialogue (~60 chars)', perUnit: 14, count: 30, countLabel: '30 shots' },
   { step: 'Audio auto-trim', perUnit: 25, count: 30, countLabel: '30 shots' },
   {

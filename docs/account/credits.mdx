@@ -14,7 +14,7 @@ ACT3 AI uses a credit-based system to measure [AI generation](/features/ai-video
 Credits are deducted in real time as you use the platform. The credit cost for any task depends on three factors:
 
 - **Resolution** — Higher resolution costs more credits per second of output
-- **Engine** — Premium AI engines ([Google Veo 3.1](/integrations/veo3), Seedance 2.0) cost more than fast / draft engines ([Grok Imagine](/integrations/grok-video), Veo 3.1 Fast, Seedance 2.0 Fast, [Wan 2.6](/integrations/wan))
+- **Engine** — Premium AI engines ([Google Veo 3.1](/integrations/veo3), Seedance 2.0 at 1080p or 4K) cost more than fast / draft engines ([Grok Imagine](/integrations/grok-video), Veo 3.1 Fast, Seedance 2.0 Fast, Seedance 2.0 Mini, [Wan 2.6](/integrations/wan))
 - **Duration** — Credits scale with the length of each shot. Each shot is generated at its own planned duration (or its trimmed / previously-generated length if you've edited it). Each AI model has its own allowed durations — Veo 3.1: 4, 6, or 8 sec; Seedance 2.0: 4–15 sec; Wan 2.6: 5, 10, or 15 sec; Grok: 1–15 sec — and snaps to the nearest. Final render fees scale with the total length of generated footage.
 
 Before any generation or render job starts, ACT3 AI shows you the exact credit cost on the generate button — for example, **Generate [364 Credits]** or **Generate High Quality [2,080 Credits]**. If you do not have enough credits, a dialog tells you exactly how many you need and offers an upgrade path. You must confirm before credits are deducted.
@@ -28,12 +28,14 @@ For the full per-model catalog and a worked example of a complete 50-shot projec
 | Model | Resolution | Credits |
 |---|---|---|
 | Grok Imagine | 720p | 364 |
+| Seedance 2.0 Mini | 720p | 393 |
+| Seedance 2.0 Fast | 720p | 629 |
 | Wan 2.6 | 1080p | 780 |
 | Veo 3.1 Fast | 720p | 780 |
 | Veo 3.1 Fast | 1080p | 780 |
+| Seedance 2.0 | 1080p | 1,960 |
 | Veo 3.1 | 1080p | 2,080 |
-| Seedance 2.0 Fast | 720p | 1,258 |
-| Seedance 2.0 | 1080p | 3,536 |
+| Seedance 2.0 | 4K | 4,044 |
 
 ### Image Generation — Per Image (1K Resolution)
 
@@ -121,7 +123,7 @@ Individual contributors draw from the shared pool automatically. Their usage is 
 
 ## Managing Credits Efficiently
 
-**Use Fast / cheaper models for early-stage iteration** — Grok Imagine (364 cr) and Wan 2.6 (780 cr) cost roughly 5–10× less per 8-second shot than Veo 3.1 standard (2,080 cr) or Seedance 2.0 (3,536 cr). Iterate creative direction on the cheap engines first, then commit hero shots to the premium models.
+**Use Fast / cheaper models for early-stage iteration** — Grok Imagine (364 cr), Seedance 2.0 Mini (393 cr) and Seedance 2.0 Fast (629 cr) cost roughly 3–6× less per 8-second shot than Veo 3.1 standard (2,080 cr) or Seedance 2.0 at 1080p (1,960 cr). Iterate creative direction on the cheap engines first, then commit hero shots to the premium models.
 
 **Use Veo 3.1 Fast at 720p when you need Veo-quality on a budget** — Same 780 credits as Wan 2.6 but with native audio and Google's prompt fidelity.
 
@@ -133,7 +135,7 @@ Individual contributors draw from the shared pool automatically. Their usage is 
 
 ## Best Practices
 
-- Iterate on Grok Imagine or Wan 2.6 to find the right creative direction before running expensive Seedance 2.0 or Veo 3.1 passes
+- Iterate on Seedance 2.0 Mini, Grok Imagine or Wan 2.6 to find the right creative direction before running expensive Seedance 2.0 (1080p / 4K) or Veo 3.1 passes
 - Cut your shot count where possible — every shot triggers story-structure and video credits
 - Plan your credit usage across a production before starting final renders
 - Purchase extra credits before starting large production runs rather than waiting until your balance runs low
