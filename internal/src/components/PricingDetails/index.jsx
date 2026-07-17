@@ -1,5 +1,7 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import styles from './styles.module.css';
+import MovieCosts from './FullMovie/MovieCosts';
+import ProfitVsExpenses from './FullMovie/ProfitVsExpenses';
 import {
   catalog,
   QUICK_ANSWERS,
@@ -39,12 +41,81 @@ const NAV_LINKS = [
 
 /* ---------------- ROOT ---------------- */
 
+const FULL_MOVIE_HASH = 'full-movie';
+
+/* Reads the URL hash: "#full-movie" or "#full-movie/<sub-tab-id>". */
+const parseFullMovieHash = () => {
+  if (typeof window === 'undefined') return null;
+  const hash = window.location.hash.replace(/^#/, '');
+  if (hash !== FULL_MOVIE_HASH && !hash.startsWith(`${FULL_MOVIE_HASH}/`))
+    return null;
+  const sub = hash.split('/')[1];
+  return {
+    subTab: FULL_MOVIE_TABS.some((t) => t.id === sub)
+      ? sub
+      : FULL_MOVIE_TABS[0].id,
+  };
+};
+
 export default function PricingDetails() {
+  const [activeView, setActiveView] = useState('sections');
+  const navRef = useRef(null);
+  const [navHeight, setNavHeight] = useState(52);
+
+  useEffect(() => {
+    if (parseFullMovieHash()) setActiveView('full-movie');
+  }, []);
+
+  // Track the sticky nav's height so the Full Movie sub-tab bar can stick right below it
+  // (exposed as the --nav-h CSS variable on the root).
+  useEffect(() => {
+    const el = navRef.current;
+    if (!el) return;
+    const update = () => setNavHeight(el.offsetHeight);
+    update();
+    const observer = new ResizeObserver(update);
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
+  const handleNavClick = (event, id) => {
+    if (activeView === 'sections') return;
+    event.preventDefault();
+    setActiveView('sections');
+    requestAnimationFrame(() => {
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+      window.history.replaceState(null, '', `#${id}`);
+    });
+  };
+
+  const openFullMovie = () => {
+    setActiveView('full-movie');
+    window.history.replaceState(null, '', `#${FULL_MOVIE_HASH}`);
+  };
+
   return (
-    <div className={styles.root}>
+    <div className={styles.root} style={{ '--nav-h': `${navHeight}px` }}>
       <div className={styles.stack}>
         <CatalogHeader />
-        <PricingNav />
+        <PricingNav
+          navRef={navRef}
+          activeView={activeView}
+          onNavClick={handleNavClick}
+          onFullMovieClick={openFullMovie}
+        />
+        {activeView === 'full-movie' ? (
+          <FullMovieTab />
+        ) : (
+          <PricingSections />
+        )}
+      </div>
+    </div>
+  );
+}
+
+function PricingSections() {
+  return (
+    <>
         <section id="section-compare" className={styles.section}>
           <ComparisonStrip />
         </section>
@@ -69,9 +140,63 @@ export default function PricingDetails() {
         <section id="section-math" className={styles.section}>
           <CreditMathFooter />
         </section>
-      </div>
-    </div>
+    </>
   );
+}
+
+/* ---------------- FULL MOVIE TAB ---------------- */
+
+const FULL_MOVIE_TABS = [
+  { id: 'costs', label: 'Movie Costs' },
+  { id: 'profits-vs-expenses', label: 'Movie Profits Vs Expenses' },
+];
+
+function FullMovieTab() {
+  const [activeTab, setActiveTab] = useState(FULL_MOVIE_TABS[0].id);
+
+  useEffect(() => {
+    const parsed = parseFullMovieHash();
+    if (parsed) setActiveTab(parsed.subTab);
+  }, []);
+
+  const selectTab = (id) => {
+    setActiveTab(id);
+    window.history.replaceState(null, '', `#${FULL_MOVIE_HASH}/${id}`);
+  };
+
+  return (
+    <section className={styles.section}>
+      <SectionTitle
+        icon={<span aria-hidden>🎬</span>}
+        title="Full Movie"
+      />
+
+      <div className={`${styles.tabs} ${styles.tabsSticky}`} role="tablist">
+        {FULL_MOVIE_TABS.map((tab) => (
+          <button
+            key={tab.id}
+            role="tab"
+            aria-selected={tab.id === activeTab}
+            className={`${styles.tabBtn} ${tab.id === activeTab ? styles.tabBtnActive : ''}`}
+            onClick={() => selectTab(tab.id)}
+            type="button"
+          >
+            {tab.label}
+          </button>
+        ))}
+      </div>
+
+      {activeTab === 'costs' ? <MovieCostsPanel /> : <MovieProfitsPanel />}
+    </section>
+  );
+}
+
+function MovieCostsPanel() {
+  return <MovieCosts />;
+}
+
+function MovieProfitsPanel() {
+  return <ProfitVsExpenses />;
 }
 
 /* ---------------- HERO ---------------- */
@@ -106,15 +231,29 @@ function CatalogHeader() {
 
 /* ---------------- STICKY NAV ---------------- */
 
-function PricingNav() {
+function PricingNav({ navRef, activeView, onNavClick, onFullMovieClick }) {
   return (
-    <div className={styles.nav}>
+    <div className={styles.nav} ref={navRef}>
       <div className={styles.navInner}>
         {NAV_LINKS.map((link) => (
-          <a key={link.id} href={`#${link.id}`} className={styles.navLink}>
+          <a
+            key={link.id}
+            href={`#${link.id}`}
+            className={styles.navLink}
+            onClick={(e) => onNavClick(e, link.id)}
+          >
             {link.label}
           </a>
         ))}
+        <button
+          type="button"
+          className={`${styles.navLink} ${styles.navTabBtn} ${
+            activeView === 'full-movie' ? styles.navLinkActive : ''
+          }`}
+          onClick={onFullMovieClick}
+        >
+          Full Movie
+        </button>
       </div>
     </div>
   );
