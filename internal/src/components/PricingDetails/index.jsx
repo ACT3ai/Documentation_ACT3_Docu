@@ -1,7 +1,6 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
 import styles from './styles.module.css';
 import MovieCosts from './FullMovie/MovieCosts';
-import ProfitVsExpenses from './FullMovie/ProfitVsExpenses';
 import {
   catalog,
   QUICK_ANSWERS,
@@ -148,7 +147,7 @@ function PricingSections() {
 
 const FULL_MOVIE_TABS = [
   { id: 'costs', label: 'Movie Costs' },
-  { id: 'profits-vs-expenses', label: 'Movie Profits Vs Expenses' },
+  // { id: 'profits-vs-expenses', label: 'Movie Profits Vs Expenses' } // NOTE: NOT TO BE SHOWN TO NORMAL USERS,
 ];
 
 function FullMovieTab() {
@@ -186,17 +185,9 @@ function FullMovieTab() {
         ))}
       </div>
 
-      {activeTab === 'costs' ? <MovieCostsPanel /> : <MovieProfitsPanel />}
+      <MovieCosts />
     </section>
   );
-}
-
-function MovieCostsPanel() {
-  return <MovieCosts />;
-}
-
-function MovieProfitsPanel() {
-  return <ProfitVsExpenses />;
 }
 
 /* ---------------- HERO ---------------- */
