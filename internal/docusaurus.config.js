@@ -58,6 +58,13 @@ const config = {
     v4: true,
   },
 
+  customFields: {
+    // Base URL of the ACT3 AI app that the plan tabs link into. Defaults to
+    // production; override at build time with ACT3_APP_URL=... A docs site
+    // served from localhost falls back to the local app on :3000 at runtime.
+    appBaseUrl: process.env.ACT3_APP_URL || 'https://app.act3ai.com',
+  },
+
   url: 'https://documentation.act3ai.com',
   baseUrl: '/',
 

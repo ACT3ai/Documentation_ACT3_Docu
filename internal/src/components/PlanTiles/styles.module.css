@@ -1,0 +1,109 @@
+/* Same design language as the rest of the docs site. */
+.root {
+  --panel: #ffffff;
+  --border: #e2e6ec;
+  --text: #1a1f2e;
+  --muted: #5c6577;
+  --accent: #2563eb;
+  --accent-strong: #1d4ed8;
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.06);
+
+  color: var(--text);
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Helvetica Neue', sans-serif;
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+
+[data-theme='dark'] .root {
+  --panel: #1c2230;
+  --border: #2c3445;
+  --text: #e6eaf2;
+  --muted: #97a0b3;
+  --accent: #60a5fa;
+  --accent-strong: #3b82f6;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  align-items: stretch;
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 16px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  padding: 20px;
+  text-decoration: none;
+  color: inherit;
+  transition:
+    box-shadow 0.15s,
+    border-color 0.15s,
+    transform 0.15s;
+}
+
+@media (min-width: 900px) {
+  .tile {
+    padding: 24px;
+  }
+}
+
+.tile:hover,
+.tile:focus-visible {
+  border-color: var(--accent);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: inherit;
+}
+
+.tileHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.tileTitle {
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+
+.arrow {
+  flex-shrink: 0;
+  color: var(--muted);
+  transition:
+    color 0.15s,
+    transform 0.15s;
+}
+
+.tile:hover .arrow,
+.tile:focus-visible .arrow {
+  color: var(--accent);
+  transform: translate(2px, -2px);
+}
+
+.tileDesc {
+  margin: 8px 0 0;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--muted);
+}
