@@ -75,6 +75,14 @@ const videoRaw = [
   // "input without video" rate. Derivation lives in appsrv
   // video-credit.service.ts (V2V_MODEL_CREDITS): keep in sync.
   {
+    id: 'seedance-2-mini-480',
+    label: 'Seedance 2.0 Mini (480p)',
+    modelId: 'bytedance/seedance-2.0/mini',
+    unit: `${D}s clip, 480p, native audio`,
+    vendorDollars: 0.0336 * D,
+    badge: '480p Mini',
+  },
+  {
     id: 'seedance-2-mini',
     label: 'Seedance 2.0 Mini (720p)',
     modelId: 'bytedance/seedance-2.0/mini',
