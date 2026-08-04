@@ -1,0 +1,354 @@
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 1rem 5rem;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--ifm-color-warning-dark);
+  color: var(--ifm-color-warning-dark);
+  background: var(--ifm-color-warning-contrast-background);
+}
+
+.title {
+  margin: 0.85rem 0 0.35rem;
+  font-size: 2.4rem;
+  line-height: 1.15;
+}
+
+.lede {
+  font-size: 1.05rem;
+  color: var(--ifm-color-emphasis-700);
+  max-width: 62ch;
+}
+
+.provenance {
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-600);
+  border-left: 3px solid var(--ifm-color-emphasis-300);
+  padding: 0.4rem 0 0.4rem 0.85rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.stat {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+  background: var(--ifm-card-background-color, var(--ifm-background-surface-color));
+}
+
+.statValue {
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.statLabel {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+  margin-top: 0.35rem;
+}
+
+.section {
+  margin: 3rem 0 0;
+  scroll-margin-top: 4rem;
+}
+
+.section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.sectionNote {
+  color: var(--ifm-color-emphasis-700);
+  max-width: 70ch;
+}
+
+.tableWrap {
+  overflow-x: auto;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 10px;
+}
+
+.tableWrap table {
+  width: 100%;
+  margin: 0;
+  display: table;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.tableWrap th {
+  text-align: left;
+  white-space: nowrap;
+}
+
+.tableWrap td code {
+  white-space: nowrap;
+}
+
+/* Method chips ------------------------------------------------------------ */
+.method {
+  display: inline-block;
+  min-width: 3.75rem;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.4rem;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.GET { background: #2b8a5c; }
+.POST { background: #2b6cb0; }
+.PATCH { background: #9c6212; }
+.PUT { background: #6b46c1; }
+.DELETE { background: #b03030; }
+.HEAD, .OPTIONS, .ALL { background: #5a5a5a; }
+
+.auth {
+  display: inline-block;
+  font-size: 0.72rem;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  color: var(--ifm-color-emphasis-800);
+  white-space: nowrap;
+}
+
+.authPublic {
+  border-color: var(--ifm-color-warning-dark);
+  color: var(--ifm-color-warning-dark);
+}
+
+.flag {
+  display: inline-block;
+  font-size: 0.72rem;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  margin-right: 0.3rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  color: var(--ifm-color-emphasis-700);
+  white-space: nowrap;
+}
+
+.flagWrite {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+.flagCredits {
+  border-color: var(--ifm-color-danger-dark);
+  color: var(--ifm-color-danger-dark);
+}
+
+/* Filter bar -------------------------------------------------------------- */
+.controls {
+  position: sticky;
+  top: var(--ifm-navbar-height, 60px);
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+  padding: 0.75rem 0;
+  margin-bottom: 1rem;
+  /* Infima leaves --ifm-background-color transparent in light mode, so painting the bar
+     with it let endpoint rows scroll through the filters. The surface color is opaque in
+     both themes; dark mode then matches the page exactly. */
+  background-color: var(--ifm-background-surface-color, #fff);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  box-shadow: 0 6px 12px -8px rgba(0, 0, 0, 0.35);
+}
+
+[data-theme='dark'] .controls {
+  background-color: var(--ifm-background-color, #1b1b1d);
+}
+
+.search {
+  flex: 1 1 260px;
+  min-width: 200px;
+  padding: 0.5rem 0.7rem;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+}
+
+.select {
+  padding: 0.5rem 0.6rem;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+}
+
+.toggleRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.toggle {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.35rem 0.55rem;
+  border-radius: 6px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: transparent;
+  color: var(--ifm-color-emphasis-700);
+  cursor: pointer;
+}
+
+.toggleOn {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+  background: var(--ifm-color-primary-contrast-background);
+}
+
+.resultCount {
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 1rem;
+}
+
+/* Category / group index -------------------------------------------------- */
+.category {
+  margin-bottom: 2rem;
+}
+
+.categoryHead {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  border-bottom: 2px solid var(--ifm-color-emphasis-200);
+  padding-bottom: 0.35rem;
+  margin-bottom: 0.9rem;
+}
+
+.categoryName {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.categoryCount {
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.group {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 10px;
+  margin-bottom: 0.6rem;
+  overflow: hidden;
+}
+
+.groupHead {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 0.9rem;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  text-align: left;
+  color: inherit;
+  font: inherit;
+}
+
+.groupHead:hover {
+  background: var(--ifm-color-emphasis-100);
+}
+
+.caret {
+  font-size: 0.7rem;
+  color: var(--ifm-color-emphasis-600);
+  width: 0.8rem;
+  flex: none;
+}
+
+.groupName {
+  font-weight: 650;
+}
+
+.groupBase {
+  font-size: 0.82rem;
+  color: var(--ifm-color-emphasis-600);
+  font-family: var(--ifm-font-family-monospace);
+}
+
+.groupCount {
+  margin-left: auto;
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+  white-space: nowrap;
+}
+
+.groupBody {
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  overflow-x: auto;
+}
+
+.groupBody table {
+  width: 100%;
+  margin: 0;
+  display: table;
+  border-collapse: collapse;
+  font-size: 0.86rem;
+}
+
+.groupBody td,
+.groupBody th {
+  border: 0;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  padding: 0.45rem 0.9rem;
+  vertical-align: top;
+}
+
+.groupBody tr:last-child td {
+  border-bottom: 0;
+}
+
+.pathCell code {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  font-size: 0.85rem;
+}
+
+.summaryCell {
+  color: var(--ifm-color-emphasis-700);
+}
+
+.empty {
+  padding: 2rem;
+  text-align: center;
+  color: var(--ifm-color-emphasis-600);
+  border: 1px dashed var(--ifm-color-emphasis-300);
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .controls {
+    position: static;
+  }
+}

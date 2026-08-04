@@ -103,6 +103,14 @@ const config = {
         theme: {
           customCss: './internal/src/css/custom.css',
         },
+        // /apis is an unlisted internal page (the API surface index). Keeping it out of
+        // the sitemap, together with the page's own noindex tag, is what makes "hidden"
+        // mean hidden: it stays reachable only by direct link. Deliberately not blocked
+        // in robots.txt — a disallowed page is never fetched, so crawlers would never
+        // see the noindex and the bare URL could still be indexed.
+        sitemap: {
+          ignorePatterns: ['/apis', '/apis/**'],
+        },
       }),
     ],
   ],
