@@ -179,6 +179,16 @@ const config = {
               { label: 'FAQ', to: '/faq/general' },
             ],
           },
+          {
+            title: 'Guides',
+            items: [
+              { label: 'All Articles', href: 'https://act3ai.com/articles' },
+              { label: 'What Is AI Filmmaking?', href: 'https://act3ai.com/articles/ai_plain_english' },
+              { label: 'How Much Does AI Video Cost?', href: 'https://act3ai.com/articles/much_ai_minute' },
+              { label: 'Building 2-Hour Movies', href: 'https://act3ai.com/articles/ai_building_movies' },
+              { label: 'Who Owns AI-Generated Film?', href: 'https://act3ai.com/articles/ai_generated_rights' },
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} ACT3 AI. All rights reserved.`,
       },
