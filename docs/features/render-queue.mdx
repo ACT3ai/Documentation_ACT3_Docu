@@ -53,14 +53,16 @@ See [Render Styles](/features/render-styles) to configure the visual aesthetic a
 
 ## Credit Costs
 
-| Resolution | Preview per 10s | Final Render per 10s |
-|---|---|---|
-| Draft | 1 credit | N/A |
-| 720p | 2 credits | 4 credits |
-| 1080p | 2 credits | 5 credits |
-| 4K | 4 credits | 10 credits |
+Video generation is billed per shot by engine and duration — see the full per-model table in [Credits](/account/credits). The post-generation steps the queue runs are billed as follows:
 
-Engine selection also affects cost — Google Veo 3.1 and Grok Video are higher quality and cost more per second than Wan 2.1.
+| Step | Unit | Credits |
+|---|---|---|
+| Upscale to 1080p | per 8s shot | 572 |
+| Upscale to 4K (2160p) | per 8s shot | 572 |
+| Blender render | per second of shot | 72 |
+| Final render (merge all shots) | per second of footage | 77 |
+
+Engine selection is the biggest factor — Google Veo 3.1 (2,080 credits per 8-second shot) and Seedance 2.0 at 1080p (1,946) cost far more than Seedance 2.0 Fast (314), Grok Imagine (364) or Wan 2.6 (780).
 
 ## Managing the Queue
 

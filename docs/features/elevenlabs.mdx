@@ -100,14 +100,15 @@ Custom voice cloning requires the voice actor's explicit consent and appropriate
 
 ## Credit Usage
 
-ElevenLabs dialogue generation consumes credits separately from video rendering:
+Dialogue generation consumes credits separately from video rendering and is billed by the length of the text:
 
-| Type | Cost |
+| Text length | Credits |
 |---|---|
-| Standard voice (per line) | 0.5 credits |
-| Premium ElevenLabs voice (per line) | 1 credit |
-| Internal engine (per line) | 0.1 credits |
-| Custom cloned voice (per line) | 1.5 credits |
+| 100 characters | 23 |
+| 500 characters | 113 |
+| 1,000 characters | 225 |
+
+The rate is the same for every voice — standard, premium and custom cloned voices all bill by character count. Lipsync, when applied, adds 38 credits per clip.
 
 Dialogue credits are deducted when audio is generated. Re-generating the same line (with edits or retakes) consumes credits again.
 
